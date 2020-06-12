@@ -43,7 +43,6 @@ for noPage in pages:
         url = 'http://studentjob.co.id/index.php/page/'+noPage + '/?s=web+dev&category_name=part-time'
         response = requests.get(url,timeout = 5)
         soup = BeautifulSoup(response.content,"html.parser")
-        soup = BeautifulSoup(response.content,"html.parser")
         result.append(scrapData(soup))
 
 for i in result:
