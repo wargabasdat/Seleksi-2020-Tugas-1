@@ -4,6 +4,7 @@
 from requests import get
 from bs4 import BeautifulSoup
 from warnings import warn
+from time import sleep
 import re, json
 
 header = {'user-agent': 'Anindya Prameswari/pamsrewari@gmail.com'}
@@ -99,9 +100,10 @@ if __name__ == "__main__":
         for j in range(len(recipe_cards)):
             recipe_url = recipe_cards[j].div.a['href']
             requests += 1
+            sleep(1)
 
             datum = scrape(recipe_url, requests)
-            if data != None:
+            if datum != None:
                 data.append(datum)
 
     with open('../data/data.json', 'w') as f:
