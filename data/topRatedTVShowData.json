@@ -1,1 +1,254 @@
-[{"title": "I Am Not an Animal", "site": "/tv/100", "rating": "94.0", "released_date": "May 10, 2004"}, {"title": "The Rising of the Shield Hero", "site": "/tv/83095", "rating": "90", "released_date": "Jan 09, 2019"}, {"title": "Anne with an E", "site": "/tv/70785", "rating": "89.0", "released_date": "Mar 19, 2017"}, {"title": "Demon Slayer: Kimetsu no Yaiba", "site": "/tv/85937", "rating": "88.0", "released_date": "Apr 06, 2019"}, {"title": "Beastars", "site": "/tv/90937", "rating": "88.0", "released_date": "Oct 10, 2019"}, {"title": "Rick and Morty", "site": "/tv/60625", "rating": "87.0", "released_date": "Dec 02, 2013"}, {"title": "Haikyu!!", "site": "/tv/60863", "rating": "87.0", "released_date": "Apr 06, 2014"}, {"title": "KonoSuba \u2013 God\u2019s blessing on this wonderful world!!", "site": "/tv/65844", "rating": "87.0", "released_date": "Jan 14, 2016"}, {"title": "Dr. Stone", "site": "/tv/86031", "rating": "87.0", "released_date": "Jul 05, 2019"}, {"title": "The Seven Deadly Sins", "site": "/tv/62104", "rating": "86.0", "released_date": "Oct 05, 2014"}, {"title": "Big Time Rush", "site": "/tv/31356", "rating": "86.0", "released_date": "Nov 28, 2009"}, {"title": "Dororo", "site": "/tv/83100", "rating": "86.0", "released_date": "Jan 07, 2019"}, {"title": "Cardcaptor Sakura", "site": "/tv/35790", "rating": "86.0", "released_date": "Apr 07, 1998"}, {"title": "Merl\u00ed", "site": "/tv/62914", "rating": "86.0", "released_date": "Sep 14, 2015"}, {"title": "Breaking Bad", "site": "/tv/1396", "rating": "86.0", "released_date": "Jan 20, 2008"}, {"title": "Naruto Shipp\u016bden", "site": "/tv/31910", "rating": "86.0", "released_date": "Feb 15, 2007"}, {"title": "The Good Doctor", "site": "/tv/71712", "rating": "86.0", "released_date": "Sep 25, 2017"}, {"title": "Merl\u00ed: Sapere Aude", "site": "/tv/95601", "rating": "85.0", "released_date": "Dec 05, 2019"}, {"title": "Ranma \u00bd", "site": "/tv/57706", "rating": "85.0", "released_date": "Apr 15, 1989"}, {"title": "Goblin", "site": "/tv/67915", "rating": "85.0", "released_date": "Dec 02, 2016"}]
+[
+    {
+        "title": "I Am Not an Animal",
+        "synopsis": "I Am Not An Animal is an animated comedy series about the only six talking animals in the world, whose cosseted existence in a vivisection unit is turned upside down when they are liberated by animal rights activists.",
+        "genre": [
+            "Animation",
+            "Comedy"
+        ],
+        "rating": "94.0",
+        "release_date": "May 10, 2004",
+        "duration": "30m",
+        "certification": "15"
+    },
+    {
+        "title": "The Rising of the Shield Hero",
+        "synopsis": "Iwatani Naofumi was summoned into a parallel world along with 3 other people to become the world's Heroes. Each of the heroes respectively equipped with their own legendary equipment when summoned, Naofumi received the Legendary Shield as his weapon. Due to Naofumi's lack of charisma and experience he's labeled as the weakest, only to end up betrayed, falsely accused, and robbed by on the third day of adventure. Shunned by everyone from the king to peasants, Naofumi's thoughts were filled with nothing but vengeance and hatred. Thus, his destiny in a parallel World begins...",
+        "genre": [
+            "Animation",
+            "Action & Adventure",
+            "Sci-Fi & Fantasy",
+            "Drama"
+        ],
+        "rating": "90",
+        "release_date": "Jan 09, 2019",
+        "duration": "24m",
+        "certification": "TV-14"
+    },
+    {
+        "title": "Anne with an E",
+        "synopsis": "A coming-of-age story about an outsider who, against all odds and numerous challenges, fights for love and acceptance and for her place in the world. The series centers on a young orphaned girl in the late 1890\u2019s, who, after an abusive childhood spent in orphanages and the homes of strangers, is mistakenly sent to live with an elderly woman and her aging brother. Over time, 13-year-old Anne will transform their lives and eventually the small town in which they live with her unique spirit, fierce intellect and brilliant imagination.",
+        "genre": [
+            "Drama",
+            "Family"
+        ],
+        "rating": "89.0",
+        "release_date": "Mar 19, 2017",
+        "duration": "47m",
+        "certification": "TV-G"
+    },
+    {
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "synopsis": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Though devastated by this grim reality, Tanjiro resolves to become a \u201cdemon slayer\u201d so that he can turn his sister back into a human, and kill the demon that massacred his family.",
+        "genre": [
+            "Animation",
+            "Drama",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "rating": "88.0",
+        "release_date": "Apr 06, 2019",
+        "duration": "24m",
+        "certification": "TV-MA"
+    },
+    {
+        "title": "Beastars",
+        "synopsis": "In a world populated by anthropomorphic animals, herbivores and carnivores coexist with each other. For the adolescences of Cherryton Academy, school life is filled with hope, romance, distrust, and uneasiness.",
+        "genre": [
+            "Animation",
+            "Drama"
+        ],
+        "rating": "88.0",
+        "release_date": "Oct 10, 2019",
+        "duration": "23m",
+        "certification": "TV-MA"
+    },
+    {
+        "title": "Rick and Morty",
+        "synopsis": "Rick is a mentally-unbalanced but scientifically-gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Sci-Fi & Fantasy",
+            "Action & Adventure"
+        ],
+        "rating": "87.0",
+        "release_date": "Dec 02, 2013",
+        "duration": "22m",
+        "certification": "TV-MA"
+    },
+    {
+        "title": "Haikyu!!",
+        "synopsis": "Sh\u014dy\u014d Hinata was inspired to play volleyball after seeing Kurasuno High School's \"little giant\" competing in the national tournament on TV.  He trains relentlessly to make up for his lack of height, but suffers a crushing defeat in his first and last tournament of middle school at the hands of his rival Tobio Kageyama.  Vowing revenge against Kageyama and hoping to follow in the little giant's footsteps, Hinata joins Kurasuno High School's volleyball team.  To his initial dismay, Kageyama is also on Kurasuno's team.  The former rivals soon overcome their differences though and combine their strengths to form a legendary combo using Hinata's mobility and Kageyama's precision ball-handling.  Together with their team, they compete in prefecture tournaments and promise to meet Kurasuno's fated rival school at nationals.",
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "87.0",
+        "release_date": "Apr 06, 2014",
+        "duration": "24m",
+        "certification": null
+    },
+    {
+        "title": "KonoSuba \u2013 God\u2019s blessing on this wonderful world!!",
+        "synopsis": "After a traffic accident, Kazuma Sato\u2019s  disappointingly brief life was supposed to be over, but he wakes up to  see a beautiful girl before him. She claims to be a goddess, Aqua, and  asks if he would like to go to another world and bring only one thing  with him.",
+        "genre": [
+            "Action & Adventure",
+            "Animation",
+            "Comedy",
+            "Sci-Fi & Fantasy"
+        ],
+        "rating": "87.0",
+        "release_date": "Jan 14, 2016",
+        "duration": "24m",
+        "certification": "14"
+    },
+    {
+        "title": "Dr. Stone",
+        "synopsis": "One fateful day, all of humanity was petrified by a blinding flash of light. After several millennia, high schooler Taiju awakens and finds himself lost in a world of statues. However, he's not alone! His science-loving friend Senku's been up and running for a few months and he's got a grand plan in mind, to kickstart civilization with the power of science!",
+        "genre": [
+            "Action & Adventure",
+            "Animation"
+        ],
+        "rating": "87.0",
+        "release_date": "Jul 05, 2019",
+        "duration": "24m",
+        "certification": "TV-PG"
+    },
+    {
+        "title": "The Seven Deadly Sins",
+        "synopsis": "The \u201cSeven Deadly Sins\u201d\u2014a group of evil knights who conspired to overthrow the kingdom of Britannia\u2014were said to have been eradicated by the Holy Knights, although some claim that they still live. Ten years later, the Holy Knights have staged a Coup d'\u00e9tat and assassinated the king, becoming the new, tyrannical rulers of the kingdom. Elizabeth, the king's only daughter, sets out on a journey to find the \u201cSeven Deadly Sins,\u201d and to enlist their help in taking back the kingdom.",
+        "genre": [
+            "Action & Adventure",
+            "Animation",
+            "Sci-Fi & Fantasy"
+        ],
+        "rating": "87.0",
+        "release_date": "Oct 05, 2014",
+        "duration": "24m",
+        "certification": "15"
+    },
+    {
+        "title": "Big Time Rush",
+        "synopsis": "Four teenage friends move from Minneapolis to Los Angeles to form a potential chart-topping boy band after Kendall is inadvertently discovered by an eccentric record executive, Gustavo Rocque. As they seize this opportunity of a lifetime, these friends embark on an exciting comedy and music-filled journey to prove to themselves and their record label that they are serious about their new career choice.",
+        "genre": [
+            "Comedy"
+        ],
+        "rating": "86.0",
+        "release_date": "Nov 28, 2009",
+        "duration": "30m",
+        "certification": null
+    },
+    {
+        "title": "Dororo",
+        "synopsis": "A samurai lord has bartered away his newborn son's organs to forty-eight demons in exchange for dominance on the battlefield. Yet, the abandoned infant survives thanks to a medicine man who equips him with primitive prosthetics\u2014lethal ones with which the wronged son will use to hunt down the multitude of demons to reclaim his body one piece at a time, before confronting his father. On his journeys the young hero encounters an orphan who claims to be the greatest thief in Japan.",
+        "genre": [
+            "Action & Adventure",
+            "Animation"
+        ],
+        "rating": "86.0",
+        "release_date": "Jan 07, 2019",
+        "duration": "24m",
+        "certification": "TV-MA"
+    },
+    {
+        "title": "Cardcaptor Sakura",
+        "synopsis": "Sakura Kinomoto, an elementary school student who discovers that she possesses magical powers after accidentally freeing a set of magical cards from the book they had been sealed in for years. She is then tasked with retrieving those cards in order to avoid an unknown catastrophe from befalling the world.",
+        "genre": [
+            "Animation",
+            "Sci-Fi & Fantasy",
+            "Comedy",
+            "Kids",
+            "Action & Adventure"
+        ],
+        "rating": "86.0",
+        "release_date": "Apr 07, 1998",
+        "duration": "25m",
+        "certification": "TV-Y7"
+    },
+    {
+        "title": "Merl\u00ed",
+        "synopsis": "TV series about a high school philosophy teacher, Merl\u00ed, who teaches in an original way, and about the students of his class, including his own son, and the relationship, friendship, love, and problems between the students of the class.",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "86.0",
+        "release_date": "Sep 14, 2015",
+        "duration": "40m",
+        "certification": null
+    },
+    {
+        "title": "Breaking Bad",
+        "synopsis": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "86.0",
+        "release_date": "Jan 20, 2008",
+        "duration": "45m",
+        "certification": "TV-MA"
+    },
+    {
+        "title": "Naruto Shipp\u016bden",
+        "synopsis": "Naruto Shippuuden is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Orochimaru. After 2 and a half years Naruto finally returns to his village of Konoha, and sets about putting his ambitions to work, though it will not be easy, as He has amassed a few (more dangerous) enemies, in the likes of the shinobi organization; Akatsuki.",
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "86.0",
+        "release_date": "Feb 15, 2007",
+        "duration": "25m",
+        "certification": "TV-14"
+    },
+    {
+        "title": "The Good Doctor",
+        "synopsis": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives?",
+        "genre": [
+            "Drama"
+        ],
+        "rating": "86.0",
+        "release_date": "Sep 25, 2017",
+        "duration": "42m",
+        "certification": "TV-14"
+    },
+    {
+        "title": "Merl\u00ed: Sapere Aude",
+        "synopsis": "The series is a sequel and spin-off of the Merl\u00ed series broadcast by Catalan channel TV3, and revolves around Pol Rubio (Carlos Cuevas), who enters university to follow in the footsteps of his idolized professor at high school, Merl\u00ed.",
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "rating": "85.0",
+        "release_date": "Dec 05, 2019",
+        "duration": "50m",
+        "certification": "16"
+    },
+    {
+        "title": "Ranma \u00bd",
+        "synopsis": "Saotome Ranma, a teenage martial artist, and his father Genma travel to the 'cursed training ground' of Jusenkyo in China. There, despite the warnings of the Chinese guard, they fall into the cursed springs. From now on, whenever Ranma is doused in cold water, he turns in to a girl, and a cute, well-built red-head at that. Hot water changes him back into a man again, but only until the next time. To make matters worse, his father engages him to Tendo Akane, a girl who hates boys.",
+        "genre": [
+            "Comedy",
+            "Action & Adventure",
+            "Animation"
+        ],
+        "rating": "85.0",
+        "release_date": "Apr 15, 1989",
+        "duration": "25m",
+        "certification": null
+    },
+    {
+        "title": "Goblin",
+        "synopsis": "Kim Shin is an immortal \u201cgoblin,\u201d and has the rather honorable title of being the Protector of Souls. His roommate Wang Yeo also happens to have the equally lofty, if thoroughly opposing, title of Angel of Death, and he acts as the storied grim reaper that claims souls. However, both these devilishly handsome angels have a problem: Wang Yeo has amnesia and Kim Shin wants to end his own (immortal) life. Unfortunately for goblins, the only way to defeat immortality is to marry a human bride. For that purpose, Kim Shin decides to win over Ji Eun Tak an optimistic high school girl who he thinks will be the priestess that ends his cursed existence. Now, once responsible for protecting souls and watching them pass, Kim Shin now tries to send his own to the afterlife. But when a slightly complicated method of suicide starts turning into true love, will our immortal goblin begin to regret his decision--where acting on that very love ultimately means the end of his life?",
+        "genre": [
+            "Drama",
+            "Sci-Fi & Fantasy"
+        ],
+        "rating": "85.0",
+        "release_date": "Dec 02, 2016",
+        "duration": "1h 30m",
+        "certification": "15"
+    }
+]
