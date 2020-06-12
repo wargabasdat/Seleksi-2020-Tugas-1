@@ -17,7 +17,7 @@ for show in content.findAll('div', attrs={"class": "card style_1"}):
         "site": show.find('a', attrs={"class": "image"})['href'].encode('utf-8').decode(),
         "picture": show.find('img', attrs={"class": "poster lazyload lazyloaded"})['alt src'].encode('utf-8').decode(),
         "rating": rating_ring.find('div')['data-percent'].encode('utf-8').decode(),
-        "released_date": show.find('p').text.encode('utf-8').decode()
+        "release_date": show.find('p').text.encode('utf-8').decode()
     }
     showArr.append(showObject)
 
