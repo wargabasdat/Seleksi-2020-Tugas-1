@@ -3,7 +3,7 @@ const fs = require("fs");
 const internetPage = require('./internetstats');
 const speedPage = require('./speedtest')
 
-// FUnctions
+// FUnctions to get resulst from other module
 const getInternetResult = async (page, region, link) => {
     await page.init(link);
     return page.parseResult(region);
@@ -21,7 +21,7 @@ const getSpeedResult = async (page, type, link) => {
 
     console.log('Scraping from 2 websites...');
 
-    // Internet Usage WebPage
+    // Scrape from internetworldstats.com
     const asia = new internetPage(browser);
     const america = new internetPage(browser);
     const africa = new internetPage(browser);
@@ -30,6 +30,7 @@ const getSpeedResult = async (page, type, link) => {
     const mideast = new internetPage(browser);
     const oceania = new internetPage(browser);
 
+    // 5 different web pages
     const asiaResult = getInternetResult(asia, 'Asia', 'https://www.internetworldstats.com/stats3.htm#asia');
     const americaResult = getInternetResult(america, 'America', 'https://www.internetworldstats.com/stats2.htm#americas');
     const africaResult = getInternetResult(africa, 'Africa', 'https://www.internetworldstats.com/stats1.htm');
@@ -43,15 +44,18 @@ const getSpeedResult = async (page, type, link) => {
         internetData = [].concat.apply([], values);
     })
 
-
-    // Speedtest WebPage
+    // Scrape from speedtest.com
     const broadband = new speedPage(browser);
     const mobile = new speedPage(browser);
 
+    // Get mobile and broadband speed from every country available
     const broadbandRes = getSpeedResult(broadband, 'broadband', 'https://www.speedtest.net/global-index');
     const mobileRes = getSpeedResult(mobile, 'mobile', 'https://www.speedtest.net/global-index');
 
+    // Wait until all process have done asynchronously
     await Promise.all([broadbandRes, mobileRes]).then((values) => {
+
+        // Merged mobile and brodband speed based on country name
         let speedData = values[0].map((el) => {
             const idx = values[1].map(el2 => el2.name).indexOf(el.name);
             if (idx != -1) {
@@ -63,9 +67,13 @@ const getSpeedResult = async (page, type, link) => {
             return el;
         })
 
+        // Merged data internet stats (internetworldstats.com) and internet speed data (speedtest.com)
+        // Data cleaning removes countries that do not have internet speed data
         let finalData = internetData.filter((el3) => {
             const idx2 = speedData.map(el4 => el4.name).indexOf(el3.name);
             if (idx2 != -1){
+
+                // Parsing some string data type to integer or float
                 delete speedData[idx2].name;
                 el3.penetration = parseFloat(el3.penetration.replace(' %', ''));
                 el3.usersInRegion = parseFloat(el3.usersInRegion.replace(' %', ''));
@@ -77,7 +85,7 @@ const getSpeedResult = async (page, type, link) => {
             }
         });
 
-
+        // Write Array of Object to .json file
         fs.writeFile(`${__dirname}/../data/data.json`, JSON.stringify(finalData, null, 3), 'utf8' ,function(err) {
             if (err) throw err;
             console.log("Saved!");

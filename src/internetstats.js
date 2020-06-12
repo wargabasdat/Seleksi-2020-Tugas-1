@@ -24,7 +24,6 @@ class internetPage {
 
     async parseResult(region){
          // wait page to load
-        await this.autoScroll(this.page);
         const elements = this.elements;
         console.log(`Scraping ${region}`)
 

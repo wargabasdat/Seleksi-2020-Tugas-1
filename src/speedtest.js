@@ -25,7 +25,6 @@ class speedPage {
     async parseResult(type){
          // wait page to load
         console.log(`Scraping ${type} speed`)
-        await this.autoScroll(this.page);
         const elements = this.elements;
 
         let extractor = await this.page.evaluate((elements, type) => {
