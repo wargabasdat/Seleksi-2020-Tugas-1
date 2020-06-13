@@ -78,6 +78,7 @@ Berikut adalah contoh salah satu struktur data hasil scraping
          "url": "https://www.speedtest.net/global-index/afghanistan#fixed",
          "mobile_speed": 6.02
       }
+}
 ```
 &nbsp;
 Keterangan :
