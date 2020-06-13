@@ -1,7 +1,8 @@
-const puppeteer = require('puppeteer');
-const fs = require("fs");
+// Import modules
 const internetPage = require('./internetstats');
 const speedPage = require('./speedtest')
+const puppeteer = require('puppeteer');
+const fs = require("fs");
 
 // FUnctions to get resulst from other module
 const getInternetResult = async (page, region, link) => {

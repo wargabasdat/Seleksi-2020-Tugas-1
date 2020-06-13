@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 
+// Scrape from speedtest.com
 class speedPage {
     constructor(browser){
         this.elements = null;
@@ -7,10 +8,12 @@ class speedPage {
         this.page = null;
     }
     
+    // Get data from page
     async init(url) {
         this.elements = await this.getSelector();
         this.page = await this.browser.newPage();
 
+        // Wait until page fully loaded
         await this.page.goto(url, {
             waitUntil: 'networkidle2',
           });
@@ -22,8 +25,8 @@ class speedPage {
       
     }
 
+    // Parse data from webpage
     async parseResult(type){
-         // wait page to load
         console.log(`Scraping ${type} speed`)
         const elements = this.elements;
 
@@ -31,6 +34,7 @@ class speedPage {
             let nameNode;
             let speedNode;
             let infoArray = [];
+            
             if (type == 'broadband'){
                 nameNode = document.querySelectorAll(elements.nameBroadband);
                 speedNode = document.querySelectorAll(elements.broadband);
@@ -40,7 +44,7 @@ class speedPage {
                 speedNode = document.querySelectorAll(elements.mobile);
             }
 
-
+            // Save data to country object
             for (let i = 0; i < nameNode.length; i++){
                 let country = null;
                 country = {
@@ -54,9 +58,11 @@ class speedPage {
             return infoArray;
         }, elements, type);
 
+        // Return parse result
         return extractor;
     }
 
+    // Selectors from the webpage
     getSelector(){
         const elements = {
             nameBroadband: `#column-fixed a`,
@@ -67,26 +73,7 @@ class speedPage {
         return elements;
     }
 
-
-    async autoScroll(page){
-        await page.evaluate(async () => {
-            await new Promise((resolve, reject) => {
-                var totalHeight = 0;
-                var distance = 100;
-                var timer = setInterval(() => {
-                    var scrollHeight = document.body.scrollHeight;
-                    window.scrollBy(0, distance);
-                    totalHeight += distance;
-    
-                    if(totalHeight >= scrollHeight){
-                        clearInterval(timer);
-                        resolve();
-                    }
-                }, 50);
-            });
-        });
-    }
-
 }
 
+// Export to index.js
 module.exports = speedPage;

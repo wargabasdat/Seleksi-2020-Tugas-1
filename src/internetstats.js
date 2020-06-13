@@ -1,16 +1,19 @@
 const puppeteer = require('puppeteer');
 
+// Scrape from internetworldstats.com
 class internetPage {
     constructor(browser){
         this.elements = null;
         this.browser = browser;
         this.page = null;
     }
-    
+
+    // Get data from page
     async init(url) {
         this.elements = await this.getSelector();
         this.page = await this.browser.newPage();
 
+        // Wait until page fully loaded
         await this.page.goto(url, {
             waitUntil: 'networkidle2',
           });
@@ -22,8 +25,8 @@ class internetPage {
       
     }
 
+    // Parse data from webpage
     async parseResult(region){
-         // wait page to load
         const elements = this.elements;
         console.log(`Scraping ${region}`)
 
@@ -31,8 +34,9 @@ class internetPage {
             window.scrollBy(0, window.innerHeight);
             let infoArray = [];
             let rowArrList = null; 
-
             const idx = {};
+
+            // Parse based on region
             if (region == 'Asia' || region == 'America' || region == 'Africa' || region == 'Middle East' || region == 'Oceania'){
                 idx.internetUsers = 3;
                 idx.penetration = 4;
@@ -78,6 +82,7 @@ class internetPage {
                 }
             }
 
+            // Cleaning data and string matching from 2 different websites
             replaceName = (str) => {
                 let res = str.replace('(SAR)', '');
                 res = res.replace('*', '');
@@ -97,7 +102,7 @@ class internetPage {
                 return res;
             };
 
-
+            // Save data to country object
             for (let i = idx.from; i < idx.to; i++){
                 let name = replaceName(rowArrList[i].cells[0].innerText);
                 let country = {
@@ -114,9 +119,11 @@ class internetPage {
             return infoArray;
         }, elements, region);
         
+        // Return parse result
         return extractor;
     }
 
+    // Seelctors from the webpage
     getSelector(){
         const elements = {
             rowAsiaMidEastSelector: `td td tr`,
@@ -127,27 +134,7 @@ class internetPage {
         }
         return elements;
     }
-
-
-    async autoScroll(page){
-        await page.evaluate(async () => {
-            await new Promise((resolve, reject) => {
-                var totalHeight = 0;
-                var distance = 100;
-                var timer = setInterval(() => {
-                    var scrollHeight = document.body.scrollHeight;
-                    window.scrollBy(0, distance);
-                    totalHeight += distance;
-    
-                    if(totalHeight >= scrollHeight){
-                        clearInterval(timer);
-                        resolve();
-                    }
-                }, 50);
-            });
-        });
-    }
-
 }
 
+// Export to index.js
 module.exports = internetPage;
