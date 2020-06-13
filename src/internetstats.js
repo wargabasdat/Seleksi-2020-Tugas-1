@@ -108,10 +108,10 @@ class internetPage {
                 let country = {
                     name, region,
                     population: rowArrList[i].cells[1].innerText,
-                    internetUsers: rowArrList[i].cells[idx.internetUsers].innerText,
+                    internet_users: rowArrList[i].cells[idx.internetUsers].innerText,
                     penetration: rowArrList[i].cells[idx.penetration].innerText,
-                    usersInRegion: rowArrList[i].cells[idx.usersInRegion].innerText,
-                    facebookSubs: rowArrList[i].cells[idx.facebookSubs].innerText,
+                    users_region: rowArrList[i].cells[idx.usersInRegion].innerText,
+                    facebook_subs: rowArrList[i].cells[idx.facebookSubs].innerText,
                 }
                 infoArray.push(country);
             }

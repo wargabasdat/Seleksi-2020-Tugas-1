@@ -77,10 +77,10 @@ const getSpeedResult = async (page, type, link) => {
                 // Parsing some string data type to integer or float
                 delete speedData[idx2].name;
                 el3.penetration = parseFloat(el3.penetration.replace(' %', ''));
-                el3.usersInRegion = parseFloat(el3.usersInRegion.replace(' %', ''));
+                el3.users_region = parseFloat(el3.users_region.replace(' %', ''));
                 el3.population = parseInt(el3.population.replace(/,/g,''));
-                el3.internetUsers = parseInt(el3.internetUsers.replace(/,/g,''));
-                el3.facebookSubs = parseInt(el3.facebookSubs.replace(/,/g,''));
+                el3.internet_users = parseInt(el3.internet_users.replace(/,/g,''));
+                el3.facebook_subs = parseInt(el3.facebook_subs.replace(/,/g,''));
                 el3.speed_data = speedData[idx2];
                 return el3;
             }
