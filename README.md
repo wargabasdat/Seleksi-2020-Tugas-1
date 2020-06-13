@@ -85,10 +85,10 @@ Keterangan :
 1. name			: nama negara
 2. region		: pembagian wilayah
 3. population		: jumlah orang di negara tersebut
-4. internetUsers	: jumlah pengguna internet
+4. internet_users	: jumlah pengguna internet
 5. penetration		: persentase pengguna internet di negara tersebut
-6. usersInRegion	: persentase pengguna internet dari negara tersebut di region
-7. facebookSubs		: jumlah pelanggan facebook
+6. users_region		: persentase pengguna internet dari negara tersebut di region
+7. facebook_subs	: jumlah pelanggan facebook
 8. speed_data		: data kecepatan internet
 	a. broadband_speed	: data kecepatan broadband internet
 	b. url			: link ke detail kecepatan internet di negara
