@@ -19,7 +19,7 @@
   <br>
 </h2>
 
-
+&nbsp;
 ### Description
 
 Program dibuat untuk memperoleh data penggunaan internet negara-negara di dunia, data diambil dari 2 buah website yang berbeda
@@ -31,6 +31,7 @@ Program dibuat untuk memperoleh data penggunaan internet negara-negara di dunia,
 Data dari dua website ini kemudian digabungkan dalam satu buah output file berbentuk JSON. Saya sengaja mengambil data dari dua buah website yang berbeda untuk saling melengkapi, sehingga dapat memberikan lebih banyak insight saat sudah memasuki tahapan visualisasi data nantinya.
 
 
+&nbsp;
 ### Spesification
 
 Program ini menggunakan JavaScript dengan library Puppeteer. Pastikan komputer anda sudah terinstall ___Node.JS___
@@ -38,6 +39,7 @@ Program ini menggunakan JavaScript dengan library Puppeteer. Pastikan komputer a
 Node.js dapat diunduh pada situs https://nodejs.org/en/download/
 
 
+&nbsp;
 ### How to Use
 
 1. Download atau clone repository ini
@@ -58,6 +60,8 @@ node index.js
 
 7. Data output akan tersimpan pada folder data dengan nama __data.JSON__
 
+
+&nbsp;
 ### JSON Structure
 Berikut adalah contoh salah satu struktur data hasil scraping
 ```
@@ -75,6 +79,7 @@ Berikut adalah contoh salah satu struktur data hasil scraping
          "mobile_speed": 6.02
       }
 ```
+&nbsp;
 Keterangan :
 ```
 1. name			: nama negara
@@ -90,12 +95,15 @@ Keterangan :
 	c. mobile_speed		: data kecepatan mobile internet
 ```
 
+&nbsp;
 ### Screenshot
 
+&nbsp;
 ### Reference
 * puppeteer : untuk melakukan scraping
 * fs : untuk menuliskan hasil ke file JSON
 
+&nbsp;
 ### Author
 ```
 Muhammad Fauzan Al-Ghifari
