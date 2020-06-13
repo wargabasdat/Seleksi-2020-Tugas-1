@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 202
+  Seleksi Warga Basdat 2020
   <br>
   <br>
 </h1>

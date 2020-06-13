@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 from concurrent.futures import ThreadPoolExecutor, Executor, wait
 import time
 import threading
-import psycopg2
 
 gembok_error = threading.Lock()
 gembok_cetak = threading.Lock()
@@ -23,55 +22,6 @@ curs = None
 
 # User scraper1
 # pass scrapingnow
-
-
-def sql_connector():
-    global conn
-    global curs
-    pwd = input("Masukkan pasword akun postgres PostgreSQL: ")
-    temp_query = "dbname = postgres user = postgres password=" + pwd
-    try:
-        temp_conn = psycopg2.connect(temp_query)
-    except Exception as err:
-        print("error connecting to database postgres")
-    temp_conn.autocommit = True
-    temp_curs = temp_conn.cursor()
-    temp_curs.execute(
-        "select exists(SELECT datname FROM pg_catalog.pg_database WHERE datname = 'data_scrap')")
-    ada = temp_curs.fetchone()[0]
-    if not ada:
-        temp_curs.execute("CREATE DATABASE data_scrap")
-    temp_curs.close()
-    temp_conn.close()
-    query = "dbname = data_scrap user = postgres password=" + pwd
-    try:
-        conn = psycopg2.connect(query)
-    except:
-        print("error connecting to database data_scrap")
-    conn.autocommit = True
-    curs = conn.cursor()
-    curs.execute(
-        "select exists(select * from information_schema.tables where table_name='hasil_scrap')")
-    tabel_ada = curs.fetchone()[0]
-    if not tabel_ada:
-        curs.execute('''CREATE TABLE hasil_scrap(
-            Crash_ID SERIAL PRIMARY KEY,
-            Operator varchar(100),
-            Airplane_Type varchar(100),
-            Country varchar (50),
-            Crash_Date date,
-            Crash_Time time,
-            Crew int,
-            Crew_Casualties int,
-            Pax int,
-            Pax_Casualties int,
-            Other_Casualties int
-        ) ''')
-
-
-def sql_close():
-    curs.close()
-    conn.close()
 
 
 def soup_creator(url):
@@ -203,29 +153,6 @@ def data_scraper(url):
 
     # Testing, mencetak data
     gembok_cetak.acquire()
-
-    # print('enter')
-    try:
-        curs.execute("INSERT INTO hasil_scrap (Operator, Airplane_Type, Country, Crash_Date) VALUES (%s, %s,%s,%s)",(operator, airplane, country, date,))
-    except Exception as err:
-        print(format(err))
-    # print('before if')
-    curs.execute("SELECT Crash_ID FROM hasil_scrap WHERE Operator = %s and Airplane_Type = %s and Country = %s and Crash_Date = %s", (operator, airplane, country, date,))
-    crash_id = curs.fetchone()[0]
-    # print(crash_id)
-    if (jam != 'NULL'):
-        curs.execute("UPDATE hasil_scrap SET Crash_Time=%s WHERE Crash_ID=%s",(jam,crash_id,))
-    if (crew != -999):
-        curs.execute("UPDATE hasil_scrap SET Crew=%s WHERE Crash_ID=%s",(crew,crash_id,))
-    if (crew_death != -999):
-        curs.execute("UPDATE hasil_scrap SET Crew_Casualties=%s WHERE Crash_ID=%s",(crew_death,crash_id,))
-    if (pax != -999):
-        curs.execute("UPDATE hasil_scrap SET Pax=%s WHERE Crash_ID=%s",(pax,crash_id,))
-    if (pax_death != -999):
-        curs.execute("UPDATE hasil_scrap SET Pax_Casualties=%s WHERE Crash_ID=%s",(pax_death,crash_id,))
-    if (other_death != -999):
-        curs.execute("UPDATE hasil_scrap SET Other_Casualties=%s WHERE Crash_ID=%s",(other_death,crash_id,)) 
-    # print("done input")
     gembok_cetak.release()
 
 
@@ -247,7 +174,6 @@ def search_page_iterative(search_url, i):
 
 
 if __name__ == "__main__":
-    sql_connector()
     start_url = "https://www.baaa-acro.com/crash-archives?field_crash_flight_type_target_id=12996&page="
     for i in range(0, 62):
         search_page_iterative(start_url, i)
@@ -262,4 +188,3 @@ if __name__ == "__main__":
     # if error_count > 0:
     #     for error in daftar_error:
     #         print("error link: %s", error)
-    sql_close()
