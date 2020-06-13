@@ -98,6 +98,14 @@ Keterangan :
 &nbsp;
 ### Screenshot
 
+isi index.js
+
+<img src="/screenshots/Capture1.PNG" alt="Capture1" width="800"/>
+<img src="/screenshots/Capture2.PNG" alt="Capture2" width="800"/>
+<img src="/screenshots/Capture3.PNG" alt="Capture3" width="800"/>
+<img src="/screenshots/Capture4.PNG" alt="Capture4" width="800"/>
+
+
 &nbsp;
 ### Reference
 * puppeteer : untuk melakukan scraping
