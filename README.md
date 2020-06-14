@@ -30,6 +30,12 @@ Program dibuat untuk memperoleh data penggunaan internet negara-negara di dunia,
 
 Data dari dua website ini kemudian digabungkan dalam satu buah output file berbentuk JSON. Saya sengaja mengambil data dari dua buah website yang berbeda untuk saling melengkapi, sehingga dapat memberikan lebih banyak insight saat sudah memasuki tahapan visualisasi data nantinya.
 
+### Demo Video
+Link : https://www.youtube.com/watch?v=NbUMcPp-5L4&t=5s
+
+<a href = "https://www.youtube.com/watch?v=NbUMcPp-5L4&t=5s">
+<img src="/screenshots/Screenshot (116).jpg" href="https://www.youtube.com/watch?v=NbUMcPp-5L4&t=5s" target="blank" alt="Video" width="350"/>
+<a/>
 
 &nbsp;
 ### Spesification
