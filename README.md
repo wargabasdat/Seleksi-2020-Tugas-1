@@ -97,11 +97,11 @@ Program ini dijalankan pada komputer dengan sistem operasi Windows. Anda mungkin
 
 *Source code*
 
-![alt_text](screenshot/ss1.png)
+![alt text](screenshots/ss1.png)
 
 *JSON Structure*
 
-![alt_text](screenshot/ss2.png)
+![alt text](screenshots/ss2.png)
 
 ## Reference
 
