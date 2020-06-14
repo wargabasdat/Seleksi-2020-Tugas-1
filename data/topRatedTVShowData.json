@@ -2711,7 +2711,7 @@
             "Drama"
         ],
         "duration": null,
-        "certification": null,
+        "certification": "TV-MA",
         "release_date": "2020-3-26",
         "rating": 80.0
     },
@@ -5581,7 +5581,7 @@
             "Animation"
         ],
         "duration": null,
-        "certification": null,
+        "certification": "TV-Y7",
         "release_date": "2014-10-13",
         "rating": 75.0
     },

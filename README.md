@@ -12,10 +12,11 @@
   <br>
 </h2>
 
+## Description
 
-## Spesifikasi
+[The Movie Database / TMDb](themoviedb.org) adalah sebuah website film dan TV show yang dibuat oleh komunitas. Program ini dibuat dengan melakukan data scraping dari website tersebut, yang berfungsi untuk memudahkan pengguna dalam menemukan TV show berdasarkan urutan _rating_ yang diberikan oleh _user_ yang terdaftar pada website tersebut. Dalam program ini pun pengguna dapat menemukan informasi terkait TV show seperti genre, sinopsis, dll.
 
-### Data Scraping
+## Specification
 
 1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
 
@@ -50,3 +51,66 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+
+## How to Use
+
+### Prerequisites
+
+* Python 3
+* Python Libraries (BeautifulSoup, Requests)
+* Virtual Environment
+
+1. _Clone_ atau _download_ repository github ini
+
+2. Buka terminal pada direktori file yang telah di _clone_ atau di _download_. Kemudian ketik perintah berikut `python -m venv virtual-env` pada terminal
+
+3. Setelah terinstall, ketik perintah `virtual-env\Scripts\activate.bat` berikut pada terminal 
+
+4. Install python libraries yang dibutuhkan. Ketik `pip install bs4` dan `pip install requests` pada terminal
+
+5. Ketik perintah berikut `cd src` pada terminal untuk pindah menuju direktori _src_ 
+
+6. Ketik perintah berikut `python ShowScraper.py` pada terminal untuk menjalankan program. Tunggu beberapa saat maka Anda akan melihat data-data yang telah diambil dari _website_ tersimpan pada file JSON di dalam folder _data_
+
+### Things to Note
+
+Program ini dijalankan pada komputer dengan sistem operasi Windows. Anda mungkin diharapkan untuk melakukan penyesuaian terhadap komputer Anda apabila tidak menjalankan Windows
+
+## JSON Structure
+```
+----title= judul TV show
+
+----synopsis= sinopsis TV show
+
+----genre= genre TV show. Dapat berupa multivalue
+
+----duration= durasi TV show. Dituliskan dalam format menit / jam dan menit. Bernilai null apabila tidak diketahui
+
+----certification= sertifikasi TV show. Bernilai null apabila tidak diketahui
+
+----release_date= tanggal rilis TV show
+
+----rating= rating TV show oleh pengguna yang terdaftar pada themoviedb.org
+```
+
+## Screenshot
+
+*Source code*
+
+![alt_text](screenshot/ss1.png)
+
+*JSON Structure*
+
+![alt_text](screenshot/ss2.png)
+
+## Reference
+
+* BeautifulSoup (bs4)
+* Requests
+* JSON
+* Time
+* Calendar
+
+## Author
+
+*Indra Febrio Nugroho 13518016*
