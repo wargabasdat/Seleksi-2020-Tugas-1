@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2020
+  Geekbench Android Benchmark Chart
   <br>
   <br>
 </h1>
@@ -50,3 +50,39 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+## Description
+## Specification
+Runtime : Python3
+Library : urllib, BeautifulSoup, json 
+## How to use
+Pada folder src jalankan perintah berikut lewat terminal:
+```
+python3 scraper.py
+```
+## JSON Structure
+```
+[
+  {"name": "OnePlus 8",
+   "processor": "Qualcomm Snapdragon 865", 
+   "clockspeed": 1.8, 
+   "score": {"singlecore": 905, 
+              "multicore": 3322}
+  },
+  ...
+]
+```
+## Screenshot program
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_1.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_2.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_3.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/json_data.png)
+## Reference
+Library yang digunakan:
+1. urllib : untuk melakukan request html
+2. BeautifulSoup : untuk melakukan parse terhadap laman html
+3. json : untuk export hasil ke file .json
+
+## Author
+Muhamad Hudan Widzamil <br/>
+18218003 <br/>
+Sistem dan Teknologi Informasi ITB

@@ -4,7 +4,6 @@
 
 from bs4 import BeautifulSoup
 import urllib.request
-import numpy as np
 import json
 
 print("Geekbench Android Benchmark Chart Scraper")
