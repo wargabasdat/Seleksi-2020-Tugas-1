@@ -12,15 +12,6 @@ headers = {
 def removeFIFA(aString):
     return aString.replace(' FIFA 20','')
 
-# Sebuah fungsi yang mengembalikan data "mentah" dari sebuah page dengan tool "Selenium Webdriver"
-def openUrlSelenium(url):
-    driver = 14
-    driver.get(url)
-    page = driver.page_source
-    soup = BeautifulSoup(page, 'lxml')
-    driver.close()
-    return soup
-
 # Sebuah fungsi yang mengembalikan data "mentah" dari sebuah page
 def openUrl(url):
     result = requests.get(url)
