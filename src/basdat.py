@@ -128,6 +128,8 @@ def getData(navigators, categories):
                 # get label produk
                 if(product_label):
                     label = product_label.text
+                else:
+                    label = "None"
                 product_name = product_info.find("a", {"class" : "name _item"})
                 # get nama produk
                 if(product_name):
@@ -139,10 +141,11 @@ def getData(navigators, categories):
                 # kasus 1 : bukan barang sale
                 if(product_main_price):
                     main_price = product_main_price.get("data-price")
-                    new_main_price = main_price.replace(' IDR', '')
+                    main_price_2 = main_price.replace(' IDR', '')
+                    new_main_price = main_price_2.replace('.','')
                     # harga diskon kosong
-                    new_price_sale = ''
-                    res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] ,new_main_price,new_price_sale)
+                    new_price_sale = -1
+                    res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] , int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
                     num_product+=1
                 # kasus 2 : barang sale
@@ -152,18 +155,20 @@ def getData(navigators, categories):
                     # harga asli
                     if(product_main_price):
                         main_price = product_main_price.get("data-price")
-                        new_main_price = main_price.replace(' IDR', '')
+                        main_price_2 = main_price.replace(' IDR', '')
+                        new_main_price = main_price_2.replace('.','')
                     # harga diskon
                     if(product_price_sale):
                         price_sale = product_price_sale.get("data-price")
-                        new_price_sale = price_sale.replace(' IDR', '')
-                    res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] ,new_main_price,new_price_sale)
+                        price_sale_2 = price_sale.replace(' IDR', '')
+                        new_price_sale = price_sale_2.replace('.','')
+                    res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] ,int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
                     num_product+=1
             i+=1
         cat_now+=1
-    with open('../data/zara_women_2.json', 'w') as fp:
-        json.dump(data,fp)
+    with open('../data/zara_women.json', 'w') as fp:
+        fp.write(json.dumps(data, indent = 2))
 
 
 # ------------------ Main Program ---------------------
@@ -174,9 +179,11 @@ categories = []
 
 myurl = 'https://www.zara.com/id/id/woman-special-prices-l1314.html?v1=1446216'
 container = getBody(myurl)
-file = open("output.txt","w")
 women_container = container.find("div",{"class" : "_container-nav navigation-menu"})
 cat_container = women_container.find("li", {"class": "_category-link-wrapper menu-item menu-item--level-1 menu-item--current"})
+print("getting the links...")
 navigators = getNav(cat_container)
 categories = getCategory(cat_container)
+print("getting the datas")
 getData(navigators, categories)
+print("done!")
