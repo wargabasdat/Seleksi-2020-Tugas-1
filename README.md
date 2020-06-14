@@ -74,19 +74,19 @@ Setiap tuple data berisikan :
 __Screenshot program__
 
 Screenshot 1
-![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss1.png)
+![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss1.jpg)
 
 Screenshot 2
-![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss2.png)
+![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss2.jpg)
 
 Screenshot 3
-![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss3.png)
+![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss3.jpg)
 
 Screenshot 4
-![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss4.png)
+![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss4.jpg)
 
 Screenshot 5
-![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss5.png)
+![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss5.jpg)
 
 
 __Reference__
