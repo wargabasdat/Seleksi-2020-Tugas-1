@@ -5,6 +5,7 @@
 # indrafbrngrh@gmail.com
 # Data Source: themoviedb.org
 
+# import libraries
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -20,29 +21,37 @@ def strToDate(string):
     # convert abbreviated month name to month number
     month_dict = {v: k for k,v in enumerate(calendar.month_abbr)}
     month = month_dict[month]
-
+    
+    # rewrite website date format into a common date format
     return (str(year) + '-' + str(month) + '-' + str(date))
 
-def getShowDetails(url):
+def getShowDetails(show_url):
+    # scrape tv show details
+    # from the list of top rated tv show
+    # shown on the website
     global header
-    response = requests.get('https://www.themoviedb.org' + url, headers=header, timeout=5)
+    global url
+    response = requests.get(url + show_url, headers=header, timeout=5)
     soup = BeautifulSoup(response.content, 'html.parser')
     container = soup.find('div', attrs={'class': 'header large border first'})
 
     show = {}
     show['synopsis'] = (container.find('div', attrs={'class': 'overview'})).find('p').text.strip()
     show['genre'] = [genre.text.strip() for genre in (container.find('span', attrs={'class': 'genres'})).findAll('a')]
-    show['duration'] = None
-    show['certification'] = None
     try:
         show['duration'] = container.find('span', attrs={'class': 'runtime'}).text.strip()
+    except AttributeError:
+        show['duration'] = None
+    
+    try:
         show['certification'] = (container.find('span', attrs={'class': 'certification'})).text.strip()
     except AttributeError:
-        pass
+        show['certification'] = None
 
     return show
 
 def getData(soup):
+    # scrape the list of top rated tv shows
     show_array = []
 
     for container in soup.findAll('div', attrs={'class': 'card style_1'}):
