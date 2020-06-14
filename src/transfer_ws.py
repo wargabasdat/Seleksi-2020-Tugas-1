@@ -14,7 +14,7 @@ def removeFIFA(aString):
 
 # Sebuah fungsi yang mengembalikan data "mentah" dari sebuah page dengan tool "Selenium Webdriver"
 def openUrlSelenium(url):
-    driver = sw.Chrome()
+    driver = 14
     driver.get(url)
     page = driver.page_source
     soup = BeautifulSoup(page, 'lxml')
@@ -69,7 +69,7 @@ def scrapeDalamToCSV(url):
     height = re.sub("[^0-9]", "", player_stats[0])
     weight = re.sub("[^0-9]", "", player_stats[1])
     df = pd.DataFrame({'name':player_name, 'ovr':player_rating[0], 'pot':player_rating[1], 'nationality': player_nation, 'club': player_club, 'weak_foot_rating': player_wf, 'skill_moves_rating': player_sm, 'club_position': player_position, 'height': int(height), 'weight': int(weight),'foot_preference': player_stats[2], 'birth_date': player_stats[3], 'age': int(player_stats[4]),'work_rate': player_stats[5], 'value': player_stats[6], 'wage': player_stats[7], 'ball_control': int(player_stats[11]), 'dribbling': int(player_stats[12]), 'marking': int(player_stats[13]), 'slide_tackle': int(player_stats[14]), 'stand_tackle': int(player_stats[15]), 'aggression': int(player_stats[16]), 'reactions': int(player_stats[17]), 'att_position': int(player_stats[18]), 'interceptions': int(player_stats[19]), 'vision': int(player_stats[20]), 'composure': int(player_stats[21]), 'crossing': int(player_stats[22]), 'short_pass': int(player_stats[23]), 'long_pass': int(player_stats[24]), 'acceleration': int(player_stats[25]), 'stamina': int(player_stats[26]), 'strength': int(player_stats[27]), 'balance': int(player_stats[28]), 'sprint_speed': int(player_stats[29]), 'agility': int(player_stats[30]), 'jumping': int(player_stats[31]), 'heading': int(player_stats[32]), 'shot_power': int(player_stats[33]), 'finishing': int(player_stats[34]), 'long_shots': int(player_stats[35]), 'curve': int(player_stats[36]), 'fk_acc': int(player_stats[37]), 'penalties': int(player_stats[38]), 'volleys': int(player_stats[39]),  'gk_positioning': int(player_stats[40]), 'gk_diving': int(player_stats[41]), 'gk_handling': int(player_stats[42]), 'gk_kicking': int(player_stats[43]), 'gk_reflexes': int(player_stats[44])})
-    df.to_csv('FIFA20index.csv', mode='a', index = False, header = False, encoding = 'utf-8')
+    df.to_csv('FIFA_index_20.csv', mode='a', index = True, header = False, encoding = 'utf-8')
 
 # Melakukan scraping data per pemain dari url(s) yang telah diperoleh dari prosedur scrapeLuar dengan menambahkan header
 def firstScrapeDalamToCSV(url):
@@ -86,7 +86,7 @@ def firstScrapeDalamToCSV(url):
     height = re.sub("[^0-9]", "", player_stats[0])
     weight = re.sub("[^0-9]", "", player_stats[1])
     df = pd.DataFrame({'name':player_name, 'ovr':player_rating[0], 'pot':player_rating[1], 'nationality': player_nation, 'club': player_club, 'weak_foot_rating': player_wf, 'skill_moves_rating': player_sm, 'club_position': player_position, 'height': int(height), 'weight': int(weight),'foot_preference': player_stats[2], 'birth_date': player_stats[3], 'age': int(player_stats[4]),'work_rate': player_stats[5], 'value': player_stats[6], 'wage': player_stats[7], 'ball_control': int(player_stats[11]), 'dribbling': int(player_stats[12]), 'marking': int(player_stats[13]), 'slide_tackle': int(player_stats[14]), 'stand_tackle': int(player_stats[15]), 'aggression': int(player_stats[16]), 'reactions': int(player_stats[17]), 'att_position': int(player_stats[18]), 'interceptions': int(player_stats[19]), 'vision': int(player_stats[20]), 'composure': int(player_stats[21]), 'crossing': int(player_stats[22]), 'short_pass': int(player_stats[23]), 'long_pass': int(player_stats[24]), 'acceleration': int(player_stats[25]), 'stamina': int(player_stats[26]), 'strength': int(player_stats[27]), 'balance': int(player_stats[28]), 'sprint_speed': int(player_stats[29]), 'agility': int(player_stats[30]), 'jumping': int(player_stats[31]), 'heading': int(player_stats[32]), 'shot_power': int(player_stats[33]), 'finishing': int(player_stats[34]), 'long_shots': int(player_stats[35]), 'curve': int(player_stats[36]), 'fk_acc': int(player_stats[37]), 'penalties': int(player_stats[38]), 'volleys': int(player_stats[39]),  'gk_positioning': int(player_stats[40]), 'gk_diving': int(player_stats[41]), 'gk_handling': int(player_stats[42]), 'gk_kicking': int(player_stats[43]), 'gk_reflexes': int(player_stats[44])})
-    df.to_csv('FIFA20index.csv', mode='a', index = False, header = True, encoding = 'utf-8')
+    df.to_csv('FIFA_index_20.csv', mode='a', index = True, header = True, encoding = 'utf-8')
 
 # Mengambil nama pemain
 def ambilNama(soupDalam):
@@ -235,7 +235,36 @@ def getUrlList(filename):
                 line_count += 1
     return url_list
 
+# "Membersihkan" data nilai value dan wage dari karakter "€" dan mengubah menjadi
+# tipe float
+def cleanCurrency(csvFilename, newCsvFilename):
+    df_orig = pd.read_csv(csvFilename, encoding='utf-8')
+    df = df_orig.copy()
+    df['value'] = df['value'].str.replace('.', '')
+    df['value'] = df['value'].str.replace('€', '')
+    df['wage'] = df['wage'].str.replace('.', '')
+    df['wage'] = df['wage'].str.replace('€', '')
+    df["value"] = pd.to_numeric(df["value"], downcast="float")
+    df["wage"] = pd.to_numeric(df["wage"], downcast="float")
+    df.to_csv(newCsvFilename, index=True, encoding='utf-8')
+
+# Mengkonversi file csv hasil scraping menjadi file json
+def csvToJsonFile(csvFilePath, jsonFilePath):
+    data = {}
+    with open(csvFilePath, encoding='utf-8') as csvFile:
+        csvReader = csv.DictReader(csvFile)
+        for rows in csvReader:
+            id = rows['id']
+            data[id] = rows
+    with open(jsonFilePath, 'w', encoding='utf-8') as jsonFile:
+        jsonFile.write(json.dumps(data, indent=4))
+
+
 if __name__ == '__main__': 
     urlList = getUrlList('Urls.csv')
     firstScrapeDalamToCSV('https://www.fifaindex.com/player/158023/lionel-messi/')
-    pooledScraping(urlList)
+    ## For peak hours
+    for url in urlList:
+        scrapeDalamToCSV(url)
+    ## For off-peak hours
+    #pooledScraping(urlList)
