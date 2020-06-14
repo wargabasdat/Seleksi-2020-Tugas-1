@@ -57,7 +57,7 @@ __How to use__
 - how to run : python3 basdat.py
 - lihat data hasil scraping pada file zara_women.json pada folder data
 
-p.s. dibutuhkan waktu sekitar 3 menit hingga program selesai bekerja, jika ingin melihat url page yang sedang di-scrape pada setiap waktu, silahkan membuka command pada baris 116
+p.s. dibutuhkan waktu sekitar 3 menit hingga program selesai bekerja, jika ingin melihat url page yang sedang di-scrape pada setiap waktu, silahkan membuka command pada baris 119
 
 __JSON Structure__
 

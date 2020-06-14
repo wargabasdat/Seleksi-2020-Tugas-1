@@ -59,8 +59,11 @@ def getNav(cat_container):
             if(subcat_name!="Lihat Semua"):
                 subcat_atag = subcats[j].find("a", {"class" : "_category-link menu-item__category-link"})
                 subcat_navigator = subcat_atag.get("href")
+                subcat_navigator_2 = subcat_atag.get("data-href")
                 if(subcat_navigator):
                     navigators.append(subcat_navigator)
+                elif(subcat_navigator_2):
+                    navigators.append(subcat_navigator_2)
             
     return navigators
 
@@ -113,7 +116,7 @@ def getData(navigators, categories):
     # jumlah produk / ID pada tuple json
     num_product = 1;
     for page in navigators:
-        # print(page)
+        # print(cat_now, page)
         container = getBody(page)
         wraps = container.find_all("div",{"class":"_groups-wrap"})
         ultag = wraps[0].find("ul")
