@@ -72,10 +72,10 @@ python3 scraper.py
 ]
 ```
 ## Screenshot program
-![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_1.png)
-![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_2.png)
-![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/program_3.png)
-![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/tree/master/screenshots/json_data.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/blob/master/screenshots/program_1.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/blob/master/screenshots/program_2.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/blob/master/screenshots/program_3.png)
+![alt text](https://github.com/hudanwidzamil/Seleksi-2020-Tugas-1/blob/master/screenshots/json_data.png)
 ## Reference
 Library yang digunakan:
 1. urllib : untuk melakukan request html
