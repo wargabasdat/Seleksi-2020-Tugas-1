@@ -13,6 +13,7 @@
 </h2>
 
 __Description__
+
 Data scraping koleksi wanita dari web https://www.zara.com/id/en/
 
 __Specification__
@@ -59,6 +60,7 @@ __How to use__
 p.s. dibutuhkan waktu sekitar 3 menit hingga program selesai bekerja, jika ingin melihat url page yang sedang di-scrape pada setiap waktu, silahkan membuka command pada baris 116
 
 __JSON Structure__
+
 Setiap tuple data berisikan :
 1. ID
 2. Kode Produk
@@ -70,6 +72,7 @@ Setiap tuple data berisikan :
 8. Harga Diskon produk (Jika bukan barang sale, maka Harga Diskon kosong)
 
 __Screenshot program__
+
 Screenshot 1
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss1.png)
 Screenshot 2
@@ -83,6 +86,7 @@ Screenshot 5
 
 
 __Reference__
+
 Library yang digunakan :
 
 1. json untuk menghasilkan file json
@@ -90,5 +94,6 @@ Library yang digunakan :
 3. urllib.request untuk mendapatkan script HTML dari url
 
 __Author__
+
 Chandrika Azharyanti
 13518001
