@@ -1,48 +1,87 @@
 # ShowScraper.py
 
+# Indra Febrio Nugroho
+# 13518016
+# indrafbrngrh@gmail.com
+# Data Source: themoviedb.org
+
 from bs4 import BeautifulSoup
 import requests
 import json
 from time import sleep
+import calendar
 
-with open('../data/topRatedTVShowData.json', 'r') as infile:
-    showArr = json.load(infile)
+def strToDate(string):
+    # string is always in a format "[MMM] [DD], [YYYY]"
+    # where M is month, D is date, and Y is year
+    year = string[8:13]
+    date = string[4:6]
+    month = string[0:3]
+    # convert abbreviated month name to month number
+    month_dict = {v: k for k,v in enumerate(calendar.month_abbr)}
+    month = month_dict[month]
 
-header = {'user-agent': 'Indra Nugroho/indrafbrngrh@gmail.com'}
+    return (str(year) + '-' + str(month) + '-' + str(date))
 
-url = 'https://www.themoviedb.org/tv/top-rated?page='
+def getShowDetails(url):
+    global header
+    response = requests.get('https://www.themoviedb.org' + url, headers=header, timeout=5)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    container = soup.find('div', attrs={'class': 'header large border first'})
 
-for i in range(2,6):
-    print(i)
-    response = requests.get(url + str(i), headers=header, timeout=5)
-    content = BeautifulSoup(response.content, "html.parser")
+    show = {}
+    show['synopsis'] = (container.find('div', attrs={'class': 'overview'})).find('p').text.strip()
+    show['genre'] = [genre.text.strip() for genre in (container.find('span', attrs={'class': 'genres'})).findAll('a')]
+    show['duration'] = None
+    show['certification'] = None
+    try:
+        show['duration'] = container.find('span', attrs={'class': 'runtime'}).text.strip()
+        show['certification'] = (container.find('span', attrs={'class': 'certification'})).text.strip()
+    except AttributeError:
+        pass
 
-    for show in content.findAll('div', attrs={"class": "card style_1"}):
-        show_url = show.find('a', attrs={"class": "image"})['href'].strip()
-        show_response = requests.get('https://www.themoviedb.org' + show_url, timeout=5)
-        show_content = BeautifulSoup(show_response.content, "html.parser")
+    return show
 
-        single_show = show_content.find('div', attrs={"class": "header large border first"})
-        genre = single_show.find('span', attrs={"class": "genres"})
-        synopsis = single_show.find('div', attrs={"class": "overview"})
-        rating = show.find('div', attrs={"class": "outer_ring"})
-        certification = single_show.find('span', attrs={"class": "certification"})
-        if (certification is not None):
-           certification = certification.text.strip()
+def getData(soup):
+    show_array = []
 
-        showObject = {
-            "title": show.find('a', attrs={"class": "image"})['title'].strip(),
-            "synopsis": synopsis.find('p').text.strip(),
-            "genre": [g.text.strip() for g in genre.findAll('a')],
-            "rating": rating.find('div')['data-percent'].strip(),
-            "release_date": show.find('p').text.strip(),
-            "duration": single_show.find('span', attrs={"class": "runtime"}).text.strip(),
-            "certification": certification
-        }
+    for container in soup.findAll('div', attrs={'class': 'card style_1'}):
+        show_url = container.find('a', attrs={'class': 'image'})['href'].strip()
+        show_details = getShowDetails(show_url)
 
-        showArr.append(showObject)
+        show = {}
+        show['title'] = container.find('a', attrs={'class': 'image'})['title'].strip()
+        show = {**show, **show_details}
+        show['release_date'] = strToDate((container.find('p')).text.strip())
+        show['rating'] = float((container.find('div', attrs={'class': 'outer_ring'})).find('div')['data-percent'].strip())
 
-        sleep(10)
+        show_array.append(show)
 
-with open('../data/topRatedTVShowData.json', 'w') as outfile:
-    json.dump(showArr, outfile, indent=4)
+        sleep(2)
+
+    return show_array
+
+if __name__ == '__main__' :
+    header = {'user-agent': 'Indra Nugroho/indrafbrngrh@gmail.com'}
+
+    url = 'https://www.themoviedb.org'
+    next_url = '/tv/top-rated?page=1'
+    
+    i = 1
+    show_array = []
+    while next_url is not None:
+        response = requests.get(url + next_url, headers=header, timeout=5)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        show_array += getData(soup)
+        
+        print('Page %d success' % i)
+        
+        try:
+            next_url = (soup.find('div', attrs={'id': 'pagination_page_' + str(i)})).find('a')['href'].strip()
+        except AttributeError:
+            next_url = None
+
+        i += 1
+
+    with open('../data/TopRatedTVShowData.json', 'w') as outfile:
+        json.dump(show_array, outfile, indent=4)
