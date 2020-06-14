@@ -65,22 +65,26 @@ Setiap tuple data berisikan :
 1. ID
 2. Kode Produk
 3. Nama produk
-4. Label Produk (menyatakan apakah barang new / special price (beserta persentasenya jika merupakan barang sale) / limited edition)
+4. Label Produk (menyatakan apakah barang new / special price (beserta persentasenya jika merupakan barang sale) / limited edition , jika tidak terdapat label akan bernilai "None")
 5. Kategori Produk
 6. Subkategori Produk (contoh: untuk kategori dress terdapat Subkategori mini, midi dan maxi, jika barang tidak memiliki subkategori maka akan bernilai "None")
 7. Harga Awal / Asli produk
-8. Harga Diskon produk (Jika bukan barang sale, maka Harga Diskon kosong)
+8. Harga Diskon produk (Jika bukan barang sale, maka Harga Diskon -1)
 
 __Screenshot program__
 
 Screenshot 1
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss1.png)
+
 Screenshot 2
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss2.png)
+
 Screenshot 3
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss3.png)
+
 Screenshot 4
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss4.png)
+
 Screenshot 5
 ![alt_text](https://github.com/cacachandrika/Seleksi-2020-Tugas-1/tree/master/screenshots/ss5.png)
 
