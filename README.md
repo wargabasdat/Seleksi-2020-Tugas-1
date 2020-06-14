@@ -85,7 +85,7 @@ Tiap _record_ dalam JSON File hasil proses _data scraping_ ini memiliki atribut-
 
 ## Screenshot Program
 
-![Screenshot saat Program Dijalankan](https://github.com/fakhrurrida/Seleksi-2020-Tugas-1/blob/master/screenshots/ss_program.PNG?raw=true"SS Program")
+![Screenshot saat Program Dijalankan](https://github.com/fakhrurrida/Seleksi-2020-Tugas-1/blob/master/screenshots/ss_program.PNG?raw=true "SS Program")
 
 ![Snippet dari Scraped Data dalam CSV File](https://github.com/fakhrurrida/Seleksi-2020-Tugas-1/blob/master/screenshots/csvFile_snippet.PNG?raw=true "CSV File Snippet")
 
