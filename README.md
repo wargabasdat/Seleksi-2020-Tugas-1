@@ -85,11 +85,11 @@ Tiap _record_ dalam JSON File hasil proses _data scraping_ ini memiliki atribut-
 
 ## Screenshot Program
 
-![Screenshot saat Program Dijalankan](screenshots/ss_program.png "SS Program")
+![Screenshot saat Program Dijalankan](/screenshots/ss_program.png "SS Program")
 
-![Snippet dari Scraped Data dalam CSV File](screenshots/csvFile_snippet.png "CSV File Snippet")
+![Snippet dari Scraped Data dalam CSV File](/screenshots/csvFile_snippet.png "CSV File Snippet")
 
-![Snippet dari Scraped Data dalam JSON File](screenshots/jsonFile_snippet.png "JSONFile Snippet")
+![Snippet dari Scraped Data dalam JSON File](/screenshots/jsonFile_snippet.png "JSONFile Snippet")
 
 ## Reference(s)
 ### Library Used:
