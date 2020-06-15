@@ -31,7 +31,7 @@ Here is an example of the data stored in the JSON file
 
 ## Screenshot
 1. Obtaining Data Progress
-![ObtainingDataProgress\](/screenshot/ObtainingDataProgress.png)
+![ObtainingDataProgress](/screenshot/ObtainingDataProgress.png)
 2. Array content post-scraping
 ![Title](/screenshot/title_containers.png)
 ![Name](/screenshot/name_containers.png)
