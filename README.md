@@ -72,6 +72,7 @@ Data succesfully saved on data_results.json
 
 
 ## JSON Structure
+```
 {
 	"TVSeries": [ daftar TV series
 		{
@@ -188,6 +189,7 @@ Data succesfully saved on data_results.json
 		}
 	]
 }
+```
 
 ## Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
 1. Screenshot eksekusi program 1
