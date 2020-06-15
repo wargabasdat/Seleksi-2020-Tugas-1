@@ -1,6 +1,5 @@
 import os
 import re
-from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
 import json
@@ -51,5 +50,5 @@ for i in result:
         
 #Json
 with open('..\\data\\parttime.json', 'w') as outfile:
-    json.dump(data,outfile)
+    json.dump(data,outfile,indent = 4)
         
