@@ -52,7 +52,7 @@ Preprocessing contohnya :
 - Author
 ```
 ## Spesification
-Runtime: Python ver. 3.7.7
+Runtime: Python ver. 3.7.7\n
 Libraries used:
 - Request
 - BeautifulSoup
