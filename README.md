@@ -90,13 +90,13 @@ Product = {
 
 ### SCREENSHOT PROGRAM
 
-![Screenshot 1](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_1.png?raw=true "Capture 1")
-![Screenshot 2](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_2.png?raw=true "Capture 2")
-![Screenshot 3](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_3.png?raw=true "Capture 3")
-![Screenshot 4](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_4.png?raw=true "Capture 4")
-![Screenshot 5](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_5.png?raw=true "Capture 5")
-![Screenshot 6](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_6.png?raw=true "Capture 6")
-![Screenshot 7](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_7.png?raw=true "Capture 7")
+![Screenshot 1](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_1.PNG?raw=true "Capture 1")
+![Screenshot 2](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_2.PNG?raw=true "Capture 2")
+![Screenshot 3](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_3.PNG?raw=true "Capture 3")
+![Screenshot 4](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_4.PNG?raw=true "Capture 4")
+![Screenshot 5](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_5.PNG?raw=true "Capture 5")
+![Screenshot 6](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_6.PNG?raw=true "Capture 6")
+![Screenshot 7](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_7.PNG?raw=true "Capture 7")
 
 
 
