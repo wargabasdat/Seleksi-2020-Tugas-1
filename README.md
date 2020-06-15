@@ -52,7 +52,7 @@ Preprocessing contohnya :
 ```
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2020
+  README
   <br>
   <br>
 </h1>
@@ -63,8 +63,10 @@ Data berisikan data-data produk lego untuk usia 12+ dengan atribut berupa nama p
 
 ### SPESIFIKASI
 Keseluruhan source code menggunakan bahasa pemrograman Phyton, dengan library BeautifulSoup atau bs4 untuk webscraping di bahasa Python, library urllib.request untuk membuka url dan mengirim request, dan library JSON atau json untuk mengubah data ke dalam file json.
-Data yang diambil adalah data-data produk lego untuk usia 12+ dari URL https://www.lego.com/en-us/categories/age-12-plus-years
 
+Data yang diambil adalah data-data produk lego untuk usia 12+ dari URL https://www.lego.com/en-us/categories/age-12-plus-years dengan mengambil data-data nama produk, harga normal, harga sale, rating, dan status.
+
+Data yang diambil dimasukkan ke dalam file JSON dan diparse menggunakan jsbeautifier.
 
 ### HOW TO USE
 1. Mengimport library BeautifulSoup
@@ -73,7 +75,7 @@ Data yang diambil adalah data-data produk lego untuk usia 12+ dari URL https://w
 4. Pembuatan list yang nantinya akan didump ke file json
 5. Pemrosesan pembersihan data hanya yang diperlukan dan pemasukan ke dalam list
 6. Import library JSON dan list yang sudah ada di dump menjadi file json
-
+7. File JSON dimasukkan ke dalam jsbeautifier sehingga ter-parse dengan baik
 
 ### JSON STRUCTURE
 ```
@@ -87,7 +89,14 @@ Product = {
 ```
 
 ### SCREENSHOT PROGRAM
-<upload gambar>
+
+![Screenshot 1](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_1.png?raw=true "Capture 1")
+![Screenshot 2](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_2.png?raw=true "Capture 2")
+![Screenshot 3](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_3.png?raw=true "Capture 3")
+![Screenshot 4](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_4.png?raw=true "Capture 4")
+![Screenshot 5](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_5.png?raw=true "Capture 5")
+![Screenshot 6](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_6.png?raw=true "Capture 6")
+![Screenshot 7](/../TUGAS_SELEKSI_1_18218013/screenshots/Capture_7.png?raw=true "Capture 7")
 
 
 
@@ -99,6 +108,8 @@ https://www.youtube.com/watch?v=XQgXKtPSzUI&feature=youtu.be
 https://www.youtube.com/watch?v=Ogym0QZLDgw
 https://www.youtube.com/watch?v=rnIwmG1AKHg
 https://www.petanikode.com/markdown-pemula/
+https://beautifier.io/
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 ### DEVELOPING
