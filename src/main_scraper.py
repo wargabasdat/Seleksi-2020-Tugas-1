@@ -8,8 +8,7 @@ import threading
 import json
 import re
 
-gembok_error = threading.Lock()
-gembok_cetak = threading.Lock()
+
 gembok_link = threading.Lock()
 gembok_penambah = threading.Lock()
 gembok_data = threading.Lock()
@@ -19,13 +18,10 @@ pengakses = 0
 bulan = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 data = []
-done = 0
-errored = 0
 
 
 def soup_creator(url):
     global pengakses
-    global errored
     while pengakses > 20:
         gembok_link.acquire()
         time.sleep(5)
@@ -108,20 +104,31 @@ def data_scraper(url):
     if (article_soup.find('div',{'class':'crash-operator'})):
         article_operator = article_soup.find('div', {'class': 'crash-operator'})
         if (article_operator.find('img')):
-            img_operator = article_operator.find('img')['src']
-            i_operator = len(img_operator) - 5
-            while (img_operator[i_operator] != '/'):
-                i_operator -= 1
-            operator = img_operator[i_operator+1:len(img_operator)-4]
-            operator = operator.replace("%20", " ")
-            if (operator[len(operator)-2] == "-"):
-                operator = operator[:len(operator)-2]
+            link_operator = article_operator.find('a')['href']
+            link_operator = re.sub(".+field_crash_operator_target_id=","",link_operator)
+            operator = re.sub(" \(\d+\)","",link_operator)
         else:
             operator = article_operator.find('div').text
     else:
         operator = 'Data does not exist'
-    operator = re.sub("-\d","",operator)
-    operator = re.sub("_\d","",operator)
+    
+
+    # Lokasi Kecelakaan
+    if (article_soup.find('div',{'class':'crash-country'})):
+        if (article_soup.find('div',{'class':'crash-country'}).find('div').text == 'World'):
+            location = article_soup.find('div',{'class':'crash-location'}).find('div').text
+        else:
+            location = article_soup.find('div',{'class':'crash-country'}).find('div').text
+            if (article_soup.find('div',{'class':'crash-location'})):
+                daftar_lokasi = article_soup.find('div',{'class':'crash-location'}).findAll('div')
+                if (re.search("All ",daftar_lokasi[1].text)):
+                    location = daftar_lokasi[0].text + ", " + location
+                else:
+                    location = daftar_lokasi[1].text + ", " + location
+        location = re.sub(" \(.+\)","",location)
+    else:
+        location = 'Data does not exist'
+    # print(location)
 
     # Fase Penerbangan
     if (article_soup.find('div',{'class':'crash-flight-phase'})):
@@ -165,6 +172,7 @@ def data_scraper(url):
         'Airplane Operator':operator,
         'Airplane Type':airplane,
         'Flight Phase':phase,
+        'Crash Location':location,
         'Crash Site Terrain':terrain,
         'Crew on Board':crew,
         'Crew Casualties':crew_death,
@@ -192,12 +200,12 @@ def search_page_iterative(search_url, i):
 
 if __name__ == "__main__":
     start_url = "https://www.baaa-acro.com/crash-archives?field_crash_flight_type_target_id=12996&page="
-    # t_start = time.perf_counter()
     for i in range(0,1):
         search_page_iterative(start_url, i)
+    # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-vickers-408-wellington-ia-north-sea-1-killed')
     # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-airbus-a320-214-karachi-97-killed')
+    # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-airbus-a320-216-java-sea-162-killed')
     executor.shutdown(wait=True)
-    # t_stop = time.perf_counter()
-    # print(t_stop - t_start)
-    with open('data/data6.json','w') as f:
+    with open('data/data_testing.json','w',encoding='utf-8') as f:
+    # with open('data/data.json','w') as f:
         json.dump(data,f,indent=4,ensure_ascii=False)
