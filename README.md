@@ -32,9 +32,9 @@ Library:
 
 ## How to Use
 
-1. Masukkan script berikut ke dalam CLI pada <i>root directory</i> (*Note : Bila kode tidak berjalan, silahkan coba lagi dengan mengganti "python3" dengan "py")
+1. Masukkan script berikut ke dalam CLI pada <i>root directory</i> (*Note : Bila kode tidak berjalan, silahkan coba lagi dengan mengganti "python" dengan "py")
 ```
-$ python3 src/main_scraper.py
+$ python src/main_scraper.py
 ```
 2. Masukkan nama file hasil <i>data scraping</i> yang diinginkan tanpa ekstensi .json
 3. Tunggu beberapa saat
