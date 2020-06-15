@@ -7,18 +7,28 @@
 
 ## Description
 
+Program ini digunakan untuk melakukan <i> data scraping </i> data tentang kecelakaan penerbangan pesawat komersial dari website milik [Bureau of Aircraft Accidents Archives](https://baaa-acro.com).
+
+Hasil dari <i>data scraping</i> yang dilakukan oleh program adalah beberapa komponen dari kecelakaan penerbangan pesawat komersil, yaitu sebagai berikut:
+- Tanggal dan waktu kejadian
+- Jenis pesawat yang mengalami kejadian
+- Maskapai/ Operator penanggung jawab kejadian
+- Fase penerbangan saat kejadian terjadi
+- Lokasi dan topografi daerah tempat kejadian terjadi
+- Jumlah kru dan penumpang pada pesawat
+- Jumlah korban meninggal dunia
 
 
 ## Spesification
 
 Runtime: Python ver. 3.7.7
 
-Library used:
+Library:
 - BeautifulSoup (bs4)
 - concurrent.futures
 - json
-- Request
 - re
+- Request
 - threading
 
 ## How to Use
@@ -51,7 +61,7 @@ Library used:
 
 ## References
 
-Library used in this program:
+Library yang digunakann:
 - [bs4](https://www.crummy.com/software/BeautifulSoup/)
 - [concurrent futures](https://docs.python.org/3/library/concurrent.futures.html)
 - [json](https://docs.python.org/3/library/json.html)
