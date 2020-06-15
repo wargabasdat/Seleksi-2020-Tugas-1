@@ -68,4 +68,4 @@ Library yang digunakann:
 - [request](https://docs.python.org/3/library/urllib.request.html)
 - [threading](https://docs.python.org/3/library/threading.html)
 
-<h3>Rafael Sean Putra 13518119</h3>
+<h5>Rafael Sean Putra 13518119</h5>
