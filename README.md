@@ -8,16 +8,18 @@
 ## Description
 
 
+
 ## Spesification
 
 Runtime: Python ver. 3.7.7
 
 Library used:
-- Request
-- BeautifulSoup
+- BeautifulSoup (bs4)
 - concurrent.futures
 - json
+- Request
 - re
+- threading
 
 ## How to Use
 
@@ -26,16 +28,17 @@ Library used:
 ```
 [
     {
-      "Accident Date": "2020-05-22",
-      "Accident Time": "14:39",
-      "Airplane Operator": "Pakistan International Airlines",
-      "Airplane Type": "Airbus A320",
-      "Flight Phase": "Landing ",
-      "Crash Site Terrain": "City",
-      "Crew on Board": "8",
-      "Crew Casualties": "8",
-      "Passenger on Board": "91",
-      "Passenger Casualties": "89",
+      "Accident Date": "2019-09-16",
+      "Accident Time": "12:26",
+      "Airplane Operator": "twoFlex",
+      "Airplane Type": "Cessna 208B Grand Caravan",
+      "Flight Phase": "Takeoff ",
+      "Crash Location": "Amazonas, Brazil",
+      "Crash Site Terrain": "Airport ",
+      "Crew on Board": "2",
+      "Crew Casualties": "0",
+      "Passenger on Board": "8",
+      "Passenger Casualties": "0",
       "Other Casualties": "0"
     },
     {
@@ -54,3 +57,4 @@ Library used in this program:
 - [json](https://docs.python.org/3/library/json.html)
 - [re](https://docs.python.org/3/library/re.html)
 - [request](https://docs.python.org/3/library/urllib.request.html)
+- [threading](https://docs.python.org/3/library/threading.html)
