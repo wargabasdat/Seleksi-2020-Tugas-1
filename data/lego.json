@@ -1,0 +1,3012 @@
+{
+    "LEGO\u00ae Education SPIKE\u2122 Prime Set": {
+        "name": "LEGO\u00ae Education SPIKE\u2122 Prime Set",
+        "normal_price": 329.95,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "LEGO\u00ae Education SPIKE\u2122 Prime Expansion Set": {
+        "name": "LEGO\u00ae Education SPIKE\u2122 Prime Expansion Set",
+        "normal_price": 99.95,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Disney Train and Station": {
+        "name": "Disney Train and Station",
+        "normal_price": 329.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": "Exclusives"
+    },
+    "Old Trafford - Manchester United": {
+        "name": "Old Trafford - Manchester United",
+        "normal_price": 299.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": "New"
+    },
+    "LEGO\u00ae Education WeDo 2.0 Core Set": {
+        "name": "LEGO\u00ae Education WeDo 2.0 Core Set",
+        "normal_price": 214.95,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "A-wing Starfighter\u2122": {
+        "name": "A-wing Starfighter\u2122",
+        "normal_price": 199.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": "New"
+    },
+    "Simple & Powered Machines Set": {
+        "name": "Simple & Powered Machines Set",
+        "normal_price": 199.95,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Monkie Kid\u2019s Team Secret HQ": {
+        "name": "Monkie Kid\u2019s Team Secret HQ",
+        "normal_price": 169.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": "New"
+    },
+    "Monkey King Warrior Mech": {
+        "name": "Monkey King Warrior Mech",
+        "normal_price": 149.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": "New"
+    },
+    "Red Son\u2019s Inferno Truck": {
+        "name": "Red Son\u2019s Inferno Truck",
+        "normal_price": 119.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Harley-Davidson\u00ae Fat Boy\u00ae": {
+        "name": "Harley-Davidson\u00ae Fat Boy\u00ae",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": "Exclusives"
+    },
+    "Demon Bull King": {
+        "name": "Demon Bull King",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Fiat 500": {
+        "name": "Fiat 500",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": "Exclusives"
+    },
+    "Technic\u2122 Hub": {
+        "name": "Technic\u2122 Hub",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 1.0,
+        "status": "New"
+    },
+    "D-O\u2122": {
+        "name": "D-O\u2122",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": "New"
+    },
+    "International Space Station": {
+        "name": "International Space Station",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": "Exclusives"
+    },
+    "Pigsy\u2019s Food Truck": {
+        "name": "Pigsy\u2019s Food Truck",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "The Crafting Box 3.0": {
+        "name": "The Crafting Box 3.0",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Adventures with Mario Starter Course": {
+        "name": "Adventures with Mario Starter Course",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Boba Fett\u2122 Helmet": {
+        "name": "Boba Fett\u2122 Helmet",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": "New"
+    },
+    "Monkie Kid\u2019s Cloud Jet": {
+        "name": "Monkie Kid\u2019s Cloud Jet",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": "New"
+    },
+    "Brick-built Minions and their Lair": {
+        "name": "Brick-built Minions and their Lair",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 3.7,
+        "status": "New"
+    },
+    "Iron Bull Tank": {
+        "name": "Iron Bull Tank",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Technic\u2122 Large Motor": {
+        "name": "Technic\u2122 Large Motor",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Technic\u2122 XL Motor": {
+        "name": "Technic\u2122 XL Motor",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "The Redstone Battle": {
+        "name": "The Redstone Battle",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Wonder Woman\u2122 vs Cheetah": {
+        "name": "Wonder Woman\u2122 vs Cheetah",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "White Dragon Horse Bike": {
+        "name": "White Dragon Horse Bike",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": "New"
+    },
+    "Bracelet Mega Pack": {
+        "name": "Bracelet Mega Pack",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Creative Picture Frames": {
+        "name": "Creative Picture Frames",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Desk Organizer": {
+        "name": "Desk Organizer",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": "New"
+    },
+    "Jewelry Box": {
+        "name": "Jewelry Box",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Unstoppable Bike Chase": {
+        "name": "Unstoppable Bike Chase",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": "New"
+    },
+    "LEGO\u00ae Picture Frame": {
+        "name": "LEGO\u00ae Picture Frame",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Andrea's Shopping Play Cube": {
+        "name": "Andrea's Shopping Play Cube",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": "New"
+    },
+    "Emma's Shopping Play Cube": {
+        "name": "Emma's Shopping Play Cube",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "LEGO\u00ae Wall Hanger Rack": {
+        "name": "LEGO\u00ae Wall Hanger Rack",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Mia's Shopping Play Cube": {
+        "name": "Mia's Shopping Play Cube",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Stephanie's Shopping Play Cube": {
+        "name": "Stephanie's Shopping Play Cube",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Go Team! Bracelet": {
+        "name": "Go Team! Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Magic Forest Bracelet": {
+        "name": "Magic Forest Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Power Bracelet": {
+        "name": "Power Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Series 20": {
+        "name": "Series 20",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 3.2,
+        "status": "New"
+    },
+    "Extra DOTS - Series 2": {
+        "name": "Extra DOTS - Series 2",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "New"
+    },
+    "Bugatti Chiron": {
+        "name": "Bugatti Chiron",
+        "normal_price": 349.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": "Hard to find"
+    },
+    "Jurassic Park: T. rex Rampage": {
+        "name": "Jurassic Park: T. rex Rampage",
+        "normal_price": 249.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": "Hard to find"
+    },
+    "Vestas Wind Turbine": {
+        "name": "Vestas Wind Turbine",
+        "normal_price": 199.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": "Hard to find"
+    },
+    "Ford Mustang": {
+        "name": "Ford Mustang",
+        "normal_price": 149.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": "Hard to find"
+    },
+    "Gingerbread House": {
+        "name": "Gingerbread House",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": "Hard to find"
+    },
+    "NASA Apollo 11 Lunar Lander": {
+        "name": "NASA Apollo 11 Lunar Lander",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": "Hard to find"
+    },
+    "Winter Village Fire Station": {
+        "name": "Winter Village Fire Station",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": "Hard to find"
+    },
+    "Steamboat Willie": {
+        "name": "Steamboat Willie",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": "Hard to find"
+    },
+    "Pop-Up Book": {
+        "name": "Pop-Up Book",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": "Hard to find"
+    },
+    "LEGO\u00ae MINDSTORMS\u00ae EV3": {
+        "name": "LEGO\u00ae MINDSTORMS\u00ae EV3",
+        "normal_price": 349.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": "Retiring soon"
+    },
+    "Wyld-Mayhem Star Fighter": {
+        "name": "Wyld-Mayhem Star Fighter",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "Retiring soon"
+    },
+    "Emmet's Builder Box!": {
+        "name": "Emmet's Builder Box!",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "Retiring soon"
+    },
+    "Emmet's Triple-Decker Couch Mech": {
+        "name": "Emmet's Triple-Decker Couch Mech",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": "Retiring soon"
+    },
+    "Lucy's Builder Box!": {
+        "name": "Lucy's Builder Box!",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.7,
+        "status": "Retiring soon"
+    },
+    "Rex's Rex-treme Offroader!": {
+        "name": "Rex's Rex-treme Offroader!",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": "Retiring soon"
+    },
+    "Systar Party Crew": {
+        "name": "Systar Party Crew",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": "Retiring soon"
+    },
+    "Identity and Landscape Kit": {
+        "name": "Identity and Landscape Kit",
+        "normal_price": 789.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Connections Kit": {
+        "name": "Connections Kit",
+        "normal_price": 754.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Window Exploration Bag": {
+        "name": "Window Exploration Bag",
+        "normal_price": 484.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Liebherr R 9800 Excavator": {
+        "name": "Liebherr R 9800 Excavator",
+        "normal_price": 449.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "4X4 X-treme Off-Roader": {
+        "name": "4X4 X-treme Off-Roader",
+        "normal_price": 249.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "EV3 Intelligent Brick": {
+        "name": "EV3 Intelligent Brick",
+        "normal_price": 214.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Droid Commander": {
+        "name": "Droid Commander",
+        "normal_price": 199.99,
+        "sale_price": null,
+        "rating": 2.9,
+        "status": null
+    },
+    "Land Rover Defender": {
+        "name": "Land Rover Defender",
+        "normal_price": 199.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Car Transporter": {
+        "name": "Car Transporter",
+        "normal_price": 179.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "BOOST Creative Toolbox": {
+        "name": "BOOST Creative Toolbox",
+        "normal_price": 159.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "Passenger Train": {
+        "name": "Passenger Train",
+        "normal_price": 159.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Porsche 911 RSR": {
+        "name": "Porsche 911 RSR",
+        "normal_price": 149.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Rocket Assembly & Transport": {
+        "name": "Rocket Assembly & Transport",
+        "normal_price": 149.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "London Bus": {
+        "name": "London Bus",
+        "normal_price": 139.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "App-Controlled Top Gear Rally Car": {
+        "name": "App-Controlled Top Gear Rally Car",
+        "normal_price": 129.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Empire State Building": {
+        "name": "Empire State Building",
+        "normal_price": 129.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Heartlake City Amusement Pier": {
+        "name": "Heartlake City Amusement Pier",
+        "normal_price": 129.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Kylo Ren's Shuttle\u2122": {
+        "name": "Kylo Ren's Shuttle\u2122",
+        "normal_price": 129.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Land Bounty": {
+        "name": "Land Bounty",
+        "normal_price": 129.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Chinese New Year Temple Fair": {
+        "name": "Chinese New Year Temple Fair",
+        "normal_price": 119.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Statue of Liberty": {
+        "name": "Statue of Liberty",
+        "normal_price": 119.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Avengers Compound Battle": {
+        "name": "Avengers Compound Battle",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 3.3,
+        "status": null
+    },
+    "Batcave Clayface\u2122 Invasion": {
+        "name": "Batcave Clayface\u2122 Invasion",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Castle of the Forsaken Emperor": {
+        "name": "Castle of the Forsaken Emperor",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Compact Crawler Crane": {
+        "name": "Compact Crawler Crane",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Downtown Fire Brigade": {
+        "name": "Downtown Fire Brigade",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Hogwarts\u2122 Great Hall": {
+        "name": "Hogwarts\u2122 Great Hall",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Mobile Crane": {
+        "name": "Mobile Crane",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Police Station": {
+        "name": "Police Station",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Remote-Controlled Stunt Racer": {
+        "name": "Remote-Controlled Stunt Racer",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "World Animals": {
+        "name": "World Animals",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Yoda\u2122": {
+        "name": "Yoda\u2122",
+        "normal_price": 99.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "EV3 Rechargeable DC Battery": {
+        "name": "EV3 Rechargeable DC Battery",
+        "normal_price": 94.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Poe Dameron's X-wing Fighter\u2122": {
+        "name": "Poe Dameron's X-wing Fighter\u2122",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Rescue Mission Boat": {
+        "name": "Rescue Mission Boat",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Sky Police Air Base": {
+        "name": "Sky Police Air Base",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Watchpoint: Gibraltar": {
+        "name": "Watchpoint: Gibraltar",
+        "normal_price": 89.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "The Ultra Dragon": {
+        "name": "The Ultra Dragon",
+        "normal_price": 84.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Arendelle Castle Village": {
+        "name": "Arendelle Castle Village",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Avengers Ultimate Quinjet": {
+        "name": "Avengers Ultimate Quinjet",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Empire Temple of Madness": {
+        "name": "Empire Temple of Madness",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Ghost Train Express": {
+        "name": "Ghost Train Express",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Lion Dance": {
+        "name": "Lion Dance",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Lloyd's Titan Mech": {
+        "name": "Lloyd's Titan Mech",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Move Hub": {
+        "name": "Move Hub",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Sith TIE Fighter\u2122": {
+        "name": "Sith TIE Fighter\u2122",
+        "normal_price": 79.99,
+        "sale_price": null,
+        "rating": 3.3,
+        "status": null
+    },
+    "Fire Station": {
+        "name": "Fire Station",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Major Vonreg's TIE Fighter\u2122": {
+        "name": "Major Vonreg's TIE Fighter\u2122",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Mia's House": {
+        "name": "Mia's House",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Resistance Y-Wing Starfighter\u2122": {
+        "name": "Resistance Y-Wing Starfighter\u2122",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Stark Jet and the Drone Attack": {
+        "name": "Stark Jet and the Drone Attack",
+        "normal_price": 69.99,
+        "sale_price": null,
+        "rating": 3.9,
+        "status": null
+    },
+    "AT-AP\u2122 Walker": {
+        "name": "AT-AP\u2122 Walker",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Action Battle Echo Base\u2122 Defense": {
+        "name": "Action Battle Echo Base\u2122 Defense",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Avengers Hulk Helicopter Rescue": {
+        "name": "Avengers Hulk Helicopter Rescue",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Baryonyx Face-Off: The Treasure Hunt": {
+        "name": "Baryonyx Face-Off: The Treasure Hunt",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Bricks and Animals": {
+        "name": "Bricks and Animals",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Creative animals": {
+        "name": "Creative animals",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Fire Plane": {
+        "name": "Fire Plane",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Hagrid's Hut: Buckbeak's Rescue": {
+        "name": "Hagrid's Hut: Buckbeak's Rescue",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Heartlake City Restaurant": {
+        "name": "Heartlake City Restaurant",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Iron Man Hall of Armor": {
+        "name": "Iron Man Hall of Armor",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "LEGO\u00ae Large Creative Brick Box": {
+        "name": "LEGO\u00ae Large Creative Brick Box",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Lighthouse Rescue Center": {
+        "name": "Lighthouse Rescue Center",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Modular Playhouse": {
+        "name": "Modular Playhouse",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Paranormal Intercept Bus 3000": {
+        "name": "Paranormal Intercept Bus 3000",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Police Monster Truck Heist": {
+        "name": "Police Monster Truck Heist",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 3.3,
+        "status": null
+    },
+    "Shanghai": {
+        "name": "Shanghai",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Tokyo": {
+        "name": "Tokyo",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Triceratops Rampage": {
+        "name": "Triceratops Rampage",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Tropical Island": {
+        "name": "Tropical Island",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Twin-Rotor Helicopter": {
+        "name": "Twin-Rotor Helicopter",
+        "normal_price": 59.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "1967 Mini Cooper S Rally and 2018 MINI John Cooper Works Buggy": {
+        "name": "1967 Mini Cooper S Rally and 2018 MINI John Cooper Works Buggy",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Andrea's Pool Party": {
+        "name": "Andrea's Pool Party",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Bastion": {
+        "name": "Bastion",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Batman\u2122 Batwing and The Riddler\u2122 Heist": {
+        "name": "Batman\u2122 Batwing and The Riddler\u2122 Heist",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Beauxbatons' Carriage: Arrival at Hogwarts\u2122": {
+        "name": "Beauxbatons' Carriage: Arrival at Hogwarts\u2122",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Black Ace TIE Interceptor\u2122": {
+        "name": "Black Ace TIE Interceptor\u2122",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Buzz & Woody's Carnival Mania!": {
+        "name": "Buzz & Woody's Carnival Mania!",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Catamaran": {
+        "name": "Catamaran",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Chevrolet Corvette ZR1": {
+        "name": "Chevrolet Corvette ZR1",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Deluxe Brick Box": {
+        "name": "Deluxe Brick Box",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Enchanted Treehouse": {
+        "name": "Enchanted Treehouse",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Fairground Carousel": {
+        "name": "Fairground Carousel",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Frozen Ice Castle": {
+        "name": "Frozen Ice Castle",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Garage Center": {
+        "name": "Garage Center",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Haunted Fairground": {
+        "name": "Haunted Fairground",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Heartlake City Hospital": {
+        "name": "Heartlake City Hospital",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Hub": {
+        "name": "Hub",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 2.3,
+        "status": null
+    },
+    "Jay's Cyber Dragon": {
+        "name": "Jay's Cyber Dragon",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Junkrat & Roadhog": {
+        "name": "Junkrat & Roadhog",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Katana 4x4": {
+        "name": "Katana 4x4",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Lamborghini Urus ST-X & Lamborghini Hurac\u00e1n Super Trofeo EVO": {
+        "name": "Lamborghini Urus ST-X & Lamborghini Hurac\u00e1n Super Trofeo EVO",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Mickey's Vacation House": {
+        "name": "Mickey's Vacation House",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Mobile Command Center": {
+        "name": "Mobile Command Center",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Monster Burger Truck": {
+        "name": "Monster Burger Truck",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Paris": {
+        "name": "Paris",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Police Helicopter Transport": {
+        "name": "Police Helicopter Transport",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 1.9,
+        "status": null
+    },
+    "Pop Village Celebration": {
+        "name": "Pop Village Celebration",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Service Station": {
+        "name": "Service Station",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Shrimp Shack Attack": {
+        "name": "Shrimp Shack Attack",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Spider Mech vs. Venom": {
+        "name": "Spider Mech vs. Venom",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Stunt Show Truck & Bike": {
+        "name": "Stunt Show Truck & Bike",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "The Lighthouse of Darkness": {
+        "name": "The Lighthouse of Darkness",
+        "normal_price": 49.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "EV3 Color Sensor": {
+        "name": "EV3 Color Sensor",
+        "normal_price": 45.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Avengers Truck Take-down": {
+        "name": "Avengers Truck Take-down",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Baking Competition": {
+        "name": "Baking Competition",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Burger Bar Fire Rescue": {
+        "name": "Burger Bar Fire Rescue",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Creative Fun": {
+        "name": "Creative Fun",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "D.Va & Reinhardt": {
+        "name": "D.Va & Reinhardt",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Dolphins Rescue Mission": {
+        "name": "Dolphins Rescue Mission",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "El Fuego's Stunt Truck": {
+        "name": "El Fuego's Stunt Truck",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Elsa's Jewelry Box Creation": {
+        "name": "Elsa's Jewelry Box Creation",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Fire Fang": {
+        "name": "Fire Fang",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Funny Octopus Ride": {
+        "name": "Funny Octopus Ride",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Heartlake City Brick Box": {
+        "name": "Heartlake City Brick Box",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Jay's Storm Fighter": {
+        "name": "Jay's Storm Fighter",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Ninja Tuner Car": {
+        "name": "Ninja Tuner Car",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "Pasaana Speeder Chase": {
+        "name": "Pasaana Speeder Chase",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "People Pack - Space Research and Development": {
+        "name": "People Pack - Space Research and Development",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Police Helicopter Chase": {
+        "name": "Police Helicopter Chase",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "Rainbow Caterbus": {
+        "name": "Rainbow Caterbus",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 3.2,
+        "status": null
+    },
+    "Rescue Helicopter": {
+        "name": "Rescue Helicopter",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Riverside Houseboat": {
+        "name": "Riverside Houseboat",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Sky Police Parachute Arrest": {
+        "name": "Sky Police Parachute Arrest",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Spider-Man's Spider Crawler": {
+        "name": "Spider-Man's Spider Crawler",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Stephanie's Horse Jumping": {
+        "name": "Stephanie's Horse Jumping",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "The Knight Bus\u2122": {
+        "name": "The Knight Bus\u2122",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "The Pirate Ship Adventure": {
+        "name": "The Pirate Ship Adventure",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Volcano Rock City Concert": {
+        "name": "Volcano Rock City Concert",
+        "normal_price": 39.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Starter Kit": {
+        "name": "Starter Kit",
+        "normal_price": 36.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Bakery": {
+        "name": "Bakery",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "EV3 Gyro Sensor": {
+        "name": "EV3 Gyro Sensor",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "EV3 Infrared Beacon": {
+        "name": "EV3 Infrared Beacon",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "EV3 Infrared Sensor": {
+        "name": "EV3 Infrared Sensor",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "EV3 Ultrasonic Sensor": {
+        "name": "EV3 Ultrasonic Sensor",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "LEGO\u00ae Medium Creative Brick Box": {
+        "name": "LEGO\u00ae Medium Creative Brick Box",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Toy Story 4 RV Vacation": {
+        "name": "Toy Story 4 RV Vacation",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "War Machine Buster": {
+        "name": "War Machine Buster",
+        "normal_price": 34.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Transformer 10V DC": {
+        "name": "Transformer 10V DC",
+        "normal_price": 32.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "2018 Dodge Challenger SRT Demon and 1970 Dodge Charger R/T": {
+        "name": "2018 Dodge Challenger SRT Demon and 1970 Dodge Charger R/T",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Action Battle Endor\u2122 Assault": {
+        "name": "Action Battle Endor\u2122 Assault",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Action Battle Hoth\u2122 Generator Attack": {
+        "name": "Action Battle Hoth\u2122 Generator Attack",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.3,
+        "status": null
+    },
+    "Batmobile\u2122: Pursuit of The Joker\u2122": {
+        "name": "Batmobile\u2122: Pursuit of The Joker\u2122",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Black Widow's Helicopter Chase": {
+        "name": "Black Widow's Helicopter Chase",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Brick Box": {
+        "name": "Brick Box",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Bricks and Eyes": {
+        "name": "Bricks and Eyes",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "Bricks and Lights": {
+        "name": "Bricks and Lights",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Captain Marvel and The Skrull Attack": {
+        "name": "Captain Marvel and The Skrull Attack",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Cinderella's Castle Celebration": {
+        "name": "Cinderella's Castle Celebration",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "El Fuego's Stunt Plane": {
+        "name": "El Fuego's Stunt Plane",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Elsa's Wagon Adventure": {
+        "name": "Elsa's Wagon Adventure",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 2.7,
+        "status": null
+    },
+    "Empire Dragon": {
+        "name": "Empire Dragon",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Fire Chief Response Truck": {
+        "name": "Fire Chief Response Truck",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.3,
+        "status": null
+    },
+    "Fire Helicopter Response": {
+        "name": "Fire Helicopter Response",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 1.5,
+        "status": null
+    },
+    "Formula E Panasonic Jaguar Racing GEN2 car & Jaguar I-PACE eTROPHY": {
+        "name": "Formula E Panasonic Jaguar Racing GEN2 car & Jaguar I-PACE eTROPHY",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Gamer's Market": {
+        "name": "Gamer's Market",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Graveyard Mystery": {
+        "name": "Graveyard Mystery",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Hungarian Horntail Triwizard Challenge": {
+        "name": "Hungarian Horntail Triwizard Challenge",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Jay and Lloyd's Velocity Racers": {
+        "name": "Jay and Lloyd's Velocity Racers",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Kai's Blade Cycle & Zane's Snowmobile": {
+        "name": "Kai's Blade Cycle & Zane's Snowmobile",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Lonesome Flats Raft Adventure": {
+        "name": "Lonesome Flats Raft Adventure",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Luke Skywalker's Landspeeder\u2122": {
+        "name": "Luke Skywalker's Landspeeder\u2122",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Mia's Horse Trailer": {
+        "name": "Mia's Horse Trailer",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Moana's Island Home": {
+        "name": "Moana's Island Home",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Molten Man Battle": {
+        "name": "Molten Man Battle",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Mulan's Training Grounds": {
+        "name": "Mulan's Training Grounds",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Nature Glamping": {
+        "name": "Nature Glamping",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Newbury Subway": {
+        "name": "Newbury Subway",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Olivia's Cupcake Caf\u00e9": {
+        "name": "Olivia's Cupcake Caf\u00e9",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Police Highway Arrest": {
+        "name": "Police Highway Arrest",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Poppy's Hot Air Balloon Adventure": {
+        "name": "Poppy's Hot Air Balloon Adventure",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Race Boat Transporter": {
+        "name": "Race Boat Transporter",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Race Plane": {
+        "name": "Race Plane",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Racing Cars": {
+        "name": "Racing Cars",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Resistance A-Wing Starfighter\u2122": {
+        "name": "Resistance A-Wing Starfighter\u2122",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "ShuriCopter": {
+        "name": "ShuriCopter",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Sky Police Drone Chase": {
+        "name": "Sky Police Drone Chase",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Spiderjet vs. Venom Mech": {
+        "name": "Spiderjet vs. Venom Mech",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Super Heroes Lab": {
+        "name": "Super Heroes Lab",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "The Blaze Bridge": {
+        "name": "The Blaze Bridge",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "The Menace   of Mysterio": {
+        "name": "The Menace   of Mysterio",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "The Pillager Outpost": {
+        "name": "The Pillager Outpost",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Treehouse Treasures": {
+        "name": "Treehouse Treasures",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Ultrakatty & Warrior Lucy!": {
+        "name": "Ultrakatty & Warrior Lucy!",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Underwater Loop": {
+        "name": "Underwater Loop",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Venom Crawler": {
+        "name": "Venom Crawler",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Windows of Creativity": {
+        "name": "Windows of Creativity",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Wrecked Shrimp Boat": {
+        "name": "Wrecked Shrimp Boat",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "X-Wing Starfighter\u2122 Trench Run": {
+        "name": "X-Wing Starfighter\u2122 Trench Run",
+        "normal_price": 29.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Alphabet Truck": {
+        "name": "Alphabet Truck",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Buzz & Bo Peep's Playground Adventure": {
+        "name": "Buzz & Bo Peep's Playground Adventure",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "EV3 Medium Servo Motor": {
+        "name": "EV3 Medium Servo Motor",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "EV3 Touch Sensor": {
+        "name": "EV3 Touch Sensor",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Shuttle Transporter": {
+        "name": "Shuttle Transporter",
+        "normal_price": 24.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Remote Control": {
+        "name": "Remote Control",
+        "normal_price": 22.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Anakin's Jedi Starfighter\u2122": {
+        "name": "Anakin's Jedi Starfighter\u2122",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Andrea's Car & Stage": {
+        "name": "Andrea's Car & Stage",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Anna and Elsa's Storybook Adventures": {
+        "name": "Anna and Elsa's Storybook Adventures",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Anna's Canoe Expedition": {
+        "name": "Anna's Canoe Expedition",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Ariel's Storybook Adventures": {
+        "name": "Ariel's Storybook Adventures",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Avengers Speeder Bike Attack": {
+        "name": "Avengers Speeder Bike Attack",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Basic Brick Set": {
+        "name": "Basic Brick Set",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Belle's Storybook Adventures": {
+        "name": "Belle's Storybook Adventures",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Bricks and Houses": {
+        "name": "Bricks and Houses",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Captain America: Outriders Attack": {
+        "name": "Captain America: Outriders Attack",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "Carnival Thrill Coaster": {
+        "name": "Carnival Thrill Coaster",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Cole's Dirt Bike": {
+        "name": "Cole's Dirt Bike",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Construction Bulldozer": {
+        "name": "Construction Bulldozer",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Creative Suitcase": {
+        "name": "Creative Suitcase",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Death Star Cannon": {
+        "name": "Death Star Cannon",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Dilophosaurus on the Loose": {
+        "name": "Dilophosaurus on the Loose",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "Diving Yacht": {
+        "name": "Diving Yacht",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Dock Side Fire": {
+        "name": "Dock Side Fire",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "Dragster": {
+        "name": "Dragster",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Duel on Mustafar\u2122": {
+        "name": "Duel on Mustafar\u2122",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Duke Caboom's Stunt Show": {
+        "name": "Duke Caboom's Stunt Show",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "EV3 Cable Pack": {
+        "name": "EV3 Cable Pack",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Elsa and Olaf's Tea Party": {
+        "name": "Elsa and Olaf's Tea Party",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 2.8,
+        "status": null
+    },
+    "Expecto Patronum": {
+        "name": "Expecto Patronum",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Ferrari F8 Tributo": {
+        "name": "Ferrari F8 Tributo",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Fire Dragon": {
+        "name": "Fire Dragon",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Fire Truck": {
+        "name": "Fire Truck",
+        "normal_price": 6.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Garbage Truck": {
+        "name": "Garbage Truck",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Getaway Truck": {
+        "name": "Getaway Truck",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Heart Box": {
+        "name": "Heart Box",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Heartlake City Hair Salon": {
+        "name": "Heartlake City Hair Salon",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Ice-Cream Truck": {
+        "name": "Ice-Cream Truck",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "J.B.'s Ghost Lab": {
+        "name": "J.B.'s Ghost Lab",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Jack's Beach Buggy": {
+        "name": "Jack's Beach Buggy",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Kai's Fire Dragon": {
+        "name": "Kai's Fire Dragon",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Kai's Mech Jet": {
+        "name": "Kai's Mech Jet",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Kylo Ren\u2122 & Sith Trooper\u2122": {
+        "name": "Kylo Ren\u2122 & Sith Trooper\u2122",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Mia's Foal Stable": {
+        "name": "Mia's Foal Stable",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Mr. & Mrs. Claus": {
+        "name": "Mr. & Mrs. Claus",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Mr. Freeze\u2122 Batcycle\u2122 Battle": {
+        "name": "Mr. Freeze\u2122 Batcycle\u2122 Battle",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Mulan's Storybook Adventures": {
+        "name": "Mulan's Storybook Adventures",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "My First Car Creations": {
+        "name": "My First Car Creations",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "My First Fun Puzzle": {
+        "name": "My First Fun Puzzle",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Nissan GT-R NISMO": {
+        "name": "Nissan GT-R NISMO",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Pineapple Pencil Holder": {
+        "name": "Pineapple Pencil Holder",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Police Pursuit": {
+        "name": "Police Pursuit",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Poppy's Pod": {
+        "name": "Poppy's Pod",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "Race Truck": {
+        "name": "Race Truck",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Rocket Truck": {
+        "name": "Rocket Truck",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Safari Off-Roader": {
+        "name": "Safari Off-Roader",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Snow Groomer": {
+        "name": "Snow Groomer",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Snowspeeder\u2122": {
+        "name": "Snowspeeder\u2122",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": null
+    },
+    "Spider-Man Bike Rescue": {
+        "name": "Spider-Man Bike Rescue",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Spider-Man vs. Doc Ock": {
+        "name": "Spider-Man vs. Doc Ock",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Spinjitzu Slam - Kai vs. Samurai": {
+        "name": "Spinjitzu Slam - Kai vs. Samurai",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Submarine Adventure": {
+        "name": "Submarine Adventure",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Sunset Track Racer": {
+        "name": "Sunset Track Racer",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "T-16 Skyhopper\u2122 vs Bantha\u2122 Microfighters": {
+        "name": "T-16 Skyhopper\u2122 vs Bantha\u2122 Microfighters",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Techno Reef Dance Party": {
+        "name": "Techno Reef Dance Party",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 3.0,
+        "status": null
+    },
+    "The Chicken Coop": {
+        "name": "The Chicken Coop",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "The Golden Dragon": {
+        "name": "The Golden Dragon",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "The Mandalorian\u2122 & the Child": {
+        "name": "The Mandalorian\u2122 & the Child",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "The Panda Nursery": {
+        "name": "The Panda Nursery",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "The Skull Arena": {
+        "name": "The Skull Arena",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "The Wool Farm": {
+        "name": "The Wool Farm",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "The Zombie Cave": {
+        "name": "The Zombie Cave",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Toy Story Train": {
+        "name": "Toy Story Train",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Underwater Robot": {
+        "name": "Underwater Robot",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Vulture's Trucker Robbery": {
+        "name": "Vulture's Trucker Robbery",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Welcome to the Hidden Side": {
+        "name": "Welcome to the Hidden Side",
+        "normal_price": 19.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "LEGO\u00ae Creative Bricks": {
+        "name": "LEGO\u00ae Creative Bricks",
+        "normal_price": 16.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "Animal Picture Holders": {
+        "name": "Animal Picture Holders",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Bedroom": {
+        "name": "Bedroom",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "BigFig Creeper\u2122 and Ocelot": {
+        "name": "BigFig Creeper\u2122 and Ocelot",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "BigFig Pig with Baby Zombie": {
+        "name": "BigFig Pig with Baby Zombie",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Chevrolet Camaro ZL1 Race Car": {
+        "name": "Chevrolet Camaro ZL1 Race Car",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Curve and Crossroad": {
+        "name": "Curve and Crossroad",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Deep Sea Creatures": {
+        "name": "Deep Sea Creatures",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Futuristic Flyer": {
+        "name": "Futuristic Flyer",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Goofy & Pluto": {
+        "name": "Goofy & Pluto",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Gray Baseplate": {
+        "name": "Gray Baseplate",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.1,
+        "status": null
+    },
+    "LEGO\u00ae DUPLO\u00ae  Green Baseplate": {
+        "name": "LEGO\u00ae DUPLO\u00ae  Green Baseplate",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Lloyd's Journey": {
+        "name": "Lloyd's Journey",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Mandalorian\u2122 Battle Pack": {
+        "name": "Mandalorian\u2122 Battle Pack",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Mighty Dinosaurs": {
+        "name": "Mighty Dinosaurs",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Monster Truck": {
+        "name": "Monster Truck",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "My First Balancing Animals": {
+        "name": "My First Balancing Animals",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Olaf": {
+        "name": "Olaf",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Playroom": {
+        "name": "Playroom",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Rainbow Jewelry Stand": {
+        "name": "Rainbow Jewelry Stand",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Sith Troopers\u2122 Battle Pack": {
+        "name": "Sith Troopers\u2122 Battle Pack",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Straight and T-junction": {
+        "name": "Straight and T-junction",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 2.4,
+        "status": null
+    },
+    "Color & Distance Sensor": {
+        "name": "Color & Distance Sensor",
+        "normal_price": 13.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Train Motor": {
+        "name": "Train Motor",
+        "normal_price": 13.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Birthday Set": {
+        "name": "Birthday Set",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Buggy": {
+        "name": "Buggy",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Dune Buggy": {
+        "name": "Dune Buggy",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "MF Set \u2013 NINJAGO\u00ae 2019": {
+        "name": "MF Set \u2013 NINJAGO\u00ae 2019",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Mini CLAAS XERION": {
+        "name": "Mini CLAAS XERION",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Police MF Accessory Set": {
+        "name": "Police MF Accessory Set",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": 2.8,
+        "status": null
+    },
+    "Simple Medium Linear Motor": {
+        "name": "Simple Medium Linear Motor",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Trophy": {
+        "name": "Trophy",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Wedding Bride": {
+        "name": "Wedding Bride",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Wedding Groom": {
+        "name": "Wedding Groom",
+        "normal_price": 12.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Aurora's Royal Carriage": {
+        "name": "Aurora's Royal Carriage",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Baby Animals": {
+        "name": "Baby Animals",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Barbecue Burn Out": {
+        "name": "Barbecue Burn Out",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Batman\u2122 vs. The Riddler\u2122 Robbery": {
+        "name": "Batman\u2122 vs. The Riddler\u2122 Robbery",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Birthday Clown": {
+        "name": "Birthday Clown",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Bricks and Ideas": {
+        "name": "Bricks and Ideas",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Cherry Picker": {
+        "name": "Cherry Picker",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Cole's Speeder Car": {
+        "name": "Cole's Speeder Car",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Construction Loader": {
+        "name": "Construction Loader",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.9,
+        "status": null
+    },
+    "Donald Duck": {
+        "name": "Donald Duck",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Dragon Dance Guy": {
+        "name": "Dragon Dance Guy",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Easter Sheep": {
+        "name": "Easter Sheep",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Helicopter Adventure": {
+        "name": "Helicopter Adventure",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Ice Cream Cart": {
+        "name": "Ice Cream Cart",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Iron Man Mech": {
+        "name": "Iron Man Mech",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.4,
+        "status": null
+    },
+    "Jay Avatar - Arcade Pod": {
+        "name": "Jay Avatar - Arcade Pod",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Jungle Raider": {
+        "name": "Jungle Raider",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Kylo Ren's Shuttle\u2122 Microfighter": {
+        "name": "Kylo Ren's Shuttle\u2122 Microfighter",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 3.7,
+        "status": null
+    },
+    "Lady Liberty": {
+        "name": "Lady Liberty",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Light": {
+        "name": "Light",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 3.8,
+        "status": null
+    },
+    "Lloyd Avatar - Arcade Pod": {
+        "name": "Lloyd Avatar - Arcade Pod",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Lucky Cat": {
+        "name": "Lucky Cat",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Moana's Ocean Adventure": {
+        "name": "Moana's Ocean Adventure",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "My First Mickey Build": {
+        "name": "My First Mickey Build",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "My First Minnie Build": {
+        "name": "My First Minnie Build",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "My First Tow Truck": {
+        "name": "My First Tow Truck",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Pizza Stand": {
+        "name": "Pizza Stand",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Plane": {
+        "name": "Plane",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Police Bike": {
+        "name": "Police Bike",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Police Dog Unit": {
+        "name": "Police Dog Unit",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Propeller Plane": {
+        "name": "Propeller Plane",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Puppy Playground": {
+        "name": "Puppy Playground",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Resistance Y-wing\u2122 Microfighter": {
+        "name": "Resistance Y-wing\u2122 Microfighter",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Spider-Man Mech": {
+        "name": "Spider-Man Mech",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.7,
+        "status": null
+    },
+    "Spinjitzu Slam - Jay": {
+        "name": "Spinjitzu Slam - Jay",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Spinjitzu Slam - Lloyd": {
+        "name": "Spinjitzu Slam - Lloyd",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Spinjitzu Slam - Zane": {
+        "name": "Spinjitzu Slam - Zane",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Sports Car": {
+        "name": "Sports Car",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Street Sweeper": {
+        "name": "Street Sweeper",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Stunt Team": {
+        "name": "Stunt Team",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Thanksgiving Turkey": {
+        "name": "Thanksgiving Turkey",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Thanos Mech": {
+        "name": "Thanos Mech",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "The Taiga Adventure": {
+        "name": "The Taiga Adventure",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.3,
+        "status": null
+    },
+    "Woody & RC": {
+        "name": "Woody & RC",
+        "normal_price": 9.99,
+        "sale_price": null,
+        "rating": 4.6,
+        "status": null
+    },
+    "Blue Baseplate": {
+        "name": "Blue Baseplate",
+        "normal_price": 7.99,
+        "sale_price": null,
+        "rating": 4.0,
+        "status": null
+    },
+    "Green Baseplate": {
+        "name": "Green Baseplate",
+        "normal_price": 7.99,
+        "sale_price": null,
+        "rating": 2.7,
+        "status": null
+    },
+    "Creative Bag Charm": {
+        "name": "Creative Bag Charm",
+        "normal_price": 6.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Tow Truck": {
+        "name": "Tow Truck",
+        "normal_price": 6.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Cosmic Wonder Bracelet": {
+        "name": "Cosmic Wonder Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": null
+    },
+    "Creative Blue Bricks": {
+        "name": "Creative Blue Bricks",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Creative Green Bricks": {
+        "name": "Creative Green Bricks",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "DC Super Heroes Series": {
+        "name": "DC Super Heroes Series",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "Funky Animals Bracelet": {
+        "name": "Funky Animals Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Love Birds Bracelet": {
+        "name": "Love Birds Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 4.2,
+        "status": null
+    },
+    "Rainbow Bracelet": {
+        "name": "Rainbow Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Sparkly Unicorn Bracelet": {
+        "name": "Sparkly Unicorn Bracelet",
+        "normal_price": 4.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Botanical Accessories": {
+        "name": "Botanical Accessories",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Disco Batman\u2122 Tears of Batman\u2122": {
+        "name": "Disco Batman\u2122 Tears of Batman\u2122",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": null,
+        "status": null
+    },
+    "Extra DOTS - series 1": {
+        "name": "Extra DOTS - series 1",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": 3.4,
+        "status": null
+    },
+    "LEGO\u00ae xtra Sea Accessories": {
+        "name": "LEGO\u00ae xtra Sea Accessories",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "Sports Accessories": {
+        "name": "Sports Accessories",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "The Guardians' Ship": {
+        "name": "The Guardians' Ship",
+        "normal_price": 3.99,
+        "sale_price": null,
+        "rating": 5.0,
+        "status": null
+    },
+    "Brick Separator": {
+        "name": "Brick Separator",
+        "normal_price": 2.49,
+        "sale_price": null,
+        "rating": 4.8,
+        "status": null
+    },
+    "LEGO\u00ae Wooden Minifigure": {
+        "name": "LEGO\u00ae Wooden Minifigure",
+        "normal_price": 119.99,
+        "sale_price": null,
+        "rating": 3.5,
+        "status": "Exclusives"
+    },
+    "Lucy Plush": {
+        "name": "Lucy Plush",
+        "normal_price": 24.99,
+        "sale_price": 12.49,
+        "rating": null,
+        "status": "New"
+    },
+    "Falcon & Black Widow team up": {
+        "name": "Falcon & Black Widow team up",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Hogwarts\u2122 Students Acc. Set": {
+        "name": "Hogwarts\u2122 Students Acc. Set",
+        "normal_price": 14.99,
+        "sale_price": null,
+        "rating": 4.5,
+        "status": "New"
+    },
+    "Road Tape": {
+        "name": "Road Tape",
+        "normal_price": 8.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "Sweet Mayhem's Disco Pod": {
+        "name": "Sweet Mayhem's Disco Pod",
+        "normal_price": 8.99,
+        "sale_price": 4.49,
+        "rating": 4.3,
+        "status": "New"
+    },
+    "Water Tape": {
+        "name": "Water Tape",
+        "normal_price": 8.99,
+        "sale_price": null,
+        "rating": null,
+        "status": "New"
+    },
+    "THE LEGO\u00ae MOVIE 2\u2122 Sticker Roll": {
+        "name": "THE LEGO\u00ae MOVIE 2\u2122 Sticker Roll",
+        "normal_price": 3.99,
+        "sale_price": 1.99,
+        "rating": 3.0,
+        "status": "New"
+    }
+}
