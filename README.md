@@ -105,11 +105,11 @@ Data succesfully saved on data_results.json
 					"actor": nama aktor (cth: Pevita Pearce)
 				}
 			],
-            "directors": [ daftar director video
-                {
-                    "director" : nama director 
-                }
-            ],
+		        "directors": [ daftar director video
+				{
+				    "director" : nama director 
+				}
+		    	],
 			"seasons": [ daftar season 
 				{
 					"name": nama season (cth: Season 1)
@@ -144,7 +144,7 @@ Data succesfully saved on data_results.json
 			"availabilityStarts": waktu awal film dapat diakses di website,
 			"availabilityEnds": waktu akhir film dapat diakses di website,
 			"accessCategory": "nologinrequired",
-            "bestRating": rating terbaik film,
+            		"bestRating": rating terbaik film,
 			"ratingCount": jumlah rating film,
 			"ratingValue": rata-rata rating film,
 			"genre": [ daftar genre
@@ -153,20 +153,20 @@ Data succesfully saved on data_results.json
 				}
 			],
 			"subtitle": [ daftar subtitle
-                {
-                    "language" : bahasa subtitle (Cth : English)
-                }
-            ],
+				{
+				    "language" : bahasa subtitle (Cth : English)
+				}
+            		],
 			"starring": [ daftar pemain film
 				{
 					"actor": nama aktor
 				}
 			],
 			"directors": [ daftar director film
-                {
-                    "director" : nama director
-                }
-            ],
+				{
+				    "director" : nama director
+				}
+            		],
 			"eligibleRegion": [ daftar negara yang bisa mengakses film ini 
 				{
 					"country": nama negara (Cth: MY)
