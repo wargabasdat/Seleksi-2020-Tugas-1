@@ -12,6 +12,8 @@
   <br>
 </h2>
 
+## Deskripsi
+Topik dari data scraping ini adalah data women's clothing dan accesories dari sebuah laman web yaitu cottonon.com. Tools yang digunakan untuk data scraping ini adalah BeautifulSoup (python).
 
 ## Spesifikasi
 
@@ -50,3 +52,36 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+
+## How to use 
+Preresuisites :
+- bs4 : pip3 install bs4
+- urllib : pip3 install urllib
+
+Langkah-langkah untuk menjalankan program :
+- Masuk ke directory "src"
+- Jalankan python3 scraping.py pada terminal
+
+## JSON Structure 
+Struktur pada file JSON berupa object yang berisi name-value pair, yaitu setiap key memiliki 1 value. Key dari data tersebut terdiri dari Nama, Harga($), KetersediaanWarna, Merek, Promo, dan HargaPromo($). Type untuk nama adalah string, Harga($) adalah float, KetersediaanWarna adalah integer, Merek dan Promo adalah string, lalu untu HargaPromo($) adalah float.
+
+## Screenshot program
+
+![Screenshot1](/screenshots/Screenshot1.png)
+![Screenshot2](/screenshots/Screenshot2.png)
+![Screenshot3](/screenshots/Screenshot3.png)
+![Screenshot4](/screenshots/Screenshot4.png)
+![Screenshot5](/screenshots/Screenshot5.png)
+![Screenshot6](/screenshots/Screenshot6.png)
+![Screenshot7](/screenshots/Screenshot7.png)
+
+
+## Reference
+Library : BeautifulSoup dengan bahasa Python
+- https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+- https://www.youtube.com/watch?v=XQgXKtPSzUI
+
+
+## Author 
+Nama  : Cynthia Athena M. S.
+NIM   : 13518059
