@@ -13,7 +13,7 @@
 </h2>
 
 ## Deskripsi
-Data scraping dilakukan dari sebuah laman web yaitu cottonon.com. Tools yang digunakan untuk data scraping ini adalah BeautifulSoup (python).
+Topik dari data scraping ini adalah data women's clothing dan accesories yang dilakukan dari sebuah laman web yaitu cottonon.com. Tools yang digunakan untuk data scraping ini adalah BeautifulSoup (python).
 
 ## Spesifikasi
 
