@@ -62,7 +62,7 @@ Source code berisikan langkah-langkah web scraping dengan cara pengiriman reques
 Data berisikan data-data produk lego untuk usia 12+ dengan atribut berupa nama produk, harga normal, harga sale, rating, dan status
 
 ### SPESIFIKASI
-Keseluruhan source code menggunakan bahasa pemrograman Phyton, dengan library BeautifulSoup atau bs4 untuk webscraping di bahasa Python, library urllib.request untuk membuka url dan mengirim request, dan library JSON atau json untuk mengubah data ke dalam file json.
+Keseluruhan source code menggunakan bahasa pemrograman Phyton, dengan library BeautifulSoup atau bs4 untuk webscraping di bahasa Python, library urllib.request untuk membuka url dan mengirim request, dan library JSON atau json untuk mengubah data ke dalam file json. Pengerjaan dilakukan di Jupyter Notebook dan Visual Studio Code.
 
 Data yang diambil adalah data-data produk lego untuk usia 12+ dari URL https://www.lego.com/en-us/categories/age-12-plus-years dengan mengambil data-data nama produk, harga normal, harga sale, rating, dan status.
 
