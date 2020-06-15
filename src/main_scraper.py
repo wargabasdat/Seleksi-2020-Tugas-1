@@ -2,7 +2,7 @@
 
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor, Executor, wait
+from concurrent.futures import ThreadPoolExecutor, wait
 import time
 import threading
 import json
@@ -18,6 +18,7 @@ pengakses = 0
 bulan = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
          "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 data = []
+data_amount = 0
 
 
 def soup_creator(url):
@@ -48,7 +49,7 @@ def soup_creator(url):
 
 def data_scraper(url):
     global data
-
+    global data_amount
     # Membuat BeautifulSoup dari link artikel
     try:
         article_soup = soup_creator(url)
@@ -135,17 +136,22 @@ def data_scraper(url):
         phase = article_soup.find('div',{'class':'crash-flight-phase'}).find('div').text
     else:
         phase = 'Data does not exist'
+    phase = re.sub("\((.+)\)","",phase)
     
     # Terrain kecelakaan
     if (article_soup.find('div',{'class':'crash-site'})):
         terrain = article_soup.find('div',{'class':'crash-site'}).find('div').text
     else:
         terrain = 'Data does not exist'
-    phase = re.sub("\((.+)\)","",phase)
+    terrain = re.sub("\((.+)\)","",terrain)
+    
 
     # Jumlah kru, penumpang, dan korban meninggal dunia
     if (article_soup.find('div', {'class': 'crash-crew-on-board'})):
-        crew = article_soup.find('div', {'class': 'crash-crew-on-board'}).find('div').text
+        if (article_soup.find('div', {'class': 'crash-crew-on-board'}).find('div').text == '0'):
+            crew = 'Data does not exist'
+        else:
+            crew = article_soup.find('div', {'class': 'crash-crew-on-board'}).find('div').text
     else:
         crew = 'Data does not exist'
     if (article_soup.find('div', {'class': 'crash-crew-fatalities'})):
@@ -153,7 +159,10 @@ def data_scraper(url):
     else:
         crew_death = 'Data does not exist'
     if (article_soup.find('div', {'class': 'crash-pax-on-board'})):
-        pax = article_soup.find('div', {'class': 'crash-pax-on-board'}).find('div').text
+        if (crew == 'Data does not exist') and (article_soup.find('div', {'class': 'crash-pax-on-board'}).find('div').text == '0'):
+            pax = 'Data does not exist'
+        else:
+            pax = article_soup.find('div', {'class': 'crash-pax-on-board'}).find('div').text
     else:
         pax = 'Data does not exist'
     if (article_soup.find('div', {'class': 'crash-pax-fatalities'})):
@@ -179,6 +188,7 @@ def data_scraper(url):
         'Passenger on Board':pax,
         'Passenger Casualties':pax_death,
         'Other Casualties':other_death})
+    data_amount += 1
     gembok_data.release()
 
 def search_page_iterative(search_url, i):
@@ -199,13 +209,16 @@ def search_page_iterative(search_url, i):
 
 
 if __name__ == "__main__":
+    nama_file = input("Silahkan masukkan nama file (tanpa extensi .json): ")
     start_url = "https://www.baaa-acro.com/crash-archives?field_crash_flight_type_target_id=12996&page="
-    for i in range(0,1):
+    for i in range(0,62):
         search_page_iterative(start_url, i)
     # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-vickers-408-wellington-ia-north-sea-1-killed')
     # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-airbus-a320-214-karachi-97-killed')
     # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-airbus-a320-216-java-sea-162-killed')
     executor.shutdown(wait=True)
-    with open('data/data_testing.json','w',encoding='utf-8') as f:
-    # with open('data/data.json','w') as f:
+    direktori = 'data/' + nama_file + '.json'
+    # with open('data/data_testing.json','w',encoding='utf-8') as f:
+    with open(direktori,'w',encoding='utf-8') as f:
         json.dump(data,f,indent=4,ensure_ascii=False)
+    print(str(data_amount) + " data berhasil disimpan di" + direktori)
