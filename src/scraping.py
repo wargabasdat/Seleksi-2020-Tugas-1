@@ -216,9 +216,9 @@ try :
     current_directory = os.getcwd()
     parent_directory = os.path.split(current_directory)[0]
     with open((parent_directory+'/data/data.json'), 'w') as json_file:
-    json.dump(records, json_file)
+        json.dump(records, json_file)
 
     print(len(records))
-    
+
 except :
     print("error occured")
