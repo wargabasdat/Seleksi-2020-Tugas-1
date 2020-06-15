@@ -61,8 +61,9 @@ Preprocessing contohnya :
 ```
 
 ## How To Use
-Jalankan perintah berikut pada directory __src__
+Clone repository ini, lalu jalankan perintah berikut pada repository ini
 ```
+cd src
 py scrapper.py
 ```
 
@@ -103,7 +104,7 @@ Hasil _scrapping_ dapat dilihat pada file plants.json di directory data.
 
 ## Screenshot Program
 
-![ss](screenshots/img1.PNG)
+![ss](screenshots/code.PNG)
 
 ## References
 1. __Python__
