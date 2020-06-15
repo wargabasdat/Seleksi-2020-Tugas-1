@@ -1,0 +1,453 @@
+{
+  "plants": [
+    {
+      "name": "Abutilon megapotamicum",
+      "prop": "3 lt pot (60cm cane)",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "oderately fertile",
+        "freely draining"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": "October"
+      }
+    },
+    {
+      "name": "Trachelospermum jasminoides",
+      "prop": "2 lt pot (60cm cane)",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "fertile",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Wisteria sinensis",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun",
+        "light, dappled shade"
+      ],
+      "soil": [
+        "fertile",
+        "moist",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "fast-growing",
+      "flower-period": {
+        "start-month": "May",
+        "end-month": "June"
+      }
+    },
+    {
+      "name": "Acer palmatum Bloodgood",
+      "prop": "2 litre pot - 25cm",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "partial shade",
+        "full sun (but not south-facing)"
+      ],
+      "soil": [
+        "fertile",
+        "moist",
+        "well-drained neutral to acid soil"
+      ],
+      "rate-of-growth": "slow-growing",
+      "flower-period": {
+        "start-month": "April",
+        "end-month": "May"
+      }
+    },
+    {
+      "name": "Acer palmatum Sango-kaku",
+      "prop": "3 litre pot - 30cm",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 5
+      },
+      "position": [
+        "lightly, dappled shade"
+      ],
+      "soil": [
+        "fertile",
+        "moist",
+        "well-drained neutral to acid soil"
+      ],
+      "rate-of-growth": "slow-growing",
+      "flower-period": {
+        "start-month": "April",
+        "end-month": "May"
+      }
+    },
+    {
+      "name": "Achillea millefolium Cerise Queen",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "well-drained",
+        "including dry soil"
+      ],
+      "rate-of-growth": "fast-growing",
+      "flower-period": {
+        "start-month": "May",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Achillea Terracotta",
+      "prop": "2 litre pot",
+      "price": 12.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "moist",
+        "well-drained"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": "September"
+      }
+    },
+    {
+      "name": "Achillea ptarmica (The Pearl Group) The Pearl (clonal)",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 10
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "moist",
+        "well-drained"
+      ],
+      "rate-of-growth": "fast-growing",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Actinidia kolomikta",
+      "prop": "2 lt pot (60cm cane)",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 8
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "fertile",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average to fast-growing",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": null
+      }
+    },
+    {
+      "name": "Agastache Blue Fortune",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 18
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "well-drained",
+        "fertile soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "July",
+        "end-month": "October"
+      }
+    },
+    {
+      "name": "Ajuga reptans Atropurpurea",
+      "prop": "9cm pot",
+      "price": 6.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "soil": [
+        "any moist",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "fast-growing",
+      "flower-period": {
+        "start-month": "April",
+        "end-month": "June"
+      }
+    },
+    {
+      "name": "Alchemilla mollis",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 14
+      },
+      "position": [
+        "us-rich soil"
+      ],
+      "soil": [
+        "f growth:  fast-growing"
+      ],
+      "rate-of-growth": ":  June to September",
+      "flower-period": {
+        "start-month": "hardyNo garden should be without this beautiful and useful perennial. It has scalloped, bright green leaves which catch droplets of water that look like quicksilver and from June",
+        "end-month": "September, it produces a frothy haze of tiny, chartreuse yellow flowers. It\u2019s ideal plan ted en-masse for groundcover or edging paths, it tolerates a range of  adverse conditions including heavy clay and, once established, is drought tolerant.   Alchemilla mollis takes its name from the Arabic, meaning little magical one, as in the Middle Ages the water collected from its leaves after a morning dew was said"
+      }
+    },
+    {
+      "name": "Anchusa azurea Dropmore",
+      "prop": "approx 25 seeds",
+      "price": 2.49,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "fertile",
+        "moist",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "June",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Bergenia Abendglut",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "soil": [
+        "any soil"
+      ],
+      "rate-of-growth": "average to fast",
+      "flower-period": {
+        "start-month": "March",
+        "end-month": "April"
+      }
+    },
+    {
+      "name": "Bergenia Silberlicht",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "soil": [
+        "any soil"
+      ],
+      "rate-of-growth": "average to fast",
+      "flower-period": {
+        "start-month": "March",
+        "end-month": "April"
+      }
+    },
+    {
+      "name": "blackcurrant Ben Connan",
+      "prop": "3 litre pot",
+      "price": 12.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "any well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "ardyA small",
+        "end-month": "medium sized shrub that shows good resistance"
+      }
+    },
+    {
+      "name": "Campanula portenschlagiana",
+      "prop": "9cm pot",
+      "price": 6.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 12
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "soil": [
+        "moist",
+        "well-drained",
+        "fertile soil"
+      ],
+      "rate-of-growth": "fast-growing",
+      "flower-period": {
+        "start-month": "July",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Carex testacea",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "soil": [
+        "any",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "July",
+        "end-month": "August"
+      }
+    },
+    {
+      "name": "Caryopteris clandonensis Heavenly Blue",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 13
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "moderately fertile",
+        "light",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "August and September",
+        "end-month": null
+      }
+    },
+    {
+      "name": "Ceanothus thyrsiflorus var. repens",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 5
+      },
+      "position": [
+        "full sun"
+      ],
+      "soil": [
+        "fertile",
+        "well-drained soil"
+      ],
+      "rate-of-growth": "average",
+      "flower-period": {
+        "start-month": "May",
+        "end-month": "June"
+      }
+    }
+  ]
+}
