@@ -55,10 +55,11 @@ Contoh data:
 ### Screenshot
 
 <p align = "center">
-<img src = "screenshots/ss1">
-<img src = "screenshots/ss2">
+<img src = "screenshots/ss1.png">
 </p>
-
+<p align = "center">
+<img src = "screenshots/ss2.png">
+</p>
 ### Reference
 
 ```
