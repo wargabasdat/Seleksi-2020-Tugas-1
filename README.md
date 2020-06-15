@@ -194,18 +194,25 @@ Data succesfully saved on data_results.json
 ## Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
 1. Screenshot eksekusi program 1
 ![Image of Eksekusi Program 1](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Eksekusi%20Program-1.png)
+
 2. Screenshot eksekusi program 2
 ![Image of Eksekusi Program 2](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Eksekusi%20Program-2.png)
+
 3. Screenshot eksekusi program 3
 ![Image of Eksekusi Program 3](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Eksekusi%20Program-3.png)
+
 4. Screenshot website iflix.com!
 [Image of website iflix.com](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Website%20iflix.com.png)
+
 5. Screenshot salah satu page Movie dalam iflix.com
 ![Image of salah satu page Movie](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Salah%20satu%20page%20Movie%20dalam%20iflix.com.png)
+
 6. Screenshot salah satu page TVSeries dalam iflix.com
 ![Image of salah satu page TVSeries](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Salah%20satu%20page%20TVSeries%20dalam%20iflix.com.png)
+
 7. Screenshot salah satu page Clip dalam iflix.com
 ![Image of salah satu page Clip](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Salah%20satu%20page%20Clip%20dalam%20iflix.com.png)
+
 8. Screenshot file json hasil data scraping
 ![Image of file json](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Hasil%20data%20scrape.png)
 
