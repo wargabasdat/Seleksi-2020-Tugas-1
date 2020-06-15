@@ -50,3 +50,34 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+
+Description
+Pada tugas ini, diambil data top anime dari website https://myanimelist.net/topanime.php
+Karena pada page ini ditampilkan 50 judul, maka data yang didapat berjumlah 50
+Data scraping dilakukan dengan bahasa python dengan bantuan jupyter notebook
+
+Specification
+Data yang diambil mencakup judul anime, nilai rating anime tersebut, jenis anime (serial atau film), dan nomor urut
+Semua tipe data yang didapat berupa text
+
+How to use
+1. Dengan python, install library beautifulsoup dengan command pip install bs4 pada cmd
+2. Mulai menulis kode untuk mengambil url, agar lebih mudah saya menggunakan jupyter notebook
+3. Melakukan setting urllib
+4. Membuat file .json
+5. Mengambil webpage
+6. Mengevaluasi webpage, dan mengambil container yang berisi data-data yang diperlukan menggunakan fungsi findAll
+7. Melakukan scraping dari container yang didapat untuk memperoleh data yang paling tepat (contoh: nama, score)
+8. Menuliskan data yang sudah didapat ke file .json
+
+JSON Structure
+{"lists": [{rank,name,score,type}]}
+
+Screenshot
+
+
+Reference
+https://www.youtube.com/watch?v=XQgXKtPSzUI&t=1667s
+
+Author
+Vincentius Ian Widi Nugroho 18218034
