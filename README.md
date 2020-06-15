@@ -193,6 +193,7 @@ Data succesfully saved on data_results.json
 
 ## Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
 1. Screenshot eksekusi program 1
+![Image of Eksekusi Program 1](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Eksekusi%20Program-1.png)
 2. Screenshot eksekusi program 2
 3. Screenshot eksekusi program 3
 4. Screenshot website iflix.com
