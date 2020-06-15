@@ -39,37 +39,28 @@ def get_details(href):
     prod_detail = soup.find('div', class_="productdt-top-left-wrap")
     li = prod_detail.find_all('li')
     details['position'] = li[0].text[10:].strip().split(" or ")
-    details['soil'] = li[1].text[6:].strip().split(", ")
-    details['rate-of-growth'] = li[2].text[16:].strip()
     
-    details['flower-period'] = {} 
-    f = details['flower-period']
-    flower_period = li[3].text[18:].strip().split(" to ")
-    f['start-month'] = flower_period[0]
-    if len(flower_period) > 1:
-        f['end-month'] = flower_period[1]
-    else:
-        f['end-month'] = None
+    # Extract nickname
+    div = soup.find('div', class_='product_pricefrom')
+    details['nickname'] = div.find('h2').text.strip().replace("'","")
 
     return details
 
     
-def scrape_page():
+def scrape_page(page_url):
     '''
     Scrape bath/shower products
     data from a single page
     '''
 
     # Creates a request
-    r = requests.get(URL, HEADER)
-    # print(r.text[:500])
+    r = requests.get(page_url, HEADER)
 
     # Initialize soup for html parsing
     soup = bs4.BeautifulSoup(r.text, 'html.parser')
     
     # Dictionary to hold data
-    data['plants'] = []
-    plants = data['plants']
+    plants = []
     
     # Scrape the plants' name
     details = []
@@ -107,35 +98,30 @@ def scrape_page():
             'rating-count' : details[i]['rating-count']
         }
         plants[i]['position'] = details[i]['position']
-        plants[i]['soil'] = details[i]['soil']
-        plants[i]['rate-of-growth'] = details[i]['rate-of-growth']
-        plants[i]['flower-period'] = details[i]['flower-period']
+        plants[i]['nickname'] = details[i]['nickname']
 
+    return plants
+
+def scrape():
+    ''' Scrapes plants' data from various pages '''
+    data['plants'] = []
+    plants = data['plants']
+
+    for i in range(4):
+        if i == 0:
+            plants.extend(scrape_page(URL))
+        else:
+            plants.extend(scrape_page(URL+"start.{}/".format(i+1)))
+        time.sleep(1)         
 
 def json_dump():
     ''' Dumps the dictionary as a json dump file '''
 
     with open('../data/plants.json', 'w') as out:
         out.write(json.dumps(data, indent=2))
-
-def go_to_link():
-
-    # Creates a request
-    r  = requests.get("https://www.crocus.co.uk/plants/_/alchemilla-mollis/classid.233/", HEADER)
-    soup = bs4.BeautifulSoup(r.text, 'lxml')
-
-    div = soup.find('div', class_='productdt-top-left-wrap')
-    li = div.find_all('li')
-    for l in li:
-        print(l.text)
-    print(li[0].text[10:].split(" or "))
-    print(li[1].text[6:].split(", "))
-    print(li[2].text[16:])
-    print(li[3].text[18:].split(" to "))
-
-
+    
+    print("Data successfully saved to plants.json")
     
 if __name__ == "__main__":
-    scrape_page()
+    scrape()
     json_dump()
-    # go_to_link()

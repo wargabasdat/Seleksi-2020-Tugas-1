@@ -1,232 +1,65 @@
 {
   "plants": [
     {
-      "name": "Abutilon megapotamicum",
-      "prop": "3 lt pot (60cm cane)",
-      "price": 19.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 0,
-        "rating-count": 0
-      },
-      "position": [
-        "full sun"
-      ],
-      "soil": [
-        "oderately fertile",
-        "freely draining"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": "October"
-      }
-    },
-    {
-      "name": "Trachelospermum jasminoides",
-      "prop": "2 lt pot (60cm cane)",
-      "price": 24.99,
+      "name": "Polystichum aculeatum",
+      "prop": "2 litre pot",
+      "price": 16.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 5,
-        "rating-count": 1
+        "rating-count": 3
       },
       "position": [
-        "full sun"
+        "full",
+        "partial shade"
       ],
-      "soil": [
-        "fertile",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": "August"
-      }
+      "nickname": "hard shield fern"
     },
     {
-      "name": "Wisteria sinensis",
+      "name": "Polystichum munitum",
       "prop": "2 litre pot",
-      "price": 19.99,
+      "price": 16.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 5,
-        "rating-count": 1
+        "rating-count": 3
       },
       "position": [
-        "full sun",
-        "light, dappled shade"
+        "full",
+        "partial shade"
       ],
-      "soil": [
-        "fertile",
-        "moist",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "fast-growing",
-      "flower-period": {
-        "start-month": "May",
-        "end-month": "June"
-      }
+      "nickname": "sword fern"
     },
     {
-      "name": "Acer palmatum Bloodgood",
-      "prop": "2 litre pot - 25cm",
-      "price": 29.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 0,
-        "rating-count": 0
-      },
-      "position": [
-        "partial shade",
-        "full sun (but not south-facing)"
-      ],
-      "soil": [
-        "fertile",
-        "moist",
-        "well-drained neutral to acid soil"
-      ],
-      "rate-of-growth": "slow-growing",
-      "flower-period": {
-        "start-month": "April",
-        "end-month": "May"
-      }
-    },
-    {
-      "name": "Acer palmatum Sango-kaku",
-      "prop": "3 litre pot - 30cm",
-      "price": 29.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 5,
-        "rating-count": 5
-      },
-      "position": [
-        "lightly, dappled shade"
-      ],
-      "soil": [
-        "fertile",
-        "moist",
-        "well-drained neutral to acid soil"
-      ],
-      "rate-of-growth": "slow-growing",
-      "flower-period": {
-        "start-month": "April",
-        "end-month": "May"
-      }
-    },
-    {
-      "name": "Achillea millefolium Cerise Queen",
-      "prop": "2 litre pot",
-      "price": 14.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 0,
-        "rating-count": 0
-      },
-      "position": [
-        "full sun"
-      ],
-      "soil": [
-        "well-drained",
-        "including dry soil"
-      ],
-      "rate-of-growth": "fast-growing",
-      "flower-period": {
-        "start-month": "May",
-        "end-month": "August"
-      }
-    },
-    {
-      "name": "Achillea Terracotta",
-      "prop": "2 litre pot",
-      "price": 12.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 0,
-        "rating-count": 0
-      },
-      "position": [
-        "full sun"
-      ],
-      "soil": [
-        "moist",
-        "well-drained"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": "September"
-      }
-    },
-    {
-      "name": "Achillea ptarmica (The Pearl Group) The Pearl (clonal)",
+      "name": "Rosmarinus Miss Jessopps Upright",
       "prop": "2 litre pot",
       "price": 14.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 5,
-        "rating-count": 10
+        "rating-count": 9
       },
       "position": [
         "full sun"
       ],
-      "soil": [
-        "moist",
-        "well-drained"
-      ],
-      "rate-of-growth": "fast-growing",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": "August"
-      }
+      "nickname": "rosemary / (syn Salvia rosmarinus ) Miss Jessopps Upright"
     },
     {
-      "name": "Actinidia kolomikta",
-      "prop": "2 lt pot (60cm cane)",
-      "price": 24.99,
+      "name": "thyme golden-scented",
+      "prop": "9cm pot",
+      "price": 5.99,
       "availability": "within 4 weeks",
       "rating": {
-        "avg-rating": 4,
-        "rating-count": 8
+        "avg-rating": 0,
+        "rating-count": 0
       },
       "position": [
         "full sun"
       ],
-      "soil": [
-        "fertile",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average to fast-growing",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": null
-      }
+      "nickname": "golden-scented thyme Thymus pulegioides Aureus"
     },
     {
-      "name": "Agastache Blue Fortune",
-      "prop": "2 litre pot",
-      "price": 14.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 5,
-        "rating-count": 18
-      },
-      "position": [
-        "full sun"
-      ],
-      "soil": [
-        "well-drained",
-        "fertile soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "July",
-        "end-month": "October"
-      }
-    },
-    {
-      "name": "Ajuga reptans Atropurpurea",
+      "name": "Lobelia cardinalis",
       "prop": "9cm pot",
       "price": 6.99,
       "availability": "within 4 weeks",
@@ -238,41 +71,12 @@
         "full sun",
         "partial shade"
       ],
-      "soil": [
-        "any moist",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "fast-growing",
-      "flower-period": {
-        "start-month": "April",
-        "end-month": "June"
-      }
+      "nickname": "cardinal flower"
     },
     {
-      "name": "Alchemilla mollis",
+      "name": "thyme - Silver Posie",
       "prop": "9cm pot",
       "price": 5.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 5,
-        "rating-count": 14
-      },
-      "position": [
-        "us-rich soil"
-      ],
-      "soil": [
-        "f growth:  fast-growing"
-      ],
-      "rate-of-growth": ":  June to September",
-      "flower-period": {
-        "start-month": "hardyNo garden should be without this beautiful and useful perennial. It has scalloped, bright green leaves which catch droplets of water that look like quicksilver and from June",
-        "end-month": "September, it produces a frothy haze of tiny, chartreuse yellow flowers. It\u2019s ideal plan ted en-masse for groundcover or edging paths, it tolerates a range of  adverse conditions including heavy clay and, once established, is drought tolerant.   Alchemilla mollis takes its name from the Arabic, meaning little magical one, as in the Middle Ages the water collected from its leaves after a morning dew was said"
-      }
-    },
-    {
-      "name": "Anchusa azurea Dropmore",
-      "prop": "approx 25 seeds",
-      "price": 2.49,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 4,
@@ -281,65 +85,114 @@
       "position": [
         "full sun"
       ],
-      "soil": [
-        "fertile",
-        "moist",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "June",
-        "end-month": "August"
-      }
+      "nickname": "thyme / Thymus Silver Posie"
     },
     {
-      "name": "Bergenia Abendglut",
-      "prop": "2 litre pot",
-      "price": 14.99,
+      "name": "Lysichiton camtschatcensis",
+      "prop": "9cm pot",
+      "price": 11.99,
       "availability": "within 4 weeks",
       "rating": {
-        "avg-rating": 4,
-        "rating-count": 1
+        "avg-rating": 0,
+        "rating-count": 0
       },
       "position": [
         "full sun",
         "partial shade"
       ],
-      "soil": [
-        "any soil"
-      ],
-      "rate-of-growth": "average to fast",
-      "flower-period": {
-        "start-month": "March",
-        "end-month": "April"
-      }
+      "nickname": "bog arum"
     },
     {
-      "name": "Bergenia Silberlicht",
-      "prop": "2 litre pot",
-      "price": 14.99,
+      "name": "Nuphar lutea",
+      "prop": "1 litre aquatic pot",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "brandy bottle"
+    },
+    {
+      "name": "Nymphaea alba",
+      "prop": "1 litre aquatic pot",
+      "price": 29.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 5,
         "rating-count": 1
       },
       "position": [
+        "full sun"
+      ],
+      "nickname": "white water lily"
+    },
+    {
+      "name": "Nymphaea Marliacea Carnea",
+      "prop": "1 litre aquatic pot",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "water lily"
+    },
+    {
+      "name": "Rhododendron Kosters Brilliant Red",
+      "prop": "4 litre pot",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
         "full sun",
         "partial shade"
       ],
-      "soil": [
-        "any soil"
-      ],
-      "rate-of-growth": "average to fast",
-      "flower-period": {
-        "start-month": "March",
-        "end-month": "April"
-      }
+      "nickname": "deciduous azalea"
     },
     {
-      "name": "blackcurrant Ben Connan",
-      "prop": "3 litre pot",
-      "price": 12.99,
+      "name": "Phyllostachys nigra",
+      "prop": "2 litre pot 20-30cm",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 15
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "black bamboo"
+    },
+    {
+      "name": "Rosa Flower Carpet Sunshine (Noason) (PBR)",
+      "prop": "4 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rose Flower Carpet Sunshine (ground cover rose)"
+    },
+    {
+      "name": "Rosa Flower Carpet Scarlet (Noa83100b) (PBR)",
+      "prop": "4 litre pot",
+      "price": 19.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 0,
@@ -348,43 +201,348 @@
       "position": [
         "full sun"
       ],
-      "soil": [
-        "any well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "ardyA small",
-        "end-month": "medium sized shrub that shows good resistance"
-      }
+      "nickname": "rose Flower Carpet Scarlet (ground cover rose)"
     },
     {
-      "name": "Campanula portenschlagiana",
-      "prop": "9cm pot",
-      "price": 6.99,
+      "name": "Rosa Iceberg (Korbin)",
+      "prop": "4lt pot (floribunda)",
+      "price": 19.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 5,
-        "rating-count": 12
+        "rating-count": 4
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rose Iceberg  (bush floribunda)"
+    },
+    {
+      "name": "Anemone \u00d7 hybrida Honorine Jobert",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 33
       },
       "position": [
         "full sun",
         "partial shade"
       ],
-      "soil": [
-        "moist",
-        "well-drained",
-        "fertile soil"
-      ],
-      "rate-of-growth": "fast-growing",
-      "flower-period": {
-        "start-month": "July",
-        "end-month": "August"
-      }
+      "nickname": "Japanese anemone"
     },
     {
-      "name": "Carex testacea",
+      "name": "Passiflora caerulea Constance Eliott",
+      "prop": "2 lt pot (40cm cane)",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 7
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "passion flower"
+    },
+    {
+      "name": "Pyracantha Saphyr Orange (Cadange) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn"
+    },
+    {
+      "name": "Pyracantha Saphyr Rouge (Cadrou) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn (syn. Saphyr Red)"
+    },
+    {
+      "name": "Pyracantha Saphyr Jaune (Cadaune) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn (syn. Saphyr Yellow)"
+    },
+    {
+      "name": "Aster \u00d7 frikartii M\u00f6nch",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 26
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "michaelmas daisy - aster Monch"
+    },
+    {
+      "name": "Trachelospermum asiaticum",
+      "prop": "2 lt pot (60cm cane)",
+      "price": 34.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "Chinesse jasmine"
+    },
+    {
+      "name": "Astilbe Fanal (\u00d7 arendsii)",
+      "prop": "9cm pot",
+      "price": 6.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 7
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "false goatsbeard"
+    },
+    {
+      "name": "Juniperus squamata Blue Star",
+      "prop": "3 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "lightly dappled shade"
+      ],
+      "nickname": "flaky juniperus"
+    },
+    {
+      "name": "Picea glauca var. albertiana Conica",
+      "prop": "3 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Alberta spruce Conica"
+    },
+    {
+      "name": "Erigeron karvinskianus",
+      "prop": "2 litre pot",
+      "price": 12.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 46
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Mexican fleabane (syn. Profusion )"
+    },
+    {
+      "name": "Eryngium bourgatii",
+      "prop": "9cm pot",
+      "price": 8.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "sea holly"
+    },
+    {
+      "name": "Euphorbia amygdaloides Purpurea",
       "prop": "2 litre pot",
       "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "partial shade"
+      ],
+      "nickname": "wood spurge"
+    },
+    {
+      "name": "Foeniculum vulgare Giant Bronze",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 11
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "bronze fennel / Foeniculum vulgare Giant Bronze"
+    },
+    {
+      "name": "Geranium \u00d7 johnsonii Johnsons Blue",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 5
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "cranesbill"
+    },
+    {
+      "name": "Geranium macrorrhizum Bevans Variety",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "full shade"
+      ],
+      "nickname": "Balkan cranesbill"
+    },
+    {
+      "name": "Geranium \u00d7 magnificum Rosemoor",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "cranesbill"
+    },
+    {
+      "name": "Geum Mrs J. Bradshaw",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "avens"
+    },
+    {
+      "name": "Heuchera villosa Palace Purple",
+      "prop": "9cm pot",
+      "price": 7.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 4
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "coral bells"
+    },
+    {
+      "name": "Iris Jane Phillips",
+      "prop": "2 litre pot",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "bearded iris"
+    },
+    {
+      "name": "Iris Tropic Night",
+      "prop": "2 litre pot",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "Siberian iris ( syn Iris sibirica Tropic Night)"
+    },
+    {
+      "name": "Knautia macedonica",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 30
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Macedonian scabious"
+    },
+    {
+      "name": "Leucanthemum  \u00d7 superbum Wirral Supreme",
+      "prop": "2 litre pot",
+      "price": 14.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 4,
@@ -394,60 +552,35 @@
         "full sun",
         "partial shade"
       ],
-      "soil": [
-        "any",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "July",
-        "end-month": "August"
-      }
+      "nickname": "shasta daisy"
     },
     {
-      "name": "Caryopteris clandonensis Heavenly Blue",
+      "name": "Linaria purpurea Canon Went",
+      "prop": "approx 150 seeds",
+      "price": 2.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "toadflax"
+    },
+    {
+      "name": "Liriope muscari",
       "prop": "2 litre pot",
-      "price": 14.99,
+      "price": 17.99,
       "availability": "within 4 weeks",
       "rating": {
         "avg-rating": 4,
         "rating-count": 13
       },
       "position": [
-        "full sun"
+        "partial to full shade, but will tolerate a sunnier spot if the soil is reliably moist."
       ],
-      "soil": [
-        "moderately fertile",
-        "light",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "August and September",
-        "end-month": null
-      }
-    },
-    {
-      "name": "Ceanothus thyrsiflorus var. repens",
-      "prop": "2 litre pot",
-      "price": 14.99,
-      "availability": "within 4 weeks",
-      "rating": {
-        "avg-rating": 5,
-        "rating-count": 5
-      },
-      "position": [
-        "full sun"
-      ],
-      "soil": [
-        "fertile",
-        "well-drained soil"
-      ],
-      "rate-of-growth": "average",
-      "flower-period": {
-        "start-month": "May",
-        "end-month": "June"
-      }
+      "nickname": "big blue lily-turf"
     }
   ]
 }
