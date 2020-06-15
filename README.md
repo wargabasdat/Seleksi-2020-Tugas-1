@@ -21,6 +21,7 @@ This project is all done using Jupyter Notebook from Anaconda. The file extensio
 
 ## JSON Structure
 Here is an example of the data stored in the JSON file
+<pre>
 {
   "30": {
         "Title": "EXO The 6th Album \u2018OBSESSION\u2019",
@@ -28,6 +29,7 @@ Here is an example of the data stored in the JSON file
         "Date": "2019.11.27"
     },
 }
+<pre>
 
 ## Screenshot
 1. Obtaining Data Progress
