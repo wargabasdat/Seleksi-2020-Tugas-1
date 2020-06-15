@@ -12,6 +12,7 @@
   <br>
 </h2>
 
+## Description
 
 ## Spesifikasi
 
@@ -50,3 +51,19 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+## Spesification
+
+## How to Use
+
+## JSON Structure
+
+## Screenshot Program
+
+## Reference
+Program created using Python version 3.7.7
+Library used:
+- urllib
+- BeautifulSoup
+- Concurrent
+- json
+- re
