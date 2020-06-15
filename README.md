@@ -201,8 +201,8 @@ Data succesfully saved on data_results.json
 3. Screenshot eksekusi program 3
 ![Image of Eksekusi Program 3](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Eksekusi%20Program-3.png)
 
-4. Screenshot website iflix.com!
-[Image of website iflix.com](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Website%20iflix.com.png)
+4. Screenshot website iflix.com
+![Image of website iflix.com](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Website%20iflix.com.png)
 
 5. Screenshot salah satu page Movie dalam iflix.com
 ![Image of salah satu page Movie](https://github.com/inkariyadi/Seleksi-2020-Tugas-1/blob/master/screenshots/Salah%20satu%20page%20Movie%20dalam%20iflix.com.png)
