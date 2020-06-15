@@ -1,52 +1,56 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2020
-  <br>
-  <br>
-</h1>
+## Description
+Every year, K-Pop agency, SM Entertainment also known as SMTOWN released many albums that their artist sang. This is the project to scrape the title, artist, and release date of every album that SMTOWN had released from its official website using python.
 
-<h2 align="center">
-  <br>
-  Tugas 1 : Data Scraping
-  <br>
-  <br>
-</h2>
+## Specification
+Below are the libraries that we used for this project:
+1. BeautifulSoup
+- This library is used for scraping. BeautifulSoup is one of the easiest offered by python for data scraping. It is easy to learn and user-friendly for beginner.
+2. requests dan get
+- Used for requesting the URL Page and get the response from the page. Later used for parse the HTML Page.
+3. time
+- Only used for give interval by using time.sleep(x), x = interval in seconds for scraping every page to prevent spamming the website.
+4. json
+- This library will be used to dump or export data we obtained into JSON file.
 
+This project is all done using Jupyter Notebook from Anaconda. The file extension will be .ipynb instead of the normal .py
 
-## Spesifikasi
+## How to use
+1. Clone this repository https://github.com/cindyoji/Seleksi-2020-Tugas-1.git
+2. Using jupyter notebook, open file smtown.ipynb
+3. Run the code from kernel tab
 
-### Data Scraping
+## JSON Structure
+Here is an example of the data stored in the JSON file
+<pre>
+{
+  "30": {
+        "Title": "EXO The 6th Album \u2018OBSESSION\u2019",
+        "Artist": "EXO",
+        "Date": "2019.11.27"
+    },
+}
+</pre>
 
-1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
+## Screenshot
+1. Obtaining Data Progress
+- ![ObtainingDataProgress](/screenshot/ObtainingDataProgress.png)
+2. Array content post-scraping
+- ![Title](/screenshot/title_containers.png)
+- ![Name](/screenshot/name_containers.png)
+- ![Date](/screenshot/date_containers.png)
 
-2. Daftarkan judul topik yang akan dijadikan bahan _data scraping_ dan DBMS yang akan digunakan pada spreadsheet berikut: [Topik Data Scraping](https://docs.google.com/spreadsheets/d/1TKpyye-ZuoW0npGzylXqvQng3zYm0EzfA9RHjfeFZBk/edit?usp=sharing). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal __8 Juni 2020 pukul 23.59 WIB__
+## Reference
+1. Target website for scraping: https://www.smtown.com/album
+2. Tutorial for data scraping:
+   - https://stackoverflow.com/questions/41063019/python-web-scraping-page-loop
+   - https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+3. Tutorial for dump data to JSON:
+   - https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
+   - https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
 
-3. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2020-Tugas-1. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_1_[NIM]```
+## Author
+Cindy Olivia Gunawan
 
-4. Pada _repository_ tugas 1, calon warga basdat harus mengumpulkan _file script_, json hasil _data scraping_. _Repository_ terdiri dari _folder_ `src`, `data` dan `screenshots`. _Folder_ `src` berisi _file script_/kode yang __*WELL DOCUMENTED* dan *CLEAN CODE*__, _folder_ `data` berisi _file_ json hasil _scraper_ sedangkan _folder_ `screenshot` berisi tangkapan layar program.
+18218017
 
-5. Deadline pengumpulan tugas 1 adalah <span style="color:red">__15 Juni 2020 Pukul 23.59 WIB__</span>
-
-6. Sebagai referensi untuk mengenal _data scraping_, asisten menyediakan dokumen "_Short Guidance To Data Scraping_" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance). Mohon memperhatikan etika dalam melakukan _scraping_.
-
-7. Tambahkan juga `.gitignore` pada _file_ atau _folder_ yang tidak perlu di-_upload_, __NB: BINARY TIDAK DIUPLOAD__
-
-8. JSON harus dinormalisasi dan harus di-_preprocessing_
-```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-9. Berikan `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
-```
-- Description
-- Specification
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
-```
+Information System and Technology
