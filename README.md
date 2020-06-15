@@ -32,7 +32,7 @@ Library:
 
 ## How to Use
 
-1. Masukkan script berikut ke dalam CLI pada <i>root directory</i> (*Note : Bila kode tidak berjalan, silahkan coba lagi dengan mengganti "python" dengan "py")
+1. Masukkan script berikut ke dalam CLI pada <i>root directory</i> (*Note : Bila kode tidak berjalan, silahkan coba lagi dengan mengganti "python" dengan "py" atau "python3")
 ```
 $ python src/main_scraper.py
 ```
