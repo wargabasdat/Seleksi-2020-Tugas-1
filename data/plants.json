@@ -1,0 +1,586 @@
+{
+  "plants": [
+    {
+      "name": "Polystichum aculeatum",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full",
+        "partial shade"
+      ],
+      "nickname": "hard shield fern"
+    },
+    {
+      "name": "Polystichum munitum",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full",
+        "partial shade"
+      ],
+      "nickname": "sword fern"
+    },
+    {
+      "name": "Rosmarinus Miss Jessopps Upright",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 9
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rosemary / (syn Salvia rosmarinus ) Miss Jessopps Upright"
+    },
+    {
+      "name": "thyme golden-scented",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "golden-scented thyme Thymus pulegioides Aureus"
+    },
+    {
+      "name": "Lobelia cardinalis",
+      "prop": "9cm pot",
+      "price": 6.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "cardinal flower"
+    },
+    {
+      "name": "thyme - Silver Posie",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "thyme / Thymus Silver Posie"
+    },
+    {
+      "name": "Lysichiton camtschatcensis",
+      "prop": "9cm pot",
+      "price": 11.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "bog arum"
+    },
+    {
+      "name": "Nuphar lutea",
+      "prop": "1 litre aquatic pot",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "brandy bottle"
+    },
+    {
+      "name": "Nymphaea alba",
+      "prop": "1 litre aquatic pot",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "white water lily"
+    },
+    {
+      "name": "Nymphaea Marliacea Carnea",
+      "prop": "1 litre aquatic pot",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "water lily"
+    },
+    {
+      "name": "Rhododendron Kosters Brilliant Red",
+      "prop": "4 litre pot",
+      "price": 29.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "deciduous azalea"
+    },
+    {
+      "name": "Phyllostachys nigra",
+      "prop": "2 litre pot 20-30cm",
+      "price": 24.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 15
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "black bamboo"
+    },
+    {
+      "name": "Rosa Flower Carpet Sunshine (Noason) (PBR)",
+      "prop": "4 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rose Flower Carpet Sunshine (ground cover rose)"
+    },
+    {
+      "name": "Rosa Flower Carpet Scarlet (Noa83100b) (PBR)",
+      "prop": "4 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rose Flower Carpet Scarlet (ground cover rose)"
+    },
+    {
+      "name": "Rosa Iceberg (Korbin)",
+      "prop": "4lt pot (floribunda)",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 4
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "rose Iceberg  (bush floribunda)"
+    },
+    {
+      "name": "Anemone \u00d7 hybrida Honorine Jobert",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 33
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "Japanese anemone"
+    },
+    {
+      "name": "Passiflora caerulea Constance Eliott",
+      "prop": "2 lt pot (40cm cane)",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 7
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "passion flower"
+    },
+    {
+      "name": "Pyracantha Saphyr Orange (Cadange) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn"
+    },
+    {
+      "name": "Pyracantha Saphyr Rouge (Cadrou) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn (syn. Saphyr Red)"
+    },
+    {
+      "name": "Pyracantha Saphyr Jaune (Cadaune) (PBR)",
+      "prop": "2 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "firethorn (syn. Saphyr Yellow)"
+    },
+    {
+      "name": "Aster \u00d7 frikartii M\u00f6nch",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 26
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "michaelmas daisy - aster Monch"
+    },
+    {
+      "name": "Trachelospermum asiaticum",
+      "prop": "2 lt pot (60cm cane)",
+      "price": 34.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "Chinesse jasmine"
+    },
+    {
+      "name": "Astilbe Fanal (\u00d7 arendsii)",
+      "prop": "9cm pot",
+      "price": 6.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 7
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "false goatsbeard"
+    },
+    {
+      "name": "Juniperus squamata Blue Star",
+      "prop": "3 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "lightly dappled shade"
+      ],
+      "nickname": "flaky juniperus"
+    },
+    {
+      "name": "Picea glauca var. albertiana Conica",
+      "prop": "3 litre pot",
+      "price": 19.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Alberta spruce Conica"
+    },
+    {
+      "name": "Erigeron karvinskianus",
+      "prop": "2 litre pot",
+      "price": 12.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 46
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Mexican fleabane (syn. Profusion )"
+    },
+    {
+      "name": "Eryngium bourgatii",
+      "prop": "9cm pot",
+      "price": 8.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "sea holly"
+    },
+    {
+      "name": "Euphorbia amygdaloides Purpurea",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 3
+      },
+      "position": [
+        "partial shade"
+      ],
+      "nickname": "wood spurge"
+    },
+    {
+      "name": "Foeniculum vulgare Giant Bronze",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 11
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "bronze fennel / Foeniculum vulgare Giant Bronze"
+    },
+    {
+      "name": "Geranium \u00d7 johnsonii Johnsons Blue",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 5
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "cranesbill"
+    },
+    {
+      "name": "Geranium macrorrhizum Bevans Variety",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 0,
+        "rating-count": 0
+      },
+      "position": [
+        "full sun",
+        "full shade"
+      ],
+      "nickname": "Balkan cranesbill"
+    },
+    {
+      "name": "Geranium \u00d7 magnificum Rosemoor",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "cranesbill"
+    },
+    {
+      "name": "Geum Mrs J. Bradshaw",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 6
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "avens"
+    },
+    {
+      "name": "Heuchera villosa Palace Purple",
+      "prop": "9cm pot",
+      "price": 7.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 4
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "coral bells"
+    },
+    {
+      "name": "Iris Jane Phillips",
+      "prop": "2 litre pot",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 1
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "bearded iris"
+    },
+    {
+      "name": "Iris Tropic Night",
+      "prop": "2 litre pot",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "Siberian iris ( syn Iris sibirica Tropic Night)"
+    },
+    {
+      "name": "Knautia macedonica",
+      "prop": "9cm pot",
+      "price": 5.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 30
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "Macedonian scabious"
+    },
+    {
+      "name": "Leucanthemum  \u00d7 superbum Wirral Supreme",
+      "prop": "2 litre pot",
+      "price": 14.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun",
+        "partial shade"
+      ],
+      "nickname": "shasta daisy"
+    },
+    {
+      "name": "Linaria purpurea Canon Went",
+      "prop": "approx 150 seeds",
+      "price": 2.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 2
+      },
+      "position": [
+        "full sun"
+      ],
+      "nickname": "toadflax"
+    },
+    {
+      "name": "Liriope muscari",
+      "prop": "2 litre pot",
+      "price": 17.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 4,
+        "rating-count": 13
+      },
+      "position": [
+        "partial to full shade, but will tolerate a sunnier spot if the soil is reliably moist."
+      ],
+      "nickname": "big blue lily-turf"
+    }
+  ]
+}

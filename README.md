@@ -9,13 +9,22 @@
   <br>
   Tugas 1 : Data Scraping
   <br>
+  Data Tanaman Hias dari Crocus
   <br>
 </h2>
 
+## Description
+
+_Web scraper_ untuk mengambil data tanaman dari crocus.co.uk berupa:
+
+- Nama tanaman
+- Jenis pot yang dibutuhkan
+- Harga tanaman
+- Ketersediaan tanaman
+- Rating tanaman (jika ada)
+- Posisi cocok untuk tanaman
 
 ## Spesifikasi
-
-### Data Scraping
 
 1. Lakukan _data scraping_ dari sebuah laman web untuk memperoleh data atau informasi tertentu __TANPA MENGGUNAKAN API__. Hasil _data scraping_ ini nantinya akan disimpan dalam DBMS dan digunakan sebagai bahan tugas analisis dan visualisasi data.
 
@@ -50,3 +59,59 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+
+## How To Use
+Clone repository ini, lalu jalankan perintah berikut pada repository ini
+```
+cd src
+py scrapper.py
+```
+
+Hasil _scrapping_ dapat dilihat pada file plants.json di directory data.
+
+## JSON Structure
+```
+{
+  "plants": [
+    {
+      "name": "Polystichum aculeatum",
+      "prop": "2 litre pot",
+      "price": 16.99,
+      "availability": "within 4 weeks",
+      "rating": {
+        "avg-rating": 5,
+        "rating-count": 3
+      },
+      "position": [
+        "full",
+        "partial shade"
+      ],
+      "nickname": "hard shield fern"
+    },
+    ...
+```
+#### Keterangan
+- __name__ - nama (latin) tanaman
+- __prop__ - pot sesuai dengan tanaman
+- __price__ - harga tanaman
+- __availability__ - ketersediaan tanaman
+- __rating__ - rating tanaman
+  - __avg-rating__ - rata-rata rating
+  - __rating-count__ - jumlah orang yang meninggalkan rating
+- __position__ - posisi ideal tanaman untuk tumbuh
+- __nickname__ - nama (umum) tanaman
+
+
+## Screenshot Program
+
+![ss](screenshots/code.png)
+
+## References
+1. __Python__
+2. __BeautifulSoup__ - Kakas untuk melakukan parsing HTML 
+3. __requests__ - Kakas untuk melakukan request pada URL yang diinginkan
+4. __json__ - Kakas untuk menyimpan data dalam format .json
+5. __time__ - Kakas untuk memberikan jeda waktu pada setiap requests
+
+## Author
+__William Fu__ - 13518055
