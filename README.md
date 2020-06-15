@@ -104,7 +104,7 @@ Hasil _scrapping_ dapat dilihat pada file plants.json di directory data.
 
 ## Screenshot Program
 
-![ss](screenshots/code.PNG)
+![ss](screenshots/code.png)
 
 ## References
 1. __Python__
