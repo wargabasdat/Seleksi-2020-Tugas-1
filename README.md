@@ -2,7 +2,6 @@
   <br>
   Aircraft Accident Archives Data Scraper
   <br>
-  <br>
 </h2>
 
 ## Description
@@ -68,3 +67,5 @@ Library yang digunakann:
 - [re](https://docs.python.org/3/library/re.html)
 - [request](https://docs.python.org/3/library/urllib.request.html)
 - [threading](https://docs.python.org/3/library/threading.html)
+
+<h3>Rafael Sean Putra 13518119</h3>
