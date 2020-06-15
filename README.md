@@ -32,6 +32,14 @@ Library:
 
 ## How to Use
 
+1. Masukkan script berikut ke dalam CLI pada <i>root directory</i> (*Note : Bila kode tidak berjalan, silahkan coba lagi dengan mengganti "python3" dengan "py")
+```
+$ python3 src/main_scraper.py
+```
+2. Masukkan nama file hasil <i>data scraping</i> yang diinginkan tanpa ekstensi .json
+3. Tunggu beberapa saat
+4. Akan muncul teks yang menandakan proses <i>data scraping</i> telah selesai
+5. Hasil <i>data scraping</i> dapat dilihat di folder data
 ## JSON Structure
 
 ```
