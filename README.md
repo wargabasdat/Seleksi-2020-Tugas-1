@@ -29,7 +29,7 @@ Here is an example of the data stored in the JSON file
         "Date": "2019.11.27"
     },
 }
-<pre>
+</pre>
 
 ## Screenshot
 1. Obtaining Data Progress
@@ -42,11 +42,11 @@ Here is an example of the data stored in the JSON file
 ## Reference
 1. Target website for scraping: https://www.smtown.com/album
 2. Tutorial for data scraping:
-   https://stackoverflow.com/questions/41063019/python-web-scraping-page-loop
-   https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+   - https://stackoverflow.com/questions/41063019/python-web-scraping-page-loop
+   - https://www.dataquest.io/blog/web-scraping-beautifulsoup/
 3. Tutorial for dump data to JSON:
-   https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
-   https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
+   - https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/
+   - https://www.geeksforgeeks.org/reading-and-writing-json-to-a-file-in-python/
 
 ## Author
 Cindy Olivia Gunawan
