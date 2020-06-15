@@ -1,0 +1,1066 @@
+{
+    "20031": {
+        "code": "20031",
+        " name": "Leica M10-P \"ASC 100 Edition\"",
+        " price_without_tax": "$17,500.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "20029": {
+        "code": "20029",
+        " name": "Leica M10-P \"White\"",
+        " price_without_tax": "$14,495.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "20014": {
+        "code": "20014",
+        " name": "Leica M10-D",
+        " price_without_tax": "$8,795.00",
+        " type": "M   Cameras",
+        " rating": "5"
+    },
+    "20022": {
+        "code": "20022",
+        " name": "Leica M10-P Silver",
+        " price_without_tax": "$8,795.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "20050": {
+        "code": "20050",
+        " name": "Leica M10 Monochrom",
+        " price_without_tax": "$8,295.00",
+        " type": "M   Cameras",
+        " rating": "5"
+    },
+    "20000": {
+        "code": "20000",
+        " name": "Leica M10 Black",
+        " price_without_tax": "$7,995.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "20001": {
+        "code": "20001",
+        " name": "Leica M10 Silver",
+        " price_without_tax": "$7,995.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "10930": {
+        "code": "10930",
+        " name": "Leica M Monochrom (Typ 246) \"Leitz Wetzlar\"",
+        " price_without_tax": "$7,595.00",
+        " type": "M   Cameras",
+        " rating": "5"
+    },
+    "10302": {
+        "code": "10302",
+        " name": "Leica MP 0.72 Black",
+        " price_without_tax": "$5,295.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "10370": {
+        "code": "10370",
+        " name": "Leica M-A (Typ 127) Black",
+        " price_without_tax": "$5,195.00",
+        " type": "M   Cameras",
+        " rating": "5"
+    },
+    "10371": {
+        "code": "10371",
+        " name": "M-A (Typ 127)  Silver",
+        " price_without_tax": "$5,195.00",
+        " type": "M   Cameras",
+        " rating": "0"
+    },
+    "11676": {
+        "code": "11676",
+        " name": "Leica Noctilux-M 75mm f/1.25 ASPH.",
+        " price_without_tax": "$14,095.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11141": {
+        "code": "11141",
+        " name": "Leica APO-Summicron-M 50mm f/2 ASPH. Black",
+        " price_without_tax": "$8,795.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11647": {
+        "code": "11647",
+        " name": "Leica Summilux-M 21mm f/1.4 ASPH.",
+        " price_without_tax": "$8,595.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11668": {
+        "code": "11668",
+        " name": "Leica Summilux-M 28mm f/1.4 ASPH. Black",
+        " price_without_tax": "$7,295.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11700": {
+        "code": "11700",
+        " name": "Leica Summilux-M 35mm f/1.4 ASPH. \"Leitz Wetzlar\"",
+        " price_without_tax": "$6,195.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11675": {
+        "code": "11675",
+        " name": "Leica Summilux-M 35mm f/1.4 ASPH. Silver",
+        " price_without_tax": "$6,095.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11663": {
+        "code": "11663",
+        " name": "Leica Summilux-M 35mm f/1.4 ASPH. Black",
+        " price_without_tax": "$5,895.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11884": {
+        "code": "11884",
+        " name": "Leica APO-Summcron-M 90mm f/2.0 ASPH.",
+        " price_without_tax": "$5,095.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11705": {
+        "code": "11705",
+        " name": "Leica APO-Summicron-M 90 f/2 ASPH. Edition \"Safari\"",
+        " price_without_tax": "$5,095.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11688": {
+        "code": "11688",
+        " name": "Leica Summilux-M 50mm f/1.4 ASPH. Black Chrome",
+        " price_without_tax": "$5,095.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11637": {
+        "code": "11637",
+        " name": "Leica APO-Summicron-M 75mm f/2 ASPH.",
+        " price_without_tax": "$4,395.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "11891": {
+        "code": "11891",
+        " name": "Leica Summilux-M 50mm f/1.4 ASPH. Black",
+        " price_without_tax": "$4,395.00",
+        " type": "M  Lenses",
+        " rating": "0"
+    },
+    "14470": {
+        "code": "14470",
+        " name": "Leica Battery Charger M",
+        " price_without_tax": "$235.00",
+        " type": "M Accessories",
+        " rating": "0"
+    },
+    "19623": {
+        "code": "19623",
+        " name": "Premium Hybrid Glass Screen Protector - M10, M10-P, M10 Monochrom, SL and Q2",
+        " price_without_tax": "$40.00",
+        " type": "SL Accessories",
+        " rating": "0"
+    },
+    "ONA013LDB": {
+        "code": "ONA013LDB",
+        " name": "Bag - ONA: Leather Brixton (Brentwood Truffle)",
+        " price_without_tax": "$459.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "14854": {
+        "code": "14854",
+        " name": "Billingham Combination Bag M Black",
+        " price_without_tax": "$355.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "14855": {
+        "code": "14855",
+        " name": "Billingham Combination Bag M Khaki",
+        " price_without_tax": "$355.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "19627": {
+        "code": "19627",
+        " name": "Leica Ettas Bag khaki, black",
+        " price_without_tax": "$279.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "19626": {
+        "code": "19626",
+        " name": "Leica Ettas Bag red, black",
+        " price_without_tax": "$279.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "24016": {
+        "code": "24016",
+        " name": "Leica M10 Leather Holster",
+        " price_without_tax": "$245.00",
+        " type": "M Protectors",
+        " rating": "0"
+    },
+    "14458": {
+        "code": "14458",
+        " name": "Leica Traditional Calf Leather Carrying Strap, Mocha",
+        " price_without_tax": "$175.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "14454": {
+        "code": "14454",
+        " name": "Leica Traditional Leather Carrying Strap, Cognac",
+        " price_without_tax": "$175.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "14467": {
+        "code": "14467",
+        " name": "Leica Traditional Ostrich Leather Carrying Strap, Chestnut",
+        " price_without_tax": "$175.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "14894": {
+        "code": "14894",
+        " name": "Leica Leather Soft Case with Long Front, Black",
+        " price_without_tax": "$135.00",
+        " type": "M Protectors",
+        " rating": "0"
+    },
+    "14658": {
+        "code": "14658",
+        " name": "Leica Cowhide Strap Brandy",
+        " price_without_tax": "$110.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "18783": {
+        "code": "18783",
+        " name": "Leica Leather Wrist Strap for M & X-Vario, Cognac",
+        " price_without_tax": "$105.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "19522": {
+        "code": "19522",
+        " name": "Leica Leather/Fabric Lifestyle Neck Strap, Gray",
+        " price_without_tax": "$105.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "14868": {
+        "code": "14868",
+        " name": "Leica Neoprene Case M with Long Front Section",
+        " price_without_tax": "$105.00",
+        " type": "M Protectors",
+        " rating": "0"
+    },
+    "14867": {
+        "code": "14867",
+        " name": "Leica Neoprene Case M with Short Front Section",
+        " price_without_tax": "$105.00",
+        " type": "M Protectors",
+        " rating": "0"
+    },
+    "19520": {
+        "code": "19520",
+        " name": "Leica Vintage Leather Neck Strap, Black",
+        " price_without_tax": "$105.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "19521": {
+        "code": "19521",
+        " name": "Leica Vintage Leather Neck Strap, Brown",
+        " price_without_tax": "$105.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "19050": {
+        "code": "19050",
+        " name": "Leica Q2",
+        " price_without_tax": "$4,995.00",
+        " type": "Q Cameras",
+        " rating": "5"
+    },
+    "14626": {
+        "code": "14626",
+        " name": "Leica SF C1 Remote Control Unit",
+        " price_without_tax": "$385.00",
+        " type": "TL Accessories",
+        " rating": "0"
+    },
+    "19543": {
+        "code": "19543",
+        " name": "Leica Thumb Support for Q2",
+        " price_without_tax": "$245.00",
+        " type": "Q Accessories",
+        " rating": "0"
+    },
+    "14648": {
+        "code": "14648",
+        " name": "Leica Finger Loop for Handgrip, Large",
+        " price_without_tax": "$135.00",
+        " type": "TL Accessories",
+        " rating": "0"
+    },
+    "14647": {
+        "code": "14647",
+        " name": "Leica Finger Loop for Handgrip, Medium",
+        " price_without_tax": "$135.00",
+        " type": "TL Accessories",
+        " rating": "0"
+    },
+    "14646": {
+        "code": "14646",
+        " name": "Leica Finger Loop for Handgrip, Small",
+        " price_without_tax": "$135.00",
+        " type": "TL Accessories",
+        " rating": "0"
+    },
+    "19505": {
+        "code": "19505",
+        " name": "Leica Handgrip for Q-System",
+        " price_without_tax": "$135.00",
+        " type": "Q Accessories",
+        " rating": "0"
+    },
+    "19540": {
+        "code": "19540",
+        " name": "Leica Handgrip for Q2",
+        " price_without_tax": "$135.00",
+        " type": "Q Accessories",
+        " rating": "0"
+    },
+    "19506": {
+        "code": "19506",
+        " name": "Leica Q Screen Protection Film Set",
+        " price_without_tax": "$25.00",
+        " type": "Q Accessories",
+        " rating": "0"
+    },
+    "19577": {
+        "code": "19577",
+        " name": "Leica Leather Holster Q2, Black",
+        " price_without_tax": "$245.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19566": {
+        "code": "19566",
+        " name": "Leica Leather Camera Protector Q2, Black",
+        " price_without_tax": "$215.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19567": {
+        "code": "19567",
+        " name": "Leica Leather Camera Protector Q2, Brown",
+        " price_without_tax": "$215.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19568": {
+        "code": "19568",
+        " name": "Leica Leather Camera Protector Q2, Red",
+        " price_without_tax": "$215.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19578": {
+        "code": "19578",
+        " name": "Leica Leather Camera Protector Q2, Blue",
+        " price_without_tax": "$195.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19572": {
+        "code": "19572",
+        " name": "Leica Leather Carrying Strap Q2, Red",
+        " price_without_tax": "$135.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "19579": {
+        "code": "19579",
+        " name": "Leica Carrying Strap for Q2, Blue",
+        " price_without_tax": "$125.00",
+        " type": "Q Protectors",
+        " rating": "0"
+    },
+    "10854": {
+        "code": "10854",
+        " name": "Leica SL2",
+        " price_without_tax": "$5,995.00",
+        " type": "SL Camera",
+        " rating": "5"
+    },
+    "11177": {
+        "code": "11177",
+        " name": "Leica Super-Vario-Elmar-SL 16-35mm f/3.5-4.5 ASPH.",
+        " price_without_tax": "$6,095.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11180": {
+        "code": "11180",
+        " name": "Leica Summilux-SL 50mm f/1.4 ASPH.",
+        " price_without_tax": "$5,895.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11179": {
+        "code": "11179",
+        " name": "Leica APO-Summicron-SL 90mm f/2 ASPH.",
+        " price_without_tax": "$5,695.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11176": {
+        "code": "11176",
+        " name": "Leica Vario-Elmarit-SL 24-90mm f/2.8-4 ASPH.",
+        " price_without_tax": "$5,495.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11178": {
+        "code": "11178",
+        " name": "Leica APO-Summicron-SL 75mm f/2 ASPH.",
+        " price_without_tax": "$5,295.00",
+        " type": "L-Mount Lenses",
+        " rating": "5"
+    },
+    "11085": {
+        "code": "11085",
+        " name": "Leica Summilux-TL 35mm f/1.4 ASPH. Silver",
+        " price_without_tax": "$2,795.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11083": {
+        "code": "11083",
+        " name": "Leica APO-Vario-Elmar-TL 55-135mm f/3.5-4.5 ASPH.",
+        " price_without_tax": "$2,095.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11081": {
+        "code": "11081",
+        " name": "Leica Summicron-TL 23mm f/2 ASPH.",
+        " price_without_tax": "$2,095.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11082": {
+        "code": "11082",
+        " name": "Leica Super-Vario-Elmar-TL 11-23mm f/3.5-4.5 ASPH.",
+        " price_without_tax": "$2,095.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11080": {
+        "code": "11080",
+        " name": "Leica Vario-Elmar-TL 18-56mm f/3.5-5.6 ASPH.",
+        " price_without_tax": "$1,895.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11088": {
+        "code": "11088",
+        " name": "Leica Elmarit-TL 18mm f/2.8 ASPH. Black",
+        " price_without_tax": "$1,495.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "11089": {
+        "code": "11089",
+        " name": "Leica Elmarit-TL 18mm f/2.8 ASPH. Silver",
+        " price_without_tax": "$1,495.00",
+        " type": "L-Mount Lenses",
+        " rating": "0"
+    },
+    "16061": {
+        "code": "16061",
+        " name": "Leica Multi Function Handgrip HG-SCL6",
+        " price_without_tax": "$995.00",
+        " type": "SL Accessories",
+        " rating": "5"
+    },
+    "16037": {
+        "code": "16037",
+        " name": "Leica Professional Camera Strap Cordura",
+        " price_without_tax": "$135.00",
+        " type": "S Protectors",
+        " rating": "0"
+    },
+    "19624": {
+        "code": "19624",
+        " name": "Premium Hybrid Glass Screen Protector for Leica SL2",
+        " price_without_tax": "$40.00",
+        " type": "SL Accessories",
+        " rating": "0"
+    },
+    "10832": {
+        "code": "10832",
+        " name": "Leica S3",
+        " price_without_tax": "$18,995.00",
+        " type": "S Camera",
+        " rating": "0"
+    },
+    "16032": {
+        "code": "16032",
+        " name": "Leica ELPRO-S 180mm",
+        " price_without_tax": "$1,395.00",
+        " type": "S Lens Accessories",
+        " rating": "0"
+    },
+    "16018": {
+        "code": "16018",
+        " name": "Leica Lens Cap E72 S",
+        " price_without_tax": "$85.00",
+        " type": "S Lens Accessories",
+        " rating": "0"
+    },
+    "16020": {
+        "code": "16020",
+        " name": "Leica Rear Lens Cap S",
+        " price_without_tax": "$85.00",
+        " type": "S Lens Accessories",
+        " rating": "0"
+    },
+    "16027": {
+        "code": "16027",
+        " name": "Leica Lens Cap E95 S",
+        " price_without_tax": "$55.00",
+        " type": "S Lens Accessories",
+        " rating": "0"
+    },
+    "16030": {
+        "code": "16030",
+        " name": "Leica S-Adapter H",
+        " price_without_tax": "$1,995.00",
+        " type": "S Lens Adapters",
+        " rating": "0"
+    },
+    "16025": {
+        "code": "16025",
+        " name": "Leica S-Adapter M645",
+        " price_without_tax": "$825.00",
+        " type": "S Lens Adapters",
+        " rating": "0"
+    },
+    "16026": {
+        "code": "16026",
+        " name": "Leica S-Adapter P67",
+        " price_without_tax": "$825.00",
+        " type": "S Lens Adapters",
+        " rating": "0"
+    },
+    "16028": {
+        "code": "16028",
+        " name": "Leica Multifunctional Handgrip for S-system",
+        " price_without_tax": "$965.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16002": {
+        "code": "16002",
+        " name": "Leica Gridded Focusing Screen S",
+        " price_without_tax": "$465.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16040": {
+        "code": "16040",
+        " name": "Leica Lemo USB 3.0 Cable",
+        " price_without_tax": "$465.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16001": {
+        "code": "16001",
+        " name": "Leica Microprism Focusing Screen S",
+        " price_without_tax": "$465.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16000": {
+        "code": "16000",
+        " name": "Leica Standard Focusing Screen S",
+        " price_without_tax": "$465.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16039": {
+        "code": "16039",
+        " name": "Leica Battery SBP PRO 1 for S-System",
+        " price_without_tax": "$275.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16031": {
+        "code": "16031",
+        " name": "Leica Lemo Flash Sync Cable S",
+        " price_without_tax": "$275.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16014": {
+        "code": "16014",
+        " name": "Leica USB Cable S",
+        " price_without_tax": "$165.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16004": {
+        "code": "16004",
+        " name": "Leica Wrist Strap for S2",
+        " price_without_tax": "$165.00",
+        " type": "S Protectors",
+        " rating": "0"
+    },
+    "16029": {
+        "code": "16029",
+        " name": "Leica Cable Release S",
+        " price_without_tax": "$135.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16021": {
+        "code": "16021",
+        " name": "Leica Camera Body Cap S",
+        " price_without_tax": "$85.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16015": {
+        "code": "16015",
+        " name": "Leica Eyepiece Cover S",
+        " price_without_tax": "$85.00",
+        " type": "S Accessories",
+        " rating": "0"
+    },
+    "16010": {
+        "code": "16010",
+        " name": "Leica S Case",
+        " price_without_tax": "$905.00",
+        " type": "S Protectors",
+        " rating": "0"
+    },
+    "19334": {
+        "code": "19334",
+        " name": "Leica CL \"Edition Paul Smith\"",
+        " price_without_tax": "$3,995.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19317": {
+        "code": "19317",
+        " name": "Leica CL \"Urban Jungle\" by Jean Pigozzi Set",
+        " price_without_tax": "$3,950.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19341 - KIT 19305 (19301+11080)": {
+        "code": "19341 - KIT 19305 (19301+11080)",
+        " name": "Leica CL Vario Bundle Black",
+        " price_without_tax": "$3,650.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19342 - KIT 19315 (19300+11080)": {
+        "code": "19342 - KIT 19315 (19300+11080)",
+        " name": "Leica CL Vario Bundle Silver",
+        " price_without_tax": "$3,650.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19300": {
+        "code": "19300",
+        " name": "Leica CL Silver",
+        " price_without_tax": "$3,095.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19330 BUNDLE (19301+11088)": {
+        "code": "19330 BUNDLE (19301+11088)",
+        " name": "Leica CL Starter Bundle Black",
+        " price_without_tax": "$2,995.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19340 - KIT 19313 (19300+11089)": {
+        "code": "19340 - KIT 19313 (19300+11089)",
+        " name": "Leica CL Starter Bundle Silver",
+        " price_without_tax": "$2,995.00",
+        " type": "CL Cameras",
+        " rating": "0"
+    },
+    "19508": {
+        "code": "19508",
+        " name": "Leica Thumb Support CL Black",
+        " price_without_tax": "$215.00",
+        " type": "CL Accessories",
+        " rating": "0"
+    },
+    "19507": {
+        "code": "19507",
+        " name": "Leica Handgrip for CL",
+        " price_without_tax": "$165.00",
+        " type": "CL Accessories",
+        " rating": "0"
+    },
+    "19500": {
+        "code": "19500",
+        " name": "Leica Battery Lithium-Ion BP-DC 12 for Q-system",
+        " price_without_tax": "$105.00",
+        " type": "CL Accessories",
+        " rating": "0"
+    },
+    "19622": {
+        "code": "19622",
+        " name": "Premium Hybrid Glass Screen Protector - CL, C-LUX, V-LUX 5, D-LUX 7",
+        " price_without_tax": "$40.00",
+        " type": "CL Accessories",
+        " rating": "5"
+    },
+    "19524": {
+        "code": "19524",
+        " name": "Leica Leather Camera Protector CL, Black",
+        " price_without_tax": "$195.00",
+        " type": "CL Protectors",
+        " rating": "0"
+    },
+    "18187": {
+        "code": "18187",
+        " name": "Leica TL2 Black anodized",
+        " price_without_tax": "$2,495.00",
+        " type": "TL Cameras",
+        " rating": "0"
+    },
+    "18188": {
+        "code": "18188",
+        " name": "Leica TL2 Silver anodized",
+        " price_without_tax": "$2,495.00",
+        " type": "TL Cameras",
+        " rating": "0"
+    },
+    "19161 BUNDLE (18187+11088)": {
+        "code": "19161 BUNDLE (18187+11088)",
+        " name": "Leica TL2 Starter Bundle",
+        " price_without_tax": "$2,295.00",
+        " type": "TL Cameras",
+        " rating": "0"
+    },
+    "18809": {
+        "code": "18809",
+        " name": "Leica Leather Holster Stone-Gray",
+        " price_without_tax": "$245.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18578": {
+        "code": "18578",
+        " name": "Leica TL Leather Protector Black",
+        " price_without_tax": "$165.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18579": {
+        "code": "18579",
+        " name": "Leica TL Leather Protector Cemento",
+        " price_without_tax": "$165.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18580": {
+        "code": "18580",
+        " name": "Leica TL Leather Protector Red",
+        " price_without_tax": "$165.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18776": {
+        "code": "18776",
+        " name": "Leica Leather Carrying Strap for M & X Vario, Black",
+        " price_without_tax": "$135.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "14661": {
+        "code": "14661",
+        " name": "Leica Cowhide Strap Dark Blue",
+        " price_without_tax": "$110.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18575": {
+        "code": "18575",
+        " name": "Leica Neck Strap Black",
+        " price_without_tax": "$105.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18576": {
+        "code": "18576",
+        " name": "Leica Neck Strap Cemento",
+        " price_without_tax": "$105.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "18500": {
+        "code": "18500",
+        " name": "Leica Neck Strap Yellow",
+        " price_without_tax": "$105.00",
+        " type": "TL Protectors",
+        " rating": "0"
+    },
+    "19121": {
+        "code": "19121",
+        " name": "Leica V-Lux 5",
+        " price_without_tax": "$1,395.00",
+        " type": "COMPACT CAMERAS",
+        " rating": "5"
+    },
+    "19130": {
+        "code": "19130",
+        " name": "Leica C-Lux Midnight Blue",
+        " price_without_tax": "$1,195.00",
+        " type": "COMPACT CAMERAS",
+        " rating": "5"
+    },
+    "19116": {
+        "code": "19116",
+        " name": "Leica D-Lux 7",
+        " price_without_tax": "$1,195.00",
+        " type": "COMPACT CAMERAS",
+        " rating": "5"
+    },
+    "19141": {
+        "code": "19141",
+        " name": "Leica D-Lux 7 Black",
+        " price_without_tax": "$1,195.00",
+        " type": "COMPACT CAMERAS",
+        " rating": "0"
+    },
+    "12456": {
+        "code": "12456",
+        " name": "Leica Center Spot Filter - Thambar",
+        " price_without_tax": "$325.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13061": {
+        "code": "13061",
+        " name": "Leica E39 Orange Color Filter",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13031": {
+        "code": "13031",
+        " name": "Leica E39 UVa II Filter Silver",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13062": {
+        "code": "13062",
+        " name": "Leica E39 Yellow Color Filter",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13066": {
+        "code": "13066",
+        " name": "Leica E46 Green Color Filter",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13055": {
+        "code": "13055",
+        " name": "Leica E46 ND 16x Filter Black",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13064": {
+        "code": "13064",
+        " name": "Leica E46 Orange Color Filter",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13033": {
+        "code": "13033",
+        " name": "Leica E46 UVa II Filter Black",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "5"
+    },
+    "13034": {
+        "code": "13034",
+        " name": "Leica E46 UVa II Filter Silver",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13065": {
+        "code": "13065",
+        " name": "Leica E46 Yellow Color Filter",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13047": {
+        "code": "13047",
+        " name": "Leica E55 Circular Polarization Filter Black",
+        " price_without_tax": "$245.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13056": {
+        "code": "13056",
+        " name": "Leica E55 ND 16x Filter Black",
+        " price_without_tax": "$195.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13037": {
+        "code": "13037",
+        " name": "Leica E55 UVa II Filter Black",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13038": {
+        "code": "13038",
+        " name": "Leica E55 UVa II Filter Silver",
+        " price_without_tax": "$135.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13048": {
+        "code": "13048",
+        " name": "Leica E60 Circular Polarization Filter Black",
+        " price_without_tax": "$245.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13067": {
+        "code": "13067",
+        " name": "Leica E60 UVa II Filter Silver",
+        " price_without_tax": "$215.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13049": {
+        "code": "13049",
+        " name": "Leica E67 Circular Polarization Filter Black",
+        " price_without_tax": "$275.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13050": {
+        "code": "13050",
+        " name": "Leica E72 Circular Polarization Filter Black",
+        " price_without_tax": "$325.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13058": {
+        "code": "13058",
+        " name": "Leica E72 ND 16x Filter Black",
+        " price_without_tax": "$215.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13041": {
+        "code": "13041",
+        " name": "Leica E72 UVa II Filter Black",
+        " price_without_tax": "$245.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13042": {
+        "code": "13042",
+        " name": "Leica E82 UVa II Filter Black",
+        " price_without_tax": "$435.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13053": {
+        "code": "13053",
+        " name": "Leica E95 Circular Polarization Filter Black",
+        " price_without_tax": "$685.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13060": {
+        "code": "13060",
+        " name": "Leica E95 ND 16x Filter Black",
+        " price_without_tax": "$605.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13043": {
+        "code": "13043",
+        " name": "Leica E95 UVa II Filter Black",
+        " price_without_tax": "$605.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13044": {
+        "code": "13044",
+        " name": "Leica Series VII UVa II Filter Black",
+        " price_without_tax": "$215.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "13045": {
+        "code": "13045",
+        " name": "Leica Series VIII UVa II Filter Black",
+        " price_without_tax": "$215.00",
+        " type": "LENS FILTERS",
+        " rating": "0"
+    },
+    "14110": {
+        "code": "14110",
+        " name": "Leica Ball Head 18 Series Long Silver",
+        " price_without_tax": "$305.00",
+        " type": "TRIPODS",
+        " rating": "0"
+    },
+    "14109": {
+        "code": "14109",
+        " name": "Leica Ball Head 18 Series Short Black",
+        " price_without_tax": "$305.00",
+        " type": "TRIPODS",
+        " rating": "0"
+    },
+    "14108": {
+        "code": "14108",
+        " name": "Leica Ball Head 18 Series Short Silver",
+        " price_without_tax": "$305.00",
+        " type": "TRIPODS",
+        " rating": "0"
+    }
+}
