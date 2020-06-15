@@ -50,3 +50,62 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+<h1 align="center">
+  <br>
+  Seleksi Warga Basdat 2020
+  <br>
+  <br>
+</h1>
+
+### DESKRIPSI
+Source code berisikan langkah-langkah web scraping dengan cara pengiriman request, parsing HTML, pengambilan data dari HTML, cleaning data, dan pembuatan file json dari data yang didapat.
+Data berisikan data-data produk lego untuk usia 12+ dengan atribut berupa nama produk, harga normal, harga sale, rating, dan status
+
+### SPESIFIKASI
+Keseluruhan source code menggunakan bahasa pemrograman Phyton, dengan library BeautifulSoup atau bs4 untuk webscraping di bahasa Python, library urllib.request untuk membuka url dan mengirim request, dan library JSON atau json untuk mengubah data ke dalam file json.
+Data yang diambil adalah data-data produk lego untuk usia 12+ dari URL https://www.lego.com/en-us/categories/age-12-plus-years
+
+
+### HOW TO USE
+1. Mengimport library BeautifulSoup
+2. URL umum dimasukkan ke dalam variabel `my_url`, untuk kasus ini adalah https://www.lego.com/en-us/categories/age-12-plus-years yang memiliki page total 51 page. `my_url` tersebut ditambahkan string berupa `?page=` dan `i` yang berupa integer untuk menandakan halaman ke berapa. Halaman diiterasi dengan i, dan proses no 3 dilakukan per page.
+3. Loop untuk mengirim request ke 51 halaman yang ada dan mengambil `page_html`. Kemudian dilakukan parsing terhadap `page_html` menjadi `page_soup` dan pengambilan container yang berisi data masing-masing product
+4. Pembuatan list yang nantinya akan didump ke file json
+5. Pemrosesan pembersihan data hanya yang diperlukan dan pemasukan ke dalam list
+6. Import library JSON dan list yang sudah ada di dump menjadi file json
+
+
+### JSON STRUCTURE
+```
+Product = {
+  'name' : str
+  'normal_price' : float
+  'sale_price' : str
+  'rating' : float
+  'status' : str
+}
+```
+
+### SCREENSHOT PROGRAM
+<upload gambar>
+
+
+
+### REFERENCE
+Berikut adalah beberapa referensi yang digunakan dalam membantu pengerjaan tugas ini :
+
+https://www.youtube.com/watch?v=Ogym0QZLDgw
+https://www.youtube.com/watch?v=XQgXKtPSzUI&feature=youtu.be
+https://www.youtube.com/watch?v=Ogym0QZLDgw
+https://www.youtube.com/watch?v=rnIwmG1AKHg
+https://www.petanikode.com/markdown-pemula/
+
+
+### DEVELOPING
+Karena keterbatasan waktu yang dimiliki, author hanya mengambil 5 atribut saja untuk setiap tuple. Sebenarnya bisa ditambahkan atribut lain berupa ketersediaan produk, file gambar, dan diskon yang ada pada produk-produk tertentu serta bisa ditambahkan page yang diproses untuk kategori selain umur 12+ ( 1-2, 3-5, 6-8, 9-11).
+Kemudian masih terdapat kesalahan dalam program, yakni ketika menghadapi produk dengan price kosong, sehingga yang tercapture datanya di file json adalah sejumlah 435 produk saja. 
+
+### AUTHOR
+Hollyana Puteri Haryono
+18218013
+Sistem dan Teknologi informasi
