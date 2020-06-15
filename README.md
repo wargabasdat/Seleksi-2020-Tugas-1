@@ -68,6 +68,13 @@ Struktur pada file JSON berupa object yang berisi name-value pair, yaitu setiap 
 ## Screenshot program
 
 ![Screenshot1](/screenshots/Screenshot1.png)
+![Screenshot2](/screenshots/Screenshot2.png)
+![Screenshot3](/screenshots/Screenshot3.png)
+![Screenshot4](/screenshots/Screenshot4.png)
+![Screenshot5](/screenshots/Screenshot5.png)
+![Screenshot6](/screenshots/Screenshot6.png)
+![Screenshot7](/screenshots/Screenshot7.png)
+
 
 ## Reference
 Library : BeautifulSoup dengan bahasa Python
