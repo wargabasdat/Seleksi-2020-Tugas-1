@@ -58,13 +58,13 @@ Preprocessing contohnya :
 
 * Python 3
 * Python Libraries (BeautifulSoup, Requests)
-* Virtual Environment
+* Python Virtual Environment
 
 1. _Clone_ atau _download_ repository github ini
 
-2. Buka terminal pada direktori file yang telah di _clone_ atau di _download_. Kemudian ketik perintah berikut `python -m venv virtual-env` pada terminal
+2. Buka terminal pada direktori file yang telah di _clone_ atau di _download_. Kemudian ketik perintah berikut `python -m venv virtual-env` pada terminal untuk membuat sebuah _python virtual environment_ secara tertutup
 
-3. Setelah terinstall, ketik perintah `virtual-env\Scripts\activate.bat` berikut pada terminal 
+3. Setelah terinstall, ketik perintah `virtual-env\Scripts\activate.bat` berikut pada terminal untuk mengaktifkan virtual environment tersebut
 
 4. Install python libraries yang dibutuhkan. Ketik `pip install bs4` dan `pip install requests` pada terminal
 
@@ -95,11 +95,11 @@ Program ini dijalankan pada komputer dengan sistem operasi Windows. Anda mungkin
 
 ## Screenshot
 
-*Source code*
+**Source code**
 
 ![alt text](screenshots/ss1.png)
 
-*JSON Structure*
+**JSON Structure**
 
 ![alt text](screenshots/ss2.png)
 
@@ -113,4 +113,4 @@ Program ini dijalankan pada komputer dengan sistem operasi Windows. Anda mungkin
 
 ## Author
 
-*Indra Febrio Nugroho 13518016*
+**Indra Febrio Nugroho 13518016**
