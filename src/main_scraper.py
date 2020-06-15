@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, Executor, wait
 import time
 import threading
 import json
+import re
 
 gembok_error = threading.Lock()
 gembok_cetak = threading.Lock()
@@ -21,13 +22,9 @@ data = []
 done = 0
 errored = 0
 
-# User scraper1
-# pass scrapingnow
-
 
 def soup_creator(url):
     global pengakses
-    
     global errored
     while pengakses > 20:
         gembok_link.acquire()
@@ -40,10 +37,6 @@ def soup_creator(url):
     try:
         url_opened = urlopen(req)
     except:
-        gembok_error.acquire()
-        print("error accessing ", url)
-        errored += 1
-        gembok_error.release()
         msg = "error mengakses " + url
         raise Exception(msg)
     url_read = url_opened.read()
@@ -58,66 +51,60 @@ def soup_creator(url):
 
 
 def data_scraper(url):
-    global done
     global data
+
     # Membuat BeautifulSoup dari link artikel
     try:
         article_soup = soup_creator(url)
-        gembok_cetak.acquire()
-        done += 1
-        gembok_cetak.release()
     except Exception as err:
-        raise Exception(err.format())
+        print(err)
         return;
 
     # Tanggal kejadian
     date = ''
-    article_date = article_soup.find("div", {'class': 'crash-date'}).text
-    test = article_date[34:37]
-    idx_bulan = 0
-    found = False
-    while (idx_bulan < 12) and (not found):
-        if (test == bulan[idx_bulan]):
-            found = True
+    if (article_soup.find('div',{'class':'crash-date'})):
+        article_date = article_soup.find("div", {'class': 'crash-date'}).text
+        test = article_date[34:37]
+        idx_bulan = 0
+        found = False
+        while (idx_bulan < 12) and (not found):
+            if (test == bulan[idx_bulan]):
+                found = True
+            else:
+                idx_bulan += 1
+        if (idx_bulan + 1) < 10:
+            date = date + "0" + str(idx_bulan+1)
         else:
-            idx_bulan += 1
-    if (idx_bulan + 1) < 10:
-        date = date + "0" + str(idx_bulan+1)
+            date += str(idx_bulan+1)
+        date += "-"
+        i_date = 38
+        tgl = ""
+        while (article_date[i_date] != ","):
+            tgl += article_date[i_date]
+            i_date += 1
+        if len(tgl) == 1:
+            date = date + "0" + tgl
+        else:
+            date += tgl
+        date = "-" + date
+        date = article_date[i_date+2:i_date+6] + date
     else:
-        date += str(idx_bulan+1)
-    date += "-"
-    i_date = 38
-    tgl = ""
-    while (article_date[i_date] != ","):
-        tgl += article_date[i_date]
-        i_date += 1
-    if len(tgl) == 1:
-        date = date + "0" + tgl
-    else:
-        date += tgl
-    date = "-" + date
-    date = article_date[i_date+2:i_date+6] + date
-    # print(date)
+        date = 'Data does not exist'
 
     # Waktu kejadian
-    jam = ''
     if (article_date[i_date+7] == "a"):
-        jam = jam + article_date[i_date+10:i_date+12] + \
+        jam = article_date[i_date+10:i_date+12] + \
             ":" + article_date[i_date+12:i_date+14]
     else:
-        jam = 'Data tidak tersedia'
-    # print(jam)
+        jam = 'Data does not exist'
 
     # Jenis Pesawat dalam Kejadian
-    airplane = ''
     if (article_soup.find('div',{'class':'crash-aircraft'})):
-        airplane += article_soup.find("div", {'class': 'crash-aircraft'}).find("div").text
+        airplane = article_soup.find("div", {'class': 'crash-aircraft'}).find("div").text
     else:
-        airplane = 'Data tidak tersedia'
-    # print(airplane)
+        airplane = 'Data does not exist'
 
     # Maskapai/Operator penerbangan pada Kejadian
-    operator = ''
     if (article_soup.find('div',{'class':'crash-operator'})):
         article_operator = article_soup.find('div', {'class': 'crash-operator'})
         if (article_operator.find('img')):
@@ -130,40 +117,60 @@ def data_scraper(url):
             if (operator[len(operator)-2] == "-"):
                 operator = operator[:len(operator)-2]
         else:
-            operator += article_operator.find('div').text
+            operator = article_operator.find('div').text
     else:
-        operator = 'Data tidak tersedia'
-    # print(operator)
+        operator = 'Data does not exist'
+    operator = re.sub("-\d","",operator)
+    operator = re.sub("_\d","",operator)
 
-    # Negara
-    country = ''
-    if (article_soup.find('div',{'class':'crash-country'})):
-        country += article_soup.find(
-            'div', {'class': 'crash-country'}).find('div').text
+    # Fase Penerbangan
+    if (article_soup.find('div',{'class':'crash-flight-phase'})):
+        phase = article_soup.find('div',{'class':'crash-flight-phase'}).find('div').text
     else:
-        country = 'Data tidak tersedia'
-    # print(country)
+        phase = 'Data does not exist'
+    
+    # Terrain kecelakaan
+    if (article_soup.find('div',{'class':'crash-site'})):
+        terrain = article_soup.find('div',{'class':'crash-site'}).find('div').text
+    else:
+        terrain = 'Data does not exist'
+    phase = re.sub("\((.+)\)","",phase)
 
     # Jumlah kru, penumpang, dan korban meninggal dunia
     if (article_soup.find('div', {'class': 'crash-crew-on-board'})):
-        crew = int(article_soup.find(
-            'div', {'class': 'crash-crew-on-board'}).find('div').text)
+        crew = article_soup.find('div', {'class': 'crash-crew-on-board'}).find('div').text
     else:
-        crew = 'Data tidak tersedia'
-    crew_death = int(article_soup.find(
-        'div', {'class': 'crash-crew-fatalities'}).find('div').text)
+        crew = 'Data does not exist'
+    if (article_soup.find('div', {'class': 'crash-crew-fatalities'})):
+        crew_death = article_soup.find('div', {'class': 'crash-crew-fatalities'}).find('div').text
+    else:
+        crew_death = 'Data does not exist'
     if (article_soup.find('div', {'class': 'crash-pax-on-board'})):
-        pax = int(article_soup.find(
-            'div', {'class': 'crash-pax-on-board'}).find('div').text)
+        pax = article_soup.find('div', {'class': 'crash-pax-on-board'}).find('div').text
     else:
-        pax = 'Data tidak tersedia'
-    pax_death = int(article_soup.find(
-        'div', {'class': 'crash-pax-fatalities'}).find('div').text)
-    other_death = int(article_soup.find(
-        'div', {'class': 'crash-other-fatalities'}).find('div').text)
-    
+        pax = 'Data does not exist'
+    if (article_soup.find('div', {'class': 'crash-pax-fatalities'})):
+        pax_death = article_soup.find('div', {'class': 'crash-pax-fatalities'}).find('div').text
+    else:
+        pax_death = 'Data does not exist'
+    if (article_soup.find('div', {'class': 'crash-other-fatalities'})):
+        other_death = article_soup.find('div', {'class': 'crash-other-fatalities'}).find('div').text
+    else:
+        other_death = 'Data does not exist'
+
     gembok_data.acquire()
-    data.append({'Accident Date':date,'Accident Time':jam,'Airplane Operator' :operator,'Airplane Type':airplane,'Crash Location':country,'Crew':crew,'Crew Casualties':crew_death,'Passenger':pax,'Passenger Casualties':pax_death,'Other Casualties':other_death})
+    data.append({
+        'Accident Date':date,
+        'Accident Time':jam,
+        'Airplane Operator':operator,
+        'Airplane Type':airplane,
+        'Flight Phase':phase,
+        'Crash Site Terrain':terrain,
+        'Crew on Board':crew,
+        'Crew Casualties':crew_death,
+        'Passenger on Board':pax,
+        'Passenger Casualties':pax_death,
+        'Other Casualties':other_death})
     gembok_data.release()
 
 def search_page_iterative(search_url, i):
@@ -185,12 +192,12 @@ def search_page_iterative(search_url, i):
 
 if __name__ == "__main__":
     start_url = "https://www.baaa-acro.com/crash-archives?field_crash_flight_type_target_id=12996&page="
-    t_start = time.perf_counter()
-    for i in range(0, 62):
+    # t_start = time.perf_counter()
+    for i in range(0,1):
         search_page_iterative(start_url, i)
     # executor.submit(data_scraper,'https://www.baaa-acro.com/crash/crash-airbus-a320-214-karachi-97-killed')
     executor.shutdown(wait=True)
-    t_stop = time.perf_counter()
-    print(t_stop - t_start)
-    with open('data/data.json','w') as f:
+    # t_stop = time.perf_counter()
+    # print(t_stop - t_start)
+    with open('data/data6.json','w') as f:
         json.dump(data,f,indent=4,ensure_ascii=False)
