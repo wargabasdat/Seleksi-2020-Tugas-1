@@ -52,6 +52,13 @@ Preprocessing contohnya :
 - Author
 ```
 ## Spesification
+Runtime: Python ver. 3.7.7
+Libraries used:
+- Request
+- BeautifulSoup
+- concurrent.futures
+- json
+- re
 
 ## How to Use
 
@@ -59,11 +66,10 @@ Preprocessing contohnya :
 
 ## Screenshot Program
 
-## Reference
-Program created using Python version 3.7.7
-Library used:
-- urllib
-- BeautifulSoup
-- Concurrent
-- json
-- re
+## References
+Library used in this program:
+- [bs4](https://www.crummy.com/software/BeautifulSoup/)
+- [concurrent futures](https://docs.python.org/3/library/concurrent.futures.html)
+- [json](https://docs.python.org/3/library/json.html)
+- [re](https://docs.python.org/3/library/re.html)
+- [request](https://docs.python.org/3/library/urllib.request.html)
