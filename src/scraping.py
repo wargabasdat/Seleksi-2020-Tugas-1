@@ -151,7 +151,7 @@ def parse(page_soup, records) :
                 #ada harga baru
                 if product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sale Price"}) != None :
                     salesPrice = product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sale Price"}).text
-                    AngkaPromo = (100-(priceToFloat(salesPrice)/price))
+                    AngkaPromo = (100-(priceToFloat(salesPrice)/price*100))
                     promo = str("{:.2f}".format(AngkaPromo))+"% OFF"
                 #tidak ada promo
                 else :
