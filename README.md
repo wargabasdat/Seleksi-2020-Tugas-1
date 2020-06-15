@@ -12,6 +12,8 @@
   <br>
 </h2>
 
+## Deskripsi
+Melakukan scraping web dari website "https://berrybenka.com"
 
 ## Spesifikasi
 
@@ -50,3 +52,60 @@ Preprocessing contohnya :
 - Reference (Library used, etc)
 - Author
 ```
+## How to use
+    run file scrapingWeb.py dengan mengetik "python3 scrapingWeb.py" di cmd
+## JSON Structure
+    dataScrape.json
+        [mules]
+        [flats]
+        [heels]
+        [sneakers]
+        [sandals]
+        [loafers]
+        [big-bags]
+        [small-bags]
+        [cluth-bag]
+        [wallets]
+        [backpack]
+        [earrings]
+        [scarves]
+        [belts]
+        [eyewear]
+        [watches]
+        [blouse]
+        [women-shirts]
+        [culottes]
+        [jeans]
+        [leggings]
+        [long-pants]
+        [short-pants]
+        [skirts]
+        [blazers]
+        [cardigans]
+        [coats]
+        [jackets]
+        [kimono]
+        [sweaters]
+        [vest]
+    dataDescScrape.json
+    dataRincScrape.json
+## Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
+![](screenshots/2020-06-15.png)
+![](screenshots/2020-06-15%20(1).png)
+![](screenshots/2020-06-15%20(2).png)
+![](screenshots/2020-06-15%20(3).png)
+![](screenshots/2020-06-15%20(4).png)
+![](screenshots/2020-06-15%20(5).png)
+![](screenshots/2020-06-15%20(6).png)
+![](screenshots/2020-06-15%20(7).png)
+![](screenshots/2020-06-15%20(8).png)
+![](screenshots/2020-06-15%20(9).png)
+![](screenshots/2020-06-15%20(10).png)
+## Reference (Library used, etc)
+    requests
+    BeautifulSoup
+    pymongo
+    time
+    json
+## Author
+    Tifany Angelia / 13518067
