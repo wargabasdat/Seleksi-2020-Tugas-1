@@ -93,7 +93,6 @@ def parsePromo(promo,realPrice):
     
 
     else :
-        print("beda")
         promoPrice = realPrice
     
     promoPrice = ("{:.2f}".format(promoPrice))
@@ -163,8 +162,8 @@ def parse(page_soup, records) :
             #tidak ada keterangan promo 
             if promo1 == None : 
                 #ada harga baru
-                if product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sales Price"}) != None :
-                    promoPrice = priceToFloat(product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sales Price"}).text)
+                if product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sale Price"}) != None :
+                    promoPrice = priceToFloat(product.find("div",{"class":"product-pricing"}).find("span",{"title":"Sale Price"}).text)
                 #tidak ada promo
                 else :
                     promoPrice = price
