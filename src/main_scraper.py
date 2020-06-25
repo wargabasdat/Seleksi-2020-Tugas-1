@@ -23,6 +23,7 @@ pengakses = 0
 
 
 def soup_creator(url):
+    # Membuka link yang diterima dan membuat soup menggunakan BeautifulSoup dari link tersebut
     global pengakses
     while pengakses > 20:
         gembok_soup.acquire()
@@ -47,6 +48,25 @@ def soup_creator(url):
         gembok_soup.release()
     return soup
 
+def last_page_finder(url):
+    #Mencari halaman terakhir dari search page yang dibuka
+    try:
+        first_soup = soup_creator(url)
+    except Exception as err:
+        print(err)
+        return
+    if (first_soup.find('li',{'class':'pager__item pager__item--last'})):
+        last_button = first_soup.find('li',{'class':'pager__item pager__item--last'})
+        last_link = last_button.find('a')['href']
+        j = len(last_link) - 1
+        last = ""
+        while (last_link[j] != '='):
+            last = last_link[j] + last
+            j -= 1
+        last_page = int(last)
+    else:
+        last_page = 0
+    return last_page
 
 def data_scraper(url):
     global data
@@ -128,9 +148,11 @@ def data_scraper(url):
                 daftar_lokasi = article_soup.find(
                     'div', {'class': 'crash-location'}).findAll('div')
                 if (re.search("All ", daftar_lokasi[1].text)):
-                    location = daftar_lokasi[0].text + ", " + location
+                    location_2 = daftar_lokasi[0].text
                 else:
-                    location = daftar_lokasi[1].text + ", " + location
+                    location_2 = daftar_lokasi[1].text
+                if (location_2 != location):
+                    location = location_2 + ", " + location
         location = re.sub(" \(.+\)", "", location)
     else:
         location = 'Data does not exist'
@@ -220,7 +242,8 @@ def search_page_iterative(search_url, i):
 if __name__ == "__main__":
     nama_file = input("Silahkan masukkan nama file (tanpa extensi .json): ")
     start_url = "https://www.baaa-acro.com/crash-archives?field_crash_flight_type_target_id=12996&page="
-    for i in range(0, 62):
+    j = last_page_finder(start_url+"0")
+    for i in range(0, j+1):
         search_page_iterative(start_url, i)
     executor.shutdown(wait=True)
     direktori = 'data/' + nama_file + '.json'
