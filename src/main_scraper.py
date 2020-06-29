@@ -121,6 +121,9 @@ def data_scraper(url):
             "div", {'class': 'crash-aircraft'}).find("div").text
     else:
         airplane = 'Data does not exist'
+    
+    if airplane == "Unknown":
+        airplane = 'Data does not exist'
 
     # Maskapai/Operator penerbangan pada Kejadian
     if (article_soup.find('div', {'class': 'crash-operator'})):
@@ -163,7 +166,7 @@ def data_scraper(url):
             'div', {'class': 'crash-flight-phase'}).find('div').text
     else:
         phase = 'Data does not exist'
-    phase = re.sub("\((.+)\)", "", phase)
+    phase = re.sub(" \((.+)\)", "", phase)
 
     # Terrain lokasi kecelakaan
     if (article_soup.find('div', {'class': 'crash-site'})):
