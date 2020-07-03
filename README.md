@@ -69,7 +69,7 @@ $ python src/main_scraper.py
 ![alt](/screenshots/ss-script1.jpg "Snippet 1 dari script")
 ![alt](/screenshots/ss-script2.jpg "Snippet 2 dari script")
 ![alt](/screenshots/ss1.jpg "Program dijalankan menggunakan Command Prompt")
-![alt](/screenshots/ss-hasil.jpg "Bagian dari file Json hasil data scraping")
+![alt](/screenshots/hasil.jpg "Bagian dari file Json hasil data scraping")
 ## References
 
 Library yang digunakann:
