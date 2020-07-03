@@ -47,12 +47,10 @@ $ python src/main_scraper.py
 [
     {
       "Accident Date": "2019-09-16",
-      "Accident Time": "12:26",
       "Airplane Operator": "twoFlex",
       "Airplane Type": "Cessna 208B Grand Caravan",
       "Flight Phase": "Takeoff ",
       "Crash Location": "Amazonas, Brazil",
-      "Crash Site Terrain": "Airport ",
       "Crew on Board": "2",
       "Crew Casualties": "0",
       "Passenger on Board": "8",
