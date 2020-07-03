@@ -108,21 +108,13 @@ def data_scraper(url):
     else:
         date = 'Data does not exist'
 
-    # Waktu kejadian
-    if (article_date[i_date+7] == "a"):
-        jam = article_date[i_date+10:i_date+12] + \
-            ":" + article_date[i_date+12:i_date+14]
-    else:
-        jam = 'Data does not exist'
-
     # Jenis Pesawat dalam Kejadian
     if (article_soup.find('div', {'class': 'crash-aircraft'})):
         airplane = article_soup.find(
             "div", {'class': 'crash-aircraft'}).find("div").text
+        if airplane == "Unknown":
+            airplane = 'Data does not exist'
     else:
-        airplane = 'Data does not exist'
-    
-    if airplane == "Unknown":
         airplane = 'Data does not exist'
 
     # Maskapai/Operator penerbangan pada Kejadian
@@ -138,6 +130,7 @@ def data_scraper(url):
             operator = article_operator.find('div').text
     else:
         operator = 'Data does not exist'
+    operator = re.sub("%26","&",operator)
 
     # Lokasi Kecelakaan
     if (article_soup.find('div', {'class': 'crash-country'})):
@@ -167,14 +160,6 @@ def data_scraper(url):
     else:
         phase = 'Data does not exist'
     phase = re.sub(" \((.+)\)", "", phase)
-
-    # Terrain lokasi kecelakaan
-    if (article_soup.find('div', {'class': 'crash-site'})):
-        terrain = article_soup.find(
-            'div', {'class': 'crash-site'}).find('div').text
-    else:
-        terrain = 'Data does not exist'
-    terrain = re.sub("\((.+)\)", "", terrain)
 
     # Jumlah kru, penumpang, dan korban meninggal dunia
     if (article_soup.find('div', {'class': 'crash-crew-on-board'})):
@@ -213,12 +198,10 @@ def data_scraper(url):
     gembok_data.acquire()
     data.append({
         'Accident Date': date,
-        'Accident Time': jam,
         'Airplane Operator': operator,
         'Airplane Type': airplane,
         'Flight Phase': phase,
         'Crash Location': location,
-        'Crash Site Terrain': terrain,
         'Crew on Board': crew,
         'Crew Casualties': crew_death,
         'Passenger on Board': pax,
