@@ -1,6 +1,7 @@
 import bs4
 import json
 import string
+from pymongo import MongoClient 
 from urllib.request import urlopen,Request
 from bs4 import BeautifulSoup as soup
 
@@ -21,7 +22,7 @@ class Result:
             "id": self.id, 
             "product_id": self.product_id, 
             "name": self.name, 
-            "label": self.label, 
+            "label": self.label,
             "category": self.category,
             "subcategory": self.subcategory,
             "real_price": self.real_price,
@@ -30,13 +31,8 @@ class Result:
 
 # fungsi untuk mengumpulkan link2 untuk setiap kategori koleksi
 def getNav(cat_container):
-    # barang-barang new in
-    new_in = cat_container.find("li", {"class" : "_category-link-wrapper menu-item menu-item--level-2 menu-item--is-leaf"})
-    newin_atag = new_in.find("a", {"class" : "_category-link menu-item__category-link"})
-    newin_link = newin_atag.get("href")
-    navigators.append(newin_link)
 
-    collection = cat_container.find("li", {"class" : "_category-link-wrapper menu-item menu-item--level-2 menu-item--current _displayUnfolded"})
+    collection = cat_container.find("li", {"data-name" : "COLLECTION"})
     
     # untuk koleksi tanpa subkategori
     links = collection.find_all("li", {"class": "_category-link-wrapper menu-item menu-item--level-3 menu-item--is-leaf"})
@@ -56,7 +52,7 @@ def getNav(cat_container):
         subcats = subcat_ultag.find_all("li", {"class" : "_category-link-wrapper menu-item menu-item--level-4 menu-item--is-leaf"})
         for j in range(len(subcats)):
             subcat_name = subcats[j].get("data-name")
-            if(subcat_name!="Lihat Semua"):
+            if(subcat_name!="Lihat Semua" and subcat_name!="New In"):
                 subcat_atag = subcats[j].find("a", {"class" : "_category-link menu-item__category-link"})
                 subcat_navigator = subcat_atag.get("href")
                 subcat_navigator_2 = subcat_atag.get("data-href")
@@ -69,13 +65,8 @@ def getNav(cat_container):
 
 # fungsi untuk mendapatkan kategori dan subkategori
 def getCategory(cat_container):
-    # barang-barang new in
-    new_in = cat_container.find("li", {"class" : "_category-link-wrapper menu-item menu-item--level-2 menu-item--is-leaf"})
-    cat_name = new_in.get("data-name")
-    cat_tuple = (cat_name, "None")
-    categories.append(cat_tuple)
 
-    collection = cat_container.find("li", {"class" : "_category-link-wrapper menu-item menu-item--level-2 menu-item--current _displayUnfolded"})
+    collection = cat_container.find("li", {"data-name" : "COLLECTION"})
     # untuk koleksi tanpa subkategori
     links = collection.find_all("li", {"class": "_category-link-wrapper menu-item menu-item--level-3 menu-item--is-leaf"})
     for i in range(len(links)):
@@ -92,7 +83,7 @@ def getCategory(cat_container):
         subcats = subcat_ultag.find_all("li", {"class" : "_category-link-wrapper menu-item menu-item--level-4 menu-item--is-leaf"})
         for j in range(len(subcats)):
             subcat_name = subcats[j].get("data-name")
-            if(subcat_name!="Lihat Semua"):
+            if(subcat_name!="Lihat Semua" and subcat_name!="New In"):
                 cat_tuple = (cat_name,subcat_name)
                 categories.append(cat_tuple)
 
@@ -110,13 +101,16 @@ def getBody(myurl):
 # mendapatkan data koleksi wanita
 def getData(navigators, categories):
     #menyimpan seluruh data barang
-    data = [] 
+    data = []
     # menandakan sekarang sedang memparsing page categori yang mana
     cat_now = 0
     # jumlah produk / ID pada tuple json
+    client = MongoClient("mongodb+srv://cacachandrika:tes123@basdatcluster.f2fkt.mongodb.net/basdat?retryWrites=true&w=majority")
+    db = client.get_database('basdat')
+    records = db.zara
     num_product = 1;
     for page in navigators:
-        # print(cat_now, page)
+        # print(str(page))
         container = getBody(page)
         wraps = container.find_all("div",{"class":"_groups-wrap"})
         ultag = wraps[0].find("ul")
@@ -150,6 +144,7 @@ def getData(navigators, categories):
                     new_price_sale = -1
                     res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] , int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
+                    records.insert_one(res.getJson())
                     num_product+=1
                 # kasus 2 : barang sale
                 else:
@@ -167,6 +162,7 @@ def getData(navigators, categories):
                         new_price_sale = price_sale_2.replace('.','')
                     res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] ,int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
+                    records.insert_one(res.getJson())
                     num_product+=1
             i+=1
         cat_now+=1

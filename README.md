@@ -57,7 +57,7 @@ __How to use__
 - how to run : python3 basdat.py
 - lihat data hasil scraping pada file zara_women.json pada folder data
 
-p.s. dibutuhkan waktu sekitar 3 menit hingga program selesai bekerja, jika ingin melihat url page yang sedang di-scrape pada setiap waktu, silahkan membuka command pada baris 119
+p.s. dibutuhkan waktu sekitar 3 menit hingga program selesai bekerja, jika ingin melihat url page yang sedang di-scrape pada setiap waktu, silahkan membuka command pada baris 113
 
 __JSON Structure__
 
@@ -96,6 +96,7 @@ Library yang digunakan :
 1. json untuk menghasilkan file json
 2. BeautifulSoup4 untuk html parser
 3. urllib.request untuk mendapatkan script HTML dari url
+4. pymongo untuk menghubungkan dengan cloud database Atlas
 
 __Author__
 
