@@ -74,7 +74,9 @@ JSON Structure
 {"lists": [{rank,name,score,type}]}
 
 Screenshot
-
+![screenshot1](/screenshots/ss1.png)
+![screenshot2](/screenshots/ss2.png)
+![screenshot3](/screenshots/ss3.png)
 
 Reference
 https://www.youtube.com/watch?v=XQgXKtPSzUI&t=1667s
