@@ -144,7 +144,8 @@ def getData(navigators, categories):
                     new_price_sale = -1
                     res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] , int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
-                    records.insert_one(res.getJson())
+                    # memasukkan data ke cloud
+                    # records.insert_one(res.getJson())
                     num_product+=1
                 # kasus 2 : barang sale
                 else:
@@ -162,7 +163,8 @@ def getData(navigators, categories):
                         new_price_sale = price_sale_2.replace('.','')
                     res = Result(num_product, id, name, label, categories[cat_now][0], categories[cat_now][1] ,int(new_main_price),int(new_price_sale))
                     data.append(res.getJson())
-                    records.insert_one(res.getJson())
+                    # memasukkan data ke cloud
+                    # records.insert_one(res.getJson())
                     num_product+=1
             i+=1
         cat_now+=1
