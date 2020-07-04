@@ -9,7 +9,7 @@ HEADER = {'User-Agent' : 'Mozilla/5.0 (Windows);Basis Data/13518067@std.stei.itb
 
 # get url desc from database
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["berry_benka"]
+mydb = myclient["berryBenka"]
 
 def getdata(category):
     # To get list url to scrape
@@ -50,75 +50,68 @@ shoes = ["shoes/mules","shoes/flats","shoes/heels","shoes/sneakers","shoes/sanda
 bags = ["bags/big-bags","bags/small-bags","bags/clutch-bag","bags/wallets","bags/backpack"]
 accessories = ["accessories/earrings","accessories/scarves","accessories/belts","accessories/eyewear","accessories/watches"]
 
-def insert2db(category,arr,f):
+def insert2db(category,arr):
     # insert to database
     for elmt in arr:
         quotes = getdata(elmt)
         x = elmt.split("/")
-        f.write('[')
-        idx = 0
-        for quote in quotes:
-            if "clothing" in elmt:
-                dataScrape = { # record
-                    "category":category,
-                    "tag":x[-2],
-                    "url":quote['url'],
-                    "image":quote['img'],
-                    "price":quote['price'],
-                    "discount":quote['discount'],
-                    "name":quote['name'] 
-                }
-            else:
-                dataScrape = { # record
-                    "category":category,
-                    "url":quote['url'],
-                    "image":quote['img'],
-                    "price":quote['price'],
-                    "discount":quote['discount'],
-                    "name":quote['name']
-                }
+        file = x[-1].replace("-","_")+".json"
+        with open(file,'w') as f:
+            f.write('[')
+            idx = 0
+            for quote in quotes:
+                if "clothing" in elmt:
+                    dataScrape = { # record
+                        "category":category,
+                        "tag":x[-2],
+                        "url":quote['url'],
+                        "image":quote['img'],
+                        "price":quote['price'],
+                        "discount":quote['discount'],
+                        "name":quote['name'] 
+                    }
+                else:
+                    dataScrape = { # record
+                        "category":category,
+                        "url":quote['url'],
+                        "image":quote['img'],
+                        "price":quote['price'],
+                        "discount":quote['discount'],
+                        "name":quote['name']
+                    }
 
-            # write to json file
-            json.dump(dataScrape,f)
-            if idx < len(quotes):
-                f.write(',\n')
-            idx += 1
-            # insert to mongodb
-            mydb[x[-1]].insert_one(dataScrape)
-        f.write(']')
+                # write to json file
+                json.dump(dataScrape,f)
+                if idx < len(quotes)-1:
+                    f.write(',\n')
+                idx += 1
+                # insert to mongodb
+                mydb[x[-1].replace("-","_")].insert_one(dataScrape)
+            f.write(']')
 
 # insert to database : done
-with open('dataScrape.json','w') as f:
-    insert2db("shoes",shoes,f)
-    f.write(",\n")
-    insert2db("bags",bags,f)
-    f.write(",\n")
-    insert2db("accessories",accessories,f)
-    f.write(",\n")
-    insert2db("clothing",clothingTop,f)
-    f.write(",\n")
-    insert2db("clothing",clothingBottom,f)
-    f.write(",\n")
-    insert2db("clothing",clothingOut,f)
-    f.write(",\n")
-    insert2db("clothing",clothingDress,f)
+insert2db("shoes",shoes)
+insert2db("bags",bags)
+insert2db("accessories",accessories)
+insert2db("clothing",clothingTop)
+insert2db("clothing",clothingBottom)
+insert2db("clothing",clothingOut)
+insert2db("clothing",clothingDress)
 
-def getdesc(collname,f,g):
-    top = ["blouse","women-shirts"]
-    bottom = ["culottes","jeans","leggings","long-pants","short-pants","skirts"]
-    dress = ["bodycon","casual","jumpsuit","maxi-dresses","midi-dresses","mini-dresses"]
+def getdesc(collname,f,g,h,l,j,k):
+    top = ["blouse","women_shirts"]
+    bottom = ["culottes","jeans","leggings","long_pants","short_pants","skirts"]
+    dress = ["bodycon","casual","jumpsuit","maxi_dresses","midi_dresses","mini_dresses"]
     out = ["blazers","cardigans","coats","jackets","kimono","sweaters","vest"]
     shoes = ["mules","flats","heels","sneakers","sandals","loafers"]
-    bags = ["big-bags","small-bags","clutch-bag","wallets","backpack"]
+    bags = ["big_bags","small_bags","clutch_bag","wallets","backpack"]
     accessories = ["earrings","scarves","belts","eyewear","watches"]
     data = mydb[collname].find({},{"_id":1,"url":1})
     # quotes = []
-    f.write('[')
-    g.write('[')
     for idx,x in enumerate(data):
         URL = x["url"]
         response = requests.get(URL, headers=HEADER)
-
+        print(URL)
         # Parsing the HTML content
         page_html = response.content
         page_soup = BeautifulSoup(page_html, 'lxml')
@@ -198,8 +191,7 @@ def getdesc(collname,f,g):
                             "Lingkar Pinggang":int(lingkarPinggang),
                             "Panjang":int(panjang)
                         },g)
-                        if i < len(list_p):
-                            g.write(",")
+                        g.write(",\n")
                         # insert to database
                         mydb["rincian_ukuran_top"].insert_one({
                             "id_produk":x["_id"],
@@ -222,9 +214,8 @@ def getdesc(collname,f,g):
                             "Lingkar Paha":int(lingkarPaha),
                             "Pesak":int(pesak),
                             "Panjang":int(panjang)
-                        },g)
-                        if i < len(list_p):
-                            g.write(",")
+                        },h)
+                        h.write(",\n")
                         # insert to database
                         mydb["rincian_ukuran_bottom"].insert_one({
                             "id_produk":x["_id"],
@@ -246,9 +237,8 @@ def getdesc(collname,f,g):
                             "Lingkar Lengan":int(lingkarLengan),
                             "Lingkar Pinggang":int(lingkarPinggang),
                             "Panjang":int(panjang)
-                        },g)
-                        if i < len(list_p):
-                            g.write(",")
+                        },l)
+                        l.write(",\n")
                         # insert to database
                         mydb["rincian_ukuran_outer_dress"].insert_one({
                             "id_produk":x["_id"],
@@ -278,15 +268,13 @@ def getdesc(collname,f,g):
                 if i == 1:
                     # write to json file
                     json.dump({
-                        "Tas Besar":{
                         "id_produk":str(x["_id"]),
                         "Tinggi":float(tinggi),
                         "Lebar":float(lebar),
                         "Alas":float(alas),
-                        "Panjang Tali":float(tali)}
-                    },g)
-                    if i < len(list_p):
-                        g.write(",")
+                        "Panjang Tali":float(tali)
+                    },j)
+                    j.write(",\n")
                     # insert to database
                     mydb["rincian_ukuran_bags"].insert_one({
                         "id_produk":x["_id"],
@@ -298,15 +286,13 @@ def getdesc(collname,f,g):
                 elif i==3:
                     # write to json file
                     json.dump({
-                        "Tas Tambahan":{
                         "id_produk":str(x["_id"]),
                         "Tinggi":float(tinggi),
                         "Lebar":float(lebar),
                         "Alas":float(alas),
-                        "Panjang Tali":float(tali)}
-                    },g)
-                    if i < len(list_p):
-                        g.write(",")
+                        "Panjang Tali":float(tali)
+                    },k)
+                    k.write(",\n")
                     # insert to database
                     mydb["rincian_ukuran_additional_bags"].insert_one({
                         "id_produk":x["_id"],
@@ -319,27 +305,42 @@ def getdesc(collname,f,g):
         # write to json file
         json.dump({
             "id_produk":str(x["_id"]),
-            "description":elmt.find('div',attrs={'class':'prod-wording'}).p.text.replace("\u00a0"," "),
+            "description":elmt.find('div',attrs={'class':'prod-wording'}).p.text.replace("\u00a0"," ").replace("\n","\n ").replace("\n ",""),
             "warna":warna,
             "size":size,
             "bahan":bahan,
             "perawatan":perawatan
         },f)
-        #insert to database
+        f.write(',\n')
+        # insert to database
         mydb["desc_produk"].insert_one({
             "id_produk":x["_id"],
-            "description":elmt.find('div',attrs={'class':'prod-wording'}).p.text.replace("\u00a0"," "),
+            "description":elmt.find('div',attrs={'class':'prod-wording'}).p.text.replace("\u00a0"," ").replace("\n","\n ").replace("\n ",""),
             "warna":warna,
             "size":size,
             "bahan":bahan,
             "perawatan":perawatan
         })
         sleep(2)
-    f.write(']')
-    g.write(']')
 
 # insert description produk to database : done
 with open('dataDescScrape.json','w') as f:
-    with open('dataRincScrape.json','w') as g:
-      for x in mydb.list_collection_names():
-            getdesc(x,f,g)
+    with open('dataRincianClothingTop.json','w') as g:
+        with open('dataRincianClothingBottom.json','w') as h:
+            with open('dataRincianClothingOutDress.json','w') as i:
+                with open('dataRincianBags.json','w') as j:
+                    with open('dataRincianAddBag.json','w') as k:
+                        f.write('[')
+                        g.write('[')
+                        h.write('[')
+                        i.write('[')
+                        j.write('[')
+                        k.write('[')
+                        for x in mydb.list_collection_names():
+                            getdesc(x,f,g,h,i,j,k)
+                        f.write(']')
+                        g.write(']')
+                        h.write(']')
+                        i.write(']')
+                        j.write(']')
+                        k.write(']')
