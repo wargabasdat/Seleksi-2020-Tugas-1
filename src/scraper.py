@@ -9,6 +9,18 @@ import re, json
 
 header = {'user-agent': 'Anindya Prameswari/pamsrewari@gmail.com'}
 
+def convertToMinute(text):
+    hr = re.search('(?:\d+)(?= hr)', text)
+    mn = re.search('(?:\d+)(?= min)', text)
+
+    total = 0
+    if hr != None:
+        total += int(hr.group()) * 60
+    if mn != None:
+        total += int(mn.group())
+
+    return total
+
 def scrape(url, req_no):
     global header
     response = get(url, headers = header)
@@ -50,25 +62,29 @@ def scrape(url, req_no):
             for t in range(len(meta_item)):
                 prep = meta_item[t].find('div', class_ = 'recipe-meta-item-header').text
                 if (re.search('[Pp]rep', prep)):
-                    time['prep'] = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    text = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    time['prep'] = convertToMinute(text)
                     break
 
             for t in range(len(meta_item)):
                 cook = meta_item[t].find('div', class_ = 'recipe-meta-item-header').text
                 if (re.search('[Cc]ook', cook)):
-                    time['cook'] = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    text = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    time['cook'] = convertToMinute(text)
                     break
             
             for t in range(len(meta_item)):
                 add = meta_item[t].find('div', class_ = 'recipe-meta-item-header').text
                 if (re.search('[Aa]dditional', add)):
-                    time['additional'] = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    text = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    time['additional'] = convertToMinute(text)
                     break
 
             for t in range(len(meta_item)):
                 total = meta_item[t].find('div', class_ = 'recipe-meta-item-header').text
                 if (re.search('[Tt]otal', total)):
-                    time['total'] = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    text = meta_item[t].find('div', class_ = 'recipe-meta-item-body').text.strip()
+                    time['total'] = convertToMinute(text)
                     break
                 
             if time:
@@ -133,13 +149,14 @@ if __name__ == "__main__":
             sleep(1)
 
             datum = scrape(recipe_url, requests)
-            data.append(datum)
+            if datum != None:
+                data.append(datum)
             print('Elapsed time: {}'.format(time() - start))
 
     with open('../data/data.json', 'w') as f:
         json.dump(data, f, indent = 4)
 
 # Single Scrape Test
-# url = 'https://www.allrecipes.com/recipe/7565/too-much-chocolate-cake/'
+# url = 'https://www.allrecipes.com/recipe/278238/maamoul-lebanese-date-cookies/'
 # data = scrape(url, 2)
 # print(data)
