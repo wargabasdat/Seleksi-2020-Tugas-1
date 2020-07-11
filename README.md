@@ -19,14 +19,19 @@
   <br>
 </h2>
 
+### Update!!!
+Menambahkan web ketiga untuk mengambil data gross national income per capita
+
 &nbsp;
 ### Description
 
-Program dibuat untuk memperoleh data penggunaan internet negara-negara di dunia, data diambil dari 2 buah website yang berbeda
+Program dibuat untuk memperoleh data penggunaan internet negara-negara di dunia, data diambil dari 3 buah website yang berbeda
 
 1. Data jumlah pengguna internet dari website https://www.internetworldstats.com/
 
 2. Data kecepatan internet dari website https://www.speedtest.net/global-index
+
+3. Data gross national income per capita dari website https://en.m.wikipedia.org/wiki/List_of_countries_by_GNI_(nominal)_per_capita
 
 Data dari dua website ini kemudian digabungkan dalam satu buah output file berbentuk JSON. Saya sengaja mengambil data dari dua buah website yang berbeda untuk saling melengkapi, sehingga dapat memberikan lebih banyak insight saat sudah memasuki tahapan visualisasi data nantinya.
 
@@ -84,6 +89,7 @@ Berikut adalah contoh salah satu struktur data hasil scraping
          "url": "https://www.speedtest.net/global-index/afghanistan#fixed",
          "mobile_speed": 6.02
       }
+      "GNI": 540
 }
 ```
 &nbsp;
@@ -100,6 +106,7 @@ Keterangan :
 	a. broadband_speed	: data kecepatan broadband internet
 	b. url			: link ke detail kecepatan internet di negara
 	c. mobile_speed		: data kecepatan mobile internet
+9. GNI			: gross national income
 ```
 
 &nbsp;
