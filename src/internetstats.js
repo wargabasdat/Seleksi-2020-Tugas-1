@@ -85,7 +85,7 @@ class internetPage {
             // Cleaning data and string matching from 2 different websites
             replaceName = (str) => {
                 let res = str.replace('(SAR)', '');
-                res = res.replace('*', '');
+                res = res.replace(' *', '');
                 res = res.replace('Afganistan', 'Afghanistan');
                 res = res.replace('Korea, South','South Korea');
                 res = res.replace('Kyrgystan','Kyrgyzstan');
@@ -99,6 +99,7 @@ class internetPage {
                 res = res.replace('Bosnia-Herzegovina','Bosnia and Herzegovina');
                 res = res.replace(' (State of)','');
                 res = res.replace('Papau','Papua');
+                res = res.replace('Myanmar','Republic of the Union of Myanmar');
                 return res;
             };
 

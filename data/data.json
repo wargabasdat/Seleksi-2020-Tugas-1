@@ -8,9 +8,9 @@
       "users_region": 0.3,
       "facebook_subs": 3848400,
       "speed_data": {
-         "broadband_speed": 6.95,
+         "broadband_speed": 7.38,
          "url": "https://www.speedtest.net/global-index/afghanistan#fixed",
-         "mobile_speed": 6.02
+         "mobile_speed": 5.52
       }
    },
    {
@@ -22,9 +22,9 @@
       "users_region": 0.1,
       "facebook_subs": 1252000,
       "speed_data": {
-         "broadband_speed": 26.18,
+         "broadband_speed": 26.99,
          "url": "https://www.speedtest.net/global-index/armenia#fixed",
-         "mobile_speed": 33.23
+         "mobile_speed": 34.04
       }
    },
    {
@@ -36,9 +36,9 @@
       "users_region": 0.3,
       "facebook_subs": 1854000,
       "speed_data": {
-         "broadband_speed": 19.77,
+         "broadband_speed": 21.24,
          "url": "https://www.speedtest.net/global-index/azerbaijan#fixed",
-         "mobile_speed": 27.53
+         "mobile_speed": 30.99
       }
    },
    {
@@ -50,9 +50,9 @@
       "users_region": 4.2,
       "facebook_subs": 33713000,
       "speed_data": {
-         "broadband_speed": 24.31,
+         "broadband_speed": 25.04,
          "url": "https://www.speedtest.net/global-index/bangladesh#fixed",
-         "mobile_speed": 9.96
+         "mobile_speed": 10.53
       }
    },
    {
@@ -64,9 +64,8 @@
       "users_region": 0,
       "facebook_subs": 413100,
       "speed_data": {
-         "broadband_speed": "15.52",
-         "url": "https://www.speedtest.net/global-index/bhutan#fixed",
-         "mobile_speed": null
+         "broadband_speed": 15.32,
+         "url": "https://www.speedtest.net/global-index/bhutan#fixed"
       }
    },
    {
@@ -78,9 +77,23 @@
       "users_region": 0.3,
       "facebook_subs": 7810000,
       "speed_data": {
-         "broadband_speed": 21.3,
+         "broadband_speed": 22.87,
          "url": "https://www.speedtest.net/global-index/cambodia#fixed",
-         "mobile_speed": 16.64
+         "mobile_speed": 17.21
+      }
+   },
+   {
+      "name": "China",
+      "region": "Asia",
+      "population": 1439323776,
+      "internet_users": 854000000,
+      "penetration": 59.3,
+      "users_region": 37.1,
+      "facebook_subs": 1330000,
+      "speed_data": {
+         "broadband_speed": 133.6,
+         "url": "https://www.speedtest.net/global-index/china#fixed",
+         "mobile_speed": 103.67
       }
    },
    {
@@ -92,9 +105,9 @@
       "users_region": 0.1,
       "facebook_subs": 2524000,
       "speed_data": {
-         "broadband_speed": 24.38,
+         "broadband_speed": 26.19,
          "url": "https://www.speedtest.net/global-index/georgia#fixed",
-         "mobile_speed": 24.12
+         "mobile_speed": 27.72
       }
    },
    {
@@ -106,9 +119,9 @@
       "users_region": 24.3,
       "facebook_subs": 251000000,
       "speed_data": {
-         "broadband_speed": 35.84,
+         "broadband_speed": 38.19,
          "url": "https://www.speedtest.net/global-index/india#fixed",
-         "mobile_speed": 9.81
+         "mobile_speed": 12.16
       }
    },
    {
@@ -120,9 +133,9 @@
       "users_region": 7.4,
       "facebook_subs": 136960000,
       "speed_data": {
-         "broadband_speed": 19.15,
+         "broadband_speed": 21.28,
          "url": "https://www.speedtest.net/global-index/indonesia#fixed",
-         "mobile_speed": 14.02
+         "mobile_speed": 16.37
       }
    },
    {
@@ -134,9 +147,9 @@
       "users_region": 5.2,
       "facebook_subs": 28000000,
       "speed_data": {
-         "broadband_speed": 95.17,
+         "broadband_speed": 106.49,
          "url": "https://www.speedtest.net/global-index/japan#fixed",
-         "mobile_speed": 38.21
+         "mobile_speed": 35.64
       }
    },
    {
@@ -148,9 +161,9 @@
       "users_region": 0.6,
       "facebook_subs": 9246000,
       "speed_data": {
-         "broadband_speed": 39.81,
+         "broadband_speed": 46.31,
          "url": "https://www.speedtest.net/global-index/kazakhstan#fixed",
-         "mobile_speed": 17.45
+         "mobile_speed": 21.25
       }
    },
    {
@@ -162,9 +175,9 @@
       "users_region": 2.1,
       "facebook_subs": 21836000,
       "speed_data": {
-         "broadband_speed": 120.13,
+         "broadband_speed": 158.79,
          "url": "https://www.speedtest.net/global-index/south-korea#fixed",
-         "mobile_speed": 88.01
+         "mobile_speed": 110.1
       }
    },
    {
@@ -176,9 +189,9 @@
       "users_region": 0.1,
       "facebook_subs": 2418000,
       "speed_data": {
-         "broadband_speed": 31.43,
+         "broadband_speed": 40.26,
          "url": "https://www.speedtest.net/global-index/kyrgyzstan#fixed",
-         "mobile_speed": 16.8
+         "mobile_speed": 20.06
       }
    },
    {
@@ -192,7 +205,7 @@
       "speed_data": {
          "broadband_speed": 34.61,
          "url": "https://www.speedtest.net/global-index/laos#fixed",
-         "mobile_speed": 20.18
+         "mobile_speed": 20.48
       }
    },
    {
@@ -204,9 +217,9 @@
       "users_region": 1.1,
       "facebook_subs": 25520000,
       "speed_data": {
-         "broadband_speed": 79.87,
+         "broadband_speed": 81.46,
          "url": "https://www.speedtest.net/global-index/malaysia#fixed",
-         "mobile_speed": 18.57
+         "mobile_speed": 24.32
       }
    },
    {
@@ -218,9 +231,9 @@
       "users_region": 0,
       "facebook_subs": 375100,
       "speed_data": {
-         "broadband_speed": 15.95,
+         "broadband_speed": 17.15,
          "url": "https://www.speedtest.net/global-index/maldives#fixed",
-         "mobile_speed": 27.08
+         "mobile_speed": 29.44
       }
    },
    {
@@ -232,9 +245,23 @@
       "users_region": 0.1,
       "facebook_subs": 2233000,
       "speed_data": {
-         "broadband_speed": 34.17,
+         "broadband_speed": 35.63,
          "url": "https://www.speedtest.net/global-index/mongolia#fixed",
-         "mobile_speed": 20.44
+         "mobile_speed": 19.19
+      }
+   },
+   {
+      "name": "Republic of the Union of Myanmar",
+      "region": "Asia",
+      "population": 54409800,
+      "internet_users": 22200000,
+      "penetration": 40.8,
+      "users_region": 1,
+      "facebook_subs": 22200000,
+      "speed_data": {
+         "broadband_speed": 18.78,
+         "url": "https://www.speedtest.net/global-index/republic-of-the-union-of-myanmar#fixed",
+         "mobile_speed": 25.47
       }
    },
    {
@@ -246,9 +273,9 @@
       "users_region": 0.7,
       "facebook_subs": 10419000,
       "speed_data": {
-         "broadband_speed": 17.97,
+         "broadband_speed": 20.45,
          "url": "https://www.speedtest.net/global-index/nepal#fixed",
-         "mobile_speed": 14.35
+         "mobile_speed": 15.22
       }
    },
    {
@@ -260,9 +287,9 @@
       "users_region": 3.1,
       "facebook_subs": 37070000,
       "speed_data": {
-         "broadband_speed": 7.81,
+         "broadband_speed": 8.87,
          "url": "https://www.speedtest.net/global-index/pakistan#fixed",
-         "mobile_speed": 14.34
+         "mobile_speed": 14.86
       }
    },
    {
@@ -274,9 +301,9 @@
       "users_region": 3.4,
       "facebook_subs": 71760000,
       "speed_data": {
-         "broadband_speed": 21,
+         "broadband_speed": 23.74,
          "url": "https://www.speedtest.net/global-index/philippines#fixed",
-         "mobile_speed": 12.09
+         "mobile_speed": 16.17
       }
    },
    {
@@ -288,9 +315,9 @@
       "users_region": 0.2,
       "facebook_subs": 4470000,
       "speed_data": {
-         "broadband_speed": 198.46,
+         "broadband_speed": 208.16,
          "url": "https://www.speedtest.net/global-index/singapore#fixed",
-         "mobile_speed": 53.86
+         "mobile_speed": 56.95
       }
    },
    {
@@ -302,9 +329,9 @@
       "users_region": 0.3,
       "facebook_subs": 6428000,
       "speed_data": {
-         "broadband_speed": 23.15,
+         "broadband_speed": 25.99,
          "url": "https://www.speedtest.net/global-index/sri-lanka#fixed",
-         "mobile_speed": 13.21
+         "mobile_speed": 17.1
       }
    },
    {
@@ -316,9 +343,9 @@
       "users_region": 1,
       "facebook_subs": 19190000,
       "speed_data": {
-         "broadband_speed": 114.55,
+         "broadband_speed": 122.59,
          "url": "https://www.speedtest.net/global-index/taiwan#fixed",
-         "mobile_speed": 45.91
+         "mobile_speed": 49.37
       }
    },
    {
@@ -330,9 +357,9 @@
       "users_region": 0.1,
       "facebook_subs": 645500,
       "speed_data": {
-         "broadband_speed": 24.16,
+         "broadband_speed": 27.59,
          "url": "https://www.speedtest.net/global-index/tajikistan#fixed",
-         "mobile_speed": 10.38
+         "mobile_speed": 12.62
       }
    },
    {
@@ -344,9 +371,9 @@
       "users_region": 2.5,
       "facebook_subs": 46000000,
       "speed_data": {
-         "broadband_speed": 159.87,
+         "broadband_speed": 171.36,
          "url": "https://www.speedtest.net/global-index/thailand#fixed",
-         "mobile_speed": 27.72
+         "mobile_speed": 33.04
       }
    },
    {
@@ -358,9 +385,8 @@
       "users_region": 0.1,
       "facebook_subs": 67200,
       "speed_data": {
-         "broadband_speed": "2.64",
-         "url": "https://www.speedtest.net/global-index/turkmenistan#fixed",
-         "mobile_speed": null
+         "broadband_speed": 3.69,
+         "url": "https://www.speedtest.net/global-index/turkmenistan#fixed"
       }
    },
    {
@@ -372,9 +398,9 @@
       "users_region": 0.7,
       "facebook_subs": 3094000,
       "speed_data": {
-         "broadband_speed": 25.88,
+         "broadband_speed": 28.52,
          "url": "https://www.speedtest.net/global-index/uzbekistan#fixed",
-         "mobile_speed": 9.68
+         "mobile_speed": 11.78
       }
    },
    {
@@ -386,9 +412,9 @@
       "users_region": 3,
       "facebook_subs": 66720000,
       "speed_data": {
-         "broadband_speed": 47.66,
+         "broadband_speed": 54.67,
          "url": "https://www.speedtest.net/global-index/vietnam#fixed",
-         "mobile_speed": 34.8
+         "mobile_speed": 33.12
       }
    },
    {
@@ -400,9 +426,8 @@
       "users_region": 0,
       "facebook_subs": 62000,
       "speed_data": {
-         "broadband_speed": 15.91,
-         "url": "https://www.speedtest.net/global-index/antigua-and-barbuda#fixed",
-         "mobile_speed": 26.09
+         "broadband_speed": 17.23,
+         "url": "https://www.speedtest.net/global-index/antigua-and-barbuda#fixed"
       }
    },
    {
@@ -414,9 +439,9 @@
       "users_region": 5.3,
       "facebook_subs": 30000000,
       "speed_data": {
-         "broadband_speed": 37.18,
+         "broadband_speed": 40.27,
          "url": "https://www.speedtest.net/global-index/argentina#fixed",
-         "mobile_speed": 25.71
+         "mobile_speed": 27.76
       }
    },
    {
@@ -428,9 +453,9 @@
       "users_region": 0,
       "facebook_subs": 220000,
       "speed_data": {
-         "broadband_speed": 35.07,
+         "broadband_speed": 40.24,
          "url": "https://www.speedtest.net/global-index/the-bahamas#fixed",
-         "mobile_speed": 23.81
+         "mobile_speed": 29.62
       }
    },
    {
@@ -442,9 +467,8 @@
       "users_region": 0,
       "facebook_subs": 160000,
       "speed_data": {
-         "broadband_speed": "72.24",
-         "url": "https://www.speedtest.net/global-index/barbados#fixed",
-         "mobile_speed": null
+         "broadband_speed": 79.77,
+         "url": "https://www.speedtest.net/global-index/barbados#fixed"
       }
    },
    {
@@ -456,9 +480,9 @@
       "users_region": 0,
       "facebook_subs": 200000,
       "speed_data": {
-         "broadband_speed": 36.78,
+         "broadband_speed": 41.24,
          "url": "https://www.speedtest.net/global-index/belize#fixed",
-         "mobile_speed": 22.76
+         "mobile_speed": 22.29
       }
    },
    {
@@ -472,7 +496,7 @@
       "speed_data": {
          "broadband_speed": 16.7,
          "url": "https://www.speedtest.net/global-index/bolivia#fixed",
-         "mobile_speed": 18.42
+         "mobile_speed": 19.22
       }
    },
    {
@@ -484,9 +508,9 @@
       "users_region": 19,
       "facebook_subs": 139000000,
       "speed_data": {
-         "broadband_speed": 53.2,
+         "broadband_speed": 59.4,
          "url": "https://www.speedtest.net/global-index/brazil#fixed",
-         "mobile_speed": 25.53
+         "mobile_speed": 27.39
       }
    },
    {
@@ -498,9 +522,9 @@
       "users_region": 4.2,
       "facebook_subs": 23000000,
       "speed_data": {
-         "broadband_speed": 118.11,
+         "broadband_speed": 129.92,
          "url": "https://www.speedtest.net/global-index/canada#fixed",
-         "mobile_speed": 73.52
+         "mobile_speed": 71.61
       }
    },
    {
@@ -512,9 +536,9 @@
       "users_region": 1.8,
       "facebook_subs": 13000000,
       "speed_data": {
-         "broadband_speed": 97.74,
+         "broadband_speed": 108.17,
          "url": "https://www.speedtest.net/global-index/chile#fixed",
-         "mobile_speed": 17.35
+         "mobile_speed": 17.69
       }
    },
    {
@@ -526,9 +550,9 @@
       "users_region": 4,
       "facebook_subs": 29000000,
       "speed_data": {
-         "broadband_speed": 28.29,
+         "broadband_speed": 33.35,
          "url": "https://www.speedtest.net/global-index/colombia#fixed",
-         "mobile_speed": 18.67
+         "mobile_speed": 19.04
       }
    },
    {
@@ -540,9 +564,9 @@
       "users_region": 0.5,
       "facebook_subs": 3200000,
       "speed_data": {
-         "broadband_speed": 33.94,
+         "broadband_speed": 35.55,
          "url": "https://www.speedtest.net/global-index/costa-rica#fixed",
-         "mobile_speed": 20.08
+         "mobile_speed": 22.77
       }
    },
    {
@@ -554,9 +578,9 @@
       "users_region": 0.6,
       "facebook_subs": null,
       "speed_data": {
-         "broadband_speed": "2.95",
+         "broadband_speed": 4.17,
          "url": "https://www.speedtest.net/global-index/cuba#fixed",
-         "mobile_speed": null
+         "mobile_speed": 31.38
       }
    },
    {
@@ -568,9 +592,8 @@
       "users_region": 0,
       "facebook_subs": 39000,
       "speed_data": {
-         "broadband_speed": "30.67",
-         "url": "https://www.speedtest.net/global-index/dominica#fixed",
-         "mobile_speed": null
+         "broadband_speed": 27.57,
+         "url": "https://www.speedtest.net/global-index/dominica#fixed"
       }
    },
    {
@@ -582,9 +605,9 @@
       "users_region": 0.8,
       "facebook_subs": 5100000,
       "speed_data": {
-         "broadband_speed": 21.67,
+         "broadband_speed": 24.83,
          "url": "https://www.speedtest.net/global-index/dominican-republic#fixed",
-         "mobile_speed": 18.3
+         "mobile_speed": 26.3
       }
    },
    {
@@ -596,9 +619,9 @@
       "users_region": 1.7,
       "facebook_subs": 10000000,
       "speed_data": {
-         "broadband_speed": 22.51,
+         "broadband_speed": 24.54,
          "url": "https://www.speedtest.net/global-index/ecuador#fixed",
-         "mobile_speed": 21.46
+         "mobile_speed": 22.39
       }
    },
    {
@@ -610,9 +633,9 @@
       "users_region": 0.5,
       "facebook_subs": 3400000,
       "speed_data": {
-         "broadband_speed": 13.25,
+         "broadband_speed": 15.19,
          "url": "https://www.speedtest.net/global-index/el-salvador#fixed",
-         "mobile_speed": 11.23
+         "mobile_speed": 17.71
       }
    },
    {
@@ -624,9 +647,8 @@
       "users_region": 0,
       "facebook_subs": 62000,
       "speed_data": {
-         "broadband_speed": "38.69",
-         "url": "https://www.speedtest.net/global-index/grenada#fixed",
-         "mobile_speed": null
+         "broadband_speed": 44.16,
+         "url": "https://www.speedtest.net/global-index/grenada#fixed"
       }
    },
    {
@@ -638,9 +660,9 @@
       "users_region": 0.9,
       "facebook_subs": 6800000,
       "speed_data": {
-         "broadband_speed": 13.53,
+         "broadband_speed": 14.06,
          "url": "https://www.speedtest.net/global-index/guatemala#fixed",
-         "mobile_speed": 24.46
+         "mobile_speed": 25.13
       }
    },
    {
@@ -652,9 +674,8 @@
       "users_region": 0.1,
       "facebook_subs": 360000,
       "speed_data": {
-         "broadband_speed": "24.18",
-         "url": "https://www.speedtest.net/global-index/guyana#fixed",
-         "mobile_speed": null
+         "broadband_speed": 27.54,
+         "url": "https://www.speedtest.net/global-index/guyana#fixed"
       }
    },
    {
@@ -666,9 +687,9 @@
       "users_region": 0.3,
       "facebook_subs": 1800000,
       "speed_data": {
-         "broadband_speed": 12.83,
+         "broadband_speed": 15.27,
          "url": "https://www.speedtest.net/global-index/haiti#fixed",
-         "mobile_speed": 12.17
+         "mobile_speed": 15.4
       }
    },
    {
@@ -680,9 +701,9 @@
       "users_region": 0.5,
       "facebook_subs": 3400000,
       "speed_data": {
-         "broadband_speed": 14.48,
+         "broadband_speed": 16.5,
          "url": "https://www.speedtest.net/global-index/honduras#fixed",
-         "mobile_speed": 21.54
+         "mobile_speed": 22.46
       }
    },
    {
@@ -694,9 +715,9 @@
       "users_region": 0.2,
       "facebook_subs": 1100000,
       "speed_data": {
-         "broadband_speed": 32.44,
+         "broadband_speed": 35.43,
          "url": "https://www.speedtest.net/global-index/jamaica#fixed",
-         "mobile_speed": 34.48
+         "mobile_speed": 38
       }
    },
    {
@@ -708,9 +729,9 @@
       "users_region": 10.9,
       "facebook_subs": 78000000,
       "speed_data": {
-         "broadband_speed": 36.49,
+         "broadband_speed": 40.54,
          "url": "https://www.speedtest.net/global-index/mexico#fixed",
-         "mobile_speed": 30.61
+         "mobile_speed": 31.05
       }
    },
    {
@@ -722,9 +743,9 @@
       "users_region": 0.3,
       "facebook_subs": 2500000,
       "speed_data": {
-         "broadband_speed": 13.58,
+         "broadband_speed": 14.72,
          "url": "https://www.speedtest.net/global-index/nicaragua#fixed",
-         "mobile_speed": 20.85
+         "mobile_speed": 20.05
       }
    },
    {
@@ -736,9 +757,9 @@
       "users_region": 0.4,
       "facebook_subs": 2000000,
       "speed_data": {
-         "broadband_speed": 85.39,
+         "broadband_speed": 90.9,
          "url": "https://www.speedtest.net/global-index/panama#fixed",
-         "mobile_speed": 14.87
+         "mobile_speed": 17.49
       }
    },
    {
@@ -750,9 +771,9 @@
       "users_region": 0.8,
       "facebook_subs": 3300000,
       "speed_data": {
-         "broadband_speed": 31.28,
+         "broadband_speed": 35.54,
          "url": "https://www.speedtest.net/global-index/paraguay#fixed",
-         "mobile_speed": 15.98
+         "mobile_speed": 15.39
       }
    },
    {
@@ -764,9 +785,9 @@
       "users_region": 2.8,
       "facebook_subs": 20000000,
       "speed_data": {
-         "broadband_speed": 22.97,
+         "broadband_speed": 27.87,
          "url": "https://www.speedtest.net/global-index/peru#fixed",
-         "mobile_speed": 18.65
+         "mobile_speed": 22.29
       }
    },
    {
@@ -778,9 +799,8 @@
       "users_region": 0,
       "facebook_subs": 92000,
       "speed_data": {
-         "broadband_speed": "32.62",
-         "url": "https://www.speedtest.net/global-index/saint-lucia#fixed",
-         "mobile_speed": null
+         "broadband_speed": 36.77,
+         "url": "https://www.speedtest.net/global-index/saint-lucia#fixed"
       }
    },
    {
@@ -792,9 +812,9 @@
       "users_region": 0,
       "facebook_subs": 310000,
       "speed_data": {
-         "broadband_speed": 10.42,
+         "broadband_speed": 10.35,
          "url": "https://www.speedtest.net/global-index/suriname#fixed",
-         "mobile_speed": 25.86
+         "mobile_speed": 19.98
       }
    },
    {
@@ -806,9 +826,9 @@
       "users_region": 0.1,
       "facebook_subs": 700000,
       "speed_data": {
-         "broadband_speed": 52.39,
+         "broadband_speed": 57.43,
          "url": "https://www.speedtest.net/global-index/trinidad-and-tobago#fixed",
-         "mobile_speed": 32.34
+         "mobile_speed": 37.23
       }
    },
    {
@@ -820,9 +840,9 @@
       "users_region": 39.9,
       "facebook_subs": 240000000,
       "speed_data": {
-         "broadband_speed": 132.6,
+         "broadband_speed": 143.28,
          "url": "https://www.speedtest.net/global-index/united-states#fixed",
-         "mobile_speed": 42.7
+         "mobile_speed": 44.94
       }
    },
    {
@@ -834,9 +854,9 @@
       "users_region": 0.4,
       "facebook_subs": 2400000,
       "speed_data": {
-         "broadband_speed": 47.13,
+         "broadband_speed": 52.99,
          "url": "https://www.speedtest.net/global-index/uruguay#fixed",
-         "mobile_speed": 29.84
+         "mobile_speed": 30.53
       }
    },
    {
@@ -848,9 +868,9 @@
       "users_region": 2.2,
       "facebook_subs": 13000000,
       "speed_data": {
-         "broadband_speed": 2.85,
+         "broadband_speed": 3.5,
          "url": "https://www.speedtest.net/global-index/venezuela#fixed",
-         "mobile_speed": 6.07
+         "mobile_speed": 7.8
       }
    },
    {
@@ -862,9 +882,9 @@
       "users_region": 50,
       "facebook_subs": 19000000,
       "speed_data": {
-         "broadband_speed": 3.02,
+         "broadband_speed": 3.86,
          "url": "https://www.speedtest.net/global-index/algeria#fixed",
-         "mobile_speed": 8.25
+         "mobile_speed": 11.17
       }
    },
    {
@@ -876,9 +896,9 @@
       "users_region": 23,
       "facebook_subs": 2244000,
       "speed_data": {
-         "broadband_speed": 14.46,
+         "broadband_speed": 15.03,
          "url": "https://www.speedtest.net/global-index/angola#fixed",
-         "mobile_speed": 23.76
+         "mobile_speed": 24.61
       }
    },
    {
@@ -890,9 +910,8 @@
       "users_region": 25,
       "facebook_subs": 920000,
       "speed_data": {
-         "broadband_speed": 11.73,
-         "url": "https://www.speedtest.net/global-index/benin#fixed",
-         "mobile_speed": 12.6
+         "broadband_speed": 10.31,
+         "url": "https://www.speedtest.net/global-index/benin#fixed"
       }
    },
    {
@@ -904,9 +923,9 @@
       "users_region": 6,
       "facebook_subs": 830000,
       "speed_data": {
-         "broadband_speed": 6.95,
+         "broadband_speed": 10.19,
          "url": "https://www.speedtest.net/global-index/botswana#fixed",
-         "mobile_speed": 11.77
+         "mobile_speed": 19.85
       }
    },
    {
@@ -918,9 +937,8 @@
       "users_region": 36,
       "facebook_subs": 840000,
       "speed_data": {
-         "broadband_speed": "8.57",
-         "url": "https://www.speedtest.net/global-index/burkina-faso#fixed",
-         "mobile_speed": null
+         "broadband_speed": 13.94,
+         "url": "https://www.speedtest.net/global-index/burkina-faso#fixed"
       }
    },
    {
@@ -932,9 +950,8 @@
       "users_region": 38,
       "facebook_subs": 450000,
       "speed_data": {
-         "broadband_speed": "8.16",
-         "url": "https://www.speedtest.net/global-index/burundi#fixed",
-         "mobile_speed": null
+         "broadband_speed": 7.74,
+         "url": "https://www.speedtest.net/global-index/burundi#fixed"
       }
    },
    {
@@ -946,9 +963,8 @@
       "users_region": 30,
       "facebook_subs": 2700000,
       "speed_data": {
-         "broadband_speed": 7.4,
-         "url": "https://www.speedtest.net/global-index/cameroon#fixed",
-         "mobile_speed": 12.22
+         "broadband_speed": 11.97,
+         "url": "https://www.speedtest.net/global-index/cameroon#fixed"
       }
    },
    {
@@ -960,9 +976,8 @@
       "users_region": 146,
       "facebook_subs": 732800,
       "speed_data": {
-         "broadband_speed": "23.16",
-         "url": "https://www.speedtest.net/global-index/congo#fixed",
-         "mobile_speed": null
+         "broadband_speed": 19.95,
+         "url": "https://www.speedtest.net/global-index/congo#fixed"
       }
    },
    {
@@ -974,9 +989,8 @@
       "users_region": 39,
       "facebook_subs": 211700,
       "speed_data": {
-         "broadband_speed": "7.40",
-         "url": "https://www.speedtest.net/global-index/djibouti#fixed",
-         "mobile_speed": null
+         "broadband_speed": 9.65,
+         "url": "https://www.speedtest.net/global-index/djibouti#fixed"
       }
    },
    {
@@ -988,9 +1002,9 @@
       "users_region": 10,
       "facebook_subs": 42400000,
       "speed_data": {
-         "broadband_speed": 24.01,
+         "broadband_speed": 23.01,
          "url": "https://www.speedtest.net/global-index/egypt#fixed",
-         "mobile_speed": 18.94
+         "mobile_speed": 19.41
       }
    },
    {
@@ -1002,9 +1016,9 @@
       "users_region": 204,
       "facebook_subs": 6007000,
       "speed_data": {
-         "broadband_speed": 10.59,
+         "broadband_speed": 9.84,
          "url": "https://www.speedtest.net/global-index/ethiopia#fixed",
-         "mobile_speed": 17.92
+         "mobile_speed": 18.14
       }
    },
    {
@@ -1016,9 +1030,8 @@
       "users_region": 8,
       "facebook_subs": 743000,
       "speed_data": {
-         "broadband_speed": "21.42",
-         "url": "https://www.speedtest.net/global-index/gabon#fixed",
-         "mobile_speed": null
+         "broadband_speed": 21.23,
+         "url": "https://www.speedtest.net/global-index/gabon#fixed"
       }
    },
    {
@@ -1030,9 +1043,8 @@
       "users_region": 10,
       "facebook_subs": 370100,
       "speed_data": {
-         "broadband_speed": "7.74",
-         "url": "https://www.speedtest.net/global-index/the-gambia#fixed",
-         "mobile_speed": null
+         "broadband_speed": 7.56,
+         "url": "https://www.speedtest.net/global-index/the-gambia#fixed"
       }
    },
    {
@@ -1044,9 +1056,9 @@
       "users_region": 39,
       "facebook_subs": 4900000,
       "speed_data": {
-         "broadband_speed": 32.98,
+         "broadband_speed": 38.93,
          "url": "https://www.speedtest.net/global-index/ghana#fixed",
-         "mobile_speed": 11.02
+         "mobile_speed": 16.41
       }
    },
    {
@@ -1058,9 +1070,9 @@
       "users_region": 23,
       "facebook_subs": 7000000,
       "speed_data": {
-         "broadband_speed": 17.07,
+         "broadband_speed": 14.98,
          "url": "https://www.speedtest.net/global-index/kenya#fixed",
-         "mobile_speed": 20.15
+         "mobile_speed": 21.33
       }
    },
    {
@@ -1072,9 +1084,8 @@
       "users_region": 124,
       "facebook_subs": 537000,
       "speed_data": {
-         "broadband_speed": "18.34",
-         "url": "https://www.speedtest.net/global-index/liberia#fixed",
-         "mobile_speed": null
+         "broadband_speed": 16.31,
+         "url": "https://www.speedtest.net/global-index/liberia#fixed"
       }
    },
    {
@@ -1086,9 +1097,9 @@
       "users_region": 50,
       "facebook_subs": 5094000,
       "speed_data": {
-         "broadband_speed": 8.75,
+         "broadband_speed": 10.87,
          "url": "https://www.speedtest.net/global-index/libya#fixed",
-         "mobile_speed": 8.44
+         "mobile_speed": 12.21
       }
    },
    {
@@ -1100,9 +1111,8 @@
       "users_region": 8,
       "facebook_subs": 2317000,
       "speed_data": {
-         "broadband_speed": "30.50",
-         "url": "https://www.speedtest.net/global-index/madagascar#fixed",
-         "mobile_speed": null
+         "broadband_speed": 34.94,
+         "url": "https://www.speedtest.net/global-index/madagascar#fixed"
       }
    },
    {
@@ -1114,9 +1124,8 @@
       "users_region": 18,
       "facebook_subs": 500200,
       "speed_data": {
-         "broadband_speed": "6.93",
-         "url": "https://www.speedtest.net/global-index/malawi#fixed",
-         "mobile_speed": null
+         "broadband_speed": 9.95,
+         "url": "https://www.speedtest.net/global-index/malawi#fixed"
       }
    },
    {
@@ -1128,9 +1137,8 @@
       "users_region": 66,
       "facebook_subs": 1670100,
       "speed_data": {
-         "broadband_speed": "15.22",
-         "url": "https://www.speedtest.net/global-index/mali#fixed",
-         "mobile_speed": null
+         "broadband_speed": 17.95,
+         "url": "https://www.speedtest.net/global-index/mali#fixed"
       }
    },
    {
@@ -1142,9 +1150,8 @@
       "users_region": 19,
       "facebook_subs": 796900,
       "speed_data": {
-         "broadband_speed": "5.15",
-         "url": "https://www.speedtest.net/global-index/mauritania#fixed",
-         "mobile_speed": null
+         "broadband_speed": 6.22,
+         "url": "https://www.speedtest.net/global-index/mauritania#fixed"
       }
    },
    {
@@ -1156,9 +1163,9 @@
       "users_region": 879,
       "facebook_subs": 852000,
       "speed_data": {
-         "broadband_speed": 16.68,
+         "broadband_speed": 17.7,
          "url": "https://www.speedtest.net/global-index/mauritius#fixed",
-         "mobile_speed": 23.02
+         "mobile_speed": 23.93
       }
    },
    {
@@ -1170,9 +1177,9 @@
       "users_region": 23,
       "facebook_subs": 18330000,
       "speed_data": {
-         "broadband_speed": 13.29,
+         "broadband_speed": 17.4,
          "url": "https://www.speedtest.net/global-index/morocco#fixed",
-         "mobile_speed": 30.88
+         "mobile_speed": 35.5
       }
    },
    {
@@ -1184,9 +1191,9 @@
       "users_region": 21,
       "facebook_subs": 2448000,
       "speed_data": {
-         "broadband_speed": 7.84,
+         "broadband_speed": 8.33,
          "url": "https://www.speedtest.net/global-index/mozambique#fixed",
-         "mobile_speed": 15.37
+         "mobile_speed": 21.64
       }
    },
    {
@@ -1198,9 +1205,9 @@
       "users_region": 4,
       "facebook_subs": 692400,
       "speed_data": {
-         "broadband_speed": 9.11,
+         "broadband_speed": 13.22,
          "url": "https://www.speedtest.net/global-index/namibia#fixed",
-         "mobile_speed": 13.48
+         "mobile_speed": 16.93
       }
    },
    {
@@ -1212,9 +1219,9 @@
       "users_region": 62,
       "facebook_subs": 27120000,
       "speed_data": {
-         "broadband_speed": 8.96,
+         "broadband_speed": 10.21,
          "url": "https://www.speedtest.net/global-index/nigeria#fixed",
-         "mobile_speed": 15.13
+         "mobile_speed": 15.33
       }
    },
    {
@@ -1226,9 +1233,9 @@
       "users_region": 119,
       "facebook_subs": 592400,
       "speed_data": {
-         "broadband_speed": 13.16,
+         "broadband_speed": 19.98,
          "url": "https://www.speedtest.net/global-index/rwanda#fixed",
-         "mobile_speed": 8.22
+         "mobile_speed": 12.34
       }
    },
    {
@@ -1240,9 +1247,9 @@
       "users_region": 24,
       "facebook_subs": 3408000,
       "speed_data": {
-         "broadband_speed": 16.4,
+         "broadband_speed": 21.82,
          "url": "https://www.speedtest.net/global-index/senegal#fixed",
-         "mobile_speed": 21.87
+         "mobile_speed": 22.98
       }
    },
    {
@@ -1254,9 +1261,8 @@
       "users_region": 1,
       "facebook_subs": 71000,
       "speed_data": {
-         "broadband_speed": "21.23",
-         "url": "https://www.speedtest.net/global-index/seychelles#fixed",
-         "mobile_speed": null
+         "broadband_speed": 34.26,
+         "url": "https://www.speedtest.net/global-index/seychelles#fixed"
       }
    },
    {
@@ -1268,9 +1274,8 @@
       "users_region": 20,
       "facebook_subs": 693400,
       "speed_data": {
-         "broadband_speed": "8.28",
-         "url": "https://www.speedtest.net/global-index/sierra-leone#fixed",
-         "mobile_speed": null
+         "broadband_speed": 11.83,
+         "url": "https://www.speedtest.net/global-index/sierra-leone#fixed"
       }
    },
    {
@@ -1282,9 +1287,9 @@
       "users_region": 852,
       "facebook_subs": 1666500,
       "speed_data": {
-         "broadband_speed": 14.3,
+         "broadband_speed": 15.32,
          "url": "https://www.speedtest.net/global-index/somalia#fixed",
-         "mobile_speed": 12.59
+         "mobile_speed": 10.58
       }
    },
    {
@@ -1296,9 +1301,9 @@
       "users_region": 1,
       "facebook_subs": 21280000,
       "speed_data": {
-         "broadband_speed": 33.14,
+         "broadband_speed": 36.35,
          "url": "https://www.speedtest.net/global-index/south-africa#fixed",
-         "mobile_speed": 28.87
+         "mobile_speed": 33.72
       }
    },
    {
@@ -1310,9 +1315,9 @@
       "users_region": 43,
       "facebook_subs": 1300000,
       "speed_data": {
-         "broadband_speed": 5.02,
+         "broadband_speed": 4.84,
          "url": "https://www.speedtest.net/global-index/sudan#fixed",
-         "mobile_speed": 7.09
+         "mobile_speed": 8.45
       }
    },
    {
@@ -1324,9 +1329,9 @@
       "users_region": 20,
       "facebook_subs": 4271000,
       "speed_data": {
-         "broadband_speed": 12.98,
+         "broadband_speed": 12.91,
          "url": "https://www.speedtest.net/global-index/tanzania#fixed",
-         "mobile_speed": 10.13
+         "mobile_speed": 12.48
       }
    },
    {
@@ -1338,9 +1343,8 @@
       "users_region": 912,
       "facebook_subs": 658100,
       "speed_data": {
-         "broadband_speed": "19.83",
-         "url": "https://www.speedtest.net/global-index/togo#fixed",
-         "mobile_speed": null
+         "broadband_speed": 20.43,
+         "url": "https://www.speedtest.net/global-index/togo#fixed"
       }
    },
    {
@@ -1352,9 +1356,9 @@
       "users_region": 7,
       "facebook_subs": 7445000,
       "speed_data": {
-         "broadband_speed": 7.02,
+         "broadband_speed": 9.64,
          "url": "https://www.speedtest.net/global-index/tunisia#fixed",
-         "mobile_speed": 23.87
+         "mobile_speed": 28.89
       }
    },
    {
@@ -1366,9 +1370,9 @@
       "users_region": 46,
       "facebook_subs": 2471000,
       "speed_data": {
-         "broadband_speed": 11.77,
+         "broadband_speed": 11.66,
          "url": "https://www.speedtest.net/global-index/uganda#fixed",
-         "mobile_speed": 10.59
+         "mobile_speed": 12.5
       }
    },
    {
@@ -1380,9 +1384,8 @@
       "users_region": null,
       "facebook_subs": 27000,
       "speed_data": {
-         "broadband_speed": "13.39",
-         "url": "https://www.speedtest.net/global-index/western-sahara#fixed",
-         "mobile_speed": null
+         "broadband_speed": 15.48,
+         "url": "https://www.speedtest.net/global-index/western-sahara#fixed"
       }
    },
    {
@@ -1394,9 +1397,9 @@
       "users_region": 49,
       "facebook_subs": 2253000,
       "speed_data": {
-         "broadband_speed": 8.96,
+         "broadband_speed": 11.12,
          "url": "https://www.speedtest.net/global-index/zambia#fixed",
-         "mobile_speed": 10.32
+         "mobile_speed": 13.69
       }
    },
    {
@@ -1408,9 +1411,9 @@
       "users_region": 16,
       "facebook_subs": 994000,
       "speed_data": {
-         "broadband_speed": 11.68,
+         "broadband_speed": 12.28,
          "url": "https://www.speedtest.net/global-index/zimbabwe#fixed",
-         "mobile_speed": 11.3
+         "mobile_speed": 12.96
       }
    },
    {
@@ -1422,9 +1425,9 @@
       "users_region": 0.3,
       "facebook_subs": 1400000,
       "speed_data": {
-         "broadband_speed": 28.4,
+         "broadband_speed": 34.55,
          "url": "https://www.speedtest.net/global-index/albania#fixed",
-         "mobile_speed": 54.32
+         "mobile_speed": 56.12
       }
    },
    {
@@ -1436,9 +1439,8 @@
       "users_region": 0,
       "facebook_subs": 42000,
       "speed_data": {
-         "broadband_speed": "139.66",
-         "url": "https://www.speedtest.net/global-index/andorra#fixed",
-         "mobile_speed": null
+         "broadband_speed": 161.59,
+         "url": "https://www.speedtest.net/global-index/andorra#fixed"
       }
    },
    {
@@ -1450,9 +1452,9 @@
       "users_region": 1.1,
       "facebook_subs": 3700000,
       "speed_data": {
-         "broadband_speed": 55.62,
+         "broadband_speed": 58.05,
          "url": "https://www.speedtest.net/global-index/austria#fixed",
-         "mobile_speed": 48.31
+         "mobile_speed": 52.67
       }
    },
    {
@@ -1464,9 +1466,9 @@
       "users_region": 1,
       "facebook_subs": 3850000,
       "speed_data": {
-         "broadband_speed": 55.84,
+         "broadband_speed": 56.23,
          "url": "https://www.speedtest.net/global-index/belarus#fixed",
-         "mobile_speed": 14.73
+         "mobile_speed": 14.8
       }
    },
    {
@@ -1478,9 +1480,9 @@
       "users_region": 1.5,
       "facebook_subs": 6500000,
       "speed_data": {
-         "broadband_speed": 83.68,
+         "broadband_speed": 91.69,
          "url": "https://www.speedtest.net/global-index/belgium#fixed",
-         "mobile_speed": 48.53
+         "mobile_speed": 48.79
       }
    },
    {
@@ -1492,9 +1494,9 @@
       "users_region": 0.4,
       "facebook_subs": 1500000,
       "speed_data": {
-         "broadband_speed": 31.3,
+         "broadband_speed": 33.79,
          "url": "https://www.speedtest.net/global-index/bosnia-and-herzegovina#fixed",
-         "mobile_speed": 33.2
+         "mobile_speed": 33.97
       }
    },
    {
@@ -1506,9 +1508,9 @@
       "users_region": 0.6,
       "facebook_subs": 3300000,
       "speed_data": {
-         "broadband_speed": 57.67,
+         "broadband_speed": 59.95,
          "url": "https://www.speedtest.net/global-index/bulgaria#fixed",
-         "mobile_speed": 68.18
+         "mobile_speed": 68.94
       }
    },
    {
@@ -1520,9 +1522,9 @@
       "users_region": 0.5,
       "facebook_subs": 1800000,
       "speed_data": {
-         "broadband_speed": 35.26,
+         "broadband_speed": 38.65,
          "url": "https://www.speedtest.net/global-index/croatia#fixed",
-         "mobile_speed": 53.72
+         "mobile_speed": 63.11
       }
    },
    {
@@ -1534,9 +1536,9 @@
       "users_region": 0.1,
       "facebook_subs": 870000,
       "speed_data": {
-         "broadband_speed": 26.79,
+         "broadband_speed": 31.45,
          "url": "https://www.speedtest.net/global-index/cyprus#fixed",
-         "mobile_speed": 41.7
+         "mobile_speed": 51.14
       }
    },
    {
@@ -1548,9 +1550,9 @@
       "users_region": 0.8,
       "facebook_subs": 3700000,
       "speed_data": {
-         "broadband_speed": 136.44,
+         "broadband_speed": 146.79,
          "url": "https://www.speedtest.net/global-index/denmark#fixed",
-         "mobile_speed": 49.94
+         "mobile_speed": 52.56
       }
    },
    {
@@ -1562,9 +1564,9 @@
       "users_region": 0.2,
       "facebook_subs": 620000,
       "speed_data": {
-         "broadband_speed": 63.58,
+         "broadband_speed": 66.67,
          "url": "https://www.speedtest.net/global-index/estonia#fixed",
-         "mobile_speed": 43.62
+         "mobile_speed": 48.27
       }
    },
    {
@@ -1576,9 +1578,9 @@
       "users_region": 0.7,
       "facebook_subs": 2700000,
       "speed_data": {
-         "broadband_speed": 89.11,
+         "broadband_speed": 93.12,
          "url": "https://www.speedtest.net/global-index/finland#fixed",
-         "mobile_speed": 43.92
+         "mobile_speed": 46.74
       }
    },
    {
@@ -1590,9 +1592,9 @@
       "users_region": 8.3,
       "facebook_subs": 33000000,
       "speed_data": {
-         "broadband_speed": 127.73,
+         "broadband_speed": 144.61,
          "url": "https://www.speedtest.net/global-index/france#fixed",
-         "mobile_speed": 43.7
+         "mobile_speed": 50.39
       }
    },
    {
@@ -1604,9 +1606,9 @@
       "users_region": 10.9,
       "facebook_subs": 31000000,
       "speed_data": {
-         "broadband_speed": 91.2,
+         "broadband_speed": 94.61,
          "url": "https://www.speedtest.net/global-index/germany#fixed",
-         "mobile_speed": 38.3
+         "mobile_speed": 38.74
       }
    },
    {
@@ -1618,9 +1620,9 @@
       "users_region": 1.1,
       "facebook_subs": 5000000,
       "speed_data": {
-         "broadband_speed": 26.31,
+         "broadband_speed": 30,
          "url": "https://www.speedtest.net/global-index/greece#fixed",
-         "mobile_speed": 35.42
+         "mobile_speed": 42.27
       }
    },
    {
@@ -1632,9 +1634,9 @@
       "users_region": 1.2,
       "facebook_subs": 5300000,
       "speed_data": {
-         "broadband_speed": 128.6,
+         "broadband_speed": 136.06,
          "url": "https://www.speedtest.net/global-index/hungary#fixed",
-         "mobile_speed": 41.62
+         "mobile_speed": 41.78
       }
    },
    {
@@ -1646,9 +1648,9 @@
       "users_region": 0.6,
       "facebook_subs": 2700000,
       "speed_data": {
-         "broadband_speed": 78.7,
+         "broadband_speed": 80.26,
          "url": "https://www.speedtest.net/global-index/ireland#fixed",
-         "mobile_speed": 23.57
+         "mobile_speed": 27.55
       }
    },
    {
@@ -1660,9 +1662,9 @@
       "users_region": 7.5,
       "facebook_subs": 30000000,
       "speed_data": {
-         "broadband_speed": 54.27,
+         "broadband_speed": 64.42,
          "url": "https://www.speedtest.net/global-index/italy#fixed",
-         "mobile_speed": 32.03
+         "mobile_speed": 40
       }
    },
    {
@@ -1674,9 +1676,9 @@
       "users_region": 0.2,
       "facebook_subs": 910000,
       "speed_data": {
-         "broadband_speed": 43.53,
+         "broadband_speed": 48.15,
          "url": "https://www.speedtest.net/global-index/kosovo#fixed",
-         "mobile_speed": 36.67
+         "mobile_speed": 28.32
       }
    },
    {
@@ -1688,9 +1690,9 @@
       "users_region": 0.2,
       "facebook_subs": 740000,
       "speed_data": {
-         "broadband_speed": 101.32,
+         "broadband_speed": 107.14,
          "url": "https://www.speedtest.net/global-index/latvia#fixed",
-         "mobile_speed": 32.31
+         "mobile_speed": 34.01
       }
    },
    {
@@ -1702,9 +1704,8 @@
       "users_region": 0,
       "facebook_subs": 14000,
       "speed_data": {
-         "broadband_speed": "128.80",
-         "url": "https://www.speedtest.net/global-index/liechtenstein#fixed",
-         "mobile_speed": null
+         "broadband_speed": 155.92,
+         "url": "https://www.speedtest.net/global-index/liechtenstein#fixed"
       }
    },
    {
@@ -1716,9 +1717,9 @@
       "users_region": 0.4,
       "facebook_subs": 1400000,
       "speed_data": {
-         "broadband_speed": 103.79,
+         "broadband_speed": 113.26,
          "url": "https://www.speedtest.net/global-index/lithuania#fixed",
-         "mobile_speed": 47.1
+         "mobile_speed": 52.66
       }
    },
    {
@@ -1730,9 +1731,9 @@
       "users_region": 0.1,
       "facebook_subs": 320000,
       "speed_data": {
-         "broadband_speed": 110.4,
+         "broadband_speed": 118.93,
          "url": "https://www.speedtest.net/global-index/luxembourg#fixed",
-         "mobile_speed": 47.3
+         "mobile_speed": 49.42
       }
    },
    {
@@ -1744,9 +1745,9 @@
       "users_region": 0,
       "facebook_subs": 320000,
       "speed_data": {
-         "broadband_speed": 96.76,
+         "broadband_speed": 106.58,
          "url": "https://www.speedtest.net/global-index/malta#fixed",
-         "mobile_speed": 45.06
+         "mobile_speed": 46.63
       }
    },
    {
@@ -1758,9 +1759,9 @@
       "users_region": 0.4,
       "facebook_subs": 800000,
       "speed_data": {
-         "broadband_speed": 57.78,
+         "broadband_speed": 62.54,
          "url": "https://www.speedtest.net/global-index/moldova#fixed",
-         "mobile_speed": 33.03
+         "mobile_speed": 36.25
       }
    },
    {
@@ -1772,9 +1773,8 @@
       "users_region": 0,
       "facebook_subs": 13000,
       "speed_data": {
-         "broadband_speed": "140.10",
-         "url": "https://www.speedtest.net/global-index/monaco#fixed",
-         "mobile_speed": null
+         "broadband_speed": 153.78,
+         "url": "https://www.speedtest.net/global-index/monaco#fixed"
       }
    },
    {
@@ -1786,9 +1786,9 @@
       "users_region": 0.1,
       "facebook_subs": 320000,
       "speed_data": {
-         "broadband_speed": 47.57,
+         "broadband_speed": 48.63,
          "url": "https://www.speedtest.net/global-index/montenegro#fixed",
-         "mobile_speed": 40.98
+         "mobile_speed": 44.29
       }
    },
    {
@@ -1800,9 +1800,9 @@
       "users_region": 2.3,
       "facebook_subs": 9800000,
       "speed_data": {
-         "broadband_speed": 111.55,
+         "broadband_speed": 114.31,
          "url": "https://www.speedtest.net/global-index/netherlands#fixed",
-         "mobile_speed": 75.32
+         "mobile_speed": 70.98
       }
    },
    {
@@ -1814,9 +1814,9 @@
       "users_region": 0.2,
       "facebook_subs": 1000000,
       "speed_data": {
-         "broadband_speed": 26.91,
+         "broadband_speed": 31.39,
          "url": "https://www.speedtest.net/global-index/north-macedonia#fixed",
-         "mobile_speed": 48.86
+         "mobile_speed": 50.95
       }
    },
    {
@@ -1828,9 +1828,9 @@
       "users_region": 0.7,
       "facebook_subs": 3400000,
       "speed_data": {
-         "broadband_speed": 127.7,
+         "broadband_speed": 131.29,
          "url": "https://www.speedtest.net/global-index/norway#fixed",
-         "mobile_speed": 66.87
+         "mobile_speed": 70.16
       }
    },
    {
@@ -1842,9 +1842,9 @@
       "users_region": 4.1,
       "facebook_subs": 14000000,
       "speed_data": {
-         "broadband_speed": 97.96,
+         "broadband_speed": 98.12,
          "url": "https://www.speedtest.net/global-index/poland#fixed",
-         "mobile_speed": 30.78
+         "mobile_speed": 35.38
       }
    },
    {
@@ -1856,9 +1856,9 @@
       "users_region": 1.1,
       "facebook_subs": 5800000,
       "speed_data": {
-         "broadband_speed": 99.68,
+         "broadband_speed": 113.53,
          "url": "https://www.speedtest.net/global-index/portugal#fixed",
-         "mobile_speed": 34.82
+         "mobile_speed": 38.76
       }
    },
    {
@@ -1870,9 +1870,9 @@
       "users_region": 2,
       "facebook_subs": 8900000,
       "speed_data": {
-         "broadband_speed": 151.87,
+         "broadband_speed": 163.54,
          "url": "https://www.speedtest.net/global-index/romania#fixed",
-         "mobile_speed": 37.09
+         "mobile_speed": 39.24
       }
    },
    {
@@ -1884,9 +1884,9 @@
       "users_region": 16,
       "facebook_subs": 13100000,
       "speed_data": {
-         "broadband_speed": 63.44,
+         "broadband_speed": 68.78,
          "url": "https://www.speedtest.net/global-index/russia#fixed",
-         "mobile_speed": 19.28
+         "mobile_speed": 22.06
       }
    },
    {
@@ -1898,9 +1898,8 @@
       "users_region": 0,
       "facebook_subs": 7900,
       "speed_data": {
-         "broadband_speed": "68.20",
-         "url": "https://www.speedtest.net/global-index/san-marino#fixed",
-         "mobile_speed": null
+         "broadband_speed": 97.83,
+         "url": "https://www.speedtest.net/global-index/san-marino#fixed"
       }
    },
    {
@@ -1912,9 +1911,9 @@
       "users_region": 0.9,
       "facebook_subs": 3400000,
       "speed_data": {
-         "broadband_speed": 56.89,
+         "broadband_speed": 63.31,
          "url": "https://www.speedtest.net/global-index/serbia#fixed",
-         "mobile_speed": 43.82
+         "mobile_speed": 47.87
       }
    },
    {
@@ -1926,9 +1925,9 @@
       "users_region": 0.6,
       "facebook_subs": 3200000,
       "speed_data": {
-         "broadband_speed": 73.03,
+         "broadband_speed": 83.9,
          "url": "https://www.speedtest.net/global-index/slovakia#fixed",
-         "mobile_speed": 35.66
+         "mobile_speed": 38.5
       }
    },
    {
@@ -1940,9 +1939,9 @@
       "users_region": 0.2,
       "facebook_subs": 910000,
       "speed_data": {
-         "broadband_speed": 68.34,
+         "broadband_speed": 76.39,
          "url": "https://www.speedtest.net/global-index/slovenia#fixed",
-         "mobile_speed": 35.6
+         "mobile_speed": 42.16
       }
    },
    {
@@ -1954,9 +1953,9 @@
       "users_region": 5.9,
       "facebook_subs": 23000000,
       "speed_data": {
-         "broadband_speed": 126.42,
+         "broadband_speed": 141.22,
          "url": "https://www.speedtest.net/global-index/spain#fixed",
-         "mobile_speed": 32.63
+         "mobile_speed": 35.44
       }
    },
    {
@@ -1968,9 +1967,9 @@
       "users_region": 1.3,
       "facebook_subs": 6300000,
       "speed_data": {
-         "broadband_speed": 137.43,
+         "broadband_speed": 143.9,
          "url": "https://www.speedtest.net/global-index/sweden#fixed",
-         "mobile_speed": 49.3
+         "mobile_speed": 50.21
       }
    },
    {
@@ -1982,9 +1981,9 @@
       "users_region": 1.1,
       "facebook_subs": 3700000,
       "speed_data": {
-         "broadband_speed": 152.05,
+         "broadband_speed": 164.32,
          "url": "https://www.speedtest.net/global-index/switzerland#fixed",
-         "mobile_speed": 54.22
+         "mobile_speed": 59.47
       }
    },
    {
@@ -1996,9 +1995,9 @@
       "users_region": 9.5,
       "facebook_subs": 44000000,
       "speed_data": {
-         "broadband_speed": 24.28,
+         "broadband_speed": 26.3,
          "url": "https://www.speedtest.net/global-index/turkey#fixed",
-         "mobile_speed": 31.57
+         "mobile_speed": 37.21
       }
    },
    {
@@ -2010,9 +2009,9 @@
       "users_region": 5.6,
       "facebook_subs": 9500000,
       "speed_data": {
-         "broadband_speed": 52.06,
+         "broadband_speed": 56.21,
          "url": "https://www.speedtest.net/global-index/ukraine#fixed",
-         "mobile_speed": 23.83
+         "mobile_speed": 25.33
       }
    },
    {
@@ -2024,9 +2023,9 @@
       "users_region": 8.7,
       "facebook_subs": 44000000,
       "speed_data": {
-         "broadband_speed": 67.23,
+         "broadband_speed": 67.78,
          "url": "https://www.speedtest.net/global-index/united-kingdom#fixed",
-         "mobile_speed": 35.08
+         "mobile_speed": 35.6
       }
    },
    {
@@ -2038,9 +2037,9 @@
       "users_region": 0.9,
       "facebook_subs": 1352500,
       "speed_data": {
-         "broadband_speed": 26.95,
+         "broadband_speed": 28.84,
          "url": "https://www.speedtest.net/global-index/bahrain#fixed",
-         "mobile_speed": 36.71
+         "mobile_speed": 38.89
       }
    },
    {
@@ -2052,9 +2051,9 @@
       "users_region": 36.9,
       "facebook_subs": 40000000,
       "speed_data": {
-         "broadband_speed": 12.72,
+         "broadband_speed": 15.61,
          "url": "https://www.speedtest.net/global-index/iran#fixed",
-         "mobile_speed": 25.24
+         "mobile_speed": 29.87
       }
    },
    {
@@ -2066,9 +2065,9 @@
       "users_region": 11.6,
       "facebook_subs": 22030000,
       "speed_data": {
-         "broadband_speed": 20.82,
+         "broadband_speed": 28.06,
          "url": "https://www.speedtest.net/global-index/iraq#fixed",
-         "mobile_speed": 9.9
+         "mobile_speed": 11.51
       }
    },
    {
@@ -2080,9 +2079,9 @@
       "users_region": 3.8,
       "facebook_subs": 5920000,
       "speed_data": {
-         "broadband_speed": 83.79,
+         "broadband_speed": 99.71,
          "url": "https://www.speedtest.net/global-index/israel#fixed",
-         "mobile_speed": 19.88
+         "mobile_speed": 21.76
       }
    },
    {
@@ -2094,9 +2093,9 @@
       "users_region": 4.7,
       "facebook_subs": 5755000,
       "speed_data": {
-         "broadband_speed": 44.38,
+         "broadband_speed": 55.7,
          "url": "https://www.speedtest.net/global-index/jordan#fixed",
-         "mobile_speed": 21.42
+         "mobile_speed": 24.61
       }
    },
    {
@@ -2108,9 +2107,9 @@
       "users_region": 2.3,
       "facebook_subs": 4093000,
       "speed_data": {
-         "broadband_speed": 75.97,
+         "broadband_speed": 73.51,
          "url": "https://www.speedtest.net/global-index/kuwait#fixed",
-         "mobile_speed": 39.65
+         "mobile_speed": 49.46
       }
    },
    {
@@ -2122,9 +2121,9 @@
       "users_region": 3,
       "facebook_subs": 3967000,
       "speed_data": {
-         "broadband_speed": 8.05,
+         "broadband_speed": 17.71,
          "url": "https://www.speedtest.net/global-index/lebanon#fixed",
-         "mobile_speed": 44.6
+         "mobile_speed": 43.95
       }
    },
    {
@@ -2136,9 +2135,9 @@
       "users_region": 2.2,
       "facebook_subs": 2635400,
       "speed_data": {
-         "broadband_speed": 31.11,
+         "broadband_speed": 37.53,
          "url": "https://www.speedtest.net/global-index/oman#fixed",
-         "mobile_speed": 35.43
+         "mobile_speed": 34.63
       }
    },
    {
@@ -2150,9 +2149,9 @@
       "users_region": 1.8,
       "facebook_subs": 2677000,
       "speed_data": {
-         "broadband_speed": "16.30",
+         "broadband_speed": 16.99,
          "url": "https://www.speedtest.net/global-index/palestine#fixed",
-         "mobile_speed": null
+         "mobile_speed": 7.67
       }
    },
    {
@@ -2164,9 +2163,9 @@
       "users_region": 1.6,
       "facebook_subs": 2942000,
       "speed_data": {
-         "broadband_speed": 102.69,
+         "broadband_speed": 93.73,
          "url": "https://www.speedtest.net/global-index/qatar#fixed",
-         "mobile_speed": 84.81
+         "mobile_speed": 83.83
       }
    },
    {
@@ -2178,9 +2177,9 @@
       "users_region": 17.4,
       "facebook_subs": 23720000,
       "speed_data": {
-         "broadband_speed": 62.66,
+         "broadband_speed": 66.84,
          "url": "https://www.speedtest.net/global-index/saudi-arabia#fixed",
-         "mobile_speed": 55.71
+         "mobile_speed": 66.54
       }
    },
    {
@@ -2192,9 +2191,9 @@
       "users_region": 4.2,
       "facebook_subs": 7609286,
       "speed_data": {
-         "broadband_speed": 6,
+         "broadband_speed": 7.75,
          "url": "https://www.speedtest.net/global-index/syria#fixed",
-         "mobile_speed": 22.07
+         "mobile_speed": 22.19
       }
    },
    {
@@ -2206,9 +2205,9 @@
       "users_region": 5.2,
       "facebook_subs": 8737000,
       "speed_data": {
-         "broadband_speed": 106,
+         "broadband_speed": 117.36,
          "url": "https://www.speedtest.net/global-index/united-arab-emirates#fixed",
-         "mobile_speed": 78.56
+         "mobile_speed": 107.53
       }
    },
    {
@@ -2220,9 +2219,8 @@
       "users_region": 4.3,
       "facebook_subs": 2552100,
       "speed_data": {
-         "broadband_speed": "3.45",
-         "url": "https://www.speedtest.net/global-index/yemen#fixed",
-         "mobile_speed": null
+         "broadband_speed": 3.96,
+         "url": "https://www.speedtest.net/global-index/yemen#fixed"
       }
    },
    {
@@ -2234,9 +2232,9 @@
       "users_region": 75.8,
       "facebook_subs": 15000000,
       "speed_data": {
-         "broadband_speed": 41.99,
+         "broadband_speed": 51.61,
          "url": "https://www.speedtest.net/global-index/australia#fixed",
-         "mobile_speed": 62.15
+         "mobile_speed": 70.04
       }
    },
    {
@@ -2248,9 +2246,9 @@
       "users_region": 1.7,
       "facebook_subs": 470000,
       "speed_data": {
-         "broadband_speed": 16.89,
+         "broadband_speed": 17.27,
          "url": "https://www.speedtest.net/global-index/fiji#fixed",
-         "mobile_speed": 23.14
+         "mobile_speed": 29.84
       }
    },
    {
@@ -2262,9 +2260,9 @@
       "users_region": 15.2,
       "facebook_subs": 3100000,
       "speed_data": {
-         "broadband_speed": 107.52,
+         "broadband_speed": 120.72,
          "url": "https://www.speedtest.net/global-index/new-zealand#fixed",
-         "mobile_speed": 48.72
+         "mobile_speed": 56.81
       }
    },
    {
@@ -2276,9 +2274,8 @@
       "users_region": 3.4,
       "facebook_subs": 670000,
       "speed_data": {
-         "broadband_speed": "6.79",
-         "url": "https://www.speedtest.net/global-index/papua-new-guinea#fixed",
-         "mobile_speed": null
+         "broadband_speed": 9.6,
+         "url": "https://www.speedtest.net/global-index/papua-new-guinea#fixed"
       }
    }
 ]

@@ -60,11 +60,9 @@ const getSpeedResult = async (page, type, link) => {
         let speedData = values[0].map((el) => {
             const idx = values[1].map(el2 => el2.name).indexOf(el.name);
             if (idx != -1) {
-                el.broadband_speed = parseFloat(el.broadband_speed);
                 el.mobile_speed = parseFloat(values[1][idx].broadband_speed)
-            } else{
-                el.mobile_speed = null;
             }
+            el.broadband_speed = parseFloat(el.broadband_speed);
             return el;
         })
 
@@ -73,7 +71,6 @@ const getSpeedResult = async (page, type, link) => {
         let finalData = internetData.filter((el3) => {
             const idx2 = speedData.map(el4 => el4.name).indexOf(el3.name);
             if (idx2 != -1){
-
                 // Parsing some string data type to integer or float
                 delete speedData[idx2].name;
                 el3.penetration = parseFloat(el3.penetration.replace(' %', ''));
