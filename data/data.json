@@ -11,7 +11,8 @@
          "broadband_speed": 7.38,
          "url": "https://www.speedtest.net/global-index/afghanistan#fixed",
          "mobile_speed": 5.52
-      }
+      },
+      "GNI": 540
    },
    {
       "name": "Armenia",
@@ -25,7 +26,8 @@
          "broadband_speed": 26.99,
          "url": "https://www.speedtest.net/global-index/armenia#fixed",
          "mobile_speed": 34.04
-      }
+      },
+      "GNI": 4680
    },
    {
       "name": "Azerbaijan",
@@ -39,7 +41,8 @@
          "broadband_speed": 21.24,
          "url": "https://www.speedtest.net/global-index/azerbaijan#fixed",
          "mobile_speed": 30.99
-      }
+      },
+      "GNI": 4480
    },
    {
       "name": "Bangladesh",
@@ -53,7 +56,8 @@
          "broadband_speed": 25.04,
          "url": "https://www.speedtest.net/global-index/bangladesh#fixed",
          "mobile_speed": 10.53
-      }
+      },
+      "GNI": 1940
    },
    {
       "name": "Bhutan",
@@ -66,7 +70,8 @@
       "speed_data": {
          "broadband_speed": 15.32,
          "url": "https://www.speedtest.net/global-index/bhutan#fixed"
-      }
+      },
+      "GNI": 2970
    },
    {
       "name": "Cambodia",
@@ -80,7 +85,8 @@
          "broadband_speed": 22.87,
          "url": "https://www.speedtest.net/global-index/cambodia#fixed",
          "mobile_speed": 17.21
-      }
+      },
+      "GNI": 1480
    },
    {
       "name": "China",
@@ -94,7 +100,8 @@
          "broadband_speed": 133.6,
          "url": "https://www.speedtest.net/global-index/china#fixed",
          "mobile_speed": 103.67
-      }
+      },
+      "GNI": 10410
    },
    {
       "name": "Georgia",
@@ -108,7 +115,8 @@
          "broadband_speed": 26.19,
          "url": "https://www.speedtest.net/global-index/georgia#fixed",
          "mobile_speed": 27.72
-      }
+      },
+      "GNI": 4740
    },
    {
       "name": "India",
@@ -122,7 +130,8 @@
          "broadband_speed": 38.19,
          "url": "https://www.speedtest.net/global-index/india#fixed",
          "mobile_speed": 12.16
-      }
+      },
+      "GNI": 2130
    },
    {
       "name": "Indonesia",
@@ -136,7 +145,8 @@
          "broadband_speed": 21.28,
          "url": "https://www.speedtest.net/global-index/indonesia#fixed",
          "mobile_speed": 16.37
-      }
+      },
+      "GNI": 4050
    },
    {
       "name": "Japan",
@@ -150,7 +160,8 @@
          "broadband_speed": 106.49,
          "url": "https://www.speedtest.net/global-index/japan#fixed",
          "mobile_speed": 35.64
-      }
+      },
+      "GNI": 41690
    },
    {
       "name": "Kazakhstan",
@@ -164,7 +175,8 @@
          "broadband_speed": 46.31,
          "url": "https://www.speedtest.net/global-index/kazakhstan#fixed",
          "mobile_speed": 21.25
-      }
+      },
+      "GNI": 8810
    },
    {
       "name": "South Korea",
@@ -178,7 +190,8 @@
          "broadband_speed": 158.79,
          "url": "https://www.speedtest.net/global-index/south-korea#fixed",
          "mobile_speed": 110.1
-      }
+      },
+      "GNI": 33720
    },
    {
       "name": "Kyrgyzstan",
@@ -192,7 +205,8 @@
          "broadband_speed": 40.26,
          "url": "https://www.speedtest.net/global-index/kyrgyzstan#fixed",
          "mobile_speed": 20.06
-      }
+      },
+      "GNI": 1240
    },
    {
       "name": "Laos",
@@ -206,7 +220,8 @@
          "broadband_speed": 34.61,
          "url": "https://www.speedtest.net/global-index/laos#fixed",
          "mobile_speed": 20.48
-      }
+      },
+      "GNI": 2570
    },
    {
       "name": "Malaysia",
@@ -220,7 +235,8 @@
          "broadband_speed": 81.46,
          "url": "https://www.speedtest.net/global-index/malaysia#fixed",
          "mobile_speed": 24.32
-      }
+      },
+      "GNI": 11200
    },
    {
       "name": "Maldives",
@@ -234,7 +250,8 @@
          "broadband_speed": 17.15,
          "url": "https://www.speedtest.net/global-index/maldives#fixed",
          "mobile_speed": 29.44
-      }
+      },
+      "GNI": 9650
    },
    {
       "name": "Mongolia",
@@ -248,7 +265,8 @@
          "broadband_speed": 35.63,
          "url": "https://www.speedtest.net/global-index/mongolia#fixed",
          "mobile_speed": 19.19
-      }
+      },
+      "GNI": 3780
    },
    {
       "name": "Republic of the Union of Myanmar",
@@ -262,7 +280,8 @@
          "broadband_speed": 18.78,
          "url": "https://www.speedtest.net/global-index/republic-of-the-union-of-myanmar#fixed",
          "mobile_speed": 25.47
-      }
+      },
+      "GNI": 1390
    },
    {
       "name": "Nepal",
@@ -276,7 +295,8 @@
          "broadband_speed": 20.45,
          "url": "https://www.speedtest.net/global-index/nepal#fixed",
          "mobile_speed": 15.22
-      }
+      },
+      "GNI": 1090
    },
    {
       "name": "Pakistan",
@@ -290,7 +310,8 @@
          "broadband_speed": 8.87,
          "url": "https://www.speedtest.net/global-index/pakistan#fixed",
          "mobile_speed": 14.86
-      }
+      },
+      "GNI": 1530
    },
    {
       "name": "Philippines",
@@ -304,7 +325,8 @@
          "broadband_speed": 23.74,
          "url": "https://www.speedtest.net/global-index/philippines#fixed",
          "mobile_speed": 16.17
-      }
+      },
+      "GNI": 3850
    },
    {
       "name": "Singapore",
@@ -318,7 +340,8 @@
          "broadband_speed": 208.16,
          "url": "https://www.speedtest.net/global-index/singapore#fixed",
          "mobile_speed": 56.95
-      }
+      },
+      "GNI": 59590
    },
    {
       "name": "Sri Lanka",
@@ -332,7 +355,8 @@
          "broadband_speed": 25.99,
          "url": "https://www.speedtest.net/global-index/sri-lanka#fixed",
          "mobile_speed": 17.1
-      }
+      },
+      "GNI": 4020
    },
    {
       "name": "Taiwan",
@@ -360,7 +384,8 @@
          "broadband_speed": 27.59,
          "url": "https://www.speedtest.net/global-index/tajikistan#fixed",
          "mobile_speed": 12.62
-      }
+      },
+      "GNI": 1030
    },
    {
       "name": "Thailand",
@@ -374,7 +399,8 @@
          "broadband_speed": 171.36,
          "url": "https://www.speedtest.net/global-index/thailand#fixed",
          "mobile_speed": 33.04
-      }
+      },
+      "GNI": 7260
    },
    {
       "name": "Turkmenistan",
@@ -387,7 +413,8 @@
       "speed_data": {
          "broadband_speed": 3.69,
          "url": "https://www.speedtest.net/global-index/turkmenistan#fixed"
-      }
+      },
+      "GNI": 6740
    },
    {
       "name": "Uzbekistan",
@@ -401,7 +428,8 @@
          "broadband_speed": 28.52,
          "url": "https://www.speedtest.net/global-index/uzbekistan#fixed",
          "mobile_speed": 11.78
-      }
+      },
+      "GNI": 1800
    },
    {
       "name": "Vietnam",
@@ -415,7 +443,8 @@
          "broadband_speed": 54.67,
          "url": "https://www.speedtest.net/global-index/vietnam#fixed",
          "mobile_speed": 33.12
-      }
+      },
+      "GNI": 2540
    },
    {
       "name": "Antigua and Barbuda",
@@ -428,7 +457,8 @@
       "speed_data": {
          "broadband_speed": 17.23,
          "url": "https://www.speedtest.net/global-index/antigua-and-barbuda#fixed"
-      }
+      },
+      "GNI": 16660
    },
    {
       "name": "Argentina",
@@ -442,7 +472,8 @@
          "broadband_speed": 40.27,
          "url": "https://www.speedtest.net/global-index/argentina#fixed",
          "mobile_speed": 27.76
-      }
+      },
+      "GNI": 11200
    },
    {
       "name": "The Bahamas",
@@ -456,7 +487,8 @@
          "broadband_speed": 40.24,
          "url": "https://www.speedtest.net/global-index/the-bahamas#fixed",
          "mobile_speed": 29.62
-      }
+      },
+      "GNI": 31780
    },
    {
       "name": "Barbados",
@@ -469,7 +501,8 @@
       "speed_data": {
          "broadband_speed": 79.77,
          "url": "https://www.speedtest.net/global-index/barbados#fixed"
-      }
+      },
+      "GNI": 17380
    },
    {
       "name": "Belize",
@@ -483,7 +516,8 @@
          "broadband_speed": 41.24,
          "url": "https://www.speedtest.net/global-index/belize#fixed",
          "mobile_speed": 22.29
-      }
+      },
+      "GNI": 4450
    },
    {
       "name": "Bolivia",
@@ -497,7 +531,8 @@
          "broadband_speed": 16.7,
          "url": "https://www.speedtest.net/global-index/bolivia#fixed",
          "mobile_speed": 19.22
-      }
+      },
+      "GNI": 3530
    },
    {
       "name": "Brazil",
@@ -511,7 +546,8 @@
          "broadband_speed": 59.4,
          "url": "https://www.speedtest.net/global-index/brazil#fixed",
          "mobile_speed": 27.39
-      }
+      },
+      "GNI": 9130
    },
    {
       "name": "Canada",
@@ -525,7 +561,8 @@
          "broadband_speed": 129.92,
          "url": "https://www.speedtest.net/global-index/canada#fixed",
          "mobile_speed": 71.61
-      }
+      },
+      "GNI": 46370
    },
    {
       "name": "Chile",
@@ -539,7 +576,8 @@
          "broadband_speed": 108.17,
          "url": "https://www.speedtest.net/global-index/chile#fixed",
          "mobile_speed": 17.69
-      }
+      },
+      "GNI": 15010
    },
    {
       "name": "Colombia",
@@ -553,7 +591,8 @@
          "broadband_speed": 33.35,
          "url": "https://www.speedtest.net/global-index/colombia#fixed",
          "mobile_speed": 19.04
-      }
+      },
+      "GNI": 6510
    },
    {
       "name": "Costa Rica",
@@ -567,7 +606,8 @@
          "broadband_speed": 35.55,
          "url": "https://www.speedtest.net/global-index/costa-rica#fixed",
          "mobile_speed": 22.77
-      }
+      },
+      "GNI": 11700
    },
    {
       "name": "Cuba",
@@ -581,7 +621,8 @@
          "broadband_speed": 4.17,
          "url": "https://www.speedtest.net/global-index/cuba#fixed",
          "mobile_speed": 31.38
-      }
+      },
+      "GNI": 7480
    },
    {
       "name": "Dominica",
@@ -594,7 +635,8 @@
       "speed_data": {
          "broadband_speed": 27.57,
          "url": "https://www.speedtest.net/global-index/dominica#fixed"
-      }
+      },
+      "GNI": 8090
    },
    {
       "name": "Dominican Republic",
@@ -608,7 +650,8 @@
          "broadband_speed": 24.83,
          "url": "https://www.speedtest.net/global-index/dominican-republic#fixed",
          "mobile_speed": 26.3
-      }
+      },
+      "GNI": 8090
    },
    {
       "name": "Ecuador",
@@ -622,7 +665,8 @@
          "broadband_speed": 24.54,
          "url": "https://www.speedtest.net/global-index/ecuador#fixed",
          "mobile_speed": 22.39
-      }
+      },
+      "GNI": 6080
    },
    {
       "name": "El Salvador",
@@ -636,7 +680,8 @@
          "broadband_speed": 15.19,
          "url": "https://www.speedtest.net/global-index/el-salvador#fixed",
          "mobile_speed": 17.71
-      }
+      },
+      "GNI": 4000
    },
    {
       "name": "Grenada",
@@ -649,7 +694,8 @@
       "speed_data": {
          "broadband_speed": 44.16,
          "url": "https://www.speedtest.net/global-index/grenada#fixed"
-      }
+      },
+      "GNI": 9980
    },
    {
       "name": "Guatemala",
@@ -663,7 +709,8 @@
          "broadband_speed": 14.06,
          "url": "https://www.speedtest.net/global-index/guatemala#fixed",
          "mobile_speed": 25.13
-      }
+      },
+      "GNI": 4610
    },
    {
       "name": "Guyana",
@@ -676,7 +723,8 @@
       "speed_data": {
          "broadband_speed": 27.54,
          "url": "https://www.speedtest.net/global-index/guyana#fixed"
-      }
+      },
+      "GNI": 5180
    },
    {
       "name": "Haiti",
@@ -690,7 +738,8 @@
          "broadband_speed": 15.27,
          "url": "https://www.speedtest.net/global-index/haiti#fixed",
          "mobile_speed": 15.4
-      }
+      },
+      "GNI": 790
    },
    {
       "name": "Honduras",
@@ -704,7 +753,8 @@
          "broadband_speed": 16.5,
          "url": "https://www.speedtest.net/global-index/honduras#fixed",
          "mobile_speed": 22.46
-      }
+      },
+      "GNI": 2390
    },
    {
       "name": "Jamaica",
@@ -718,7 +768,8 @@
          "broadband_speed": 35.43,
          "url": "https://www.speedtest.net/global-index/jamaica#fixed",
          "mobile_speed": 38
-      }
+      },
+      "GNI": 5250
    },
    {
       "name": "Mexico",
@@ -732,7 +783,8 @@
          "broadband_speed": 40.54,
          "url": "https://www.speedtest.net/global-index/mexico#fixed",
          "mobile_speed": 31.05
-      }
+      },
+      "GNI": 9430
    },
    {
       "name": "Nicaragua",
@@ -746,7 +798,8 @@
          "broadband_speed": 14.72,
          "url": "https://www.speedtest.net/global-index/nicaragua#fixed",
          "mobile_speed": 20.05
-      }
+      },
+      "GNI": 1910
    },
    {
       "name": "Panama",
@@ -760,7 +813,8 @@
          "broadband_speed": 90.9,
          "url": "https://www.speedtest.net/global-index/panama#fixed",
          "mobile_speed": 17.49
-      }
+      },
+      "GNI": 14950
    },
    {
       "name": "Paraguay",
@@ -774,7 +828,8 @@
          "broadband_speed": 35.54,
          "url": "https://www.speedtest.net/global-index/paraguay#fixed",
          "mobile_speed": 15.39
-      }
+      },
+      "GNI": 5540
    },
    {
       "name": "Peru",
@@ -788,7 +843,8 @@
          "broadband_speed": 27.87,
          "url": "https://www.speedtest.net/global-index/peru#fixed",
          "mobile_speed": 22.29
-      }
+      },
+      "GNI": 6740
    },
    {
       "name": "Saint Lucia",
@@ -801,7 +857,8 @@
       "speed_data": {
          "broadband_speed": 36.77,
          "url": "https://www.speedtest.net/global-index/saint-lucia#fixed"
-      }
+      },
+      "GNI": 11020
    },
    {
       "name": "Suriname",
@@ -815,7 +872,8 @@
          "broadband_speed": 10.35,
          "url": "https://www.speedtest.net/global-index/suriname#fixed",
          "mobile_speed": 19.98
-      }
+      },
+      "GNI": 5540
    },
    {
       "name": "Trinidad and Tobago",
@@ -829,7 +887,8 @@
          "broadband_speed": 57.43,
          "url": "https://www.speedtest.net/global-index/trinidad-and-tobago#fixed",
          "mobile_speed": 37.23
-      }
+      },
+      "GNI": 16890
    },
    {
       "name": "United States",
@@ -843,7 +902,8 @@
          "broadband_speed": 143.28,
          "url": "https://www.speedtest.net/global-index/united-states#fixed",
          "mobile_speed": 44.94
-      }
+      },
+      "GNI": 65760
    },
    {
       "name": "Uruguay",
@@ -857,7 +917,8 @@
          "broadband_speed": 52.99,
          "url": "https://www.speedtest.net/global-index/uruguay#fixed",
          "mobile_speed": 30.53
-      }
+      },
+      "GNI": 16230
    },
    {
       "name": "Venezuela",
@@ -871,7 +932,8 @@
          "broadband_speed": 3.5,
          "url": "https://www.speedtest.net/global-index/venezuela#fixed",
          "mobile_speed": 7.8
-      }
+      },
+      "GNI": 13080
    },
    {
       "name": "Algeria",
@@ -885,7 +947,8 @@
          "broadband_speed": 3.86,
          "url": "https://www.speedtest.net/global-index/algeria#fixed",
          "mobile_speed": 11.17
-      }
+      },
+      "GNI": 3970
    },
    {
       "name": "Angola",
@@ -899,7 +962,8 @@
          "broadband_speed": 15.03,
          "url": "https://www.speedtest.net/global-index/angola#fixed",
          "mobile_speed": 24.61
-      }
+      },
+      "GNI": 3050
    },
    {
       "name": "Benin",
@@ -912,7 +976,8 @@
       "speed_data": {
          "broadband_speed": 10.31,
          "url": "https://www.speedtest.net/global-index/benin#fixed"
-      }
+      },
+      "GNI": 1250
    },
    {
       "name": "Botswana",
@@ -926,7 +991,8 @@
          "broadband_speed": 10.19,
          "url": "https://www.speedtest.net/global-index/botswana#fixed",
          "mobile_speed": 19.85
-      }
+      },
+      "GNI": 7660
    },
    {
       "name": "Burkina Faso",
@@ -939,7 +1005,8 @@
       "speed_data": {
          "broadband_speed": 13.94,
          "url": "https://www.speedtest.net/global-index/burkina-faso#fixed"
-      }
+      },
+      "GNI": 790
    },
    {
       "name": "Burundi",
@@ -952,7 +1019,8 @@
       "speed_data": {
          "broadband_speed": 7.74,
          "url": "https://www.speedtest.net/global-index/burundi#fixed"
-      }
+      },
+      "GNI": 280
    },
    {
       "name": "Cameroon",
@@ -965,7 +1033,8 @@
       "speed_data": {
          "broadband_speed": 11.97,
          "url": "https://www.speedtest.net/global-index/cameroon#fixed"
-      }
+      },
+      "GNI": 1500
    },
    {
       "name": "Congo",
@@ -978,7 +1047,8 @@
       "speed_data": {
          "broadband_speed": 19.95,
          "url": "https://www.speedtest.net/global-index/congo#fixed"
-      }
+      },
+      "GNI": 1750
    },
    {
       "name": "Djibouti",
@@ -991,7 +1061,8 @@
       "speed_data": {
          "broadband_speed": 9.65,
          "url": "https://www.speedtest.net/global-index/djibouti#fixed"
-      }
+      },
+      "GNI": 3540
    },
    {
       "name": "Egypt",
@@ -1005,7 +1076,8 @@
          "broadband_speed": 23.01,
          "url": "https://www.speedtest.net/global-index/egypt#fixed",
          "mobile_speed": 19.41
-      }
+      },
+      "GNI": 2690
    },
    {
       "name": "Ethiopia",
@@ -1019,7 +1091,8 @@
          "broadband_speed": 9.84,
          "url": "https://www.speedtest.net/global-index/ethiopia#fixed",
          "mobile_speed": 18.14
-      }
+      },
+      "GNI": 850
    },
    {
       "name": "Gabon",
@@ -1032,7 +1105,8 @@
       "speed_data": {
          "broadband_speed": 21.23,
          "url": "https://www.speedtest.net/global-index/gabon#fixed"
-      }
+      },
+      "GNI": 7210
    },
    {
       "name": "The Gambia",
@@ -1045,7 +1119,8 @@
       "speed_data": {
          "broadband_speed": 7.56,
          "url": "https://www.speedtest.net/global-index/the-gambia#fixed"
-      }
+      },
+      "GNI": 740
    },
    {
       "name": "Ghana",
@@ -1059,7 +1134,8 @@
          "broadband_speed": 38.93,
          "url": "https://www.speedtest.net/global-index/ghana#fixed",
          "mobile_speed": 16.41
-      }
+      },
+      "GNI": 2220
    },
    {
       "name": "Kenya",
@@ -1073,7 +1149,8 @@
          "broadband_speed": 14.98,
          "url": "https://www.speedtest.net/global-index/kenya#fixed",
          "mobile_speed": 21.33
-      }
+      },
+      "GNI": 1750
    },
    {
       "name": "Liberia",
@@ -1086,7 +1163,8 @@
       "speed_data": {
          "broadband_speed": 16.31,
          "url": "https://www.speedtest.net/global-index/liberia#fixed"
-      }
+      },
+      "GNI": 580
    },
    {
       "name": "Libya",
@@ -1100,7 +1178,8 @@
          "broadband_speed": 10.87,
          "url": "https://www.speedtest.net/global-index/libya#fixed",
          "mobile_speed": 12.21
-      }
+      },
+      "GNI": 7640
    },
    {
       "name": "Madagascar",
@@ -1113,7 +1192,8 @@
       "speed_data": {
          "broadband_speed": 34.94,
          "url": "https://www.speedtest.net/global-index/madagascar#fixed"
-      }
+      },
+      "GNI": 520
    },
    {
       "name": "Malawi",
@@ -1126,7 +1206,8 @@
       "speed_data": {
          "broadband_speed": 9.95,
          "url": "https://www.speedtest.net/global-index/malawi#fixed"
-      }
+      },
+      "GNI": 380
    },
    {
       "name": "Mali",
@@ -1139,7 +1220,8 @@
       "speed_data": {
          "broadband_speed": 17.95,
          "url": "https://www.speedtest.net/global-index/mali#fixed"
-      }
+      },
+      "GNI": 880
    },
    {
       "name": "Mauritania",
@@ -1152,7 +1234,8 @@
       "speed_data": {
          "broadband_speed": 6.22,
          "url": "https://www.speedtest.net/global-index/mauritania#fixed"
-      }
+      },
+      "GNI": 1660
    },
    {
       "name": "Mauritius",
@@ -1166,7 +1249,8 @@
          "broadband_speed": 17.7,
          "url": "https://www.speedtest.net/global-index/mauritius#fixed",
          "mobile_speed": 23.93
-      }
+      },
+      "GNI": 12740
    },
    {
       "name": "Morocco",
@@ -1180,7 +1264,8 @@
          "broadband_speed": 17.4,
          "url": "https://www.speedtest.net/global-index/morocco#fixed",
          "mobile_speed": 35.5
-      }
+      },
+      "GNI": 3190
    },
    {
       "name": "Mozambique",
@@ -1194,7 +1279,8 @@
          "broadband_speed": 8.33,
          "url": "https://www.speedtest.net/global-index/mozambique#fixed",
          "mobile_speed": 21.64
-      }
+      },
+      "GNI": 480
    },
    {
       "name": "Namibia",
@@ -1208,7 +1294,8 @@
          "broadband_speed": 13.22,
          "url": "https://www.speedtest.net/global-index/namibia#fixed",
          "mobile_speed": 16.93
-      }
+      },
+      "GNI": 5060
    },
    {
       "name": "Nigeria",
@@ -1222,7 +1309,8 @@
          "broadband_speed": 10.21,
          "url": "https://www.speedtest.net/global-index/nigeria#fixed",
          "mobile_speed": 15.33
-      }
+      },
+      "GNI": 2030
    },
    {
       "name": "Rwanda",
@@ -1236,7 +1324,8 @@
          "broadband_speed": 19.98,
          "url": "https://www.speedtest.net/global-index/rwanda#fixed",
          "mobile_speed": 12.34
-      }
+      },
+      "GNI": 820
    },
    {
       "name": "Senegal",
@@ -1250,7 +1339,8 @@
          "broadband_speed": 21.82,
          "url": "https://www.speedtest.net/global-index/senegal#fixed",
          "mobile_speed": 22.98
-      }
+      },
+      "GNI": 1450
    },
    {
       "name": "Seychelles",
@@ -1263,7 +1353,8 @@
       "speed_data": {
          "broadband_speed": 34.26,
          "url": "https://www.speedtest.net/global-index/seychelles#fixed"
-      }
+      },
+      "GNI": 16870
    },
    {
       "name": "Sierra Leone",
@@ -1276,7 +1367,8 @@
       "speed_data": {
          "broadband_speed": 11.83,
          "url": "https://www.speedtest.net/global-index/sierra-leone#fixed"
-      }
+      },
+      "GNI": 500
    },
    {
       "name": "Somalia",
@@ -1290,7 +1382,8 @@
          "broadband_speed": 15.32,
          "url": "https://www.speedtest.net/global-index/somalia#fixed",
          "mobile_speed": 10.58
-      }
+      },
+      "GNI": 130
    },
    {
       "name": "South Africa",
@@ -1304,7 +1397,8 @@
          "broadband_speed": 36.35,
          "url": "https://www.speedtest.net/global-index/south-africa#fixed",
          "mobile_speed": 33.72
-      }
+      },
+      "GNI": 6040
    },
    {
       "name": "Sudan",
@@ -1318,7 +1412,8 @@
          "broadband_speed": 4.84,
          "url": "https://www.speedtest.net/global-index/sudan#fixed",
          "mobile_speed": 8.45
-      }
+      },
+      "GNI": 590
    },
    {
       "name": "Tanzania",
@@ -1332,7 +1427,8 @@
          "broadband_speed": 12.91,
          "url": "https://www.speedtest.net/global-index/tanzania#fixed",
          "mobile_speed": 12.48
-      }
+      },
+      "GNI": 1080
    },
    {
       "name": "Togo",
@@ -1345,7 +1441,8 @@
       "speed_data": {
          "broadband_speed": 20.43,
          "url": "https://www.speedtest.net/global-index/togo#fixed"
-      }
+      },
+      "GNI": 690
    },
    {
       "name": "Tunisia",
@@ -1359,7 +1456,8 @@
          "broadband_speed": 9.64,
          "url": "https://www.speedtest.net/global-index/tunisia#fixed",
          "mobile_speed": 28.89
-      }
+      },
+      "GNI": 3360
    },
    {
       "name": "Uganda",
@@ -1373,7 +1471,8 @@
          "broadband_speed": 11.66,
          "url": "https://www.speedtest.net/global-index/uganda#fixed",
          "mobile_speed": 12.5
-      }
+      },
+      "GNI": 780
    },
    {
       "name": "Western Sahara",
@@ -1400,7 +1499,8 @@
          "broadband_speed": 11.12,
          "url": "https://www.speedtest.net/global-index/zambia#fixed",
          "mobile_speed": 13.69
-      }
+      },
+      "GNI": 1450
    },
    {
       "name": "Zimbabwe",
@@ -1414,7 +1514,8 @@
          "broadband_speed": 12.28,
          "url": "https://www.speedtest.net/global-index/zimbabwe#fixed",
          "mobile_speed": 12.96
-      }
+      },
+      "GNI": 1390
    },
    {
       "name": "Albania",
@@ -1428,7 +1529,8 @@
          "broadband_speed": 34.55,
          "url": "https://www.speedtest.net/global-index/albania#fixed",
          "mobile_speed": 56.12
-      }
+      },
+      "GNI": 5240
    },
    {
       "name": "Andorra",
@@ -1455,7 +1557,8 @@
          "broadband_speed": 58.05,
          "url": "https://www.speedtest.net/global-index/austria#fixed",
          "mobile_speed": 52.67
-      }
+      },
+      "GNI": 51300
    },
    {
       "name": "Belarus",
@@ -1469,7 +1572,8 @@
          "broadband_speed": 56.23,
          "url": "https://www.speedtest.net/global-index/belarus#fixed",
          "mobile_speed": 14.8
-      }
+      },
+      "GNI": 6280
    },
    {
       "name": "Belgium",
@@ -1483,7 +1587,8 @@
          "broadband_speed": 91.69,
          "url": "https://www.speedtest.net/global-index/belgium#fixed",
          "mobile_speed": 48.79
-      }
+      },
+      "GNI": 47350
    },
    {
       "name": "Bosnia and Herzegovina",
@@ -1497,7 +1602,8 @@
          "broadband_speed": 33.79,
          "url": "https://www.speedtest.net/global-index/bosnia-and-herzegovina#fixed",
          "mobile_speed": 33.97
-      }
+      },
+      "GNI": 6150
    },
    {
       "name": "Bulgaria",
@@ -1511,7 +1617,8 @@
          "broadband_speed": 59.95,
          "url": "https://www.speedtest.net/global-index/bulgaria#fixed",
          "mobile_speed": 68.94
-      }
+      },
+      "GNI": 9410
    },
    {
       "name": "Croatia",
@@ -1525,7 +1632,8 @@
          "broadband_speed": 38.65,
          "url": "https://www.speedtest.net/global-index/croatia#fixed",
          "mobile_speed": 63.11
-      }
+      },
+      "GNI": 14910
    },
    {
       "name": "Cyprus",
@@ -1539,7 +1647,8 @@
          "broadband_speed": 31.45,
          "url": "https://www.speedtest.net/global-index/cyprus#fixed",
          "mobile_speed": 51.14
-      }
+      },
+      "GNI": 27710
    },
    {
       "name": "Denmark",
@@ -1553,7 +1662,8 @@
          "broadband_speed": 146.79,
          "url": "https://www.speedtest.net/global-index/denmark#fixed",
          "mobile_speed": 52.56
-      }
+      },
+      "GNI": 63240
    },
    {
       "name": "Estonia",
@@ -1567,7 +1677,8 @@
          "broadband_speed": 66.67,
          "url": "https://www.speedtest.net/global-index/estonia#fixed",
          "mobile_speed": 48.27
-      }
+      },
+      "GNI": 23220
    },
    {
       "name": "Finland",
@@ -1581,7 +1692,8 @@
          "broadband_speed": 93.12,
          "url": "https://www.speedtest.net/global-index/finland#fixed",
          "mobile_speed": 46.74
-      }
+      },
+      "GNI": 49580
    },
    {
       "name": "France",
@@ -1595,7 +1707,8 @@
          "broadband_speed": 144.61,
          "url": "https://www.speedtest.net/global-index/france#fixed",
          "mobile_speed": 50.39
-      }
+      },
+      "GNI": 42400
    },
    {
       "name": "Germany",
@@ -1609,7 +1722,8 @@
          "broadband_speed": 94.61,
          "url": "https://www.speedtest.net/global-index/germany#fixed",
          "mobile_speed": 38.74
-      }
+      },
+      "GNI": 48520
    },
    {
       "name": "Greece",
@@ -1623,7 +1737,8 @@
          "broadband_speed": 30,
          "url": "https://www.speedtest.net/global-index/greece#fixed",
          "mobile_speed": 42.27
-      }
+      },
+      "GNI": 20320
    },
    {
       "name": "Hungary",
@@ -1637,7 +1752,8 @@
          "broadband_speed": 136.06,
          "url": "https://www.speedtest.net/global-index/hungary#fixed",
          "mobile_speed": 41.78
-      }
+      },
+      "GNI": 16140
    },
    {
       "name": "Ireland",
@@ -1651,7 +1767,8 @@
          "broadband_speed": 80.26,
          "url": "https://www.speedtest.net/global-index/ireland#fixed",
          "mobile_speed": 27.55
-      }
+      },
+      "GNI": 62210
    },
    {
       "name": "Italy",
@@ -1665,7 +1782,8 @@
          "broadband_speed": 64.42,
          "url": "https://www.speedtest.net/global-index/italy#fixed",
          "mobile_speed": 40
-      }
+      },
+      "GNI": 34460
    },
    {
       "name": "Kosovo",
@@ -1679,7 +1797,8 @@
          "broadband_speed": 48.15,
          "url": "https://www.speedtest.net/global-index/kosovo#fixed",
          "mobile_speed": 28.32
-      }
+      },
+      "GNI": 4640
    },
    {
       "name": "Latvia",
@@ -1693,7 +1812,8 @@
          "broadband_speed": 107.14,
          "url": "https://www.speedtest.net/global-index/latvia#fixed",
          "mobile_speed": 34.01
-      }
+      },
+      "GNI": 17730
    },
    {
       "name": "Liechtenstein",
@@ -1720,7 +1840,8 @@
          "broadband_speed": 113.26,
          "url": "https://www.speedtest.net/global-index/lithuania#fixed",
          "mobile_speed": 52.66
-      }
+      },
+      "GNI": 18990
    },
    {
       "name": "Luxembourg",
@@ -1748,7 +1869,8 @@
          "broadband_speed": 106.58,
          "url": "https://www.speedtest.net/global-index/malta#fixed",
          "mobile_speed": 46.63
-      }
+      },
+      "GNI": 27290
    },
    {
       "name": "Moldova",
@@ -1762,7 +1884,8 @@
          "broadband_speed": 62.54,
          "url": "https://www.speedtest.net/global-index/moldova#fixed",
          "mobile_speed": 36.25
-      }
+      },
+      "GNI": 3930
    },
    {
       "name": "Monaco",
@@ -1789,7 +1912,8 @@
          "broadband_speed": 48.63,
          "url": "https://www.speedtest.net/global-index/montenegro#fixed",
          "mobile_speed": 44.29
-      }
+      },
+      "GNI": 9010
    },
    {
       "name": "Netherlands",
@@ -1803,7 +1927,8 @@
          "broadband_speed": 114.31,
          "url": "https://www.speedtest.net/global-index/netherlands#fixed",
          "mobile_speed": 70.98
-      }
+      },
+      "GNI": 53200
    },
    {
       "name": "North Macedonia",
@@ -1817,7 +1942,8 @@
          "broadband_speed": 31.39,
          "url": "https://www.speedtest.net/global-index/north-macedonia#fixed",
          "mobile_speed": 50.95
-      }
+      },
+      "GNI": 5910
    },
    {
       "name": "Norway",
@@ -1845,7 +1971,8 @@
          "broadband_speed": 98.12,
          "url": "https://www.speedtest.net/global-index/poland#fixed",
          "mobile_speed": 35.38
-      }
+      },
+      "GNI": 15200
    },
    {
       "name": "Portugal",
@@ -1859,7 +1986,8 @@
          "broadband_speed": 113.53,
          "url": "https://www.speedtest.net/global-index/portugal#fixed",
          "mobile_speed": 38.76
-      }
+      },
+      "GNI": 23080
    },
    {
       "name": "Romania",
@@ -1873,7 +2001,8 @@
          "broadband_speed": 163.54,
          "url": "https://www.speedtest.net/global-index/romania#fixed",
          "mobile_speed": 39.24
-      }
+      },
+      "GNI": 12630
    },
    {
       "name": "Russia",
@@ -1887,7 +2016,8 @@
          "broadband_speed": 68.78,
          "url": "https://www.speedtest.net/global-index/russia#fixed",
          "mobile_speed": 22.06
-      }
+      },
+      "GNI": 11260
    },
    {
       "name": "San Marino",
@@ -1914,7 +2044,8 @@
          "broadband_speed": 63.31,
          "url": "https://www.speedtest.net/global-index/serbia#fixed",
          "mobile_speed": 47.87
-      }
+      },
+      "GNI": 7020
    },
    {
       "name": "Slovakia",
@@ -1928,7 +2059,8 @@
          "broadband_speed": 83.9,
          "url": "https://www.speedtest.net/global-index/slovakia#fixed",
          "mobile_speed": 38.5
-      }
+      },
+      "GNI": 19320
    },
    {
       "name": "Slovenia",
@@ -1942,7 +2074,8 @@
          "broadband_speed": 76.39,
          "url": "https://www.speedtest.net/global-index/slovenia#fixed",
          "mobile_speed": 42.16
-      }
+      },
+      "GNI": 25750
    },
    {
       "name": "Spain",
@@ -1956,7 +2089,8 @@
          "broadband_speed": 141.22,
          "url": "https://www.speedtest.net/global-index/spain#fixed",
          "mobile_speed": 35.44
-      }
+      },
+      "GNI": 30390
    },
    {
       "name": "Sweden",
@@ -1970,7 +2104,8 @@
          "broadband_speed": 143.9,
          "url": "https://www.speedtest.net/global-index/sweden#fixed",
          "mobile_speed": 50.21
-      }
+      },
+      "GNI": 55840
    },
    {
       "name": "Switzerland",
@@ -1998,7 +2133,8 @@
          "broadband_speed": 26.3,
          "url": "https://www.speedtest.net/global-index/turkey#fixed",
          "mobile_speed": 37.21
-      }
+      },
+      "GNI": 9610
    },
    {
       "name": "Ukraine",
@@ -2012,7 +2148,8 @@
          "broadband_speed": 56.21,
          "url": "https://www.speedtest.net/global-index/ukraine#fixed",
          "mobile_speed": 25.33
-      }
+      },
+      "GNI": 3370
    },
    {
       "name": "United Kingdom",
@@ -2026,7 +2163,8 @@
          "broadband_speed": 67.78,
          "url": "https://www.speedtest.net/global-index/united-kingdom#fixed",
          "mobile_speed": 35.6
-      }
+      },
+      "GNI": 42370
    },
    {
       "name": "Bahrain",
@@ -2040,7 +2178,8 @@
          "broadband_speed": 28.84,
          "url": "https://www.speedtest.net/global-index/bahrain#fixed",
          "mobile_speed": 38.89
-      }
+      },
+      "GNI": 22110
    },
    {
       "name": "Iran",
@@ -2054,7 +2193,8 @@
          "broadband_speed": 15.61,
          "url": "https://www.speedtest.net/global-index/iran#fixed",
          "mobile_speed": 29.87
-      }
+      },
+      "GNI": 5420
    },
    {
       "name": "Iraq",
@@ -2068,7 +2208,8 @@
          "broadband_speed": 28.06,
          "url": "https://www.speedtest.net/global-index/iraq#fixed",
          "mobile_speed": 11.51
-      }
+      },
+      "GNI": 5740
    },
    {
       "name": "Israel",
@@ -2082,7 +2223,8 @@
          "broadband_speed": 99.71,
          "url": "https://www.speedtest.net/global-index/israel#fixed",
          "mobile_speed": 21.76
-      }
+      },
+      "GNI": 43290
    },
    {
       "name": "Jordan",
@@ -2096,7 +2238,8 @@
          "broadband_speed": 55.7,
          "url": "https://www.speedtest.net/global-index/jordan#fixed",
          "mobile_speed": 24.61
-      }
+      },
+      "GNI": 4300
    },
    {
       "name": "Kuwait",
@@ -2110,7 +2253,8 @@
          "broadband_speed": 73.51,
          "url": "https://www.speedtest.net/global-index/kuwait#fixed",
          "mobile_speed": 49.46
-      }
+      },
+      "GNI": 34290
    },
    {
       "name": "Lebanon",
@@ -2124,7 +2268,8 @@
          "broadband_speed": 17.71,
          "url": "https://www.speedtest.net/global-index/lebanon#fixed",
          "mobile_speed": 43.95
-      }
+      },
+      "GNI": 7600
    },
    {
       "name": "Oman",
@@ -2138,7 +2283,8 @@
          "broadband_speed": 37.53,
          "url": "https://www.speedtest.net/global-index/oman#fixed",
          "mobile_speed": 34.63
-      }
+      },
+      "GNI": 15330
    },
    {
       "name": "Palestine",
@@ -2152,7 +2298,8 @@
          "broadband_speed": 16.99,
          "url": "https://www.speedtest.net/global-index/palestine#fixed",
          "mobile_speed": 7.67
-      }
+      },
+      "GNI": 3710
    },
    {
       "name": "Qatar",
@@ -2166,7 +2313,8 @@
          "broadband_speed": 93.73,
          "url": "https://www.speedtest.net/global-index/qatar#fixed",
          "mobile_speed": 83.83
-      }
+      },
+      "GNI": 63410
    },
    {
       "name": "Saudi Arabia",
@@ -2180,7 +2328,8 @@
          "broadband_speed": 66.84,
          "url": "https://www.speedtest.net/global-index/saudi-arabia#fixed",
          "mobile_speed": 66.54
-      }
+      },
+      "GNI": 22850
    },
    {
       "name": "Syria",
@@ -2194,7 +2343,8 @@
          "broadband_speed": 7.75,
          "url": "https://www.speedtest.net/global-index/syria#fixed",
          "mobile_speed": 22.19
-      }
+      },
+      "GNI": 1820
    },
    {
       "name": "United Arab Emirates",
@@ -2208,7 +2358,8 @@
          "broadband_speed": 117.36,
          "url": "https://www.speedtest.net/global-index/united-arab-emirates#fixed",
          "mobile_speed": 107.53
-      }
+      },
+      "GNI": 43470
    },
    {
       "name": "Yemen",
@@ -2221,7 +2372,8 @@
       "speed_data": {
          "broadband_speed": 3.96,
          "url": "https://www.speedtest.net/global-index/yemen#fixed"
-      }
+      },
+      "GNI": 940
    },
    {
       "name": "Australia",
@@ -2235,7 +2387,8 @@
          "broadband_speed": 51.61,
          "url": "https://www.speedtest.net/global-index/australia#fixed",
          "mobile_speed": 70.04
-      }
+      },
+      "GNI": 54910
    },
    {
       "name": "Fiji",
@@ -2249,7 +2402,8 @@
          "broadband_speed": 17.27,
          "url": "https://www.speedtest.net/global-index/fiji#fixed",
          "mobile_speed": 29.84
-      }
+      },
+      "GNI": 5860
    },
    {
       "name": "New Zealand",
@@ -2263,7 +2417,8 @@
          "broadband_speed": 120.72,
          "url": "https://www.speedtest.net/global-index/new-zealand#fixed",
          "mobile_speed": 56.81
-      }
+      },
+      "GNI": 42670
    },
    {
       "name": "Papua New Guinea",
@@ -2276,6 +2431,7 @@
       "speed_data": {
          "broadband_speed": 9.6,
          "url": "https://www.speedtest.net/global-index/papua-new-guinea#fixed"
-      }
+      },
+      "GNI": 2780
    }
 ]
