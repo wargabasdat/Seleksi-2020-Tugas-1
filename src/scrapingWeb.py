@@ -9,7 +9,7 @@ HEADER = {'User-Agent' : 'Mozilla/5.0 (Windows);Basis Data/13518067@std.stei.itb
 
 # get url desc from database
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["berryBenka"]
+mydb = myclient["berBen"]
 
 def getdata(category):
     # To get list url to scrape
@@ -44,7 +44,7 @@ def getdata(category):
 
 clothingTop = ["clothing/tops/blouse","clothing/tops/women-shirts"]
 clothingBottom = ["clothing/bottoms/culottes","clothing/bottoms/jeans","clothing/bottoms/leggings","clothing/bottoms/long-pants","clothing/bottoms/short-pants","clothing/bottoms/skirts"]
-clothingDress = ["clothing/dresses/bodycon","clothing/dresses/casual","clothing/dresses/jumpsuit","clothing/dresses/maxi-dresses","clothing/dresses/midi-dresses","clothing/dresses/mini-dresses"]
+clothingDress = ["clothing/dresses/bodycon","clothing/dresses/casual","clothing/dresses/maxi-dresses","clothing/dresses/midi-dresses","clothing/dresses/mini-dresses"]
 clothingOut = ["clothing/outerwear/blazers","clothing/outerwear/cardigans","clothing/outerwear/coats","clothing/outerwear/jackets","clothing/outerwear/kimono","clothing/outerwear/sweaters","clothing/outerwear/vest"]
 shoes = ["shoes/mules","shoes/flats","shoes/heels","shoes/sneakers","shoes/sandals","shoes/loafers"]
 bags = ["bags/big-bags","bags/small-bags","bags/clutch-bag","bags/wallets","bags/backpack"]
@@ -111,7 +111,6 @@ def getdesc(collname,f,g,h,l,j,k):
     for idx,x in enumerate(data):
         URL = x["url"]
         response = requests.get(URL, headers=HEADER)
-        print(URL)
         # Parsing the HTML content
         page_html = response.content
         page_soup = BeautifulSoup(page_html, 'lxml')
@@ -124,11 +123,11 @@ def getdesc(collname,f,g,h,l,j,k):
         size = []
         for s in elmt.find('ul',attrs={'id':'select-size'}).find_all('li'):
             size.append(s.label.text.replace("\n","").replace(" ",""))
+        bahan = ""
+        perawatan = ""
         for p in elmt.find('div',attrs={'care'}).find_all('p'):
-            bahan = ""
-            perawatan = ""
             if "Bahan" in p.get_text():
-                bahan = p.get_text().replace("Bahan:","").replace("\n","")
+                bahan = p.get_text().replace("Bahan","").replace("\n","").replace(":","").replace(" ","").replace("\u00a0","")
             if "Perawatan" in p.get_text():
                 perawatan = p.get_text().replace("\n"," ").replace("Perawatan","").replace(":","")
         rincianUkuran = []
@@ -301,7 +300,6 @@ def getdesc(collname,f,g,h,l,j,k):
                         "Alas":float(alas),
                         "Panjang Tali":float(tali)
                     })
-
         # write to json file
         json.dump({
             "id_produk":str(x["_id"]),
