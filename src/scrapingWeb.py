@@ -169,6 +169,10 @@ def getdesc(collname,f,g,h,l,j,k):
                             lingkarPinggang = y[-1].split("-")[-1]
                         elif "Pinggul" in elm or "Hip" in elm:
                             lingkarPinggul = y[-1].split("-")[-1]
+                        elif "Paha" in elm:
+                            lingkarPaha = y[-1].split("-")[-1]
+                        elif "Pesak" in elm:
+                            pesak = y[-1].split("-")[-1]
                         else:
                             panjang = y[-1].split("-")[-1]
                         if "BajuDalam" in elm:
@@ -320,6 +324,7 @@ def getdesc(collname,f,g,h,l,j,k):
             "perawatan":perawatan
         })
         sleep(2)
+
 
 # insert description produk to database : done
 with open('dataDescScrape.json','w') as f:
