@@ -1,19 +1,12 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2020
+  Data Scraping
   <br>
   <br>
 </h1>
 
-<h2 align="center">
-  <br>
-  Tugas 1 : Data Scraping
-  <br>
-  <br>
-</h2>
-
 ## Deskripsi
-Dalam Tugas 1 Seleksi Warga Basdat 2020 ini, saya membuat sebuah program _data scraping_ pada sebuah web bernama [FIFA Index](https://www.fifaindex.com/players/). Data yang di-_collect_ dari website ini adalah profil pemain sepak bola yang terdaftar dalam permainan __FIFA 20__. Adapun atribut-atribut dari profil tiap pemain tersebut meliputi _overall rating_ __(OVR)__ beserta _rating_ tiap _skill_ yang dimilikinya.
+Dalam Repo ini, saya membuat sebuah program _data scraping_ pada sebuah web bernama [FIFA Index](https://www.fifaindex.com/players/). Data yang di-_collect_ dari website ini adalah profil pemain sepak bola yang terdaftar dalam permainan __FIFA 20__. Adapun atribut-atribut dari profil tiap pemain tersebut meliputi _overall rating_ __(OVR)__ beserta _rating_ tiap _skill_ yang dimilikinya.
 
 ## Spesifikasi
 Program ini dibuat dalam bahasa pemrograman Python (3.7.0) dengan menggunakan _libraries_ yang disebutkan dalam bagian __Library Used__ pada __Reference__. Oleh karena itu, untuk program ini hanya dapat dijalankan jika telah ter-_install_ Python 3.7.0 beserta _libraries_ yang digunakan: __pandas__, __bs4__, __re__, __csv__, __requests__, __json__, dan __multiprocessing__.
