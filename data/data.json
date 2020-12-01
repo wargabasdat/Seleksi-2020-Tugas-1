@@ -1,0 +1,2437 @@
+[
+   {
+      "name": "Afghanistan",
+      "region": "Asia",
+      "population": 38928346,
+      "internet_users": 7337489,
+      "penetration": 18.8,
+      "users_region": 0.3,
+      "facebook_subs": 3848400,
+      "speed_data": {
+         "broadband_speed": 7.38,
+         "url": "https://www.speedtest.net/global-index/afghanistan#fixed",
+         "mobile_speed": 5.52
+      },
+      "GNI": 540
+   },
+   {
+      "name": "Armenia",
+      "region": "Asia",
+      "population": 2963243,
+      "internet_users": 2126716,
+      "penetration": 71.8,
+      "users_region": 0.1,
+      "facebook_subs": 1252000,
+      "speed_data": {
+         "broadband_speed": 26.99,
+         "url": "https://www.speedtest.net/global-index/armenia#fixed",
+         "mobile_speed": 34.04
+      },
+      "GNI": 4680
+   },
+   {
+      "name": "Azerbaijan",
+      "region": "Asia",
+      "population": 10139177,
+      "internet_users": 7991630,
+      "penetration": 78.8,
+      "users_region": 0.3,
+      "facebook_subs": 1854000,
+      "speed_data": {
+         "broadband_speed": 21.24,
+         "url": "https://www.speedtest.net/global-index/azerbaijan#fixed",
+         "mobile_speed": 30.99
+      },
+      "GNI": 4480
+   },
+   {
+      "name": "Bangladesh",
+      "region": "Asia",
+      "population": 164689383,
+      "internet_users": 96199000,
+      "penetration": 58.4,
+      "users_region": 4.2,
+      "facebook_subs": 33713000,
+      "speed_data": {
+         "broadband_speed": 25.04,
+         "url": "https://www.speedtest.net/global-index/bangladesh#fixed",
+         "mobile_speed": 10.53
+      },
+      "GNI": 1940
+   },
+   {
+      "name": "Bhutan",
+      "region": "Asia",
+      "population": 771608,
+      "internet_users": 397499,
+      "penetration": 51.5,
+      "users_region": 0,
+      "facebook_subs": 413100,
+      "speed_data": {
+         "broadband_speed": 15.32,
+         "url": "https://www.speedtest.net/global-index/bhutan#fixed"
+      },
+      "GNI": 2970
+   },
+   {
+      "name": "Cambodia",
+      "region": "Asia",
+      "population": 16718965,
+      "internet_users": 8005551,
+      "penetration": 47.9,
+      "users_region": 0.3,
+      "facebook_subs": 7810000,
+      "speed_data": {
+         "broadband_speed": 22.87,
+         "url": "https://www.speedtest.net/global-index/cambodia#fixed",
+         "mobile_speed": 17.21
+      },
+      "GNI": 1480
+   },
+   {
+      "name": "China",
+      "region": "Asia",
+      "population": 1439323776,
+      "internet_users": 854000000,
+      "penetration": 59.3,
+      "users_region": 37.1,
+      "facebook_subs": 1330000,
+      "speed_data": {
+         "broadband_speed": 133.6,
+         "url": "https://www.speedtest.net/global-index/china#fixed",
+         "mobile_speed": 103.67
+      },
+      "GNI": 10410
+   },
+   {
+      "name": "Georgia",
+      "region": "Asia",
+      "population": 3989167,
+      "internet_users": 2658311,
+      "penetration": 66.6,
+      "users_region": 0.1,
+      "facebook_subs": 2524000,
+      "speed_data": {
+         "broadband_speed": 26.19,
+         "url": "https://www.speedtest.net/global-index/georgia#fixed",
+         "mobile_speed": 27.72
+      },
+      "GNI": 4740
+   },
+   {
+      "name": "India",
+      "region": "Asia",
+      "population": 1380004385,
+      "internet_users": 560000000,
+      "penetration": 40.6,
+      "users_region": 24.3,
+      "facebook_subs": 251000000,
+      "speed_data": {
+         "broadband_speed": 38.19,
+         "url": "https://www.speedtest.net/global-index/india#fixed",
+         "mobile_speed": 12.16
+      },
+      "GNI": 2130
+   },
+   {
+      "name": "Indonesia",
+      "region": "Asia",
+      "population": 273523615,
+      "internet_users": 171260000,
+      "penetration": 62.6,
+      "users_region": 7.4,
+      "facebook_subs": 136960000,
+      "speed_data": {
+         "broadband_speed": 21.28,
+         "url": "https://www.speedtest.net/global-index/indonesia#fixed",
+         "mobile_speed": 16.37
+      },
+      "GNI": 4050
+   },
+   {
+      "name": "Japan",
+      "region": "Asia",
+      "population": 126476461,
+      "internet_users": 118626672,
+      "penetration": 93.8,
+      "users_region": 5.2,
+      "facebook_subs": 28000000,
+      "speed_data": {
+         "broadband_speed": 106.49,
+         "url": "https://www.speedtest.net/global-index/japan#fixed",
+         "mobile_speed": 35.64
+      },
+      "GNI": 41690
+   },
+   {
+      "name": "Kazakhstan",
+      "region": "Asia",
+      "population": 18776707,
+      "internet_users": 14669853,
+      "penetration": 78.1,
+      "users_region": 0.6,
+      "facebook_subs": 9246000,
+      "speed_data": {
+         "broadband_speed": 46.31,
+         "url": "https://www.speedtest.net/global-index/kazakhstan#fixed",
+         "mobile_speed": 21.25
+      },
+      "GNI": 8810
+   },
+   {
+      "name": "South Korea",
+      "region": "Asia",
+      "population": 51269185,
+      "internet_users": 49234329,
+      "penetration": 96,
+      "users_region": 2.1,
+      "facebook_subs": 21836000,
+      "speed_data": {
+         "broadband_speed": 158.79,
+         "url": "https://www.speedtest.net/global-index/south-korea#fixed",
+         "mobile_speed": 110.1
+      },
+      "GNI": 33720
+   },
+   {
+      "name": "Kyrgyzstan",
+      "region": "Asia",
+      "population": 6524195,
+      "internet_users": 2493400,
+      "penetration": 38.2,
+      "users_region": 0.1,
+      "facebook_subs": 2418000,
+      "speed_data": {
+         "broadband_speed": 40.26,
+         "url": "https://www.speedtest.net/global-index/kyrgyzstan#fixed",
+         "mobile_speed": 20.06
+      },
+      "GNI": 1240
+   },
+   {
+      "name": "Laos",
+      "region": "Asia",
+      "population": 7064242,
+      "internet_users": 3056000,
+      "penetration": 42,
+      "users_region": 0.1,
+      "facebook_subs": 3056000,
+      "speed_data": {
+         "broadband_speed": 34.61,
+         "url": "https://www.speedtest.net/global-index/laos#fixed",
+         "mobile_speed": 20.48
+      },
+      "GNI": 2570
+   },
+   {
+      "name": "Malaysia",
+      "region": "Asia",
+      "population": 32365999,
+      "internet_users": 26353017,
+      "penetration": 81.4,
+      "users_region": 1.1,
+      "facebook_subs": 25520000,
+      "speed_data": {
+         "broadband_speed": 81.46,
+         "url": "https://www.speedtest.net/global-index/malaysia#fixed",
+         "mobile_speed": 24.32
+      },
+      "GNI": 11200
+   },
+   {
+      "name": "Maldives",
+      "region": "Asia",
+      "population": 540544,
+      "internet_users": 370000,
+      "penetration": 68.4,
+      "users_region": 0,
+      "facebook_subs": 375100,
+      "speed_data": {
+         "broadband_speed": 17.15,
+         "url": "https://www.speedtest.net/global-index/maldives#fixed",
+         "mobile_speed": 29.44
+      },
+      "GNI": 9650
+   },
+   {
+      "name": "Mongolia",
+      "region": "Asia",
+      "population": 3278290,
+      "internet_users": 2233000,
+      "penetration": 68.1,
+      "users_region": 0.1,
+      "facebook_subs": 2233000,
+      "speed_data": {
+         "broadband_speed": 35.63,
+         "url": "https://www.speedtest.net/global-index/mongolia#fixed",
+         "mobile_speed": 19.19
+      },
+      "GNI": 3780
+   },
+   {
+      "name": "Republic of the Union of Myanmar",
+      "region": "Asia",
+      "population": 54409800,
+      "internet_users": 22200000,
+      "penetration": 40.8,
+      "users_region": 1,
+      "facebook_subs": 22200000,
+      "speed_data": {
+         "broadband_speed": 18.78,
+         "url": "https://www.speedtest.net/global-index/republic-of-the-union-of-myanmar#fixed",
+         "mobile_speed": 25.47
+      },
+      "GNI": 1390
+   },
+   {
+      "name": "Nepal",
+      "region": "Asia",
+      "population": 29136808,
+      "internet_users": 16190000,
+      "penetration": 55.6,
+      "users_region": 0.7,
+      "facebook_subs": 10419000,
+      "speed_data": {
+         "broadband_speed": 20.45,
+         "url": "https://www.speedtest.net/global-index/nepal#fixed",
+         "mobile_speed": 15.22
+      },
+      "GNI": 1090
+   },
+   {
+      "name": "Pakistan",
+      "region": "Asia",
+      "population": 220892340,
+      "internet_users": 71608065,
+      "penetration": 32.4,
+      "users_region": 3.1,
+      "facebook_subs": 37070000,
+      "speed_data": {
+         "broadband_speed": 8.87,
+         "url": "https://www.speedtest.net/global-index/pakistan#fixed",
+         "mobile_speed": 14.86
+      },
+      "GNI": 1530
+   },
+   {
+      "name": "Philippines",
+      "region": "Asia",
+      "population": 109581078,
+      "internet_users": 79000000,
+      "penetration": 72.1,
+      "users_region": 3.4,
+      "facebook_subs": 71760000,
+      "speed_data": {
+         "broadband_speed": 23.74,
+         "url": "https://www.speedtest.net/global-index/philippines#fixed",
+         "mobile_speed": 16.17
+      },
+      "GNI": 3850
+   },
+   {
+      "name": "Singapore",
+      "region": "Asia",
+      "population": 5850342,
+      "internet_users": 5173907,
+      "penetration": 88.4,
+      "users_region": 0.2,
+      "facebook_subs": 4470000,
+      "speed_data": {
+         "broadband_speed": 208.16,
+         "url": "https://www.speedtest.net/global-index/singapore#fixed",
+         "mobile_speed": 56.95
+      },
+      "GNI": 59590
+   },
+   {
+      "name": "Sri Lanka",
+      "region": "Asia",
+      "population": 21413249,
+      "internet_users": 7169533,
+      "penetration": 33.5,
+      "users_region": 0.3,
+      "facebook_subs": 6428000,
+      "speed_data": {
+         "broadband_speed": 25.99,
+         "url": "https://www.speedtest.net/global-index/sri-lanka#fixed",
+         "mobile_speed": 17.1
+      },
+      "GNI": 4020
+   },
+   {
+      "name": "Taiwan",
+      "region": "Asia",
+      "population": 23816775,
+      "internet_users": 22042902,
+      "penetration": 92.6,
+      "users_region": 1,
+      "facebook_subs": 19190000,
+      "speed_data": {
+         "broadband_speed": 122.59,
+         "url": "https://www.speedtest.net/global-index/taiwan#fixed",
+         "mobile_speed": 49.37
+      }
+   },
+   {
+      "name": "Tajikistan",
+      "region": "Asia",
+      "population": 9537645,
+      "internet_users": 3013256,
+      "penetration": 31.6,
+      "users_region": 0.1,
+      "facebook_subs": 645500,
+      "speed_data": {
+         "broadband_speed": 27.59,
+         "url": "https://www.speedtest.net/global-index/tajikistan#fixed",
+         "mobile_speed": 12.62
+      },
+      "GNI": 1030
+   },
+   {
+      "name": "Thailand",
+      "region": "Asia",
+      "population": 69799978,
+      "internet_users": 57000000,
+      "penetration": 81.7,
+      "users_region": 2.5,
+      "facebook_subs": 46000000,
+      "speed_data": {
+         "broadband_speed": 171.36,
+         "url": "https://www.speedtest.net/global-index/thailand#fixed",
+         "mobile_speed": 33.04
+      },
+      "GNI": 7260
+   },
+   {
+      "name": "Turkmenistan",
+      "region": "Asia",
+      "population": 6031200,
+      "internet_users": 1262794,
+      "penetration": 20.9,
+      "users_region": 0.1,
+      "facebook_subs": 67200,
+      "speed_data": {
+         "broadband_speed": 3.69,
+         "url": "https://www.speedtest.net/global-index/turkmenistan#fixed"
+      },
+      "GNI": 6740
+   },
+   {
+      "name": "Uzbekistan",
+      "region": "Asia",
+      "population": 33469203,
+      "internet_users": 17161534,
+      "penetration": 51.3,
+      "users_region": 0.7,
+      "facebook_subs": 3094000,
+      "speed_data": {
+         "broadband_speed": 28.52,
+         "url": "https://www.speedtest.net/global-index/uzbekistan#fixed",
+         "mobile_speed": 11.78
+      },
+      "GNI": 1800
+   },
+   {
+      "name": "Vietnam",
+      "region": "Asia",
+      "population": 97338579,
+      "internet_users": 68541344,
+      "penetration": 70.4,
+      "users_region": 3,
+      "facebook_subs": 66720000,
+      "speed_data": {
+         "broadband_speed": 54.67,
+         "url": "https://www.speedtest.net/global-index/vietnam#fixed",
+         "mobile_speed": 33.12
+      },
+      "GNI": 2540
+   },
+   {
+      "name": "Antigua and Barbuda",
+      "region": "America",
+      "population": 103050,
+      "internet_users": 81900,
+      "penetration": 79.5,
+      "users_region": 0,
+      "facebook_subs": 62000,
+      "speed_data": {
+         "broadband_speed": 17.23,
+         "url": "https://www.speedtest.net/global-index/antigua-and-barbuda#fixed"
+      },
+      "GNI": 16660
+   },
+   {
+      "name": "Argentina",
+      "region": "America",
+      "population": 44688864,
+      "internet_users": 41586960,
+      "penetration": 93.1,
+      "users_region": 5.3,
+      "facebook_subs": 30000000,
+      "speed_data": {
+         "broadband_speed": 40.27,
+         "url": "https://www.speedtest.net/global-index/argentina#fixed",
+         "mobile_speed": 27.76
+      },
+      "GNI": 11200
+   },
+   {
+      "name": "The Bahamas",
+      "region": "America",
+      "population": 399285,
+      "internet_users": 333143,
+      "penetration": 83.4,
+      "users_region": 0,
+      "facebook_subs": 220000,
+      "speed_data": {
+         "broadband_speed": 40.24,
+         "url": "https://www.speedtest.net/global-index/the-bahamas#fixed",
+         "mobile_speed": 29.62
+      },
+      "GNI": 31780
+   },
+   {
+      "name": "Barbados",
+      "region": "America",
+      "population": 286388,
+      "internet_users": 228717,
+      "penetration": 79.9,
+      "users_region": 0,
+      "facebook_subs": 160000,
+      "speed_data": {
+         "broadband_speed": 79.77,
+         "url": "https://www.speedtest.net/global-index/barbados#fixed"
+      },
+      "GNI": 17380
+   },
+   {
+      "name": "Belize",
+      "region": "America",
+      "population": 382444,
+      "internet_users": 200020,
+      "penetration": 52.3,
+      "users_region": 0,
+      "facebook_subs": 200000,
+      "speed_data": {
+         "broadband_speed": 41.24,
+         "url": "https://www.speedtest.net/global-index/belize#fixed",
+         "mobile_speed": 22.29
+      },
+      "GNI": 4450
+   },
+   {
+      "name": "Bolivia",
+      "region": "America",
+      "population": 11215674,
+      "internet_users": 8817749,
+      "penetration": 78.6,
+      "users_region": 1.1,
+      "facebook_subs": 6100000,
+      "speed_data": {
+         "broadband_speed": 16.7,
+         "url": "https://www.speedtest.net/global-index/bolivia#fixed",
+         "mobile_speed": 19.22
+      },
+      "GNI": 3530
+   },
+   {
+      "name": "Brazil",
+      "region": "America",
+      "population": 210867954,
+      "internet_users": 149057635,
+      "penetration": 70.7,
+      "users_region": 19,
+      "facebook_subs": 139000000,
+      "speed_data": {
+         "broadband_speed": 59.4,
+         "url": "https://www.speedtest.net/global-index/brazil#fixed",
+         "mobile_speed": 27.39
+      },
+      "GNI": 9130
+   },
+   {
+      "name": "Canada",
+      "region": "America",
+      "population": 36953765,
+      "internet_users": 33221435,
+      "penetration": 89.9,
+      "users_region": 4.2,
+      "facebook_subs": 23000000,
+      "speed_data": {
+         "broadband_speed": 129.92,
+         "url": "https://www.speedtest.net/global-index/canada#fixed",
+         "mobile_speed": 71.61
+      },
+      "GNI": 46370
+   },
+   {
+      "name": "Chile",
+      "region": "America",
+      "population": 18197209,
+      "internet_users": 14108392,
+      "penetration": 77.5,
+      "users_region": 1.8,
+      "facebook_subs": 13000000,
+      "speed_data": {
+         "broadband_speed": 108.17,
+         "url": "https://www.speedtest.net/global-index/chile#fixed",
+         "mobile_speed": 17.69
+      },
+      "GNI": 15010
+   },
+   {
+      "name": "Colombia",
+      "region": "America",
+      "population": 49464683,
+      "internet_users": 31275567,
+      "penetration": 63.2,
+      "users_region": 4,
+      "facebook_subs": 29000000,
+      "speed_data": {
+         "broadband_speed": 33.35,
+         "url": "https://www.speedtest.net/global-index/colombia#fixed",
+         "mobile_speed": 19.04
+      },
+      "GNI": 6510
+   },
+   {
+      "name": "Costa Rica",
+      "region": "America",
+      "population": 4953199,
+      "internet_users": 4296443,
+      "penetration": 86.7,
+      "users_region": 0.5,
+      "facebook_subs": 3200000,
+      "speed_data": {
+         "broadband_speed": 35.55,
+         "url": "https://www.speedtest.net/global-index/costa-rica#fixed",
+         "mobile_speed": 22.77
+      },
+      "GNI": 11700
+   },
+   {
+      "name": "Cuba",
+      "region": "America",
+      "population": 11489082,
+      "internet_users": 4630000,
+      "penetration": 40.3,
+      "users_region": 0.6,
+      "facebook_subs": null,
+      "speed_data": {
+         "broadband_speed": 4.17,
+         "url": "https://www.speedtest.net/global-index/cuba#fixed",
+         "mobile_speed": 31.38
+      },
+      "GNI": 7480
+   },
+   {
+      "name": "Dominica",
+      "region": "America",
+      "population": 73925,
+      "internet_users": 49687,
+      "penetration": 67.2,
+      "users_region": 0,
+      "facebook_subs": 39000,
+      "speed_data": {
+         "broadband_speed": 27.57,
+         "url": "https://www.speedtest.net/global-index/dominica#fixed"
+      },
+      "GNI": 8090
+   },
+   {
+      "name": "Dominican Republic",
+      "region": "America",
+      "population": 10882996,
+      "internet_users": 6649904,
+      "penetration": 61.1,
+      "users_region": 0.8,
+      "facebook_subs": 5100000,
+      "speed_data": {
+         "broadband_speed": 24.83,
+         "url": "https://www.speedtest.net/global-index/dominican-republic#fixed",
+         "mobile_speed": 26.3
+      },
+      "GNI": 8090
+   },
+   {
+      "name": "Ecuador",
+      "region": "America",
+      "population": 16863425,
+      "internet_users": 13476687,
+      "penetration": 79.9,
+      "users_region": 1.7,
+      "facebook_subs": 10000000,
+      "speed_data": {
+         "broadband_speed": 24.54,
+         "url": "https://www.speedtest.net/global-index/ecuador#fixed",
+         "mobile_speed": 22.39
+      },
+      "GNI": 6080
+   },
+   {
+      "name": "El Salvador",
+      "region": "America",
+      "population": 6411558,
+      "internet_users": 3700000,
+      "penetration": 57.7,
+      "users_region": 0.5,
+      "facebook_subs": 3400000,
+      "speed_data": {
+         "broadband_speed": 15.19,
+         "url": "https://www.speedtest.net/global-index/el-salvador#fixed",
+         "mobile_speed": 17.71
+      },
+      "GNI": 4000
+   },
+   {
+      "name": "Grenada",
+      "region": "America",
+      "population": 108339,
+      "internet_users": 69245,
+      "penetration": 63.9,
+      "users_region": 0,
+      "facebook_subs": 62000,
+      "speed_data": {
+         "broadband_speed": 44.16,
+         "url": "https://www.speedtest.net/global-index/grenada#fixed"
+      },
+      "GNI": 9980
+   },
+   {
+      "name": "Guatemala",
+      "region": "America",
+      "population": 17245346,
+      "internet_users": 7268597,
+      "penetration": 42.1,
+      "users_region": 0.9,
+      "facebook_subs": 6800000,
+      "speed_data": {
+         "broadband_speed": 14.06,
+         "url": "https://www.speedtest.net/global-index/guatemala#fixed",
+         "mobile_speed": 25.13
+      },
+      "GNI": 4610
+   },
+   {
+      "name": "Guyana",
+      "region": "America",
+      "population": 782225,
+      "internet_users": 395007,
+      "penetration": 50.5,
+      "users_region": 0.1,
+      "facebook_subs": 360000,
+      "speed_data": {
+         "broadband_speed": 27.54,
+         "url": "https://www.speedtest.net/global-index/guyana#fixed"
+      },
+      "GNI": 5180
+   },
+   {
+      "name": "Haiti",
+      "region": "America",
+      "population": 11112945,
+      "internet_users": 2000000,
+      "penetration": 18,
+      "users_region": 0.3,
+      "facebook_subs": 1800000,
+      "speed_data": {
+         "broadband_speed": 15.27,
+         "url": "https://www.speedtest.net/global-index/haiti#fixed",
+         "mobile_speed": 15.4
+      },
+      "GNI": 790
+   },
+   {
+      "name": "Honduras",
+      "region": "America",
+      "population": 9417167,
+      "internet_users": 3600000,
+      "penetration": 38.2,
+      "users_region": 0.5,
+      "facebook_subs": 3400000,
+      "speed_data": {
+         "broadband_speed": 16.5,
+         "url": "https://www.speedtest.net/global-index/honduras#fixed",
+         "mobile_speed": 22.46
+      },
+      "GNI": 2390
+   },
+   {
+      "name": "Jamaica",
+      "region": "America",
+      "population": 2898677,
+      "internet_users": 1581100,
+      "penetration": 54.5,
+      "users_region": 0.2,
+      "facebook_subs": 1100000,
+      "speed_data": {
+         "broadband_speed": 35.43,
+         "url": "https://www.speedtest.net/global-index/jamaica#fixed",
+         "mobile_speed": 38
+      },
+      "GNI": 5250
+   },
+   {
+      "name": "Mexico",
+      "region": "America",
+      "population": 130759074,
+      "internet_users": 85000000,
+      "penetration": 65,
+      "users_region": 10.9,
+      "facebook_subs": 78000000,
+      "speed_data": {
+         "broadband_speed": 40.54,
+         "url": "https://www.speedtest.net/global-index/mexico#fixed",
+         "mobile_speed": 31.05
+      },
+      "GNI": 9430
+   },
+   {
+      "name": "Nicaragua",
+      "region": "America",
+      "population": 6284757,
+      "internet_users": 2700000,
+      "penetration": 43,
+      "users_region": 0.3,
+      "facebook_subs": 2500000,
+      "speed_data": {
+         "broadband_speed": 14.72,
+         "url": "https://www.speedtest.net/global-index/nicaragua#fixed",
+         "mobile_speed": 20.05
+      },
+      "GNI": 1910
+   },
+   {
+      "name": "Panama",
+      "region": "America",
+      "population": 4162618,
+      "internet_users": 2899892,
+      "penetration": 69.7,
+      "users_region": 0.4,
+      "facebook_subs": 2000000,
+      "speed_data": {
+         "broadband_speed": 90.9,
+         "url": "https://www.speedtest.net/global-index/panama#fixed",
+         "mobile_speed": 17.49
+      },
+      "GNI": 14950
+   },
+   {
+      "name": "Paraguay",
+      "region": "America",
+      "population": 6896908,
+      "internet_users": 6177748,
+      "penetration": 89.6,
+      "users_region": 0.8,
+      "facebook_subs": 3300000,
+      "speed_data": {
+         "broadband_speed": 35.54,
+         "url": "https://www.speedtest.net/global-index/paraguay#fixed",
+         "mobile_speed": 15.39
+      },
+      "GNI": 5540
+   },
+   {
+      "name": "Peru",
+      "region": "America",
+      "population": 32551815,
+      "internet_users": 22000000,
+      "penetration": 67.6,
+      "users_region": 2.8,
+      "facebook_subs": 20000000,
+      "speed_data": {
+         "broadband_speed": 27.87,
+         "url": "https://www.speedtest.net/global-index/peru#fixed",
+         "mobile_speed": 22.29
+      },
+      "GNI": 6740
+   },
+   {
+      "name": "Saint Lucia",
+      "region": "America",
+      "population": 179667,
+      "internet_users": 142970,
+      "penetration": 79.6,
+      "users_region": 0,
+      "facebook_subs": 92000,
+      "speed_data": {
+         "broadband_speed": 36.77,
+         "url": "https://www.speedtest.net/global-index/saint-lucia#fixed"
+      },
+      "GNI": 11020
+   },
+   {
+      "name": "Suriname",
+      "region": "America",
+      "population": 568301,
+      "internet_users": 340000,
+      "penetration": 59.8,
+      "users_region": 0,
+      "facebook_subs": 310000,
+      "speed_data": {
+         "broadband_speed": 10.35,
+         "url": "https://www.speedtest.net/global-index/suriname#fixed",
+         "mobile_speed": 19.98
+      },
+      "GNI": 5540
+   },
+   {
+      "name": "Trinidad and Tobago",
+      "region": "America",
+      "population": 1372598,
+      "internet_users": 1003592,
+      "penetration": 73.1,
+      "users_region": 0.1,
+      "facebook_subs": 700000,
+      "speed_data": {
+         "broadband_speed": 57.43,
+         "url": "https://www.speedtest.net/global-index/trinidad-and-tobago#fixed",
+         "mobile_speed": 37.23
+      },
+      "GNI": 16890
+   },
+   {
+      "name": "United States",
+      "region": "America",
+      "population": 326766748,
+      "internet_users": 312322257,
+      "penetration": 95.6,
+      "users_region": 39.9,
+      "facebook_subs": 240000000,
+      "speed_data": {
+         "broadband_speed": 143.28,
+         "url": "https://www.speedtest.net/global-index/united-states#fixed",
+         "mobile_speed": 44.94
+      },
+      "GNI": 65760
+   },
+   {
+      "name": "Uruguay",
+      "region": "America",
+      "population": 3469551,
+      "internet_users": 3059727,
+      "penetration": 88.2,
+      "users_region": 0.4,
+      "facebook_subs": 2400000,
+      "speed_data": {
+         "broadband_speed": 52.99,
+         "url": "https://www.speedtest.net/global-index/uruguay#fixed",
+         "mobile_speed": 30.53
+      },
+      "GNI": 16230
+   },
+   {
+      "name": "Venezuela",
+      "region": "America",
+      "population": 32381221,
+      "internet_users": 17178743,
+      "penetration": 53.1,
+      "users_region": 2.2,
+      "facebook_subs": 13000000,
+      "speed_data": {
+         "broadband_speed": 3.5,
+         "url": "https://www.speedtest.net/global-index/venezuela#fixed",
+         "mobile_speed": 7.8
+      },
+      "GNI": 13080
+   },
+   {
+      "name": "Algeria",
+      "region": "Africa",
+      "population": 43851044,
+      "internet_users": 25428159,
+      "penetration": 58,
+      "users_region": 50,
+      "facebook_subs": 19000000,
+      "speed_data": {
+         "broadband_speed": 3.86,
+         "url": "https://www.speedtest.net/global-index/algeria#fixed",
+         "mobile_speed": 11.17
+      },
+      "GNI": 3970
+   },
+   {
+      "name": "Angola",
+      "region": "Africa",
+      "population": 32866272,
+      "internet_users": 7078067,
+      "penetration": 21.5,
+      "users_region": 23,
+      "facebook_subs": 2244000,
+      "speed_data": {
+         "broadband_speed": 15.03,
+         "url": "https://www.speedtest.net/global-index/angola#fixed",
+         "mobile_speed": 24.61
+      },
+      "GNI": 3050
+   },
+   {
+      "name": "Benin",
+      "region": "Africa",
+      "population": 12123200,
+      "internet_users": 3801758,
+      "penetration": 31.4,
+      "users_region": 25,
+      "facebook_subs": 920000,
+      "speed_data": {
+         "broadband_speed": 10.31,
+         "url": "https://www.speedtest.net/global-index/benin#fixed"
+      },
+      "GNI": 1250
+   },
+   {
+      "name": "Botswana",
+      "region": "Africa",
+      "population": 2351627,
+      "internet_users": 1116079,
+      "penetration": 47.5,
+      "users_region": 6,
+      "facebook_subs": 830000,
+      "speed_data": {
+         "broadband_speed": 10.19,
+         "url": "https://www.speedtest.net/global-index/botswana#fixed",
+         "mobile_speed": 19.85
+      },
+      "GNI": 7660
+   },
+   {
+      "name": "Burkina Faso",
+      "region": "Africa",
+      "population": 20903273,
+      "internet_users": 3704265,
+      "penetration": 17.7,
+      "users_region": 36,
+      "facebook_subs": 840000,
+      "speed_data": {
+         "broadband_speed": 13.94,
+         "url": "https://www.speedtest.net/global-index/burkina-faso#fixed"
+      },
+      "GNI": 790
+   },
+   {
+      "name": "Burundi",
+      "region": "Africa",
+      "population": 11890784,
+      "internet_users": 1154568,
+      "penetration": 9.7,
+      "users_region": 38,
+      "facebook_subs": 450000,
+      "speed_data": {
+         "broadband_speed": 7.74,
+         "url": "https://www.speedtest.net/global-index/burundi#fixed"
+      },
+      "GNI": 280
+   },
+   {
+      "name": "Cameroon",
+      "region": "Africa",
+      "population": 26545863,
+      "internet_users": 6128422,
+      "penetration": 23.1,
+      "users_region": 30,
+      "facebook_subs": 2700000,
+      "speed_data": {
+         "broadband_speed": 11.97,
+         "url": "https://www.speedtest.net/global-index/cameroon#fixed"
+      },
+      "GNI": 1500
+   },
+   {
+      "name": "Congo",
+      "region": "Africa",
+      "population": 5518087,
+      "internet_users": 732800,
+      "penetration": 13.3,
+      "users_region": 146,
+      "facebook_subs": 732800,
+      "speed_data": {
+         "broadband_speed": 19.95,
+         "url": "https://www.speedtest.net/global-index/congo#fixed"
+      },
+      "GNI": 1750
+   },
+   {
+      "name": "Djibouti",
+      "region": "Africa",
+      "population": 988000,
+      "internet_users": 548832,
+      "penetration": 55.5,
+      "users_region": 39,
+      "facebook_subs": 211700,
+      "speed_data": {
+         "broadband_speed": 9.65,
+         "url": "https://www.speedtest.net/global-index/djibouti#fixed"
+      },
+      "GNI": 3540
+   },
+   {
+      "name": "Egypt",
+      "region": "Africa",
+      "population": 102334404,
+      "internet_users": 49231493,
+      "penetration": 48.1,
+      "users_region": 10,
+      "facebook_subs": 42400000,
+      "speed_data": {
+         "broadband_speed": 23.01,
+         "url": "https://www.speedtest.net/global-index/egypt#fixed",
+         "mobile_speed": 19.41
+      },
+      "GNI": 2690
+   },
+   {
+      "name": "Ethiopia",
+      "region": "Africa",
+      "population": 114963588,
+      "internet_users": 20507255,
+      "penetration": 17.8,
+      "users_region": 204,
+      "facebook_subs": 6007000,
+      "speed_data": {
+         "broadband_speed": 9.84,
+         "url": "https://www.speedtest.net/global-index/ethiopia#fixed",
+         "mobile_speed": 18.14
+      },
+      "GNI": 850
+   },
+   {
+      "name": "Gabon",
+      "region": "Africa",
+      "population": 2225734,
+      "internet_users": 1307641,
+      "penetration": 58.8,
+      "users_region": 8,
+      "facebook_subs": 743000,
+      "speed_data": {
+         "broadband_speed": 21.23,
+         "url": "https://www.speedtest.net/global-index/gabon#fixed"
+      },
+      "GNI": 7210
+   },
+   {
+      "name": "The Gambia",
+      "region": "Africa",
+      "population": 2416668,
+      "internet_users": 442050,
+      "penetration": 18.3,
+      "users_region": 10,
+      "facebook_subs": 370100,
+      "speed_data": {
+         "broadband_speed": 7.56,
+         "url": "https://www.speedtest.net/global-index/the-gambia#fixed"
+      },
+      "GNI": 740
+   },
+   {
+      "name": "Ghana",
+      "region": "Africa",
+      "population": 31072940,
+      "internet_users": 11737818,
+      "penetration": 37.8,
+      "users_region": 39,
+      "facebook_subs": 4900000,
+      "speed_data": {
+         "broadband_speed": 38.93,
+         "url": "https://www.speedtest.net/global-index/ghana#fixed",
+         "mobile_speed": 16.41
+      },
+      "GNI": 2220
+   },
+   {
+      "name": "Kenya",
+      "region": "Africa",
+      "population": 53771296,
+      "internet_users": 46870422,
+      "penetration": 87.2,
+      "users_region": 23,
+      "facebook_subs": 7000000,
+      "speed_data": {
+         "broadband_speed": 14.98,
+         "url": "https://www.speedtest.net/global-index/kenya#fixed",
+         "mobile_speed": 21.33
+      },
+      "GNI": 1750
+   },
+   {
+      "name": "Liberia",
+      "region": "Africa",
+      "population": 5057681,
+      "internet_users": 624610,
+      "penetration": 12.3,
+      "users_region": 124,
+      "facebook_subs": 537000,
+      "speed_data": {
+         "broadband_speed": 16.31,
+         "url": "https://www.speedtest.net/global-index/liberia#fixed"
+      },
+      "GNI": 580
+   },
+   {
+      "name": "Libya",
+      "region": "Africa",
+      "population": 6871292,
+      "internet_users": 5100000,
+      "penetration": 74.2,
+      "users_region": 50,
+      "facebook_subs": 5094000,
+      "speed_data": {
+         "broadband_speed": 10.87,
+         "url": "https://www.speedtest.net/global-index/libya#fixed",
+         "mobile_speed": 12.21
+      },
+      "GNI": 7640
+   },
+   {
+      "name": "Madagascar",
+      "region": "Africa",
+      "population": 27691018,
+      "internet_users": 2643025,
+      "penetration": 9.5,
+      "users_region": 8,
+      "facebook_subs": 2317000,
+      "speed_data": {
+         "broadband_speed": 34.94,
+         "url": "https://www.speedtest.net/global-index/madagascar#fixed"
+      },
+      "GNI": 520
+   },
+   {
+      "name": "Malawi",
+      "region": "Africa",
+      "population": 19129952,
+      "internet_users": 2717243,
+      "penetration": 14.2,
+      "users_region": 18,
+      "facebook_subs": 500200,
+      "speed_data": {
+         "broadband_speed": 9.95,
+         "url": "https://www.speedtest.net/global-index/malawi#fixed"
+      },
+      "GNI": 380
+   },
+   {
+      "name": "Mali",
+      "region": "Africa",
+      "population": 20250833,
+      "internet_users": 12480176,
+      "penetration": 61.6,
+      "users_region": 66,
+      "facebook_subs": 1670100,
+      "speed_data": {
+         "broadband_speed": 17.95,
+         "url": "https://www.speedtest.net/global-index/mali#fixed"
+      },
+      "GNI": 880
+   },
+   {
+      "name": "Mauritania",
+      "region": "Africa",
+      "population": 4649658,
+      "internet_users": 969519,
+      "penetration": 20.9,
+      "users_region": 19,
+      "facebook_subs": 796900,
+      "speed_data": {
+         "broadband_speed": 6.22,
+         "url": "https://www.speedtest.net/global-index/mauritania#fixed"
+      },
+      "GNI": 1660
+   },
+   {
+      "name": "Mauritius",
+      "region": "Africa",
+      "population": 1271768,
+      "internet_users": 852000,
+      "penetration": 67,
+      "users_region": 879,
+      "facebook_subs": 852000,
+      "speed_data": {
+         "broadband_speed": 17.7,
+         "url": "https://www.speedtest.net/global-index/mauritius#fixed",
+         "mobile_speed": 23.93
+      },
+      "GNI": 12740
+   },
+   {
+      "name": "Morocco",
+      "region": "Africa",
+      "population": 36910560,
+      "internet_users": 23739581,
+      "penetration": 64.3,
+      "users_region": 23,
+      "facebook_subs": 18330000,
+      "speed_data": {
+         "broadband_speed": 17.4,
+         "url": "https://www.speedtest.net/global-index/morocco#fixed",
+         "mobile_speed": 35.5
+      },
+      "GNI": 3190
+   },
+   {
+      "name": "Mozambique",
+      "region": "Africa",
+      "population": 31255435,
+      "internet_users": 6523613,
+      "penetration": 20.9,
+      "users_region": 21,
+      "facebook_subs": 2448000,
+      "speed_data": {
+         "broadband_speed": 8.33,
+         "url": "https://www.speedtest.net/global-index/mozambique#fixed",
+         "mobile_speed": 21.64
+      },
+      "GNI": 480
+   },
+   {
+      "name": "Namibia",
+      "region": "Africa",
+      "population": 2540905,
+      "internet_users": 1347418,
+      "penetration": 53,
+      "users_region": 4,
+      "facebook_subs": 692400,
+      "speed_data": {
+         "broadband_speed": 13.22,
+         "url": "https://www.speedtest.net/global-index/namibia#fixed",
+         "mobile_speed": 16.93
+      },
+      "GNI": 5060
+   },
+   {
+      "name": "Nigeria",
+      "region": "Africa",
+      "population": 206139589,
+      "internet_users": 126078999,
+      "penetration": 61.2,
+      "users_region": 62,
+      "facebook_subs": 27120000,
+      "speed_data": {
+         "broadband_speed": 10.21,
+         "url": "https://www.speedtest.net/global-index/nigeria#fixed",
+         "mobile_speed": 15.33
+      },
+      "GNI": 2030
+   },
+   {
+      "name": "Rwanda",
+      "region": "Africa",
+      "population": 12952218,
+      "internet_users": 5981638,
+      "penetration": 46.2,
+      "users_region": 119,
+      "facebook_subs": 592400,
+      "speed_data": {
+         "broadband_speed": 19.98,
+         "url": "https://www.speedtest.net/global-index/rwanda#fixed",
+         "mobile_speed": 12.34
+      },
+      "GNI": 820
+   },
+   {
+      "name": "Senegal",
+      "region": "Africa",
+      "population": 16743927,
+      "internet_users": 9749527,
+      "penetration": 58.2,
+      "users_region": 24,
+      "facebook_subs": 3408000,
+      "speed_data": {
+         "broadband_speed": 21.82,
+         "url": "https://www.speedtest.net/global-index/senegal#fixed",
+         "mobile_speed": 22.98
+      },
+      "GNI": 1450
+   },
+   {
+      "name": "Seychelles",
+      "region": "Africa",
+      "population": 98347,
+      "internet_users": 71300,
+      "penetration": 72.5,
+      "users_region": 1,
+      "facebook_subs": 71000,
+      "speed_data": {
+         "broadband_speed": 34.26,
+         "url": "https://www.speedtest.net/global-index/seychelles#fixed"
+      },
+      "GNI": 16870
+   },
+   {
+      "name": "Sierra Leone",
+      "region": "Africa",
+      "population": 7976983,
+      "internet_users": 1043725,
+      "penetration": 13.1,
+      "users_region": 20,
+      "facebook_subs": 693400,
+      "speed_data": {
+         "broadband_speed": 11.83,
+         "url": "https://www.speedtest.net/global-index/sierra-leone#fixed"
+      },
+      "GNI": 500
+   },
+   {
+      "name": "Somalia",
+      "region": "Africa",
+      "population": 15893222,
+      "internet_users": 1705300,
+      "penetration": 10.7,
+      "users_region": 852,
+      "facebook_subs": 1666500,
+      "speed_data": {
+         "broadband_speed": 15.32,
+         "url": "https://www.speedtest.net/global-index/somalia#fixed",
+         "mobile_speed": 10.58
+      },
+      "GNI": 130
+   },
+   {
+      "name": "South Africa",
+      "region": "Africa",
+      "population": 59308690,
+      "internet_users": 32615165,
+      "penetration": 55,
+      "users_region": 1,
+      "facebook_subs": 21280000,
+      "speed_data": {
+         "broadband_speed": 36.35,
+         "url": "https://www.speedtest.net/global-index/south-africa#fixed",
+         "mobile_speed": 33.72
+      },
+      "GNI": 6040
+   },
+   {
+      "name": "Sudan",
+      "region": "Africa",
+      "population": 43849260,
+      "internet_users": 13124100,
+      "penetration": 29.9,
+      "users_region": 43,
+      "facebook_subs": 1300000,
+      "speed_data": {
+         "broadband_speed": 4.84,
+         "url": "https://www.speedtest.net/global-index/sudan#fixed",
+         "mobile_speed": 8.45
+      },
+      "GNI": 590
+   },
+   {
+      "name": "Tanzania",
+      "region": "Africa",
+      "population": 59734218,
+      "internet_users": 23142960,
+      "penetration": 38.7,
+      "users_region": 20,
+      "facebook_subs": 4271000,
+      "speed_data": {
+         "broadband_speed": 12.91,
+         "url": "https://www.speedtest.net/global-index/tanzania#fixed",
+         "mobile_speed": 12.48
+      },
+      "GNI": 1080
+   },
+   {
+      "name": "Togo",
+      "region": "Africa",
+      "population": 8278724,
+      "internet_users": 1011837,
+      "penetration": 12.2,
+      "users_region": 912,
+      "facebook_subs": 658100,
+      "speed_data": {
+         "broadband_speed": 20.43,
+         "url": "https://www.speedtest.net/global-index/togo#fixed"
+      },
+      "GNI": 690
+   },
+   {
+      "name": "Tunisia",
+      "region": "Africa",
+      "population": 11818619,
+      "internet_users": 7898534,
+      "penetration": 66.8,
+      "users_region": 7,
+      "facebook_subs": 7445000,
+      "speed_data": {
+         "broadband_speed": 9.64,
+         "url": "https://www.speedtest.net/global-index/tunisia#fixed",
+         "mobile_speed": 28.89
+      },
+      "GNI": 3360
+   },
+   {
+      "name": "Uganda",
+      "region": "Africa",
+      "population": 45741007,
+      "internet_users": 18502166,
+      "penetration": 40.4,
+      "users_region": 46,
+      "facebook_subs": 2471000,
+      "speed_data": {
+         "broadband_speed": 11.66,
+         "url": "https://www.speedtest.net/global-index/uganda#fixed",
+         "mobile_speed": 12.5
+      },
+      "GNI": 780
+   },
+   {
+      "name": "Western Sahara",
+      "region": "Africa",
+      "population": 597339,
+      "internet_users": 28000,
+      "penetration": 4.7,
+      "users_region": null,
+      "facebook_subs": 27000,
+      "speed_data": {
+         "broadband_speed": 15.48,
+         "url": "https://www.speedtest.net/global-index/western-sahara#fixed"
+      }
+   },
+   {
+      "name": "Zambia",
+      "region": "Africa",
+      "population": 18383955,
+      "internet_users": 9870427,
+      "penetration": 53.7,
+      "users_region": 49,
+      "facebook_subs": 2253000,
+      "speed_data": {
+         "broadband_speed": 11.12,
+         "url": "https://www.speedtest.net/global-index/zambia#fixed",
+         "mobile_speed": 13.69
+      },
+      "GNI": 1450
+   },
+   {
+      "name": "Zimbabwe",
+      "region": "Africa",
+      "population": 14862924,
+      "internet_users": 8400000,
+      "penetration": 56.5,
+      "users_region": 16,
+      "facebook_subs": 994000,
+      "speed_data": {
+         "broadband_speed": 12.28,
+         "url": "https://www.speedtest.net/global-index/zimbabwe#fixed",
+         "mobile_speed": 12.96
+      },
+      "GNI": 1390
+   },
+   {
+      "name": "Albania",
+      "region": "Europe",
+      "population": 2938428,
+      "internet_users": 2160000,
+      "penetration": 73.5,
+      "users_region": 0.3,
+      "facebook_subs": 1400000,
+      "speed_data": {
+         "broadband_speed": 34.55,
+         "url": "https://www.speedtest.net/global-index/albania#fixed",
+         "mobile_speed": 56.12
+      },
+      "GNI": 5240
+   },
+   {
+      "name": "Andorra",
+      "region": "Europe",
+      "population": 77072,
+      "internet_users": 76242,
+      "penetration": 98.9,
+      "users_region": 0,
+      "facebook_subs": 42000,
+      "speed_data": {
+         "broadband_speed": 161.59,
+         "url": "https://www.speedtest.net/global-index/andorra#fixed"
+      }
+   },
+   {
+      "name": "Austria",
+      "region": "Europe",
+      "population": 8766201,
+      "internet_users": 7708997,
+      "penetration": 87.9,
+      "users_region": 1.1,
+      "facebook_subs": 3700000,
+      "speed_data": {
+         "broadband_speed": 58.05,
+         "url": "https://www.speedtest.net/global-index/austria#fixed",
+         "mobile_speed": 52.67
+      },
+      "GNI": 51300
+   },
+   {
+      "name": "Belarus",
+      "region": "Europe",
+      "population": 9433874,
+      "internet_users": 7521628,
+      "penetration": 79.7,
+      "users_region": 1,
+      "facebook_subs": 3850000,
+      "speed_data": {
+         "broadband_speed": 56.23,
+         "url": "https://www.speedtest.net/global-index/belarus#fixed",
+         "mobile_speed": 14.8
+      },
+      "GNI": 6280
+   },
+   {
+      "name": "Belgium",
+      "region": "Europe",
+      "population": 11562784,
+      "internet_users": 10857126,
+      "penetration": 93.9,
+      "users_region": 1.5,
+      "facebook_subs": 6500000,
+      "speed_data": {
+         "broadband_speed": 91.69,
+         "url": "https://www.speedtest.net/global-index/belgium#fixed",
+         "mobile_speed": 48.79
+      },
+      "GNI": 47350
+   },
+   {
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe",
+      "population": 3501774,
+      "internet_users": 2828846,
+      "penetration": 80.8,
+      "users_region": 0.4,
+      "facebook_subs": 1500000,
+      "speed_data": {
+         "broadband_speed": 33.79,
+         "url": "https://www.speedtest.net/global-index/bosnia-and-herzegovina#fixed",
+         "mobile_speed": 33.97
+      },
+      "GNI": 6150
+   },
+   {
+      "name": "Bulgaria",
+      "region": "Europe",
+      "population": 6988739,
+      "internet_users": 4663065,
+      "penetration": 66.7,
+      "users_region": 0.6,
+      "facebook_subs": 3300000,
+      "speed_data": {
+         "broadband_speed": 59.95,
+         "url": "https://www.speedtest.net/global-index/bulgaria#fixed",
+         "mobile_speed": 68.94
+      },
+      "GNI": 9410
+   },
+   {
+      "name": "Croatia",
+      "region": "Europe",
+      "population": 4140148,
+      "internet_users": 3787838,
+      "penetration": 91.5,
+      "users_region": 0.5,
+      "facebook_subs": 1800000,
+      "speed_data": {
+         "broadband_speed": 38.65,
+         "url": "https://www.speedtest.net/global-index/croatia#fixed",
+         "mobile_speed": 63.11
+      },
+      "GNI": 14910
+   },
+   {
+      "name": "Cyprus",
+      "region": "Europe",
+      "population": 1198427,
+      "internet_users": 1011831,
+      "penetration": 84.4,
+      "users_region": 0.1,
+      "facebook_subs": 870000,
+      "speed_data": {
+         "broadband_speed": 31.45,
+         "url": "https://www.speedtest.net/global-index/cyprus#fixed",
+         "mobile_speed": 51.14
+      },
+      "GNI": 27710
+   },
+   {
+      "name": "Denmark",
+      "region": "Europe",
+      "population": 5775224,
+      "internet_users": 5649494,
+      "penetration": 97.8,
+      "users_region": 0.8,
+      "facebook_subs": 3700000,
+      "speed_data": {
+         "broadband_speed": 146.79,
+         "url": "https://www.speedtest.net/global-index/denmark#fixed",
+         "mobile_speed": 52.56
+      },
+      "GNI": 63240
+   },
+   {
+      "name": "Estonia",
+      "region": "Europe",
+      "population": 1303798,
+      "internet_users": 1276521,
+      "penetration": 97.9,
+      "users_region": 0.2,
+      "facebook_subs": 620000,
+      "speed_data": {
+         "broadband_speed": 66.67,
+         "url": "https://www.speedtest.net/global-index/estonia#fixed",
+         "mobile_speed": 48.27
+      },
+      "GNI": 23220
+   },
+   {
+      "name": "Finland",
+      "region": "Europe",
+      "population": 5561389,
+      "internet_users": 5225678,
+      "penetration": 94,
+      "users_region": 0.7,
+      "facebook_subs": 2700000,
+      "speed_data": {
+         "broadband_speed": 93.12,
+         "url": "https://www.speedtest.net/global-index/finland#fixed",
+         "mobile_speed": 46.74
+      },
+      "GNI": 49580
+   },
+   {
+      "name": "France",
+      "region": "Europe",
+      "population": 65480710,
+      "internet_users": 60421689,
+      "penetration": 92.3,
+      "users_region": 8.3,
+      "facebook_subs": 33000000,
+      "speed_data": {
+         "broadband_speed": 144.61,
+         "url": "https://www.speedtest.net/global-index/france#fixed",
+         "mobile_speed": 50.39
+      },
+      "GNI": 42400
+   },
+   {
+      "name": "Germany",
+      "region": "Europe",
+      "population": 82438639,
+      "internet_users": 79127551,
+      "penetration": 96,
+      "users_region": 10.9,
+      "facebook_subs": 31000000,
+      "speed_data": {
+         "broadband_speed": 94.61,
+         "url": "https://www.speedtest.net/global-index/germany#fixed",
+         "mobile_speed": 38.74
+      },
+      "GNI": 48520
+   },
+   {
+      "name": "Greece",
+      "region": "Europe",
+      "population": 11124603,
+      "internet_users": 8115397,
+      "penetration": 72.9,
+      "users_region": 1.1,
+      "facebook_subs": 5000000,
+      "speed_data": {
+         "broadband_speed": 30,
+         "url": "https://www.speedtest.net/global-index/greece#fixed",
+         "mobile_speed": 42.27
+      },
+      "GNI": 20320
+   },
+   {
+      "name": "Hungary",
+      "region": "Europe",
+      "population": 9655361,
+      "internet_users": 8588776,
+      "penetration": 89,
+      "users_region": 1.2,
+      "facebook_subs": 5300000,
+      "speed_data": {
+         "broadband_speed": 136.06,
+         "url": "https://www.speedtest.net/global-index/hungary#fixed",
+         "mobile_speed": 41.78
+      },
+      "GNI": 16140
+   },
+   {
+      "name": "Ireland",
+      "region": "Europe",
+      "population": 4847139,
+      "internet_users": 4453436,
+      "penetration": 91.9,
+      "users_region": 0.6,
+      "facebook_subs": 2700000,
+      "speed_data": {
+         "broadband_speed": 80.26,
+         "url": "https://www.speedtest.net/global-index/ireland#fixed",
+         "mobile_speed": 27.55
+      },
+      "GNI": 62210
+   },
+   {
+      "name": "Italy",
+      "region": "Europe",
+      "population": 59216525,
+      "internet_users": 54798299,
+      "penetration": 92.5,
+      "users_region": 7.5,
+      "facebook_subs": 30000000,
+      "speed_data": {
+         "broadband_speed": 64.42,
+         "url": "https://www.speedtest.net/global-index/italy#fixed",
+         "mobile_speed": 40
+      },
+      "GNI": 34460
+   },
+   {
+      "name": "Kosovo",
+      "region": "Europe",
+      "population": 1907592,
+      "internet_users": 1693942,
+      "penetration": 88.8,
+      "users_region": 0.2,
+      "facebook_subs": 910000,
+      "speed_data": {
+         "broadband_speed": 48.15,
+         "url": "https://www.speedtest.net/global-index/kosovo#fixed",
+         "mobile_speed": 28.32
+      },
+      "GNI": 4640
+   },
+   {
+      "name": "Latvia",
+      "region": "Europe",
+      "population": 1911108,
+      "internet_users": 1663739,
+      "penetration": 87.1,
+      "users_region": 0.2,
+      "facebook_subs": 740000,
+      "speed_data": {
+         "broadband_speed": 107.14,
+         "url": "https://www.speedtest.net/global-index/latvia#fixed",
+         "mobile_speed": 34.01
+      },
+      "GNI": 17730
+   },
+   {
+      "name": "Liechtenstein",
+      "region": "Europe",
+      "population": 38404,
+      "internet_users": 37674,
+      "penetration": 98.1,
+      "users_region": 0,
+      "facebook_subs": 14000,
+      "speed_data": {
+         "broadband_speed": 155.92,
+         "url": "https://www.speedtest.net/global-index/liechtenstein#fixed"
+      }
+   },
+   {
+      "name": "Lithuania",
+      "region": "Europe",
+      "population": 2864459,
+      "internet_users": 2603900,
+      "penetration": 90.9,
+      "users_region": 0.4,
+      "facebook_subs": 1400000,
+      "speed_data": {
+         "broadband_speed": 113.26,
+         "url": "https://www.speedtest.net/global-index/lithuania#fixed",
+         "mobile_speed": 52.66
+      },
+      "GNI": 18990
+   },
+   {
+      "name": "Luxembourg",
+      "region": "Europe",
+      "population": 596992,
+      "internet_users": 584037,
+      "penetration": 97.8,
+      "users_region": 0.1,
+      "facebook_subs": 320000,
+      "speed_data": {
+         "broadband_speed": 118.93,
+         "url": "https://www.speedtest.net/global-index/luxembourg#fixed",
+         "mobile_speed": 49.42
+      }
+   },
+   {
+      "name": "Malta",
+      "region": "Europe",
+      "population": 433245,
+      "internet_users": 360056,
+      "penetration": 83.1,
+      "users_region": 0,
+      "facebook_subs": 320000,
+      "speed_data": {
+         "broadband_speed": 106.58,
+         "url": "https://www.speedtest.net/global-index/malta#fixed",
+         "mobile_speed": 46.63
+      },
+      "GNI": 27290
+   },
+   {
+      "name": "Moldova",
+      "region": "Europe",
+      "population": 4029750,
+      "internet_users": 3067446,
+      "penetration": 76.1,
+      "users_region": 0.4,
+      "facebook_subs": 800000,
+      "speed_data": {
+         "broadband_speed": 62.54,
+         "url": "https://www.speedtest.net/global-index/moldova#fixed",
+         "mobile_speed": 36.25
+      },
+      "GNI": 3930
+   },
+   {
+      "name": "Monaco",
+      "region": "Europe",
+      "population": 39102,
+      "internet_users": 38124,
+      "penetration": 97.5,
+      "users_region": 0,
+      "facebook_subs": 13000,
+      "speed_data": {
+         "broadband_speed": 153.78,
+         "url": "https://www.speedtest.net/global-index/monaco#fixed"
+      }
+   },
+   {
+      "name": "Montenegro",
+      "region": "Europe",
+      "population": 629355,
+      "internet_users": 449989,
+      "penetration": 71.5,
+      "users_region": 0.1,
+      "facebook_subs": 320000,
+      "speed_data": {
+         "broadband_speed": 48.63,
+         "url": "https://www.speedtest.net/global-index/montenegro#fixed",
+         "mobile_speed": 44.29
+      },
+      "GNI": 9010
+   },
+   {
+      "name": "Netherlands",
+      "region": "Europe",
+      "population": 17132908,
+      "internet_users": 16383879,
+      "penetration": 95.6,
+      "users_region": 2.3,
+      "facebook_subs": 9800000,
+      "speed_data": {
+         "broadband_speed": 114.31,
+         "url": "https://www.speedtest.net/global-index/netherlands#fixed",
+         "mobile_speed": 70.98
+      },
+      "GNI": 53200
+   },
+   {
+      "name": "North Macedonia",
+      "region": "Europe",
+      "population": 2086720,
+      "internet_users": 1652056,
+      "penetration": 79.2,
+      "users_region": 0.2,
+      "facebook_subs": 1000000,
+      "speed_data": {
+         "broadband_speed": 31.39,
+         "url": "https://www.speedtest.net/global-index/north-macedonia#fixed",
+         "mobile_speed": 50.95
+      },
+      "GNI": 5910
+   },
+   {
+      "name": "Norway",
+      "region": "Europe",
+      "population": 5400916,
+      "internet_users": 5311892,
+      "penetration": 98.4,
+      "users_region": 0.7,
+      "facebook_subs": 3400000,
+      "speed_data": {
+         "broadband_speed": 131.29,
+         "url": "https://www.speedtest.net/global-index/norway#fixed",
+         "mobile_speed": 70.16
+      }
+   },
+   {
+      "name": "Poland",
+      "region": "Europe",
+      "population": 38028278,
+      "internet_users": 29757099,
+      "penetration": 78.2,
+      "users_region": 4.1,
+      "facebook_subs": 14000000,
+      "speed_data": {
+         "broadband_speed": 98.12,
+         "url": "https://www.speedtest.net/global-index/poland#fixed",
+         "mobile_speed": 35.38
+      },
+      "GNI": 15200
+   },
+   {
+      "name": "Portugal",
+      "region": "Europe",
+      "population": 10254666,
+      "internet_users": 8015519,
+      "penetration": 78.2,
+      "users_region": 1.1,
+      "facebook_subs": 5800000,
+      "speed_data": {
+         "broadband_speed": 113.53,
+         "url": "https://www.speedtest.net/global-index/portugal#fixed",
+         "mobile_speed": 38.76
+      },
+      "GNI": 23080
+   },
+   {
+      "name": "Romania",
+      "region": "Europe",
+      "population": 19483360,
+      "internet_users": 14387477,
+      "penetration": 73.8,
+      "users_region": 2,
+      "facebook_subs": 8900000,
+      "speed_data": {
+         "broadband_speed": 163.54,
+         "url": "https://www.speedtest.net/global-index/romania#fixed",
+         "mobile_speed": 39.24
+      },
+      "GNI": 12630
+   },
+   {
+      "name": "Russia",
+      "region": "Europe",
+      "population": 143895551,
+      "internet_users": 116353942,
+      "penetration": 80.9,
+      "users_region": 16,
+      "facebook_subs": 13100000,
+      "speed_data": {
+         "broadband_speed": 68.78,
+         "url": "https://www.speedtest.net/global-index/russia#fixed",
+         "mobile_speed": 22.06
+      },
+      "GNI": 11260
+   },
+   {
+      "name": "San Marino",
+      "region": "Europe",
+      "population": 33683,
+      "internet_users": 20270,
+      "penetration": 60.2,
+      "users_region": 0,
+      "facebook_subs": 7900,
+      "speed_data": {
+         "broadband_speed": 97.83,
+         "url": "https://www.speedtest.net/global-index/san-marino#fixed"
+      }
+   },
+   {
+      "name": "Serbia",
+      "region": "Europe",
+      "population": 8733407,
+      "internet_users": 6406827,
+      "penetration": 73.4,
+      "users_region": 0.9,
+      "facebook_subs": 3400000,
+      "speed_data": {
+         "broadband_speed": 63.31,
+         "url": "https://www.speedtest.net/global-index/serbia#fixed",
+         "mobile_speed": 47.87
+      },
+      "GNI": 7020
+   },
+   {
+      "name": "Slovakia",
+      "region": "Europe",
+      "population": 5450987,
+      "internet_users": 4629641,
+      "penetration": 84.9,
+      "users_region": 0.6,
+      "facebook_subs": 3200000,
+      "speed_data": {
+         "broadband_speed": 83.9,
+         "url": "https://www.speedtest.net/global-index/slovakia#fixed",
+         "mobile_speed": 38.5
+      },
+      "GNI": 19320
+   },
+   {
+      "name": "Slovenia",
+      "region": "Europe",
+      "population": 2081900,
+      "internet_users": 1663795,
+      "penetration": 79.9,
+      "users_region": 0.2,
+      "facebook_subs": 910000,
+      "speed_data": {
+         "broadband_speed": 76.39,
+         "url": "https://www.speedtest.net/global-index/slovenia#fixed",
+         "mobile_speed": 42.16
+      },
+      "GNI": 25750
+   },
+   {
+      "name": "Spain",
+      "region": "Europe",
+      "population": 46441049,
+      "internet_users": 42961230,
+      "penetration": 92.5,
+      "users_region": 5.9,
+      "facebook_subs": 23000000,
+      "speed_data": {
+         "broadband_speed": 141.22,
+         "url": "https://www.speedtest.net/global-index/spain#fixed",
+         "mobile_speed": 35.44
+      },
+      "GNI": 30390
+   },
+   {
+      "name": "Sweden",
+      "region": "Europe",
+      "population": 10053135,
+      "internet_users": 9692227,
+      "penetration": 96.4,
+      "users_region": 1.3,
+      "facebook_subs": 6300000,
+      "speed_data": {
+         "broadband_speed": 143.9,
+         "url": "https://www.speedtest.net/global-index/sweden#fixed",
+         "mobile_speed": 50.21
+      },
+      "GNI": 55840
+   },
+   {
+      "name": "Switzerland",
+      "region": "Europe",
+      "population": 8608259,
+      "internet_users": 8066800,
+      "penetration": 93.7,
+      "users_region": 1.1,
+      "facebook_subs": 3700000,
+      "speed_data": {
+         "broadband_speed": 164.32,
+         "url": "https://www.speedtest.net/global-index/switzerland#fixed",
+         "mobile_speed": 59.47
+      }
+   },
+   {
+      "name": "Turkey",
+      "region": "Europe",
+      "population": 82961805,
+      "internet_users": 69107183,
+      "penetration": 83.3,
+      "users_region": 9.5,
+      "facebook_subs": 44000000,
+      "speed_data": {
+         "broadband_speed": 26.3,
+         "url": "https://www.speedtest.net/global-index/turkey#fixed",
+         "mobile_speed": 37.21
+      },
+      "GNI": 9610
+   },
+   {
+      "name": "Ukraine",
+      "region": "Europe",
+      "population": 43795220,
+      "internet_users": 40912381,
+      "penetration": 93.4,
+      "users_region": 5.6,
+      "facebook_subs": 9500000,
+      "speed_data": {
+         "broadband_speed": 56.21,
+         "url": "https://www.speedtest.net/global-index/ukraine#fixed",
+         "mobile_speed": 25.33
+      },
+      "GNI": 3370
+   },
+   {
+      "name": "United Kingdom",
+      "region": "Europe",
+      "population": 66959016,
+      "internet_users": 63544106,
+      "penetration": 94.9,
+      "users_region": 8.7,
+      "facebook_subs": 44000000,
+      "speed_data": {
+         "broadband_speed": 67.78,
+         "url": "https://www.speedtest.net/global-index/united-kingdom#fixed",
+         "mobile_speed": 35.6
+      },
+      "GNI": 42370
+   },
+   {
+      "name": "Bahrain",
+      "region": "Middle East",
+      "population": 1701575,
+      "internet_users": 1615620,
+      "penetration": 94.9,
+      "users_region": 0.9,
+      "facebook_subs": 1352500,
+      "speed_data": {
+         "broadband_speed": 28.84,
+         "url": "https://www.speedtest.net/global-index/bahrain#fixed",
+         "mobile_speed": 38.89
+      },
+      "GNI": 22110
+   },
+   {
+      "name": "Iran",
+      "region": "Middle East",
+      "population": 83992949,
+      "internet_users": 67602731,
+      "penetration": 80.5,
+      "users_region": 36.9,
+      "facebook_subs": 40000000,
+      "speed_data": {
+         "broadband_speed": 15.61,
+         "url": "https://www.speedtest.net/global-index/iran#fixed",
+         "mobile_speed": 29.87
+      },
+      "GNI": 5420
+   },
+   {
+      "name": "Iraq",
+      "region": "Middle East",
+      "population": 40222493,
+      "internet_users": 21276000,
+      "penetration": 52.9,
+      "users_region": 11.6,
+      "facebook_subs": 22030000,
+      "speed_data": {
+         "broadband_speed": 28.06,
+         "url": "https://www.speedtest.net/global-index/iraq#fixed",
+         "mobile_speed": 11.51
+      },
+      "GNI": 5740
+   },
+   {
+      "name": "Israel",
+      "region": "Middle East",
+      "population": 8655535,
+      "internet_users": 7002759,
+      "penetration": 80.9,
+      "users_region": 3.8,
+      "facebook_subs": 5920000,
+      "speed_data": {
+         "broadband_speed": 99.71,
+         "url": "https://www.speedtest.net/global-index/israel#fixed",
+         "mobile_speed": 21.76
+      },
+      "GNI": 43290
+   },
+   {
+      "name": "Jordan",
+      "region": "Middle East",
+      "population": 10203134,
+      "internet_users": 8700000,
+      "penetration": 85.3,
+      "users_region": 4.7,
+      "facebook_subs": 5755000,
+      "speed_data": {
+         "broadband_speed": 55.7,
+         "url": "https://www.speedtest.net/global-index/jordan#fixed",
+         "mobile_speed": 24.61
+      },
+      "GNI": 4300
+   },
+   {
+      "name": "Kuwait",
+      "region": "Middle East",
+      "population": 4270571,
+      "internet_users": 4231978,
+      "penetration": 99.1,
+      "users_region": 2.3,
+      "facebook_subs": 4093000,
+      "speed_data": {
+         "broadband_speed": 73.51,
+         "url": "https://www.speedtest.net/global-index/kuwait#fixed",
+         "mobile_speed": 49.46
+      },
+      "GNI": 34290
+   },
+   {
+      "name": "Lebanon",
+      "region": "Middle East",
+      "population": 6825445,
+      "internet_users": 5546494,
+      "penetration": 81.3,
+      "users_region": 3,
+      "facebook_subs": 3967000,
+      "speed_data": {
+         "broadband_speed": 17.71,
+         "url": "https://www.speedtest.net/global-index/lebanon#fixed",
+         "mobile_speed": 43.95
+      },
+      "GNI": 7600
+   },
+   {
+      "name": "Oman",
+      "region": "Middle East",
+      "population": 5106626,
+      "internet_users": 4011004,
+      "penetration": 78.5,
+      "users_region": 2.2,
+      "facebook_subs": 2635400,
+      "speed_data": {
+         "broadband_speed": 37.53,
+         "url": "https://www.speedtest.net/global-index/oman#fixed",
+         "mobile_speed": 34.63
+      },
+      "GNI": 15330
+   },
+   {
+      "name": "Palestine",
+      "region": "Middle East",
+      "population": 5101414,
+      "internet_users": 3381787,
+      "penetration": 66.3,
+      "users_region": 1.8,
+      "facebook_subs": 2677000,
+      "speed_data": {
+         "broadband_speed": 16.99,
+         "url": "https://www.speedtest.net/global-index/palestine#fixed",
+         "mobile_speed": 7.67
+      },
+      "GNI": 3710
+   },
+   {
+      "name": "Qatar",
+      "region": "Middle East",
+      "population": 2881053,
+      "internet_users": 2942000,
+      "penetration": 99.6,
+      "users_region": 1.6,
+      "facebook_subs": 2942000,
+      "speed_data": {
+         "broadband_speed": 93.73,
+         "url": "https://www.speedtest.net/global-index/qatar#fixed",
+         "mobile_speed": 83.83
+      },
+      "GNI": 63410
+   },
+   {
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "population": 34813871,
+      "internet_users": 31856652,
+      "penetration": 91.5,
+      "users_region": 17.4,
+      "facebook_subs": 23720000,
+      "speed_data": {
+         "broadband_speed": 66.84,
+         "url": "https://www.speedtest.net/global-index/saudi-arabia#fixed",
+         "mobile_speed": 66.54
+      },
+      "GNI": 22850
+   },
+   {
+      "name": "Syria",
+      "region": "Middle East",
+      "population": 17500658,
+      "internet_users": 7609286,
+      "penetration": 43.5,
+      "users_region": 4.2,
+      "facebook_subs": 7609286,
+      "speed_data": {
+         "broadband_speed": 7.75,
+         "url": "https://www.speedtest.net/global-index/syria#fixed",
+         "mobile_speed": 22.19
+      },
+      "GNI": 1820
+   },
+   {
+      "name": "United Arab Emirates",
+      "region": "Middle East",
+      "population": 9890402,
+      "internet_users": 9532016,
+      "penetration": 96.4,
+      "users_region": 5.2,
+      "facebook_subs": 8737000,
+      "speed_data": {
+         "broadband_speed": 117.36,
+         "url": "https://www.speedtest.net/global-index/united-arab-emirates#fixed",
+         "mobile_speed": 107.53
+      },
+      "GNI": 43470
+   },
+   {
+      "name": "Yemen",
+      "region": "Middle East",
+      "population": 29825964,
+      "internet_users": 7903772,
+      "penetration": 26.5,
+      "users_region": 4.3,
+      "facebook_subs": 2552100,
+      "speed_data": {
+         "broadband_speed": 3.96,
+         "url": "https://www.speedtest.net/global-index/yemen#fixed"
+      },
+      "GNI": 940
+   },
+   {
+      "name": "Australia",
+      "region": "Oceania",
+      "population": 25088636,
+      "internet_users": 21711706,
+      "penetration": 86.5,
+      "users_region": 75.8,
+      "facebook_subs": 15000000,
+      "speed_data": {
+         "broadband_speed": 51.61,
+         "url": "https://www.speedtest.net/global-index/australia#fixed",
+         "mobile_speed": 70.04
+      },
+      "GNI": 54910
+   },
+   {
+      "name": "Fiji",
+      "region": "Oceania",
+      "population": 918757,
+      "internet_users": 500958,
+      "penetration": 54.5,
+      "users_region": 1.7,
+      "facebook_subs": 470000,
+      "speed_data": {
+         "broadband_speed": 17.27,
+         "url": "https://www.speedtest.net/global-index/fiji#fixed",
+         "mobile_speed": 29.84
+      },
+      "GNI": 5860
+   },
+   {
+      "name": "New Zealand",
+      "region": "Oceania",
+      "population": 4792409,
+      "internet_users": 4351987,
+      "penetration": 90.8,
+      "users_region": 15.2,
+      "facebook_subs": 3100000,
+      "speed_data": {
+         "broadband_speed": 120.72,
+         "url": "https://www.speedtest.net/global-index/new-zealand#fixed",
+         "mobile_speed": 56.81
+      },
+      "GNI": 42670
+   },
+   {
+      "name": "Papua New Guinea",
+      "region": "Oceania",
+      "population": 8586525,
+      "internet_users": 962550,
+      "penetration": 11.2,
+      "users_region": 3.4,
+      "facebook_subs": 670000,
+      "speed_data": {
+         "broadband_speed": 9.6,
+         "url": "https://www.speedtest.net/global-index/papua-new-guinea#fixed"
+      },
+      "GNI": 2780
+   }
+]
