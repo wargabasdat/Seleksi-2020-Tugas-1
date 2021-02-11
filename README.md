@@ -7,11 +7,15 @@
 
 <h2 align="center">
   <br>
-  Tugas 1 : Data Scraping
+  Tugas 1: Data Scraping
   <br>
   <br>
 </h2>
 
+## Deskripsi
+Program ini adalah sebuah *web scraper* dalam bahasa Python untuk mengambil data resep makanan manis dari [allrecipes.com]. Data yang diambil meliputi nama dan penulis resep, kategori, *rating*, waktu memasak, jumlah bahan, dan informasi nutrisi. Dicantumkan pula ID resep sehingga halaman resep yang asli dapat diakses melalui tautan ```allrecipes.com/<id resep>```.
+
+Data hasil *scraping* diharapkan dapat menjadi alat bantu untuk membandingkan berbagai versi resep dan menentukan resep terbaik untuk dimasak sekarang berdasarkan waktu luang, pola diet, dan budget yang dimiliki (dengan asumsi semakin sedikit bahannya, semakin terjangkau harganya).
 
 ## Spesifikasi
 
@@ -40,13 +44,55 @@ Preprocessing contohnya :
 - dan lainnya
 ```
 
-9. Berikan `README` yang __WELL DOCUMENTED__ dengan cara __override__ _file_ `README.md` ini. `README` harus memuat minimal konten:
+## Cara Menggunakan
+1. *Clone repository* ini
+2. Buka cmd atau terminal pada direktori ```\src```
+3. Jalankan perintah ```py scraper.py``` atay ```python scraper.py```
+
+## Struktur JSON
 ```
-- Description
-- Specification
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+{
+    "id": "/recipe/12101/",
+    "dessert-type": "Pies",
+    "name": "Grandma's Butterscotch Pie",
+    "author": "dschecht",
+        "rating": {
+            "stars": 4.28,
+            "rated-by": 118
+        },
+        "time": {
+            "prep": "25 mins",
+            "cook": "35 mins",
+            "total": "1 hr"
+        },
+        "ingredients-count": 8,
+        "nutritions-per-serving": {
+            "calories-in-cal": 259,
+            "total-fat-in-gr": 8.9,
+            "cholesterol-in-mg": 60.0,
+            "sodium-in-mg": 293.0,s
+            "carb-in-gr": 41.5,
+            "protein-in-gr": 3.4
+        }
+}
 ```
+
+## Screenshot
+![Image of Code](https://github.com/anindyy/Seleksi-2020-Tugas-1/blob/master/screenshots/code.jpg?raw=true)
+
+## Referensi
+### Library
+- [requests](https://pypi.org/project/requests/)
+- [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
+- [re](https://docs.python.org/3/library/re.html)
+- [time](https://docs.python.org/3/library/time.html)
+
+### Bacaan
+- [Data Scraping Guidance](bit.ly/DataScrapingGuidance)
+- [Web Scraping Tutorial](https://www.dataquest.io/blog/web-scraping-beautifulsoup/)
+- [Guide to robots.txt](https://varvy.com/robottxt.html)
+
+<h4 align="center">
+  <br>
+  Anindya Prameswari / 135 18 034
+</h4>
