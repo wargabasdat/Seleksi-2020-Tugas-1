@@ -12,7 +12,7 @@ Dalam Repo ini, saya membuat sebuah program _data scraping_ pada sebuah web bern
 Program ini dibuat dalam bahasa pemrograman Python (3.7.0) dengan menggunakan _libraries_ yang disebutkan dalam bagian __Library Used__ pada __Reference__. Oleh karena itu, untuk program ini hanya dapat dijalankan jika telah ter-_install_ Python 3.7.0 beserta _libraries_ yang digunakan: __pandas__, __bs4__, __re__, __csv__, __requests__, __json__, dan __multiprocessing__.
 
 ## How to Use
-Sejalan dengan yang diajarkan dalam [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance) agar tidak memberatkan server dengan cara melakukan _request_ dengan tingkat yang wajar, maka proses _scraping_ dilakukan secara serial dengan menjalankan kode program dengan _comment_ __"For peak hours"__. Tetapi, jika traffic dari web tersebut sedang rendah, maka proses scraping dapat dilakukan dengan bantuan _multiprocessing.Pool_ dengan menajalankan kode program dengan _comment_ __"For off-peak hours"__
+Sejalan dengan yang diajarkan dalam [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance) agar tidak memberatkan server dengan cara melakukan _request_ dengan tingkat yang wajar, maka proses _scraping_ dilakukan secara serial dengan menjalankan kode program dengan _comment_ __"For peak hours"__. Tetapi, jika traffic dari web tersebut sedang rendah, maka proses scraping dapat dilakukan dengan bantuan _multiprocessing.Pool_ dengan menjalankan kode program dengan _comment_ __"For off-peak hours"__
 
 Untuk perangkat lunak Windows, program webscraper yang nantinya akan membuat _file_ bernama ___FIFA_index_20.csv___ ini dapat dijalankan dengan perintah:
 ```
